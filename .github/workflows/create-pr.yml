@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Github Pull Request
-      uses: repo-sync/pull-request@main
+      uses: repo-sync/pull-request@master
