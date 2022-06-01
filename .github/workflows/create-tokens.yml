@@ -1,8 +1,5 @@
-name: CI main
-on: 
-  push:
-    branches:
-      - main
+name: CI
+on: [push]
 
 jobs:
   build:
@@ -14,8 +11,9 @@ jobs:
         uses: actions/setup-node@v2.4.0
       - run: npm install
       - run: npm run build
-      # Trigger build and commit on storybook devops repo.
-      # - run: curl -X POST -d {} https://api.netlify.com/build_hooks/61981177da0be32e4d65912d
+      - run: curl -X POST -d {} https://api.netlify.com/build_hooks/61981177da0be32e4d65912d
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Update Tokens
+
+
