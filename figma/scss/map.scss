@@ -1,0 +1,1559 @@
+
+/**
+ * Do not edit directly
+ * Generated on Mon, 16 May 2022 13:54:26 GMT
+ */
+
+$typography-mobile-title: (
+      fontWeight: Regular,
+      fontSize: 48,
+      lineHeight: 120%,
+      fontFamily: DINOT,
+      letterSpacing: 0.35
+    ) !default;
+$typography-mobile-h1: (
+      fontWeight: Regular,
+      fontSize: 36,
+      lineHeight: 110%,
+      fontFamily: DINOT,
+      letterSpacing: 0.35
+    ) !default;
+$typography-mobile-h2: (
+      fontWeight: Regular,
+      fontSize: 32,
+      lineHeight: 110%,
+      fontFamily: DINOT,
+      letterSpacing: 0.1
+    ) !default;
+$typography-mobile-h3: (
+      fontWeight: Regular,
+      fontSize: 28,
+      lineHeight: 110%,
+      fontFamily: DINOT,
+      letterSpacing: 0.1
+    ) !default;
+$typography-mobile-h4: (
+      fontWeight: Regular,
+      fontSize: 20,
+      lineHeight: 120%,
+      fontFamily: DINOT,
+      letterSpacing: 0.1
+    ) !default;
+$typography-mobile-h5: (
+      fontWeight: Regular,
+      fontSize: 16,
+      lineHeight: 130%,
+      fontFamily: DINOT,
+      letterSpacing: 0.1
+    ) !default;
+$typography-mobile-h6: (
+      fontWeight: Regular,
+      fontSize: 14,
+      lineHeight: 130%,
+      fontFamily: DINOT,
+      letterSpacing: 0.1
+    ) !default;
+$typography-mobile-body: (
+      fontWeight: Regular,
+      fontSize: 16,
+      lineHeight: 160%,
+      fontFamily: DINOT,
+      letterSpacing: 0.2
+    ) !default;
+$typography-mobile-body-bold: (
+      fontWeight: Medium,
+      fontSize: 16,
+      lineHeight: 160%,
+      fontFamily: DINOT,
+      letterSpacing: 0.2
+    ) !default;
+$typography-mobile-app-xxsmall: (
+      fontWeight: Regular,
+      fontSize: 12,
+      lineHeight: 160%,
+      fontFamily: DINOT,
+      letterSpacing: 0.2
+    ) !default;
+$typography-mobile-app-xxsmall-bold: (
+      fontWeight: Medium,
+      fontSize: 12,
+      lineHeight: 160%,
+      fontFamily: DINOT,
+      letterSpacing: 0.2
+    ) !default;
+$typography-tablet-title: (
+      fontWeight: Regular,
+      fontSize: 56,
+      lineHeight: 110%,
+      fontFamily: DINOT,
+      letterSpacing: 0.35
+    ) !default;
+$typography-tablet-h1: (
+      fontWeight: Regular,
+      fontSize: 42,
+      lineHeight: 110%,
+      fontFamily: DINOT,
+      letterSpacing: 0.35
+    ) !default;
+$typography-tablet-h2: (
+      fontWeight: Regular,
+      fontSize: 38,
+      lineHeight: 110%,
+      fontFamily: DINOT,
+      letterSpacing: 0.1
+    ) !default;
+$typography-tablet-h3: (
+      fontWeight: Regular,
+      fontSize: 32,
+      lineHeight: 110%,
+      fontFamily: DINOT,
+      letterSpacing: 0.1
+    ) !default;
+$typography-tablet-h4: (
+      fontWeight: Regular,
+      fontSize: 20,
+      lineHeight: 160%,
+      fontFamily: DINOT,
+      letterSpacing: 0.1
+    ) !default;
+$typography-tablet-h5: (
+      fontWeight: Regular,
+      fontSize: 16,
+      lineHeight: 160%,
+      fontFamily: DINOT,
+      letterSpacing: 0.1
+    ) !default;
+$typography-tablet-h6: (
+      fontWeight: Regular,
+      fontSize: 14,
+      lineHeight: 160%,
+      fontFamily: DINOT,
+      letterSpacing: 0.1
+    ) !default;
+$typography-tablet-body: (
+      fontWeight: Regular,
+      fontSize: 17,
+      lineHeight: 160%,
+      fontFamily: DINOT,
+      letterSpacing: 0.2
+    ) !default;
+$typography-desktop-title: (
+      fontWeight: Regular,
+      fontSize: 64,
+      lineHeight: 150%,
+      fontFamily: DINOT,
+      letterSpacing: 0.35
+    ) !default;
+$typography-desktop-h1: (
+      fontWeight: Regular,
+      fontSize: 46,
+      lineHeight: 110%,
+      fontFamily: DINOT,
+      letterSpacing: 0.35
+    ) !default;
+$typography-desktop-h2: (
+      fontWeight: Regular,
+      fontSize: 40,
+      lineHeight: 110%,
+      fontFamily: DINOT,
+      letterSpacing: 0.1
+    ) !default;
+$typography-desktop-h3: (
+      fontWeight: Regular,
+      fontSize: 32,
+      lineHeight: 110%,
+      fontFamily: DINOT,
+      letterSpacing: 0.1
+    ) !default;
+$typography-desktop-h4: (
+      fontWeight: Regular,
+      fontSize: 24,
+      lineHeight: 130%,
+      fontFamily: DINOT,
+      letterSpacing: 0.1
+    ) !default;
+$typography-desktop-h5: (
+      fontWeight: Regular,
+      fontSize: 16,
+      lineHeight: 130%,
+      fontFamily: DINOT,
+      letterSpacing: 0.1
+    ) !default;
+$typography-desktop-h6: (
+      fontWeight: Regular,
+      fontSize: 14,
+      lineHeight: 130%,
+      fontFamily: DINOT,
+      letterSpacing: 0.1
+    ) !default;
+$typography-desktop-body: (
+      fontWeight: Regular,
+      fontSize: 18,
+      lineHeight: 160%,
+      fontFamily: DINOT,
+      letterSpacing: 0.2
+    ) !default;
+$typography-desktop-body-bold: (
+      fontWeight: Medium,
+      fontSize: 18,
+      lineHeight: 160%,
+      fontFamily: DINOT,
+      letterSpacing: 0.2
+    ) !default;
+$typography-base-xxlarge: (
+      fontWeight: Regular,
+      fontSize: 20,
+      lineHeight: 130%,
+      fontFamily: DINOT,
+      letterSpacing: 0.2
+    ) !default;
+$typography-base-xlarge: (
+      fontWeight: Regular,
+      fontSize: 19,
+      lineHeight: 130%,
+      fontFamily: DINOT,
+      letterSpacing: 0.2
+    ) !default;
+$typography-base-large: (
+      fontWeight: Regular,
+      fontSize: 17,
+      lineHeight: 130%,
+      fontFamily: DINOT,
+      letterSpacing: 0.2
+    ) !default;
+$typography-base-medium: (
+      fontWeight: Regular,
+      fontSize: 16,
+      lineHeight: 160%,
+      fontFamily: DINOT,
+      letterSpacing: 0.2
+    ) !default;
+$typography-base-small: (
+      fontWeight: Regular,
+      fontSize: 14,
+      lineHeight: 160%,
+      fontFamily: DINOT,
+      letterSpacing: 0.2
+    ) !default;
+$typography-base-xsmall: (
+      fontWeight: Regular,
+      fontSize: 13,
+      lineHeight: 160%,
+      fontFamily: DINOT,
+      letterSpacing: 0.2
+    ) !default;
+$typography-base-xxsmall: (
+      fontWeight: Regular,
+      fontSize: 12,
+      lineHeight: 160%,
+      fontFamily: DINOT,
+      letterSpacing: 0.2
+    ) !default;
+$typography-base-xxxsmall: (
+      fontWeight: Regular,
+      fontSize: 10,
+      lineHeight: 160%,
+      fontFamily: DINOT,
+      letterSpacing: 0.2
+    ) !default;
+$typography-base-medium-bold: (
+      fontWeight: Medium,
+      fontSize: 16,
+      lineHeight: 160%,
+      fontFamily: DINOT,
+      letterSpacing: 0.2
+    ) !default;
+$typography-base-large-bold: (
+      fontWeight: Bold,
+      fontSize: 17,
+      lineHeight: 130%,
+      fontFamily: DINOT,
+      letterSpacing: 0.2
+    ) !default;
+$typography-footer-linklist: (
+      fontWeight: Regular,
+      fontSize: 14,
+      lineHeight: 190%,
+      fontFamily: DINOT,
+      letterSpacing: 0.2
+    ) !default;
+$typography-button-primary-large: (
+      fontWeight: Medium,
+      fontSize: 16,
+      lineHeight: 140%,
+      fontFamily: DINOT,
+      letterSpacing: 0.2
+    ) !default;
+$typography-button-primary-medium: (
+      fontWeight: Medium,
+      fontSize: 14,
+      lineHeight: 140%,
+      fontFamily: DINOT,
+      letterSpacing: 0.2
+    ) !default;
+$typography-button-primary-small: (
+      fontWeight: Medium,
+      fontSize: 12,
+      lineHeight: 140%,
+      fontFamily: DINOT,
+      letterSpacing: 0.2
+    ) !default;
+$typography-button-secondary-large: (
+      fontWeight: Regular,
+      fontSize: 16,
+      lineHeight: 140%,
+      fontFamily: DINOT,
+      letterSpacing: 0.2
+    ) !default;
+$typography-button-secondary-medium: (
+      fontWeight: Regular,
+      fontSize: 14,
+      lineHeight: 140%,
+      fontFamily: DINOT,
+      letterSpacing: 0.2
+    ) !default;
+$typography-button-secondary-small: (
+      fontWeight: Regular,
+      fontSize: 12,
+      lineHeight: 140%,
+      fontFamily: DINOT,
+      letterSpacing: 0.2
+    ) !default;
+$typography-toast-mobile-header: (
+      fontWeight: Medium,
+      fontSize: 16,
+      lineHeight: 150%,
+      fontFamily: DINOT,
+      letterSpacing: 0.2
+    ) !default;
+$typography-toast-mobile-text: (
+      fontWeight: Regular,
+      fontSize: 16,
+      lineHeight: 140%,
+      fontFamily: DINOT,
+      letterSpacing: 0.25
+    ) !default;
+$typography-toast-desktop-text: (
+      fontWeight: Regular,
+      fontSize: 18,
+      lineHeight: 140%,
+      fontFamily: DINOT,
+      letterSpacing: 0.25
+    ) !default;
+$typography-toast-desktop-header: (
+      fontWeight: Medium,
+      fontSize: 18,
+      lineHeight: 140%,
+      fontFamily: DINOT,
+      letterSpacing: 0.25
+    ) !default;
+$typography-toast-tablet-text: (
+      fontWeight: Regular,
+      fontSize: 17,
+      lineHeight: 150%,
+      fontFamily: DINOT,
+      letterSpacing: 0.25
+    ) !default;
+$typography-section-small-title: (
+      fontWeight: Medium,
+      fontSize: 17,
+      lineHeight: 120%,
+      fontFamily: DINOT,
+      letterSpacing: 0.2
+    ) !default;
+$typography-section-small-body: (
+      fontWeight: Regular,
+      fontSize: 16,
+      lineHeight: 150%,
+      fontFamily: DINOT,
+      letterSpacing: 0.2
+    ) !default;
+$typography-section-large-body: (
+      fontWeight: Regular,
+      fontSize: 17,
+      lineHeight: 150%,
+      fontFamily: DINOT,
+      letterSpacing: 0.2
+    ) !default;
+$typography-section-large-title: (
+      fontWeight: Medium,
+      fontSize: 17,
+      lineHeight: 120%,
+      fontFamily: DINOT,
+      letterSpacing: 0.2
+    ) !default;
+$typography-input-small-label: (
+      fontWeight: Regular,
+      fontSize: 14,
+      lineHeight: 140%,
+      fontFamily: DINOT,
+      letterSpacing: 0.25
+    ) !default;
+$typography-input-small-fix: (
+      fontWeight: Regular,
+      fontSize: 12,
+      lineHeight: 140%,
+      fontFamily: DINOT,
+      letterSpacing: 0.25
+    ) !default;
+$typography-input-small-body: (
+      fontWeight: Regular,
+      fontSize: 16,
+      lineHeight: 140%,
+      fontFamily: DINOT,
+      letterSpacing: 0.25
+    ) !default;
+$typography-input-small-descriptive: (
+      fontWeight: Regular,
+      fontSize: 12,
+      lineHeight: 140%,
+      fontFamily: DINOT,
+      letterSpacing: 0.25
+    ) !default;
+$typography-input-medium-fix: (
+      fontWeight: Regular,
+      fontSize: 14,
+      lineHeight: 140%,
+      fontFamily: DINOT,
+      letterSpacing: 0.25
+    ) !default;
+$typography-input-medium-body: (
+      fontWeight: Regular,
+      fontSize: 16,
+      lineHeight: 140%,
+      fontFamily: DINOT,
+      letterSpacing: 0.25
+    ) !default;
+$typography-input-medium-label: (
+      fontWeight: Regular,
+      fontSize: 14,
+      lineHeight: 140%,
+      fontFamily: DINOT,
+      letterSpacing: 0.25
+    ) !default;
+$typography-input-medium-descriptive: (
+      fontWeight: Regular,
+      fontSize: 12,
+      lineHeight: 140%,
+      fontFamily: DINOT,
+      letterSpacing: 0.25
+    ) !default;
+$typography-input-large-fix: (
+      fontWeight: Regular,
+      fontSize: 14,
+      lineHeight: 140%,
+      fontFamily: DINOT,
+      letterSpacing: 0.25
+    ) !default;
+$typography-input-large-body: (
+      fontWeight: Regular,
+      fontSize: 18,
+      lineHeight: 140%,
+      fontFamily: DINOT,
+      letterSpacing: 0.25
+    ) !default;
+$typography-input-large-label: (
+      fontWeight: Regular,
+      fontSize: 14,
+      lineHeight: 140%,
+      fontFamily: DINOT,
+      letterSpacing: 0.25
+    ) !default;
+$typography-input-large-descriptive: (
+      fontWeight: Regular,
+      fontSize: 14,
+      lineHeight: 140%,
+      fontFamily: DINOT,
+      letterSpacing: 0.25
+    ) !default;
+$typography-dropdown-small-label: (
+      fontWeight: Regular,
+      fontSize: 12,
+      lineHeight: 140%,
+      fontFamily: DINOT,
+      letterSpacing: 0.25
+    ) !default;
+$typography-dropdown-small-description: (
+      fontWeight: Regular,
+      fontSize: 10,
+      lineHeight: 140%,
+      fontFamily: DINOT,
+      letterSpacing: 0.25
+    ) !default;
+$typography-dropdown-small-fix: (
+      fontWeight: Regular,
+      fontSize: 12,
+      lineHeight: 140%,
+      fontFamily: DINOT,
+      letterSpacing: 0.25
+    ) !default;
+$typography-dropdown-small-body: (
+      fontWeight: Regular,
+      fontSize: 14,
+      lineHeight: 140%,
+      fontFamily: DINOT,
+      letterSpacing: 0.25
+    ) !default;
+$typography-dropdown-small-body-input: (
+      fontWeight: Medium,
+      fontSize: 16,
+      lineHeight: 140%,
+      fontFamily: DINOT,
+      letterSpacing: 0.25
+    ) !default;
+$typography-dropdown-medium-label: (
+      fontWeight: Regular,
+      fontSize: 14,
+      lineHeight: 140%,
+      fontFamily: DINOT,
+      letterSpacing: 0.25
+    ) !default;
+$typography-dropdown-medium-description: (
+      fontWeight: Regular,
+      fontSize: 12,
+      lineHeight: 140%,
+      fontFamily: DINOT,
+      letterSpacing: 0.25
+    ) !default;
+$typography-dropdown-medium-fix: (
+      fontWeight: Regular,
+      fontSize: 12,
+      lineHeight: 140%,
+      fontFamily: DINOT,
+      letterSpacing: 0.25
+    ) !default;
+$typography-dropdown-medium-body: (
+      fontWeight: Regular,
+      fontSize: 16,
+      lineHeight: 140%,
+      fontFamily: DINOT,
+      letterSpacing: 0.25
+    ) !default;
+$typography-dropdown-large-label: (
+      fontWeight: Regular,
+      fontSize: 14,
+      lineHeight: 140%,
+      fontFamily: DINOT,
+      letterSpacing: 0.25
+    ) !default;
+$typography-dropdown-large-description: (
+      fontWeight: Regular,
+      fontSize: 14,
+      lineHeight: 140%,
+      fontFamily: DINOT,
+      letterSpacing: 0.25
+    ) !default;
+$typography-dropdown-large-fix: (
+      fontWeight: Regular,
+      fontSize: 12,
+      lineHeight: 140%,
+      fontFamily: DINOT,
+      letterSpacing: 0.25
+    ) !default;
+$typography-dropdown-large-body: (
+      fontWeight: Regular,
+      fontSize: 18,
+      lineHeight: 140%,
+      fontFamily: DINOT,
+      letterSpacing: 0.25
+    ) !default;
+$typography-checkbox-small-body: (
+      fontWeight: Regular,
+      fontSize: 16,
+      lineHeight: 140%,
+      fontFamily: DINOT,
+      letterSpacing: 0.25
+    ) !default;
+$typography-toggle-small-body: (
+      fontWeight: Regular,
+      fontSize: 14,
+      lineHeight: 140%,
+      fontFamily: DINOT,
+      letterSpacing: 0.25
+    ) !default;
+$typography-dialog-large-title: (
+      fontWeight: Medium,
+      fontSize: 20,
+      lineHeight: 140%,
+      fontFamily: DINOT,
+      letterSpacing: 0.25
+    ) !default;
+$typography-dialog-large-body: (
+      fontWeight: Medium,
+      fontSize: 16,
+      lineHeight: 140%,
+      fontFamily: DINOT,
+      letterSpacing: 0.25
+    ) !default;
+$typography-tag-text: (
+      fontWeight: Regular,
+      fontSize: 12,
+      lineHeight: 110%,
+      fontFamily: DINOT,
+      letterSpacing: 0.25
+    ) !default;
+$typography-tag-text-medium: (
+      fontWeight: Regular,
+      fontSize: 14,
+      lineHeight: 110%,
+      fontFamily: DINOT,
+      letterSpacing: 0.25
+    ) !default;
+$typography-tag-text-large: (
+      fontWeight: Regular,
+      fontSize: 16,
+      lineHeight: 110%,
+      fontFamily: DINOT,
+      letterSpacing: 0.25
+    ) !default;
+$typography-navigation-desktop-global: (
+      fontWeight: Medium,
+      fontSize: 16,
+      lineHeight: 160%,
+      fontFamily: DINOT,
+      letterSpacing: 0.2
+    ) !default;
+$typography-navigation-desktop-dropdown: (
+      fontWeight: Regular,
+      fontSize: 14,
+      lineHeight: 190%,
+      fontFamily: DINOT,
+      letterSpacing: 0.2
+    ) !default;
+$typography-navigation-desktop-dropdown-active: (
+      fontWeight: Bold,
+      fontSize: 14,
+      lineHeight: 190%,
+      fontFamily: DINOT,
+      letterSpacing: 0.2
+    ) !default;
+$font-family-primary: DINOT !default;
+$font-family-secondary: helvetica !default;
+$font-size-mobile-title: 48 !default;
+$font-size-mobile-h1: 36 !default;
+$font-size-mobile-h2: 32 !default;
+$font-size-mobile-h3: 28 !default;
+$font-size-mobile-h4: 20 !default;
+$font-size-mobile-h5: 16 !default;
+$font-size-mobile-h6: 14 !default;
+$font-size-mobile-body: 16 !default;
+$font-size-tablet-title: 56 !default;
+$font-size-tablet-h1: 42 !default;
+$font-size-tablet-h2: 38 !default;
+$font-size-tablet-h3: 32 !default;
+$font-size-tablet-h4: 20 !default;
+$font-size-tablet-h5: 16 !default;
+$font-size-tablet-h6: 14 !default;
+$font-size-tablet-body: 17 !default;
+$font-size-desktop-title: 64 !default;
+$font-size-desktop-h1: 46 !default;
+$font-size-desktop-h2: 40 !default;
+$font-size-desktop-h3: 32 !default;
+$font-size-desktop-h4: 24 !default;
+$font-size-desktop-h5: 16 !default;
+$font-size-desktop-h6: 14 !default;
+$font-size-desktop-body: 18 !default;
+$font-size-base-xxxsmall: 10 !default;
+$font-size-base-xxsmall: 12 !default;
+$font-size-base-xsmall: 13 !default;
+$font-size-base-small: 14 !default;
+$font-size-base-medium: 16 !default;
+$font-size-base-large: 17 !default;
+$font-size-base-xlarge: 19 !default;
+$font-size-base-xxlarge: 20 !default;
+$letter-spacing-xxs: -0.1 !default;
+$letter-spacing-xs: 0.1 !default;
+$letter-spacing-sm: 0.2 !default;
+$letter-spacing-md: 0.25 !default;
+$letter-spacing-lg: 0.3 !default;
+$letter-spacing-xl: 0.35 !default;
+$line-height-0: 20% !default;
+$line-height-1: 110% !default;
+$line-height-2: 120% !default;
+$line-height-3: 130% !default;
+$line-height-4: 140% !default;
+$line-height-5: 150% !default;
+$line-height-6: 160% !default;
+$line-height-7: 170% !default;
+$line-height-8: 180% !default;
+$line-height-9: 190% !default;
+$font-weight-regular: Regular !default;
+$font-weight-medium: Medium !default;
+$font-weight-bold: Bold !default;
+$spacing-mobile-0: 0 !default;
+$spacing-mobile-1: 4 !default;
+$spacing-mobile-2: 8 !default;
+$spacing-mobile-3: 12 !default;
+$spacing-mobile-4: 16 !default;
+$spacing-mobile-5: 20 !default;
+$spacing-mobile-6: 24 !default;
+$spacing-mobile-7: 32 !default;
+$spacing-mobile-8: 48 !default;
+$spacing-mobile-9: 80 !default;
+$spacing-mobile-base: 4 !default;
+$spacing-mobile-auto: auto !default;
+$spacing-mobile-section-container-large: 24 !default;
+$spacing-tablet-0: 0 !default;
+$spacing-tablet-1: 4 !default;
+$spacing-tablet-2: 8 !default;
+$spacing-tablet-3: 12 !default;
+$spacing-tablet-4: 16 !default;
+$spacing-tablet-5: 20 !default;
+$spacing-tablet-6: 24 !default;
+$spacing-tablet-7: 32 !default;
+$spacing-tablet-8: 48 !default;
+$spacing-tablet-9: 80 !default;
+$spacing-tablet-base: 4 !default;
+$spacing-tablet-auto: auto !default;
+$spacing-desktop-0: 0 !default;
+$spacing-desktop-1: 8 !default;
+$spacing-desktop-2: 16 !default;
+$spacing-desktop-3: 24 !default;
+$spacing-desktop-4: 32 !default;
+$spacing-desktop-5: 40 !default;
+$spacing-desktop-6: 48 !default;
+$spacing-desktop-7: 80 !default;
+$spacing-desktop-8: 96 !default;
+$spacing-desktop-base: 8 !default;
+$spacing-desktop-auto: auto !default;
+$spacing-desktop-section-container-large: 200 !default;
+$spacing-button-large-x: 32 !default;
+$spacing-button-large-y: 14 !default;
+$spacing-button-large-gab: 8 !default;
+$spacing-button-small-x: 24 !default;
+$spacing-button-small-y: 12 !default;
+$spacing-button-small-gab: 6 !default;
+$spacing-emneside-desktop-header-top: 400 !default;
+$spacing-emneside-mobil-header-top: 200 !default;
+$spacing-text-section-desktop-large: 400 !default;
+$spacing-accordion-gab: 1 !default;
+$size-breakpoint-mobile: 576 !default;
+$size-breakpoint-mobile-portrait: 375 !default;
+$size-breakpoint-tablet-portait: 768 !default;
+$size-breakpoint-tablet: 990 !default;
+$size-breakpoint-desktop-small: 1280 !default;
+$size-breakpoint-desktop: 1440 !default;
+$size-breakpoint-widescreen: 1880 !default;
+$size-breakpoint-mobile-portrait-small: 320 !default;
+$size-icon-xxs: 8 !default;
+$size-icon-xs: 16 !default;
+$size-icon-sm: 24 !default;
+$size-icon-md: 32 !default;
+$size-icon-lg: 40 !default;
+$size-icon-xl: 60 !default;
+$size-icon-xxl: 80 !default;
+$size-icon-xxxl: 128 !default;
+$color-base-blue-100: #edf5fb !default;
+$color-base-blue-200: #cee0f6 !default;
+$color-base-blue-300: #b9d3e9 !default;
+$color-base-blue-500: #77b7e3 !default;
+$color-base-blue-700: #0052cc !default;
+$color-base-blue-800: #4e617b !default;
+$color-base-blue-900: #132d4f !default;
+$color-base-grey-100: #f9f9f9 !default;
+$color-base-grey-200: #f0f2f3 !default;
+$color-base-grey-300: #9e9ea6 !default;
+$color-base-grey-400: #6e6d79 !default;
+$color-base-grey-500: #888888 !default;
+$color-base-red-100: #fcede8 !default;
+$color-base-red-200: #ffc6c6 !default;
+$color-base-red-300: #f99591 !default;
+$color-base-red-400: #e54948 !default;
+$color-base-red-600: #dd0d0b !default;
+$color-base-red-700: #b90e0d !default;
+$color-base-green-100: #e8f4f4 !default;
+$color-base-green-200: #cfe6e1 !default;
+$color-base-green-300: #006c6c !default;
+$color-base-yellow-100: #fff7e1 !default;
+$color-base-yellow-200: #a06001 !default;
+$color-base-purple-100: #eae6ff !default;
+$color-base-purple-200: #403294 !default;
+$color-base-white-100: #ffffff !default;
+$color-base-white-200: #ffffff !default;
+$color-base-orange-100: #fff3e9 !default;
+$color-base-orange-200: #ee7d52 !default;
+$color-base-orange-300: #cc3e08 !default;
+$color-base-orange-400: #b73504 !default;
+$color-signal-background-info: #edf5fb !default;
+$color-signal-background-valid: #e8f4f4 !default;
+$color-signal-background-yellow: #fff7e1 !default;
+$color-signal-background-error: #fcede8 !default;
+$color-signal-background-question: #eae6ff !default;
+$color-signal-background-neutral: #f9f9f9 !default;
+$color-signal-icon-signal-info: #132d4f !default;
+$color-signal-icon-signal-valid: #006c6c !default;
+$color-signal-icon-signal-yellow: #a06001 !default;
+$color-signal-icon-signal-error: #b90e0d !default;
+$color-signal-icon-signal-question: #403294 !default;
+$color-signal-icon-signal-neutral: #9e9ea6 !default;
+$color-background-blue-light: #edf5fb !default;
+$color-background-blue: #77b7e3 !default;
+$color-background-blue-dark: #132d4f !default;
+$color-background-white: #ffffff !default;
+$color-background-transparent-white: #ffffff !default;
+$color-text-header-primary: #132d4f !default;
+$color-text-header-inverted: #ffffff !default;
+$color-text-body-primary: #4e617b !default;
+$color-text-body-inverted: #ffffff !default;
+$color-button-background-primary-base: #dd0d0b !default;
+$color-button-background-primary-red-hover: #e54948 !default;
+$color-button-background-primary-red-pressed: #b90e0d !default;
+$color-button-background-inverted-white-base: #ffffff !default;
+$color-button-background-secondary-red-base: #fcede8 !default;
+$color-button-background-secondary-red-hover: #ffc6c6 !default;
+$color-button-background-secondary-red-pressed: #f99591 !default;
+$color-button-text-blue: #132d4f !default;
+$color-button-text-red: #dd0d0b !default;
+$color-button-text-white: #ffffff !default;
+$color-button-text-link: #0052cc !default;
+$color-input-background-white: #ffffff !default;
+$color-input-background-filled: #edf5fb !default;
+$color-input-background-invalid: #fff3e9 !default;
+$color-input-background-default: #f0f2f3 !default;
+$color-input-background-filled-blue: #cee0f6 !default;
+$color-input-background-disabled: #f0f2f3 !default;
+$color-input-border-hover: #f0f2f3 !default;
+$color-input-border-active: #ffc6c6 !default;
+$color-input-border-valid: #006c6c !default;
+$color-input-border-invalid: #ee7d52 !default;
+$color-input-border-active-blue: #77b7e3 !default;
+$color-input-border-disabled: #9e9ea6 !default;
+$color-input-border-default: #f0f2f3 !default;
+$color-input-border-active-search: #dd0d0b !default;
+$color-input-text-blue: #132d4f !default;
+$color-input-text-grey: #6e6d79 !default;
+$color-input-text-red: #dd0d0b !default;
+$color-input-text-green: #006c6c !default;
+$color-input-text-orange: #b73504 !default;
+$color-input-text-orange-copy: #cc3e08 !default;
+$color-dropdown-text-blue: #132d4f !default;
+$color-dropdown-text-grey: #6e6d79 !default;
+$color-dropdown-text-red: #dd0d0b !default;
+$color-dropdown-text-primary: #4e617b !default;
+$color-dropdown-text-fix: #9e9ea6 !default;
+$color-dropdown-text-active: #77b7e3 !default;
+$color-dropdown-icon-blue: #4e617b !default;
+$color-dropdown-icon-active: #77b7e3 !default;
+$color-dropdown-icon-blue-dark: #132d4f !default;
+$color-dropdown-background-blue: #edf5fb !default;
+$color-dropdown-background-white: #ffffff !default;
+$color-dropdown-border-active-blue: #77b7e3 !default;
+$color-toggle-border-grey: #f0f2f3 !default;
+$color-toggle-border-red-200: #ffc6c6 !default;
+$color-toggle-border-red: #dd0d0b !default;
+$color-toggle-border-grey-dark: #9e9ea6 !default;
+$color-toggle-border-blue-dark: #4e617b !default;
+$color-toggle-border-blue: #132d4f !default;
+$color-toggle-border-blue-light: #77b7e3 !default;
+$color-toggle-fill-red: #dd0d0b !default;
+$color-toggle-fill-grey: #f0f2f3 !default;
+$color-toggle-fill-grey-dark: #888888 !default;
+$color-toggle-fill-blue: #132d4f !default;
+$color-toggle-fill-white: #ffffff !default;
+$color-toggle-fill-blue-light: #77b7e3 !default;
+$color-toggle-fill-red-light: #fcede8 !default;
+$color-toggle-fill-blue-light-off: #cee0f6 !default;
+$color-toggle-text-blue: #132d4f !default;
+$color-checkbox-fill-white: #ffffff !default;
+$color-checkbox-fill-grey: #f0f2f3 !default;
+$color-checkbox-fill-red: #dd0d0b !default;
+$color-checkbox-fill-grey-400: #6e6d79 !default;
+$color-checkbox-border-red-200: #ffc6c6 !default;
+$color-checkbox-border-grey-300: #f0f2f3 !default;
+$color-tooltip-text-dark-blue: #132d4f !default;
+$color-tooltip-text-primary: #4e617b !default;
+$color-tooltip-text-white: #ffffff !default;
+$color-tooltip-background-blue-light: #edf5fb !default;
+$color-tooltip-background-dark-blue: #132d4f !default;
+$color-tooltip-background-white: #ffffff !default;
+$color-tag-fill-orange: #b73504 !default;
+$color-tag-fill-blue: #132d4f !default;
+$color-tag-fill-green: #006c6c !default;
+$color-tag-background-orange: #fff3e9 !default;
+$color-tag-background-blue: #edf5fb !default;
+$color-tag-background-green: #e8f4f4 !default;
+$color-avatar-bakcground-dark-blue: #132d4f !default;
+$color-avatar-bakcground-light-blue: #cee0f6 !default;
+$color-avatar-bakcground-red: #fcede8 !default;
+$color-avatar-bakcground-grey: #f0f2f3 !default;
+$color-avatar-fill-light-blue: #edf5fb !default;
+$color-avatar-fill-dark-blue: #132d4f !default;
+$color-avatar-fill-red: #dd0d0b !default;
+$color-avatar-fill-grey: #9e9ea6 !default;
+$color-graph-main-blue: #77b7e3 !default;
+$color-graph-main-green: #479390 !default;
+$color-graph-main-red: #a81d57 !default;
+$color-graph-main-yellow: #f9c64e !default;
+$color-graph-main-purple: #784b97 !default;
+$color-graph-main-gold: #a3a599 !default;
+$color-graph-light-green: #55aea5 !default;
+$color-graph-light-red: #c7638d !default;
+$color-graph-light-yellow: #f2d899 !default;
+$color-graph-light-purple: #b391cb !default;
+$color-graph-light-gold: #bfbfbd !default;
+$border-sm: 1 !default;
+$border-md: 2 !default;
+$border-lg: 4 !default;
+$border-radius-sm: 4 !default;
+$border-radius-md: 6 !default;
+$border-radius-xl: 24 !default;
+$border-radius-button-large: 50% !default;
+$border-radius-lg: 8 !default;
+$border-radius-round: 50% !default;
+$border-radius-xlg: 16 !default;
+$opacity-button-disabled: 0.5 !default;
+$opacity-input-disabled: 0.5 !default;
+$opacity-checkbox-disabled: 0.5 !default;
+$opacity-toggle-disabled: 0.5 !default;
+$opacity-base-box-background: 0.5 !default;
+$input-shadow-active: [object Object] !default;
+$input-shadow-valid: [object Object] !default;
+$input-shadow-blue-hover: [object Object] !default;
+$dropdown-shadow-active-blue: [object Object] !default;
+$checkbox-shadow-red-hover: [object Object] !default;
+$checkbox-shadow-red-focused: [object Object] !default;
+$toggle-shadow-red-hover: [object Object] !default;
+$toggle-shadow-blue-hover: [object Object] !default;
+$toggle-icon-shadow: [object Object] !default;
+$dialog-shadow: [object Object] !default;
+$card-shadow: [object Object] !default;
+$basic-shadow: [object Object] !default;
+
+$my-tokens: (
+  'typography': (
+    'mobile': (
+      'title': $typography-mobile-title,
+      'h1': $typography-mobile-h1,
+      'h2': $typography-mobile-h2,
+      'h3': $typography-mobile-h3,
+      'h4': $typography-mobile-h4,
+      'h5': $typography-mobile-h5,
+      'h6': $typography-mobile-h6,
+      'body': $typography-mobile-body,
+      'body-bold': $typography-mobile-body-bold,
+      'app': (
+        'xxsmall': $typography-mobile-app-xxsmall,
+        'xxsmall-bold': $typography-mobile-app-xxsmall-bold
+      )
+    ),
+    'tablet': (
+      'title': $typography-tablet-title,
+      'h1': $typography-tablet-h1,
+      'h2': $typography-tablet-h2,
+      'h3': $typography-tablet-h3,
+      'h4': $typography-tablet-h4,
+      'h5': $typography-tablet-h5,
+      'h6': $typography-tablet-h6,
+      'body': $typography-tablet-body
+    ),
+    'desktop': (
+      'title': $typography-desktop-title,
+      'h1': $typography-desktop-h1,
+      'h2': $typography-desktop-h2,
+      'h3': $typography-desktop-h3,
+      'h4': $typography-desktop-h4,
+      'h5': $typography-desktop-h5,
+      'h6': $typography-desktop-h6,
+      'body': $typography-desktop-body,
+      'body-bold': $typography-desktop-body-bold
+    ),
+    'base': (
+      'xxlarge': $typography-base-xxlarge,
+      'xlarge': $typography-base-xlarge,
+      'large': $typography-base-large,
+      'medium': $typography-base-medium,
+      'small': $typography-base-small,
+      'xsmall': $typography-base-xsmall,
+      'xxsmall': $typography-base-xxsmall,
+      'xxxsmall': $typography-base-xxxsmall,
+      'medium-bold': $typography-base-medium-bold,
+      'large-bold': $typography-base-large-bold
+    ),
+    'footer': (
+      'linklist': $typography-footer-linklist
+    ),
+    'button': (
+      'primary': (
+        'large': $typography-button-primary-large,
+        'medium': $typography-button-primary-medium,
+        'small': $typography-button-primary-small
+      ),
+      'secondary': (
+        'large': $typography-button-secondary-large,
+        'medium': $typography-button-secondary-medium,
+        'small': $typography-button-secondary-small
+      )
+    ),
+    'toast': (
+      'mobile-header': $typography-toast-mobile-header,
+      'mobile-text': $typography-toast-mobile-text,
+      'desktop-text': $typography-toast-desktop-text,
+      'desktop-header': $typography-toast-desktop-header,
+      'tablet-text': $typography-toast-tablet-text
+    ),
+    'section': (
+      'small': (
+        'title': $typography-section-small-title,
+        'body': $typography-section-small-body
+      ),
+      'large': (
+        'body': $typography-section-large-body,
+        'title': $typography-section-large-title
+      )
+    ),
+    'input': (
+      'small': (
+        'label': $typography-input-small-label,
+        'fix': $typography-input-small-fix,
+        'body': $typography-input-small-body,
+        'descriptive': $typography-input-small-descriptive
+      ),
+      'medium': (
+        'fix': $typography-input-medium-fix,
+        'body': $typography-input-medium-body,
+        'label': $typography-input-medium-label,
+        'descriptive': $typography-input-medium-descriptive
+      ),
+      'large': (
+        'fix': $typography-input-large-fix,
+        'body': $typography-input-large-body,
+        'label': $typography-input-large-label,
+        'descriptive': $typography-input-large-descriptive
+      )
+    ),
+    'dropdown': (
+      'small': (
+        'label': $typography-dropdown-small-label,
+        'description': $typography-dropdown-small-description,
+        'fix': $typography-dropdown-small-fix,
+        'body': $typography-dropdown-small-body,
+        'body-input': $typography-dropdown-small-body-input
+      ),
+      'medium': (
+        'label': $typography-dropdown-medium-label,
+        'description': $typography-dropdown-medium-description,
+        'fix': $typography-dropdown-medium-fix,
+        'body': $typography-dropdown-medium-body
+      ),
+      'large': (
+        'label': $typography-dropdown-large-label,
+        'description': $typography-dropdown-large-description,
+        'fix': $typography-dropdown-large-fix,
+        'body': $typography-dropdown-large-body
+      )
+    ),
+    'checkbox': (
+      'small': (
+        'body': $typography-checkbox-small-body
+      )
+    ),
+    'toggle': (
+      'small': (
+        'body': $typography-toggle-small-body
+      )
+    ),
+    'dialog': (
+      'large': (
+        'title': $typography-dialog-large-title,
+        'body': $typography-dialog-large-body
+      )
+    ),
+    'tag': (
+      'text': $typography-tag-text,
+      'text-medium': $typography-tag-text-medium,
+      'text-large': $typography-tag-text-large
+    ),
+    'navigation': (
+      'desktop': (
+        'global': $typography-navigation-desktop-global,
+        'dropdown': $typography-navigation-desktop-dropdown,
+        'dropdown-active': $typography-navigation-desktop-dropdown-active
+      )
+    )
+  ),
+  'font-family': (
+    'primary': $font-family-primary,
+    'secondary': $font-family-secondary
+  ),
+  'font-size': (
+    'mobile': (
+      'title': $font-size-mobile-title,
+      'h1': $font-size-mobile-h1,
+      'h2': $font-size-mobile-h2,
+      'h3': $font-size-mobile-h3,
+      'h4': $font-size-mobile-h4,
+      'h5': $font-size-mobile-h5,
+      'h6': $font-size-mobile-h6,
+      'body': $font-size-mobile-body
+    ),
+    'tablet': (
+      'title': $font-size-tablet-title,
+      'h1': $font-size-tablet-h1,
+      'h2': $font-size-tablet-h2,
+      'h3': $font-size-tablet-h3,
+      'h4': $font-size-tablet-h4,
+      'h5': $font-size-tablet-h5,
+      'h6': $font-size-tablet-h6,
+      'body': $font-size-tablet-body
+    ),
+    'desktop': (
+      'title': $font-size-desktop-title,
+      'h1': $font-size-desktop-h1,
+      'h2': $font-size-desktop-h2,
+      'h3': $font-size-desktop-h3,
+      'h4': $font-size-desktop-h4,
+      'h5': $font-size-desktop-h5,
+      'h6': $font-size-desktop-h6,
+      'body': $font-size-desktop-body
+    ),
+    'base': (
+      'xxxsmall': $font-size-base-xxxsmall,
+      'xxsmall': $font-size-base-xxsmall,
+      'xsmall': $font-size-base-xsmall,
+      'small': $font-size-base-small,
+      'medium': $font-size-base-medium,
+      'large': $font-size-base-large,
+      'xlarge': $font-size-base-xlarge,
+      'xxlarge': $font-size-base-xxlarge
+    )
+  ),
+  'letter-spacing': (
+    'xxs': $letter-spacing-xxs,
+    'xs': $letter-spacing-xs,
+    'sm': $letter-spacing-sm,
+    'md': $letter-spacing-md,
+    'lg': $letter-spacing-lg,
+    'xl': $letter-spacing-xl
+  ),
+  'line-height': (
+    '0': $line-height-0,
+    '1': $line-height-1,
+    '2': $line-height-2,
+    '3': $line-height-3,
+    '4': $line-height-4,
+    '5': $line-height-5,
+    '6': $line-height-6,
+    '7': $line-height-7,
+    '8': $line-height-8,
+    '9': $line-height-9
+  ),
+  'font-weight': (
+    'regular': $font-weight-regular,
+    'medium': $font-weight-medium,
+    'bold': $font-weight-bold
+  ),
+  'spacing': (
+    'mobile': (
+      '0': $spacing-mobile-0,
+      '1': $spacing-mobile-1,
+      '2': $spacing-mobile-2,
+      '3': $spacing-mobile-3,
+      '4': $spacing-mobile-4,
+      '5': $spacing-mobile-5,
+      '6': $spacing-mobile-6,
+      '7': $spacing-mobile-7,
+      '8': $spacing-mobile-8,
+      '9': $spacing-mobile-9,
+      'base': $spacing-mobile-base,
+      'auto': $spacing-mobile-auto,
+      'section-container': (
+        'large': $spacing-mobile-section-container-large
+      )
+    ),
+    'tablet': (
+      '0': $spacing-tablet-0,
+      '1': $spacing-tablet-1,
+      '2': $spacing-tablet-2,
+      '3': $spacing-tablet-3,
+      '4': $spacing-tablet-4,
+      '5': $spacing-tablet-5,
+      '6': $spacing-tablet-6,
+      '7': $spacing-tablet-7,
+      '8': $spacing-tablet-8,
+      '9': $spacing-tablet-9,
+      'base': $spacing-tablet-base,
+      'auto': $spacing-tablet-auto
+    ),
+    'desktop': (
+      '0': $spacing-desktop-0,
+      '1': $spacing-desktop-1,
+      '2': $spacing-desktop-2,
+      '3': $spacing-desktop-3,
+      '4': $spacing-desktop-4,
+      '5': $spacing-desktop-5,
+      '6': $spacing-desktop-6,
+      '7': $spacing-desktop-7,
+      '8': $spacing-desktop-8,
+      'base': $spacing-desktop-base,
+      'auto': $spacing-desktop-auto,
+      'section-container': (
+        'large': $spacing-desktop-section-container-large
+      )
+    ),
+    'button': (
+      'large-x': $spacing-button-large-x,
+      'large-y': $spacing-button-large-y,
+      'large-gab': $spacing-button-large-gab,
+      'small-x': $spacing-button-small-x,
+      'small-y': $spacing-button-small-y,
+      'small-gab': $spacing-button-small-gab
+    ),
+    'emneside': (
+      'desktop': (
+        'header-top': $spacing-emneside-desktop-header-top
+      ),
+      'mobil': (
+        'header-top': $spacing-emneside-mobil-header-top
+      )
+    ),
+    'text-section': (
+      'desktop': (
+        'large': $spacing-text-section-desktop-large
+      )
+    ),
+    'accordion': (
+      'gab': $spacing-accordion-gab
+    )
+  ),
+  'size': (
+    'breakpoint': (
+      'mobile': $size-breakpoint-mobile,
+      'mobile-portrait': $size-breakpoint-mobile-portrait,
+      'tablet-portait': $size-breakpoint-tablet-portait,
+      'tablet': $size-breakpoint-tablet,
+      'desktop-small': $size-breakpoint-desktop-small,
+      'desktop': $size-breakpoint-desktop,
+      'widescreen': $size-breakpoint-widescreen,
+      'mobile-portrait-small': $size-breakpoint-mobile-portrait-small
+    ),
+    'icon': (
+      'xxs': $size-icon-xxs,
+      'xs': $size-icon-xs,
+      'sm': $size-icon-sm,
+      'md': $size-icon-md,
+      'lg': $size-icon-lg,
+      'xl': $size-icon-xl,
+      'xxl': $size-icon-xxl,
+      'xxxl': $size-icon-xxxl
+    )
+  ),
+  'color': (
+    'base': (
+      'blue': (
+        '100': $color-base-blue-100,
+        '200': $color-base-blue-200,
+        '300': $color-base-blue-300,
+        '500': $color-base-blue-500,
+        '700': $color-base-blue-700,
+        '800': $color-base-blue-800,
+        '900': $color-base-blue-900
+      ),
+      'grey': (
+        '100': $color-base-grey-100,
+        '200': $color-base-grey-200,
+        '300': $color-base-grey-300,
+        '400': $color-base-grey-400,
+        '500': $color-base-grey-500
+      ),
+      'red': (
+        '100': $color-base-red-100,
+        '200': $color-base-red-200,
+        '300': $color-base-red-300,
+        '400': $color-base-red-400,
+        '600': $color-base-red-600,
+        '700': $color-base-red-700
+      ),
+      'green': (
+        '100': $color-base-green-100,
+        '200': $color-base-green-200,
+        '300': $color-base-green-300
+      ),
+      'yellow': (
+        '100': $color-base-yellow-100,
+        '200': $color-base-yellow-200
+      ),
+      'purple': (
+        '100': $color-base-purple-100,
+        '200': $color-base-purple-200
+      ),
+      'white': (
+        '100': $color-base-white-100,
+        '200': $color-base-white-200
+      ),
+      'orange': (
+        '100': $color-base-orange-100,
+        '200': $color-base-orange-200,
+        '300': $color-base-orange-300,
+        '400': $color-base-orange-400
+      )
+    ),
+    'signal': (
+      'background': (
+        'info': $color-signal-background-info,
+        'valid': $color-signal-background-valid,
+        'yellow': $color-signal-background-yellow,
+        'error': $color-signal-background-error,
+        'question': $color-signal-background-question,
+        'neutral': $color-signal-background-neutral
+      ),
+      'icon': (
+        'signal': (
+          'info': $color-signal-icon-signal-info,
+          'valid': $color-signal-icon-signal-valid,
+          'yellow': $color-signal-icon-signal-yellow,
+          'error': $color-signal-icon-signal-error,
+          'question': $color-signal-icon-signal-question,
+          'neutral': $color-signal-icon-signal-neutral
+        )
+      )
+    ),
+    'background': (
+      'blue-light': $color-background-blue-light,
+      'blue': $color-background-blue,
+      'blue-dark': $color-background-blue-dark,
+      'white': $color-background-white,
+      'transparent-white': $color-background-transparent-white
+    ),
+    'text': (
+      'header': (
+        'primary': $color-text-header-primary,
+        'inverted': $color-text-header-inverted
+      ),
+      'body': (
+        'primary': $color-text-body-primary,
+        'inverted': $color-text-body-inverted
+      )
+    ),
+    'button': (
+      'background': (
+        'primary': (
+          'base': $color-button-background-primary-base,
+          'red': (
+            'hover': $color-button-background-primary-red-hover,
+            'pressed': $color-button-background-primary-red-pressed
+          )
+        ),
+        'inverted': (
+          'white': (
+            'base': $color-button-background-inverted-white-base
+          )
+        ),
+        'secondary': (
+          'red': (
+            'base': $color-button-background-secondary-red-base,
+            'hover': $color-button-background-secondary-red-hover,
+            'pressed': $color-button-background-secondary-red-pressed
+          )
+        )
+      ),
+      'text': (
+        'blue': $color-button-text-blue,
+        'red': $color-button-text-red,
+        'white': $color-button-text-white,
+        'link': $color-button-text-link
+      )
+    ),
+    'input': (
+      'background': (
+        'white': $color-input-background-white,
+        'filled': $color-input-background-filled,
+        'invalid': $color-input-background-invalid,
+        'default': $color-input-background-default,
+        'filled-blue': $color-input-background-filled-blue,
+        'disabled': $color-input-background-disabled
+      ),
+      'border': (
+        'hover': $color-input-border-hover,
+        'active': $color-input-border-active,
+        'valid': $color-input-border-valid,
+        'invalid': $color-input-border-invalid,
+        'active-blue': $color-input-border-active-blue,
+        'disabled': $color-input-border-disabled,
+        'default': $color-input-border-default,
+        'active-search': $color-input-border-active-search
+      ),
+      'text': (
+        'blue': $color-input-text-blue,
+        'grey': $color-input-text-grey,
+        'red': $color-input-text-red,
+        'green': $color-input-text-green,
+        'orange': $color-input-text-orange,
+        'orange-copy': $color-input-text-orange-copy
+      )
+    ),
+    'dropdown': (
+      'text': (
+        'blue': $color-dropdown-text-blue,
+        'grey': $color-dropdown-text-grey,
+        'red': $color-dropdown-text-red,
+        'primary': $color-dropdown-text-primary,
+        'fix': $color-dropdown-text-fix,
+        'active': $color-dropdown-text-active
+      ),
+      'icon': (
+        'blue': $color-dropdown-icon-blue,
+        'active': $color-dropdown-icon-active,
+        'blue-dark': $color-dropdown-icon-blue-dark
+      ),
+      'background': (
+        'blue': $color-dropdown-background-blue,
+        'white': $color-dropdown-background-white
+      ),
+      'border': (
+        'active-blue': $color-dropdown-border-active-blue
+      )
+    ),
+    'toggle': (
+      'border': (
+        'grey': $color-toggle-border-grey,
+        'red-200': $color-toggle-border-red-200,
+        'red': $color-toggle-border-red,
+        'grey-dark': $color-toggle-border-grey-dark,
+        'blue-dark': $color-toggle-border-blue-dark,
+        'blue': $color-toggle-border-blue,
+        'blue-light': $color-toggle-border-blue-light
+      ),
+      'fill': (
+        'red': $color-toggle-fill-red,
+        'grey': $color-toggle-fill-grey,
+        'grey-dark': $color-toggle-fill-grey-dark,
+        'blue': $color-toggle-fill-blue,
+        'white': $color-toggle-fill-white,
+        'blue-light': $color-toggle-fill-blue-light,
+        'red-light': $color-toggle-fill-red-light,
+        'blue-light-off': $color-toggle-fill-blue-light-off
+      ),
+      'text': (
+        'blue': $color-toggle-text-blue
+      )
+    ),
+    'checkbox': (
+      'fill': (
+        'white': $color-checkbox-fill-white,
+        'grey': $color-checkbox-fill-grey,
+        'red': $color-checkbox-fill-red,
+        'grey-400': $color-checkbox-fill-grey-400
+      ),
+      'border': (
+        'red-200': $color-checkbox-border-red-200,
+        'grey-300': $color-checkbox-border-grey-300
+      )
+    ),
+    'tooltip': (
+      'text': (
+        'dark-blue': $color-tooltip-text-dark-blue,
+        'primary': $color-tooltip-text-primary,
+        'white': $color-tooltip-text-white
+      ),
+      'background': (
+        'blue-light': $color-tooltip-background-blue-light,
+        'dark-blue': $color-tooltip-background-dark-blue,
+        'white': $color-tooltip-background-white
+      )
+    ),
+    'tag': (
+      'fill': (
+        'orange': $color-tag-fill-orange,
+        'blue': $color-tag-fill-blue,
+        'green': $color-tag-fill-green
+      ),
+      'background': (
+        'orange': $color-tag-background-orange,
+        'blue': $color-tag-background-blue,
+        'green': $color-tag-background-green
+      )
+    ),
+    'avatar': (
+      'bakcground': (
+        'dark-blue': $color-avatar-bakcground-dark-blue,
+        'light-blue': $color-avatar-bakcground-light-blue,
+        'red': $color-avatar-bakcground-red,
+        'grey': $color-avatar-bakcground-grey
+      ),
+      'fill': (
+        'light-blue': $color-avatar-fill-light-blue,
+        'dark-blue': $color-avatar-fill-dark-blue,
+        'red': $color-avatar-fill-red,
+        'grey': $color-avatar-fill-grey
+      )
+    ),
+    'graph': (
+      'main': (
+        'blue': $color-graph-main-blue,
+        'green': $color-graph-main-green,
+        'red': $color-graph-main-red,
+        'yellow': $color-graph-main-yellow,
+        'purple': $color-graph-main-purple,
+        'gold': $color-graph-main-gold
+      ),
+      'light': (
+        'green': $color-graph-light-green,
+        'red': $color-graph-light-red,
+        'yellow': $color-graph-light-yellow,
+        'purple': $color-graph-light-purple,
+        'gold': $color-graph-light-gold
+      )
+    )
+  ),
+  'border': (
+    'sm': $border-sm,
+    'md': $border-md,
+    'lg': $border-lg
+  ),
+  'border-radius': (
+    'sm': $border-radius-sm,
+    'md': $border-radius-md,
+    'xl': $border-radius-xl,
+    'button': (
+      'large': $border-radius-button-large
+    ),
+    'lg': $border-radius-lg,
+    'round': $border-radius-round,
+    'xlg': $border-radius-xlg
+  ),
+  'opacity': (
+    'button': (
+      'disabled': $opacity-button-disabled
+    ),
+    'input': (
+      'disabled': $opacity-input-disabled
+    ),
+    'checkbox': (
+      'disabled': $opacity-checkbox-disabled
+    ),
+    'toggle': (
+      'disabled': $opacity-toggle-disabled
+    ),
+    'base': (
+      'box-background': $opacity-base-box-background
+    )
+  ),
+  'input': (
+    'shadow-active': $input-shadow-active,
+    'shadow-valid': $input-shadow-valid,
+    'shadow-blue-hover': $input-shadow-blue-hover
+  ),
+  'dropdown': (
+    'shadow-active-blue': $dropdown-shadow-active-blue
+  ),
+  'checkbox': (
+    'shadow-red-hover': $checkbox-shadow-red-hover,
+    'shadow-red-focused': $checkbox-shadow-red-focused
+  ),
+  'toggle': (
+    'shadow-red-hover': $toggle-shadow-red-hover,
+    'shadow-blue-hover': $toggle-shadow-blue-hover,
+    'icon': (
+      'shadow': $toggle-icon-shadow
+    )
+  ),
+  'dialog': (
+    'shadow': $dialog-shadow
+  ),
+  'card': (
+    'shadow': $card-shadow
+  ),
+  'basic': (
+    'shadow': $basic-shadow
+  )
+);
