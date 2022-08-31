@@ -1,0 +1,967 @@
+
+// Do not edit directly
+// Generated on Wed, 01 Jun 2022 11:07:45 GMT
+
+$color-section-white: #ffffff;
+$color-section-light: #edf5fb;
+$color-section-dark: #132d4f;
+$color-section-aurora: #ffffff;
+$color-button-background-primary-base: #dd0d0b;
+$color-button-background-primary-hover: #e54948;
+$color-button-background-primary-pressed: #b90e0d;
+$color-button-background-secondary-base: #fcede8;
+$color-button-background-secondary-hover: #ffc6c6;
+$color-button-background-secondary-pressed: #f99591;
+$color-button-background-inverted-white-base: #ffffff;
+$color-button-text-primary: #ffffff;
+$color-button-text-secondary: #dd0d0b;
+$color-button-text-inverted: #132d4f;
+$color-link-primary-base: #dd0d0b;
+$color-link-primary-hover: #e54948;
+$color-link-primary-pressed: #b90e0d;
+$color-link-secondary-base: #0052cc;
+$color-link-secondary-hover: #132d4f;
+$color-link-secondary-pressed: #77b7e3;
+$color-link-inverted-base: #000000;
+$color-link-inverted-hover: #b9d3e9;
+$color-link-inverted-pressed: #000000;
+$color-base-blue-100: #edf5fb;
+$color-base-blue-200: #cee0f6;
+$color-base-blue-300: #b9d3e9;
+$color-base-blue-500: #77b7e3;
+$color-base-blue-700: #0052cc;
+$color-base-blue-800: #4e617b;
+$color-base-blue-900: #132d4f;
+$color-base-grey-100: #f9f9f9;
+$color-base-grey-200: #f0f2f3;
+$color-base-grey-300: #9e9ea6;
+$color-base-grey-400: #6e6d79;
+$color-base-grey-500: #888888;
+$color-base-red-100: #fcede8;
+$color-base-red-200: #ffc6c6;
+$color-base-red-300: #f99591;
+$color-base-red-400: #e54948;
+$color-base-red-600: #dd0d0b;
+$color-base-red-700: #b90e0d;
+$color-base-green-100: #e8f4f4;
+$color-base-green-200: #cfe6e1;
+$color-base-green-300: #006c6c;
+$color-base-yellow-100: #fff7e1;
+$color-base-yellow-200: #a06001;
+$color-base-purple-100: #eae6ff;
+$color-base-purple-200: #403294;
+$color-base-white-100: #ffffff;
+$color-base-white-200: #ffffff;
+$color-base-orange-100: #fff3e9;
+$color-base-orange-200: #ee7d52;
+$color-base-orange-300: #cc3e08;
+$color-base-orange-400: #b73504;
+$color-signal-background-info: #edf5fb;
+$color-signal-background-valid: #e8f4f4;
+$color-signal-background-yellow: #fff7e1;
+$color-signal-background-error: #fcede8;
+$color-signal-background-question: #eae6ff;
+$color-signal-background-neutral: #f9f9f9;
+$color-signal-icon-signal-info: #132d4f;
+$color-signal-icon-signal-valid: #006c6c;
+$color-signal-icon-signal-yellow: #a06001;
+$color-signal-icon-signal-error: #b90e0d;
+$color-signal-icon-signal-question: #403294;
+$color-signal-icon-signal-neutral: #9e9ea6;
+$color-background-blue-light: #edf5fb;
+$color-background-blue: #77b7e3;
+$color-background-blue-dark: #132d4f;
+$color-background-white: #ffffff;
+$color-background-transparent-white: #ffffff;
+$color-text-header-primary: #132d4f;
+$color-text-header-inverted: #ffffff;
+$color-text-body-primary: #4e617b;
+$color-text-body-inverted: #ffffff;
+$color-input-background-white: #ffffff;
+$color-input-background-filled: #edf5fb;
+$color-input-background-invalid: #fff3e9;
+$color-input-background-default: #f0f2f3;
+$color-input-background-filled-blue: #cee0f6;
+$color-input-background-disabled: #f0f2f3;
+$color-input-border-hover: #f0f2f3;
+$color-input-border-active: #ffc6c6;
+$color-input-border-valid: #006c6c;
+$color-input-border-invalid: #ee7d52;
+$color-input-border-active-blue: #77b7e3;
+$color-input-border-disabled: #9e9ea6;
+$color-input-border-default: #f0f2f3;
+$color-input-border-active-search: #dd0d0b;
+$color-input-text-blue: #132d4f;
+$color-input-text-grey: #6e6d79;
+$color-input-text-red: #dd0d0b;
+$color-input-text-green: #006c6c;
+$color-input-text-orange: #b73504;
+$color-input-text-orange-copy: #cc3e08;
+$color-dropdown-text-blue: #132d4f;
+$color-dropdown-text-grey: #6e6d79;
+$color-dropdown-text-red: #dd0d0b;
+$color-dropdown-text-primary: #4e617b;
+$color-dropdown-text-fix: #9e9ea6;
+$color-dropdown-text-active: #77b7e3;
+$color-dropdown-icon-blue: #4e617b;
+$color-dropdown-icon-active: #77b7e3;
+$color-dropdown-icon-blue-dark: #132d4f;
+$color-dropdown-background-blue: #edf5fb;
+$color-dropdown-background-white: #ffffff;
+$color-dropdown-border-active-blue: #77b7e3;
+$color-toggle-border-grey: #f0f2f3;
+$color-toggle-border-red-200: #ffc6c6;
+$color-toggle-border-red: #dd0d0b;
+$color-toggle-border-grey-dark: #9e9ea6;
+$color-toggle-border-blue-dark: #4e617b;
+$color-toggle-border-blue: #132d4f;
+$color-toggle-border-blue-light: #77b7e3;
+$color-toggle-fill-red: #dd0d0b;
+$color-toggle-fill-grey: #f0f2f3;
+$color-toggle-fill-grey-dark: #888888;
+$color-toggle-fill-blue: #132d4f;
+$color-toggle-fill-white: #ffffff;
+$color-toggle-fill-blue-light: #77b7e3;
+$color-toggle-fill-red-light: #fcede8;
+$color-toggle-fill-blue-light-off: #cee0f6;
+$color-toggle-text-blue: #132d4f;
+$color-checkbox-fill-white: #ffffff;
+$color-checkbox-fill-grey: #f0f2f3;
+$color-checkbox-fill-red: #dd0d0b;
+$color-checkbox-fill-grey-400: #6e6d79;
+$color-checkbox-border-red-200: #ffc6c6;
+$color-checkbox-border-grey-300: #f0f2f3;
+$color-tooltip-text-dark-blue: #132d4f;
+$color-tooltip-text-primary: #4e617b;
+$color-tooltip-text-white: #ffffff;
+$color-tooltip-background-blue-light: #edf5fb;
+$color-tooltip-background-dark-blue: #132d4f;
+$color-tooltip-background-white: #ffffff;
+$color-tag-fill-orange: #b73504;
+$color-tag-fill-blue: #132d4f;
+$color-tag-fill-green: #006c6c;
+$color-tag-background-orange: #fff3e9;
+$color-tag-background-blue: #edf5fb;
+$color-tag-background-green: #e8f4f4;
+$color-avatar-bakcground-dark-blue: #132d4f;
+$color-avatar-bakcground-light-blue: #cee0f6;
+$color-avatar-bakcground-red: #fcede8;
+$color-avatar-bakcground-grey: #f0f2f3;
+$color-avatar-fill-light-blue: #edf5fb;
+$color-avatar-fill-dark-blue: #132d4f;
+$color-avatar-fill-red: #dd0d0b;
+$color-avatar-fill-grey: #9e9ea6;
+$color-graph-main-blue: #77b7e3;
+$color-graph-main-green: #479390;
+$color-graph-main-red: #a81d57;
+$color-graph-main-yellow: #f9c64e;
+$color-graph-main-purple: #784b97;
+$color-graph-main-gold: #a3a599;
+$color-graph-light-green: #55aea5;
+$color-graph-light-red: #c7638d;
+$color-graph-light-yellow: #f2d899;
+$color-graph-light-purple: #b391cb;
+$color-graph-light-gold: #bfbfbd;
+$spacing-container-desktop-padding-x-small: 2.5rem;
+$spacing-container-desktop-padding-x-large: 5rem;
+$spacing-container-desktop-padding-x-xlarge: 7.25rem;
+$spacing-container-desktop-padding-x-xxlarge: 13.75rem;
+$spacing-container-desktop-padding-x-xxxlarge: 17.5rem;
+$spacing-container-desktop-padding-x-xxxxlarge: 25rem;
+$spacing-container-desktop-padding-x-none: 0rem;
+$spacing-container-desktop-padding-y-small: 2.5rem;
+$spacing-container-desktop-padding-y-large: 5rem;
+$spacing-container-desktop-padding-y-none: 0rem;
+$spacing-container-desktop-gap-y-small: 1rem;
+$spacing-container-desktop-gap-y-medium: 1.5rem;
+$spacing-container-desktop-gap-y-large: 2.5rem;
+$spacing-container-mobile-padding-x-small: 1rem;
+$spacing-container-mobile-padding-x-large: 1.25rem;
+$spacing-container-mobile-padding-x-xlarge: 1.25rem;
+$spacing-container-mobile-padding-x-xxxlarge: 1.25rem;
+$spacing-container-mobile-padding-x-xxxxlarge: 12.5rem;
+$spacing-container-mobile-padding-x-none: 0rem;
+$spacing-container-mobile-padding-y-small: 1.25rem;
+$spacing-container-mobile-padding-y-large: 2.5rem;
+$spacing-container-mobile-padding-y-none: 0rem;
+$spacing-container-mobile-gap-y-small: 0.75rem;
+$spacing-container-mobile-gap-y-medium: 1rem;
+$spacing-container-mobile-gap-y-large: 1.5rem;
+$spacing-grid-desktop-gap-small: 1.5rem;
+$spacing-grid-desktop-gap-medium: 2rem;
+$spacing-grid-desktop-gap-large: 2.5rem;
+$spacing-grid-mobile-gap-small: 1.25rem;
+$spacing-grid-mobile-gap-medium: 2rem;
+$spacing-grid-mobile-gap-large: 3rem;
+$spacing-card-item-gap-y-small: 0.5rem;
+$spacing-card-item-gap-y-medium: 0.75rem;
+$spacing-card-item-gap-y-large: 1rem;
+$spacing-card-row: 1.5rem;
+$spacing-button-large-x: 2rem;
+$spacing-button-large-y: 0.875rem;
+$spacing-button-large-gab: 0.5rem;
+$spacing-button-small-x: 1.5rem;
+$spacing-button-small-y: 0.75rem;
+$spacing-button-small-gab: 0.375rem;
+$spacing-link-gap-x: 0.5rem;
+$spacing-mobile-0: 0rem;
+$spacing-mobile-1: 0.25rem;
+$spacing-mobile-2: 0.5rem;
+$spacing-mobile-3: 0.75rem;
+$spacing-mobile-4: 1rem;
+$spacing-mobile-5: 1.25rem;
+$spacing-mobile-6: 1.5rem;
+$spacing-mobile-7: 2rem;
+$spacing-mobile-8: 3rem;
+$spacing-mobile-9: 5rem;
+$spacing-mobile-base: 0.25rem;
+$spacing-mobile-auto: auto;
+$spacing-mobile-section-container-large: 1.5rem;
+$spacing-tablet-0: 0rem;
+$spacing-tablet-1: 0.25rem;
+$spacing-tablet-2: 0.5rem;
+$spacing-tablet-3: 0.75rem;
+$spacing-tablet-4: 1rem;
+$spacing-tablet-5: 1.25rem;
+$spacing-tablet-6: 1.5rem;
+$spacing-tablet-7: 2rem;
+$spacing-tablet-8: 3rem;
+$spacing-tablet-9: 5rem;
+$spacing-tablet-base: 0.25rem;
+$spacing-tablet-auto: auto;
+$spacing-desktop-0: 0rem;
+$spacing-desktop-1: 0.5rem;
+$spacing-desktop-2: 1rem;
+$spacing-desktop-3: 1.5rem;
+$spacing-desktop-4: 2rem;
+$spacing-desktop-5: 2.5rem;
+$spacing-desktop-6: 3rem;
+$spacing-desktop-7: 5rem;
+$spacing-desktop-8: 6rem;
+$spacing-desktop-base: 0.5rem;
+$spacing-desktop-auto: auto;
+$spacing-desktop-section-container-large: 12.5rem;
+$spacing-emneside-desktop-header-top: 25rem;
+$spacing-emneside-mobil-header-top: 12.5rem;
+$spacing-text-section-desktop-large: 25rem;
+$spacing-accordion-gab: 0.0625rem;
+$card-row-desktop-gap-y-large: 2rem;
+$card-row-desktop-gap-y-small: 1.5rem;
+$card-row-mobile-gap-y-large: 1.25rem;
+$card-row-mobile-gap-y-small: 0.75rem;
+$card-desktop-spacing-y: 2.5rem;
+$card-desktop-spacing-x: 2rem;
+$card-mobile-spacing-y: 1.25rem;
+$card-mobile-spacing-x: 1rem;
+$card-shadow: 0px 2px 8px -3px #0000001a;
+$typography-button-large: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1.125rem,
+      lineHeight: 1.575rem,
+      fontWeight: 400,
+      letterSpacing: 0.0125rem
+    );
+$typography-button-small: (
+      fontFamily: var(--ff-primary),
+      fontSize: 0.75rem,
+      lineHeight: 1.05rem,
+      fontWeight: 400,
+      letterSpacing: 0.0125rem
+    );
+$typography-link-large: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1rem,
+      lineHeight: 1.4rem,
+      fontWeight: 400,
+      letterSpacing: 0.0125rem
+    );
+$typography-link-small: (
+      fontFamily: var(--ff-primary),
+      fontSize: 0.75rem,
+      lineHeight: 1.05rem,
+      fontWeight: 400,
+      letterSpacing: 0.0125rem
+    );
+$typography-mobile-title: (
+      fontFamily: var(--ff-primary),
+      fontSize: 3rem,
+      lineHeight: 3.6rem,
+      fontWeight: 200,
+      letterSpacing: 0.021875rem
+    );
+$typography-mobile-h1: (
+      fontFamily: var(--ff-primary),
+      fontSize: 2.25rem,
+      lineHeight: 2.475rem,
+      fontWeight: 200,
+      letterSpacing: 0.021875rem
+    );
+$typography-mobile-h2: (
+      fontFamily: var(--ff-primary),
+      fontSize: 2rem,
+      lineHeight: 2.2rem,
+      fontWeight: 200,
+      letterSpacing: 0.00625rem
+    );
+$typography-mobile-h3: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1.75rem,
+      lineHeight: 1.925rem,
+      fontWeight: 200,
+      letterSpacing: 0.00625rem
+    );
+$typography-mobile-h4: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1.25rem,
+      lineHeight: 1.5rem,
+      fontWeight: 200,
+      letterSpacing: 0.00625rem
+    );
+$typography-mobile-h5: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1rem,
+      lineHeight: 1.3rem,
+      fontWeight: 200,
+      letterSpacing: 0.00625rem
+    );
+$typography-mobile-h6: (
+      fontFamily: var(--ff-primary),
+      fontSize: 0.875rem,
+      lineHeight: 1.1375rem,
+      fontWeight: 200,
+      letterSpacing: 0.00625rem
+    );
+$typography-mobile-body: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1rem,
+      lineHeight: 1.6rem,
+      fontWeight: 200,
+      letterSpacing: 0.0125rem
+    );
+$typography-mobile-body-bold: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1rem,
+      lineHeight: 1.6rem,
+      fontWeight: 400,
+      letterSpacing: 0.0125rem
+    );
+$typography-mobile-app-xxsmall: (
+      fontFamily: var(--ff-primary),
+      fontSize: 0.75rem,
+      lineHeight: 1.2rem,
+      fontWeight: 200,
+      letterSpacing: 0.0125rem
+    );
+$typography-mobile-app-xxsmall-bold: (
+      fontFamily: var(--ff-primary),
+      fontSize: 0.75rem,
+      lineHeight: 1.2rem,
+      fontWeight: 400,
+      letterSpacing: 0.0125rem
+    );
+$typography-tablet-title: (
+      fontFamily: var(--ff-primary),
+      fontSize: 3.5rem,
+      lineHeight: 3.85rem,
+      fontWeight: 200,
+      letterSpacing: 0.021875rem
+    );
+$typography-tablet-h1: (
+      fontFamily: var(--ff-primary),
+      fontSize: 2.625rem,
+      lineHeight: 2.8875rem,
+      fontWeight: 200,
+      letterSpacing: 0.021875rem
+    );
+$typography-tablet-h2: (
+      fontFamily: var(--ff-primary),
+      fontSize: 2.375rem,
+      lineHeight: 2.6125rem,
+      fontWeight: 200,
+      letterSpacing: 0.00625rem
+    );
+$typography-tablet-h3: (
+      fontFamily: var(--ff-primary),
+      fontSize: 2rem,
+      lineHeight: 2.2rem,
+      fontWeight: 200,
+      letterSpacing: 0.00625rem
+    );
+$typography-tablet-h4: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1.25rem,
+      lineHeight: 2rem,
+      fontWeight: 200,
+      letterSpacing: 0.00625rem
+    );
+$typography-tablet-h5: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1rem,
+      lineHeight: 1.6rem,
+      fontWeight: 200,
+      letterSpacing: 0.00625rem
+    );
+$typography-tablet-h6: (
+      fontFamily: var(--ff-primary),
+      fontSize: 0.875rem,
+      lineHeight: 1.4rem,
+      fontWeight: 200,
+      letterSpacing: 0.00625rem
+    );
+$typography-tablet-body: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1.0625rem,
+      lineHeight: 1.7rem,
+      fontWeight: 200,
+      letterSpacing: 0.0125rem
+    );
+$typography-desktop-title: (
+      fontFamily: var(--ff-primary),
+      fontSize: 4rem,
+      lineHeight: 6rem,
+      fontWeight: 200,
+      letterSpacing: 0.021875rem
+    );
+$typography-desktop-h1: (
+      fontFamily: var(--ff-primary),
+      fontSize: 2.875rem,
+      lineHeight: 3.1625rem,
+      fontWeight: 200,
+      letterSpacing: 0.021875rem
+    );
+$typography-desktop-h2: (
+      fontFamily: var(--ff-primary),
+      fontSize: 2.5rem,
+      lineHeight: 2.75rem,
+      fontWeight: 200,
+      letterSpacing: 0.00625rem
+    );
+$typography-desktop-h3: (
+      fontFamily: var(--ff-primary),
+      fontSize: 2rem,
+      lineHeight: 2.2rem,
+      fontWeight: 200,
+      letterSpacing: 0.00625rem
+    );
+$typography-desktop-h4: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1.5rem,
+      lineHeight: 1.95rem,
+      fontWeight: 200,
+      letterSpacing: 0.00625rem
+    );
+$typography-desktop-h5: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1rem,
+      lineHeight: 1.3rem,
+      fontWeight: 200,
+      letterSpacing: 0.00625rem
+    );
+$typography-desktop-h6: (
+      fontFamily: var(--ff-primary),
+      fontSize: 0.875rem,
+      lineHeight: 1.1375rem,
+      fontWeight: 200,
+      letterSpacing: 0.00625rem
+    );
+$typography-desktop-body: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1.125rem,
+      lineHeight: 1.8rem,
+      fontWeight: 200,
+      letterSpacing: 0.0125rem
+    );
+$typography-desktop-body-bold: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1.125rem,
+      lineHeight: 1.8rem,
+      fontWeight: 400,
+      letterSpacing: 0.0125rem
+    );
+$typography-base-xxlarge: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1.25rem,
+      lineHeight: 1.625rem,
+      fontWeight: 200,
+      letterSpacing: 0.0125rem
+    );
+$typography-base-xlarge: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1.1875rem,
+      lineHeight: 1.54375rem,
+      fontWeight: 200,
+      letterSpacing: 0.0125rem
+    );
+$typography-base-large: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1.0625rem,
+      lineHeight: 1.38125rem,
+      fontWeight: 200,
+      letterSpacing: 0.0125rem
+    );
+$typography-base-medium: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1rem,
+      lineHeight: 1.6rem,
+      fontWeight: 200,
+      letterSpacing: 0.0125rem
+    );
+$typography-base-small: (
+      fontFamily: var(--ff-primary),
+      fontSize: 0.875rem,
+      lineHeight: 1.4rem,
+      fontWeight: 200,
+      letterSpacing: 0.0125rem
+    );
+$typography-base-xsmall: (
+      fontFamily: var(--ff-primary),
+      fontSize: 0.8125rem,
+      lineHeight: 1.3rem,
+      fontWeight: 200,
+      letterSpacing: 0.0125rem
+    );
+$typography-base-xxsmall: (
+      fontFamily: var(--ff-primary),
+      fontSize: 0.75rem,
+      lineHeight: 1.2rem,
+      fontWeight: 200,
+      letterSpacing: 0.0125rem
+    );
+$typography-base-xxxsmall: (
+      fontFamily: var(--ff-primary),
+      fontSize: 0.625rem,
+      lineHeight: 1rem,
+      fontWeight: 200,
+      letterSpacing: 0.0125rem
+    );
+$typography-base-medium-bold: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1rem,
+      lineHeight: 1.6rem,
+      fontWeight: 400,
+      letterSpacing: 0.0125rem
+    );
+$typography-base-large-bold: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1.0625rem,
+      lineHeight: 1.38125rem,
+      fontWeight: bold,
+      letterSpacing: 0.0125rem
+    );
+$typography-footer-linklist: (
+      fontFamily: var(--ff-primary),
+      fontSize: 0.875rem,
+      lineHeight: 1.6625rem,
+      fontWeight: 200,
+      letterSpacing: 0.0125rem
+    );
+$typography-toast-mobile-header: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1rem,
+      lineHeight: 1.5rem,
+      fontWeight: 400,
+      letterSpacing: 0.0125rem
+    );
+$typography-toast-mobile-text: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1rem,
+      lineHeight: 1.4rem,
+      fontWeight: 200,
+      letterSpacing: 0.015625rem
+    );
+$typography-toast-desktop-text: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1.125rem,
+      lineHeight: 1.575rem,
+      fontWeight: 200,
+      letterSpacing: 0.015625rem
+    );
+$typography-toast-desktop-header: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1.125rem,
+      lineHeight: 1.575rem,
+      fontWeight: 400,
+      letterSpacing: 0.015625rem
+    );
+$typography-toast-tablet-text: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1.0625rem,
+      lineHeight: 1.59375rem,
+      fontWeight: 200,
+      letterSpacing: 0.015625rem
+    );
+$typography-section-small-title: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1.0625rem,
+      lineHeight: 1.275rem,
+      fontWeight: 400,
+      letterSpacing: 0.0125rem
+    );
+$typography-section-small-body: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1rem,
+      lineHeight: 1.5rem,
+      fontWeight: 200,
+      letterSpacing: 0.0125rem
+    );
+$typography-section-large-body: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1.0625rem,
+      lineHeight: 1.59375rem,
+      fontWeight: 200,
+      letterSpacing: 0.0125rem
+    );
+$typography-section-large-title: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1.0625rem,
+      lineHeight: 1.275rem,
+      fontWeight: 400,
+      letterSpacing: 0.0125rem
+    );
+$typography-input-small-label: (
+      fontFamily: var(--ff-primary),
+      fontSize: 0.875rem,
+      lineHeight: 1.225rem,
+      fontWeight: 200,
+      letterSpacing: 0.015625rem
+    );
+$typography-input-small-fix: (
+      fontFamily: var(--ff-primary),
+      fontSize: 0.75rem,
+      lineHeight: 1.05rem,
+      fontWeight: 200,
+      letterSpacing: 0.015625rem
+    );
+$typography-input-small-body: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1rem,
+      lineHeight: 1.4rem,
+      fontWeight: 200,
+      letterSpacing: 0.015625rem
+    );
+$typography-input-small-descriptive: (
+      fontFamily: var(--ff-primary),
+      fontSize: 0.75rem,
+      lineHeight: 1.05rem,
+      fontWeight: 200,
+      letterSpacing: 0.015625rem
+    );
+$typography-input-medium-fix: (
+      fontFamily: var(--ff-primary),
+      fontSize: 0.875rem,
+      lineHeight: 1.225rem,
+      fontWeight: 200,
+      letterSpacing: 0.015625rem
+    );
+$typography-input-medium-body: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1rem,
+      lineHeight: 1.4rem,
+      fontWeight: 200,
+      letterSpacing: 0.015625rem
+    );
+$typography-input-medium-label: (
+      fontFamily: var(--ff-primary),
+      fontSize: 0.875rem,
+      lineHeight: 1.225rem,
+      fontWeight: 200,
+      letterSpacing: 0.015625rem
+    );
+$typography-input-medium-descriptive: (
+      fontFamily: var(--ff-primary),
+      fontSize: 0.75rem,
+      lineHeight: 1.05rem,
+      fontWeight: 200,
+      letterSpacing: 0.015625rem
+    );
+$typography-input-large-fix: (
+      fontFamily: var(--ff-primary),
+      fontSize: 0.875rem,
+      lineHeight: 1.225rem,
+      fontWeight: 200,
+      letterSpacing: 0.015625rem
+    );
+$typography-input-large-body: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1.125rem,
+      lineHeight: 1.575rem,
+      fontWeight: 200,
+      letterSpacing: 0.015625rem
+    );
+$typography-input-large-label: (
+      fontFamily: var(--ff-primary),
+      fontSize: 0.875rem,
+      lineHeight: 1.225rem,
+      fontWeight: 200,
+      letterSpacing: 0.015625rem
+    );
+$typography-input-large-descriptive: (
+      fontFamily: var(--ff-primary),
+      fontSize: 0.875rem,
+      lineHeight: 1.225rem,
+      fontWeight: 200,
+      letterSpacing: 0.015625rem
+    );
+$typography-dropdown-small-label: (
+      fontFamily: var(--ff-primary),
+      fontSize: 0.75rem,
+      lineHeight: 1.05rem,
+      fontWeight: 200,
+      letterSpacing: 0.015625rem
+    );
+$typography-dropdown-small-description: (
+      fontFamily: var(--ff-primary),
+      fontSize: 0.625rem,
+      lineHeight: 0.875rem,
+      fontWeight: 200,
+      letterSpacing: 0.015625rem
+    );
+$typography-dropdown-small-fix: (
+      fontFamily: var(--ff-primary),
+      fontSize: 0.75rem,
+      lineHeight: 1.05rem,
+      fontWeight: 200,
+      letterSpacing: 0.015625rem
+    );
+$typography-dropdown-small-body: (
+      fontFamily: var(--ff-primary),
+      fontSize: 0.875rem,
+      lineHeight: 1.225rem,
+      fontWeight: 200,
+      letterSpacing: 0.015625rem
+    );
+$typography-dropdown-small-body-input: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1rem,
+      lineHeight: 1.4rem,
+      fontWeight: 400,
+      letterSpacing: 0.015625rem
+    );
+$typography-dropdown-medium-label: (
+      fontFamily: var(--ff-primary),
+      fontSize: 0.875rem,
+      lineHeight: 1.225rem,
+      fontWeight: 200,
+      letterSpacing: 0.015625rem
+    );
+$typography-dropdown-medium-description: (
+      fontFamily: var(--ff-primary),
+      fontSize: 0.75rem,
+      lineHeight: 1.05rem,
+      fontWeight: 200,
+      letterSpacing: 0.015625rem
+    );
+$typography-dropdown-medium-fix: (
+      fontFamily: var(--ff-primary),
+      fontSize: 0.75rem,
+      lineHeight: 1.05rem,
+      fontWeight: 200,
+      letterSpacing: 0.015625rem
+    );
+$typography-dropdown-medium-body: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1rem,
+      lineHeight: 1.4rem,
+      fontWeight: 200,
+      letterSpacing: 0.015625rem
+    );
+$typography-dropdown-large-label: (
+      fontFamily: var(--ff-primary),
+      fontSize: 0.875rem,
+      lineHeight: 1.225rem,
+      fontWeight: 200,
+      letterSpacing: 0.015625rem
+    );
+$typography-dropdown-large-description: (
+      fontFamily: var(--ff-primary),
+      fontSize: 0.875rem,
+      lineHeight: 1.225rem,
+      fontWeight: 200,
+      letterSpacing: 0.015625rem
+    );
+$typography-dropdown-large-fix: (
+      fontFamily: var(--ff-primary),
+      fontSize: 0.75rem,
+      lineHeight: 1.05rem,
+      fontWeight: 200,
+      letterSpacing: 0.015625rem
+    );
+$typography-dropdown-large-body: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1.125rem,
+      lineHeight: 1.575rem,
+      fontWeight: 200,
+      letterSpacing: 0.015625rem
+    );
+$typography-checkbox-small-body: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1rem,
+      lineHeight: 1.4rem,
+      fontWeight: 200,
+      letterSpacing: 0.015625rem
+    );
+$typography-toggle-small-body: (
+      fontFamily: var(--ff-primary),
+      fontSize: 0.875rem,
+      lineHeight: 1.225rem,
+      fontWeight: 200,
+      letterSpacing: 0.015625rem
+    );
+$typography-dialog-large-title: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1.25rem,
+      lineHeight: 1.75rem,
+      fontWeight: 400,
+      letterSpacing: 0.015625rem
+    );
+$typography-dialog-large-body: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1rem,
+      lineHeight: 1.4rem,
+      fontWeight: 400,
+      letterSpacing: 0.015625rem
+    );
+$typography-tag-text: (
+      fontFamily: var(--ff-primary),
+      fontSize: 0.75rem,
+      lineHeight: 0.825rem,
+      fontWeight: 200,
+      letterSpacing: 0.015625rem
+    );
+$typography-tag-text-medium: (
+      fontFamily: var(--ff-primary),
+      fontSize: 0.875rem,
+      lineHeight: 0.9625rem,
+      fontWeight: 200,
+      letterSpacing: 0.015625rem
+    );
+$typography-tag-text-large: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1rem,
+      lineHeight: 1.1rem,
+      fontWeight: 200,
+      letterSpacing: 0.015625rem
+    );
+$typography-navigation-desktop-global: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1rem,
+      lineHeight: 1.6rem,
+      fontWeight: 400,
+      letterSpacing: 0.0125rem
+    );
+$typography-navigation-desktop-dropdown: (
+      fontFamily: var(--ff-primary),
+      fontSize: 0.875rem,
+      lineHeight: 1.6625rem,
+      fontWeight: 200,
+      letterSpacing: 0.0125rem
+    );
+$typography-navigation-desktop-dropdown-active: (
+      fontFamily: var(--ff-primary),
+      fontSize: 0.875rem,
+      lineHeight: 1.6625rem,
+      fontWeight: bold,
+      letterSpacing: 0.0125rem
+    );
+$button-align-center: center;
+$button-align-left: left;
+$button-align-right: right;
+$link-align-center: center;
+$link-align-left: left;
+$link-align-right: right;
+$border-radius-button-large: 1.75rem;
+$border-radius-button-small: 1.5rem;
+$border-radius-sm: 0.25rem;
+$border-radius-md: 0.375rem;
+$border-radius-xl: 1.5rem;
+$border-radius-lg: 0.5rem;
+$border-radius-round: 50%;
+$border-radius-xlg: 1rem;
+$font-family-primary: var(--ff-primary);
+$font-family-secondary: var(--ff-secondary);
+$font-size-mobile-title: 3rem;
+$font-size-mobile-h1: 2.25rem;
+$font-size-mobile-h2: 2rem;
+$font-size-mobile-h3: 1.75rem;
+$font-size-mobile-h4: 1.25rem;
+$font-size-mobile-h5: 1rem;
+$font-size-mobile-h6: 0.875rem;
+$font-size-mobile-body: 1rem;
+$font-size-tablet-title: 3.5rem;
+$font-size-tablet-h1: 2.625rem;
+$font-size-tablet-h2: 2.375rem;
+$font-size-tablet-h3: 2rem;
+$font-size-tablet-h4: 1.25rem;
+$font-size-tablet-h5: 1rem;
+$font-size-tablet-h6: 0.875rem;
+$font-size-tablet-body: 1.0625rem;
+$font-size-desktop-title: 4rem;
+$font-size-desktop-h1: 2.875rem;
+$font-size-desktop-h2: 2.5rem;
+$font-size-desktop-h3: 2rem;
+$font-size-desktop-h4: 1.5rem;
+$font-size-desktop-h5: 1rem;
+$font-size-desktop-h6: 0.875rem;
+$font-size-desktop-body: 1.125rem;
+$font-size-base-xxxsmall: 0.625rem;
+$font-size-base-xxsmall: 0.75rem;
+$font-size-base-xsmall: 0.8125rem;
+$font-size-base-small: 0.875rem;
+$font-size-base-medium: 1rem;
+$font-size-base-large: 1.0625rem;
+$font-size-base-xlarge: 1.1875rem;
+$font-size-base-xxlarge: 1.25rem;
+$letter-spacing-xxs: -0.00625rem;
+$letter-spacing-xs: 0.00625rem;
+$letter-spacing-sm: 0.0125rem;
+$letter-spacing-md: 0.015625rem;
+$letter-spacing-lg: 0.01875rem;
+$letter-spacing-xl: 0.021875rem;
+$line-height-0: 0.2;
+$line-height-1: 1.1;
+$line-height-2: 1.2;
+$line-height-3: 1.3;
+$line-height-4: 1.4000000000000001;
+$line-height-5: 1.5;
+$line-height-6: 1.6;
+$line-height-7: 1.7;
+$line-height-8: 1.8;
+$line-height-9: 1.9000000000000001;
+$font-weight-regular: 200;
+$font-weight-medium: 400;
+$font-weight-bold: bold;
+$size-breakpoint-mobile: 36rem;
+$size-breakpoint-mobile-portrait: 23.4375rem;
+$size-breakpoint-tablet-portait: 48rem;
+$size-breakpoint-tablet: 61.875rem;
+$size-breakpoint-desktop-small: 80rem;
+$size-breakpoint-desktop: 90rem;
+$size-breakpoint-widescreen: 117.5rem;
+$size-breakpoint-mobile-portrait-small: 20rem;
+$size-icon-xxs: 0.5rem;
+$size-icon-xs: 1rem;
+$size-icon-sm: 1.5rem;
+$size-icon-md: 2rem;
+$size-icon-lg: 2.5rem;
+$size-icon-xl: 3.75rem;
+$size-icon-xxl: 5rem;
+$size-icon-xxxl: 8rem;
+$border-sm: 0.0625rem;
+$border-md: 0.125rem;
+$border-lg: 0.25rem;
+$opacity-button-disabled: 0.5;
+$opacity-input-disabled: 0.5;
+$opacity-checkbox-disabled: 0.5;
+$opacity-toggle-disabled: 0.5;
+$opacity-base-box-background: 0.5;
+$input-shadow-active: 0px 0px 0px 3px #FCEDE8;
+$input-shadow-valid: 0px 0px 0px 3px #CFE6E1;
+$input-shadow-blue-hover: 0px 0px 0px 3px #CEE0F6;
+$dropdown-shadow-active-blue: 0px 0px 0px 1px #b9d3e9;
+$checkbox-shadow-red-hover: 0px 0px 0px 1px #FCEDE8;
+$checkbox-shadow-red-focused: 0px 0px 0px 1px #FCEDE8;
+$toggle-shadow-red-hover: 0px 0px 0px 1px #FCEDE8;
+$toggle-shadow-blue-hover: 0px 0px 0px 1px #CEE0F6;
+$toggle-icon-shadow: -0.5px 0px 2px 0px #3a0e0e3d;
+$dialog-shadow: 0px 10px 15px -3px #0000001a;
+$basic-shadow: 0px 3px 10px 0px #0000001a;

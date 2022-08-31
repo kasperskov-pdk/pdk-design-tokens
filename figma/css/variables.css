@@ -1,0 +1,1022 @@
+/**
+ * Do not edit directly
+ * Generated on Tue, 17 May 2022 06:12:59 GMT
+ */
+
+:root {
+  --color-section-white: #ffffff;
+  --color-section-light: #edf5fb;
+  --color-section-dark: #132d4f;
+  --color-section-aurora: #ffffff;
+  --color-button-background-primary-base: #dd0d0b;
+  --color-button-background-primary-hover: #e54948;
+  --color-button-background-primary-pressed: #b90e0d;
+  --color-button-background-primary-red-hover: #e54948;
+  --color-button-background-primary-red-pressed: #b90e0d;
+  --color-button-background-secondary-base: #fcede8;
+  --color-button-background-secondary-hover: #ffc6c6;
+  --color-button-background-secondary-pressed: #f99591;
+  --color-button-background-secondary-red-base: #fcede8;
+  --color-button-background-secondary-red-hover: #ffc6c6;
+  --color-button-background-secondary-red-pressed: #f99591;
+  --color-button-background-inverted-white-base: #ffffff;
+  --color-button-text-primary: #ffffff;
+  --color-button-text-secondary: #dd0d0b;
+  --color-button-text-inverted: #132d4f;
+  --color-button-text-blue: #132d4f;
+  --color-button-text-red: #dd0d0b;
+  --color-button-text-white: #ffffff;
+  --color-button-text-link: #0052cc;
+  --color-link-primary-base: #dd0d0b;
+  --color-link-primary-hover: #e54948;
+  --color-link-primary-pressed: #b90e0d;
+  --color-link-secondary-base: #0052cc;
+  --color-link-secondary-hover: #132d4f;
+  --color-link-secondary-pressed: #77b7e3;
+  --color-link-inverted-base: #ffffff;
+  --color-link-inverted-hover: #b9d3e9;
+  --color-link-inverted-pressed: #ffffff;
+  --color-base-blue-100: #edf5fb;
+  --color-base-blue-200: #cee0f6;
+  --color-base-blue-300: #b9d3e9;
+  --color-base-blue-500: #77b7e3;
+  --color-base-blue-700: #0052cc;
+  --color-base-blue-800: #4e617b;
+  --color-base-blue-900: #132d4f;
+  --color-base-grey-100: #f9f9f9;
+  --color-base-grey-200: #f0f2f3;
+  --color-base-grey-300: #9e9ea6;
+  --color-base-grey-400: #6e6d79;
+  --color-base-grey-500: #888888;
+  --color-base-red-100: #fcede8;
+  --color-base-red-200: #ffc6c6;
+  --color-base-red-300: #f99591;
+  --color-base-red-400: #e54948;
+  --color-base-red-600: #dd0d0b;
+  --color-base-red-700: #b90e0d;
+  --color-base-green-100: #e8f4f4;
+  --color-base-green-200: #cfe6e1;
+  --color-base-green-300: #006c6c;
+  --color-base-yellow-100: #fff7e1;
+  --color-base-yellow-200: #a06001;
+  --color-base-purple-100: #eae6ff;
+  --color-base-purple-200: #403294;
+  --color-base-white-100: #ffffff;
+  --color-base-white-200: #ffffff;
+  --color-base-orange-100: #fff3e9;
+  --color-base-orange-200: #ee7d52;
+  --color-base-orange-300: #cc3e08;
+  --color-base-orange-400: #b73504;
+  --color-signal-background-info: #edf5fb;
+  --color-signal-background-valid: #e8f4f4;
+  --color-signal-background-yellow: #fff7e1;
+  --color-signal-background-error: #fcede8;
+  --color-signal-background-question: #eae6ff;
+  --color-signal-background-neutral: #f9f9f9;
+  --color-signal-icon-signal-info: #132d4f;
+  --color-signal-icon-signal-valid: #006c6c;
+  --color-signal-icon-signal-yellow: #a06001;
+  --color-signal-icon-signal-error: #b90e0d;
+  --color-signal-icon-signal-question: #403294;
+  --color-signal-icon-signal-neutral: #9e9ea6;
+  --color-background-blue-light: #edf5fb;
+  --color-background-blue: #77b7e3;
+  --color-background-blue-dark: #132d4f;
+  --color-background-white: #ffffff;
+  --color-background-transparent-white: #ffffff;
+  --color-text-header-primary: #132d4f;
+  --color-text-header-inverted: #ffffff;
+  --color-text-body-primary: #4e617b;
+  --color-text-body-inverted: #ffffff;
+  --color-input-background-white: #ffffff;
+  --color-input-background-filled: #edf5fb;
+  --color-input-background-invalid: #fff3e9;
+  --color-input-background-default: #f0f2f3;
+  --color-input-background-filled-blue: #cee0f6;
+  --color-input-background-disabled: #f0f2f3;
+  --color-input-border-hover: #f0f2f3;
+  --color-input-border-active: #ffc6c6;
+  --color-input-border-valid: #006c6c;
+  --color-input-border-invalid: #ee7d52;
+  --color-input-border-active-blue: #77b7e3;
+  --color-input-border-disabled: #9e9ea6;
+  --color-input-border-default: #f0f2f3;
+  --color-input-border-active-search: #dd0d0b;
+  --color-input-text-blue: #132d4f;
+  --color-input-text-grey: #6e6d79;
+  --color-input-text-red: #dd0d0b;
+  --color-input-text-green: #006c6c;
+  --color-input-text-orange: #b73504;
+  --color-input-text-orange-copy: #cc3e08;
+  --color-dropdown-text-blue: #132d4f;
+  --color-dropdown-text-grey: #6e6d79;
+  --color-dropdown-text-red: #dd0d0b;
+  --color-dropdown-text-primary: #4e617b;
+  --color-dropdown-text-fix: #9e9ea6;
+  --color-dropdown-text-active: #77b7e3;
+  --color-dropdown-icon-blue: #4e617b;
+  --color-dropdown-icon-active: #77b7e3;
+  --color-dropdown-icon-blue-dark: #132d4f;
+  --color-dropdown-background-blue: #edf5fb;
+  --color-dropdown-background-white: #ffffff;
+  --color-dropdown-border-active-blue: #77b7e3;
+  --color-toggle-border-grey: #f0f2f3;
+  --color-toggle-border-red-200: #ffc6c6;
+  --color-toggle-border-red: #dd0d0b;
+  --color-toggle-border-grey-dark: #9e9ea6;
+  --color-toggle-border-blue-dark: #4e617b;
+  --color-toggle-border-blue: #132d4f;
+  --color-toggle-border-blue-light: #77b7e3;
+  --color-toggle-fill-red: #dd0d0b;
+  --color-toggle-fill-grey: #f0f2f3;
+  --color-toggle-fill-grey-dark: #888888;
+  --color-toggle-fill-blue: #132d4f;
+  --color-toggle-fill-white: #ffffff;
+  --color-toggle-fill-blue-light: #77b7e3;
+  --color-toggle-fill-red-light: #fcede8;
+  --color-toggle-fill-blue-light-off: #cee0f6;
+  --color-toggle-text-blue: #132d4f;
+  --color-checkbox-fill-white: #ffffff;
+  --color-checkbox-fill-grey: #f0f2f3;
+  --color-checkbox-fill-red: #dd0d0b;
+  --color-checkbox-fill-grey-400: #6e6d79;
+  --color-checkbox-border-red-200: #ffc6c6;
+  --color-checkbox-border-grey-300: #f0f2f3;
+  --color-tooltip-text-dark-blue: #132d4f;
+  --color-tooltip-text-primary: #4e617b;
+  --color-tooltip-text-white: #ffffff;
+  --color-tooltip-background-blue-light: #edf5fb;
+  --color-tooltip-background-dark-blue: #132d4f;
+  --color-tooltip-background-white: #ffffff;
+  --color-tag-fill-orange: #b73504;
+  --color-tag-fill-blue: #132d4f;
+  --color-tag-fill-green: #006c6c;
+  --color-tag-background-orange: #fff3e9;
+  --color-tag-background-blue: #edf5fb;
+  --color-tag-background-green: #e8f4f4;
+  --color-avatar-bakcground-dark-blue: #132d4f;
+  --color-avatar-bakcground-light-blue: #cee0f6;
+  --color-avatar-bakcground-red: #fcede8;
+  --color-avatar-bakcground-grey: #f0f2f3;
+  --color-avatar-fill-light-blue: #edf5fb;
+  --color-avatar-fill-dark-blue: #132d4f;
+  --color-avatar-fill-red: #dd0d0b;
+  --color-avatar-fill-grey: #9e9ea6;
+  --color-graph-main-blue: #77b7e3;
+  --color-graph-main-green: #479390;
+  --color-graph-main-red: #a81d57;
+  --color-graph-main-yellow: #f9c64e;
+  --color-graph-main-purple: #784b97;
+  --color-graph-main-gold: #a3a599;
+  --color-graph-light-green: #55aea5;
+  --color-graph-light-red: #c7638d;
+  --color-graph-light-yellow: #f2d899;
+  --color-graph-light-purple: #b391cb;
+  --color-graph-light-gold: #bfbfbd;
+  --spacing-container-desktop-padding-x-small: 40px;
+  --spacing-container-desktop-padding-x-large: 80px;
+  --spacing-container-desktop-padding-x-xlarge: 116px;
+  --spacing-container-desktop-padding-x-xxlarge: 220px;
+  --spacing-container-desktop-padding-x-xxxlarge: 280px;
+  --spacing-container-desktop-padding-x-xxxxlarge: 400px;
+  --spacing-container-desktop-padding-x-none: 0px;
+  --spacing-container-desktop-padding-y-small: 40px;
+  --spacing-container-desktop-padding-y-large: 80px;
+  --spacing-container-desktop-padding-y-none: 0px;
+  --spacing-container-desktop-gap-y-small: 16px;
+  --spacing-container-desktop-gap-y-medium: 24px;
+  --spacing-container-desktop-gap-y-large: 40px;
+  --spacing-container-mobile-padding-x-small: 16px;
+  --spacing-container-mobile-padding-x-large: 20px;
+  --spacing-container-mobile-padding-x-xlarge: 20px;
+  --spacing-container-mobile-padding-x-xxxlarge: 20px;
+  --spacing-container-mobile-padding-x-xxxxlarge: 200px;
+  --spacing-container-mobile-padding-x-none: 0px;
+  --spacing-container-mobile-padding-y-small: 20px;
+  --spacing-container-mobile-padding-y-large: 40px;
+  --spacing-container-mobile-padding-y-none: 0px;
+  --spacing-container-mobile-gap-y-small: 12px;
+  --spacing-container-mobile-gap-y-medium: 16px;
+  --spacing-container-mobile-gap-y-large: 24px;
+  --spacing-grid-desktop-gap-small: 24px;
+  --spacing-grid-desktop-gap-medium: 32px;
+  --spacing-grid-desktop-gap-large: 40px;
+  --spacing-grid-mobile-gap-small: 20px;
+  --spacing-grid-mobile-gap-medium: 32px;
+  --spacing-grid-mobile-gap-large: 48px;
+  --spacing-card-item-gap-y-small: 8px;
+  --spacing-card-item-gap-y-medium: 12px;
+  --spacing-card-item-gap-y-large: 16px;
+  --spacing-card-row: 24px;
+  --spacing-button-large-x: 32px;
+  --spacing-button-large-y: 14px;
+  --spacing-button-large-gab: 8px;
+  --spacing-button-small-x: 24px;
+  --spacing-button-small-y: 12px;
+  --spacing-button-small-gab: 6px;
+  --spacing-link-gap-x: 8px;
+  --spacing-mobile-0: 0px;
+  --spacing-mobile-1: 4px;
+  --spacing-mobile-2: 8px;
+  --spacing-mobile-3: 12px;
+  --spacing-mobile-4: 16px;
+  --spacing-mobile-5: 20px;
+  --spacing-mobile-6: 24px;
+  --spacing-mobile-7: 32px;
+  --spacing-mobile-8: 48px;
+  --spacing-mobile-9: 80px;
+  --spacing-mobile-base: 4px;
+  --spacing-mobile-auto: auto;
+  --spacing-mobile-section-container-large: 24px;
+  --spacing-tablet-0: 0px;
+  --spacing-tablet-1: 4px;
+  --spacing-tablet-2: 8px;
+  --spacing-tablet-3: 12px;
+  --spacing-tablet-4: 16px;
+  --spacing-tablet-5: 20px;
+  --spacing-tablet-6: 24px;
+  --spacing-tablet-7: 32px;
+  --spacing-tablet-8: 48px;
+  --spacing-tablet-9: 80px;
+  --spacing-tablet-base: 4px;
+  --spacing-tablet-auto: auto;
+  --spacing-desktop-0: 0px;
+  --spacing-desktop-1: 8px;
+  --spacing-desktop-2: 16px;
+  --spacing-desktop-3: 24px;
+  --spacing-desktop-4: 32px;
+  --spacing-desktop-5: 40px;
+  --spacing-desktop-6: 48px;
+  --spacing-desktop-7: 80px;
+  --spacing-desktop-8: 96px;
+  --spacing-desktop-base: 8px;
+  --spacing-desktop-auto: auto;
+  --spacing-desktop-section-container-large: 200px;
+  --spacing-emneside-desktop-header-top: 400px;
+  --spacing-emneside-mobil-header-top: 200px;
+  --spacing-text-section-desktop-large: 400px;
+  --spacing-accordion-gab: 1px;
+  --sizing-container-small: 1200;
+  --sizing-container-medium: 1200;
+  --sizing-container-large: 1440;
+  --card-desktop-gap-y: 32;
+  --card-desktop-spacing-y: 40;
+  --card-desktop-spacing-x: 32;
+  --card-mobile-gap-y: 16;
+  --card-mobile-spacing-y: 20;
+  --card-mobile-spacing-x: 16;
+  --card-shadow: 0px 2px 8px -3px #0000001a;
+  --typography-button-large: (
+      fontWeight: 400,
+      fontSize: 16px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-button-small: (
+      fontWeight: 400,
+      fontSize: 12px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-button-primary-large: (
+      fontWeight: 400,
+      fontSize: 16px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-button-primary-medium: (
+      fontWeight: 400,
+      fontSize: 14px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-button-primary-small: (
+      fontWeight: 400,
+      fontSize: 12px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-button-secondary-large: (
+      fontWeight: 200,
+      fontSize: 16px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-button-secondary-medium: (
+      fontWeight: 200,
+      fontSize: 14px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-button-secondary-small: (
+      fontWeight: 200,
+      fontSize: 12px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-link-large: (
+      fontWeight: 400,
+      fontSize: 16px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-link-small: (
+      fontWeight: 400,
+      fontSize: 12px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-mobile-title: (
+      fontWeight: 200,
+      fontSize: 48px,
+      lineHeight: 1.2,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.021875rem
+    );
+  --typography-mobile-h1: (
+      fontWeight: 200,
+      fontSize: 36px,
+      lineHeight: 1.1,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.021875rem
+    );
+  --typography-mobile-h2: (
+      fontWeight: 200,
+      fontSize: 32px,
+      lineHeight: 1.1,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.00625rem
+    );
+  --typography-mobile-h3: (
+      fontWeight: 200,
+      fontSize: 28px,
+      lineHeight: 1.1,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.00625rem
+    );
+  --typography-mobile-h4: (
+      fontWeight: 200,
+      fontSize: 20px,
+      lineHeight: 1.2,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.00625rem
+    );
+  --typography-mobile-h5: (
+      fontWeight: 200,
+      fontSize: 16px,
+      lineHeight: 1.3,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.00625rem
+    );
+  --typography-mobile-h6: (
+      fontWeight: 200,
+      fontSize: 14px,
+      lineHeight: 1.3,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.00625rem
+    );
+  --typography-mobile-body: (
+      fontWeight: 200,
+      fontSize: 16px,
+      lineHeight: 1.6,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-mobile-body-bold: (
+      fontWeight: 400,
+      fontSize: 16px,
+      lineHeight: 1.6,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-mobile-app-xxsmall: (
+      fontWeight: 200,
+      fontSize: 12px,
+      lineHeight: 1.6,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-mobile-app-xxsmall-bold: (
+      fontWeight: 400,
+      fontSize: 12px,
+      lineHeight: 1.6,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-tablet-title: (
+      fontWeight: 200,
+      fontSize: 56px,
+      lineHeight: 1.1,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.021875rem
+    );
+  --typography-tablet-h1: (
+      fontWeight: 200,
+      fontSize: 42px,
+      lineHeight: 1.1,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.021875rem
+    );
+  --typography-tablet-h2: (
+      fontWeight: 200,
+      fontSize: 38px,
+      lineHeight: 1.1,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.00625rem
+    );
+  --typography-tablet-h3: (
+      fontWeight: 200,
+      fontSize: 32px,
+      lineHeight: 1.1,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.00625rem
+    );
+  --typography-tablet-h4: (
+      fontWeight: 200,
+      fontSize: 20px,
+      lineHeight: 1.6,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.00625rem
+    );
+  --typography-tablet-h5: (
+      fontWeight: 200,
+      fontSize: 16px,
+      lineHeight: 1.6,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.00625rem
+    );
+  --typography-tablet-h6: (
+      fontWeight: 200,
+      fontSize: 14px,
+      lineHeight: 1.6,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.00625rem
+    );
+  --typography-tablet-body: (
+      fontWeight: 200,
+      fontSize: 17px,
+      lineHeight: 1.6,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-desktop-title: (
+      fontWeight: 200,
+      fontSize: 64px,
+      lineHeight: 1.5,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.021875rem
+    );
+  --typography-desktop-h1: (
+      fontWeight: 200,
+      fontSize: 46px,
+      lineHeight: 1.1,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.021875rem
+    );
+  --typography-desktop-h2: (
+      fontWeight: 200,
+      fontSize: 40px,
+      lineHeight: 1.1,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.00625rem
+    );
+  --typography-desktop-h3: (
+      fontWeight: 200,
+      fontSize: 32px,
+      lineHeight: 1.1,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.00625rem
+    );
+  --typography-desktop-h4: (
+      fontWeight: 200,
+      fontSize: 24px,
+      lineHeight: 1.3,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.00625rem
+    );
+  --typography-desktop-h5: (
+      fontWeight: 200,
+      fontSize: 16px,
+      lineHeight: 1.3,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.00625rem
+    );
+  --typography-desktop-h6: (
+      fontWeight: 200,
+      fontSize: 14px,
+      lineHeight: 1.3,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.00625rem
+    );
+  --typography-desktop-body: (
+      fontWeight: 200,
+      fontSize: 18px,
+      lineHeight: 1.6,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-desktop-body-bold: (
+      fontWeight: 400,
+      fontSize: 18px,
+      lineHeight: 1.6,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-base-xxlarge: (
+      fontWeight: 200,
+      fontSize: 20px,
+      lineHeight: 1.3,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-base-xlarge: (
+      fontWeight: 200,
+      fontSize: 19px,
+      lineHeight: 1.3,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-base-large: (
+      fontWeight: 200,
+      fontSize: 17px,
+      lineHeight: 1.3,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-base-medium: (
+      fontWeight: 200,
+      fontSize: 16px,
+      lineHeight: 1.6,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-base-small: (
+      fontWeight: 200,
+      fontSize: 14px,
+      lineHeight: 1.6,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-base-xsmall: (
+      fontWeight: 200,
+      fontSize: 13px,
+      lineHeight: 1.6,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-base-xxsmall: (
+      fontWeight: 200,
+      fontSize: 12px,
+      lineHeight: 1.6,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-base-xxxsmall: (
+      fontWeight: 200,
+      fontSize: 10px,
+      lineHeight: 1.6,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-base-medium-bold: (
+      fontWeight: 400,
+      fontSize: 16px,
+      lineHeight: 1.6,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-base-large-bold: (
+      fontWeight: bold,
+      fontSize: 17px,
+      lineHeight: 1.3,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-footer-linklist: (
+      fontWeight: 200,
+      fontSize: 14px,
+      lineHeight: 1.9000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-toast-mobile-header: (
+      fontWeight: 400,
+      fontSize: 16px,
+      lineHeight: 1.5,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-toast-mobile-text: (
+      fontWeight: 200,
+      fontSize: 16px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-toast-desktop-text: (
+      fontWeight: 200,
+      fontSize: 18px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-toast-desktop-header: (
+      fontWeight: 400,
+      fontSize: 18px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-toast-tablet-text: (
+      fontWeight: 200,
+      fontSize: 17px,
+      lineHeight: 1.5,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-section-small-title: (
+      fontWeight: 400,
+      fontSize: 17px,
+      lineHeight: 1.2,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-section-small-body: (
+      fontWeight: 200,
+      fontSize: 16px,
+      lineHeight: 1.5,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-section-large-body: (
+      fontWeight: 200,
+      fontSize: 17px,
+      lineHeight: 1.5,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-section-large-title: (
+      fontWeight: 400,
+      fontSize: 17px,
+      lineHeight: 1.2,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-input-small-label: (
+      fontWeight: 200,
+      fontSize: 14px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-input-small-fix: (
+      fontWeight: 200,
+      fontSize: 12px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-input-small-body: (
+      fontWeight: 200,
+      fontSize: 16px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-input-small-descriptive: (
+      fontWeight: 200,
+      fontSize: 12px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-input-medium-fix: (
+      fontWeight: 200,
+      fontSize: 14px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-input-medium-body: (
+      fontWeight: 200,
+      fontSize: 16px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-input-medium-label: (
+      fontWeight: 200,
+      fontSize: 14px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-input-medium-descriptive: (
+      fontWeight: 200,
+      fontSize: 12px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-input-large-fix: (
+      fontWeight: 200,
+      fontSize: 14px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-input-large-body: (
+      fontWeight: 200,
+      fontSize: 18px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-input-large-label: (
+      fontWeight: 200,
+      fontSize: 14px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-input-large-descriptive: (
+      fontWeight: 200,
+      fontSize: 14px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-dropdown-small-label: (
+      fontWeight: 200,
+      fontSize: 12px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-dropdown-small-description: (
+      fontWeight: 200,
+      fontSize: 10px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-dropdown-small-fix: (
+      fontWeight: 200,
+      fontSize: 12px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-dropdown-small-body: (
+      fontWeight: 200,
+      fontSize: 14px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-dropdown-small-body-input: (
+      fontWeight: 400,
+      fontSize: 16px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-dropdown-medium-label: (
+      fontWeight: 200,
+      fontSize: 14px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-dropdown-medium-description: (
+      fontWeight: 200,
+      fontSize: 12px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-dropdown-medium-fix: (
+      fontWeight: 200,
+      fontSize: 12px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-dropdown-medium-body: (
+      fontWeight: 200,
+      fontSize: 16px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-dropdown-large-label: (
+      fontWeight: 200,
+      fontSize: 14px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-dropdown-large-description: (
+      fontWeight: 200,
+      fontSize: 14px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-dropdown-large-fix: (
+      fontWeight: 200,
+      fontSize: 12px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-dropdown-large-body: (
+      fontWeight: 200,
+      fontSize: 18px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-checkbox-small-body: (
+      fontWeight: 200,
+      fontSize: 16px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-toggle-small-body: (
+      fontWeight: 200,
+      fontSize: 14px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-dialog-large-title: (
+      fontWeight: 400,
+      fontSize: 20px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-dialog-large-body: (
+      fontWeight: 400,
+      fontSize: 16px,
+      lineHeight: 1.4000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-tag-text: (
+      fontWeight: 200,
+      fontSize: 12px,
+      lineHeight: 1.1,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-tag-text-medium: (
+      fontWeight: 200,
+      fontSize: 14px,
+      lineHeight: 1.1,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-tag-text-large: (
+      fontWeight: 200,
+      fontSize: 16px,
+      lineHeight: 1.1,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.015625rem
+    );
+  --typography-navigation-desktop-global: (
+      fontWeight: 400,
+      fontSize: 16px,
+      lineHeight: 1.6,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-navigation-desktop-dropdown: (
+      fontWeight: 200,
+      fontSize: 14px,
+      lineHeight: 1.9000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --typography-navigation-desktop-dropdown-active: (
+      fontWeight: bold,
+      fontSize: 14px,
+      lineHeight: 1.9000000000000001,
+      fontFamily: var(--ff-primary),
+      letterSpacing: 0.0125rem
+    );
+  --button-align-center: center;
+  --button-align-left: left;
+  --button-align-right: right;
+  --link-align-center: center;
+  --link-align-left: left;
+  --link-align-right: right;
+  --border-radius-button-large: 12px;
+  --border-radius-button-small: 24px;
+  --border-radius-sm: 4px;
+  --border-radius-md: 6px;
+  --border-radius-xl: 24px;
+  --border-radius-lg: 8px;
+  --border-radius-round: 50%;
+  --border-radius-xlg: 16px;
+  --font-family-primary: var(--ff-primary);
+  --font-family-secondary: var(--ff-secondary);
+  --font-size-mobile-title: 48px;
+  --font-size-mobile-h1: 36px;
+  --font-size-mobile-h2: 32px;
+  --font-size-mobile-h3: 28px;
+  --font-size-mobile-h4: 20px;
+  --font-size-mobile-h5: 16px;
+  --font-size-mobile-h6: 14px;
+  --font-size-mobile-body: 16px;
+  --font-size-tablet-title: 56px;
+  --font-size-tablet-h1: 42px;
+  --font-size-tablet-h2: 38px;
+  --font-size-tablet-h3: 32px;
+  --font-size-tablet-h4: 20px;
+  --font-size-tablet-h5: 16px;
+  --font-size-tablet-h6: 14px;
+  --font-size-tablet-body: 17px;
+  --font-size-desktop-title: 64px;
+  --font-size-desktop-h1: 46px;
+  --font-size-desktop-h2: 40px;
+  --font-size-desktop-h3: 32px;
+  --font-size-desktop-h4: 24px;
+  --font-size-desktop-h5: 16px;
+  --font-size-desktop-h6: 14px;
+  --font-size-desktop-body: 18px;
+  --font-size-base-xxxsmall: 10px;
+  --font-size-base-xxsmall: 12px;
+  --font-size-base-xsmall: 13px;
+  --font-size-base-small: 14px;
+  --font-size-base-medium: 16px;
+  --font-size-base-large: 17px;
+  --font-size-base-xlarge: 19px;
+  --font-size-base-xxlarge: 20px;
+  --letter-spacing-xxs: -0.00625rem;
+  --letter-spacing-xs: 0.00625rem;
+  --letter-spacing-sm: 0.0125rem;
+  --letter-spacing-md: 0.015625rem;
+  --letter-spacing-lg: 0.01875rem;
+  --letter-spacing-xl: 0.021875rem;
+  --line-height-0: 0.2;
+  --line-height-1: 1.1;
+  --line-height-2: 1.2;
+  --line-height-3: 1.3;
+  --line-height-4: 1.4000000000000001;
+  --line-height-5: 1.5;
+  --line-height-6: 1.6;
+  --line-height-7: 1.7;
+  --line-height-8: 1.8;
+  --line-height-9: 1.9000000000000001;
+  --font-weight-regular: 200;
+  --font-weight-medium: 400;
+  --font-weight-bold: bold;
+  --size-breakpoint-mobile: 576px;
+  --size-breakpoint-mobile-portrait: 375px;
+  --size-breakpoint-tablet-portait: 768px;
+  --size-breakpoint-tablet: 990px;
+  --size-breakpoint-desktop-small: 1280px;
+  --size-breakpoint-desktop: 1440px;
+  --size-breakpoint-widescreen: 1880px;
+  --size-breakpoint-mobile-portrait-small: 320px;
+  --size-icon-xxs: 8px;
+  --size-icon-xs: 16px;
+  --size-icon-sm: 24px;
+  --size-icon-md: 32px;
+  --size-icon-lg: 40px;
+  --size-icon-xl: 60px;
+  --size-icon-xxl: 80px;
+  --size-icon-xxxl: 128px;
+  --border-sm: 1px;
+  --border-md: 2px;
+  --border-lg: 4px;
+  --opacity-button-disabled: 0.5;
+  --opacity-input-disabled: 0.5;
+  --opacity-checkbox-disabled: 0.5;
+  --opacity-toggle-disabled: 0.5;
+  --opacity-base-box-background: 0.5;
+  --input-shadow-active: 0px 0px 0px 3px #FCEDE8;
+  --input-shadow-valid: 0px 0px 0px 3px #CFE6E1;
+  --input-shadow-blue-hover: 0px 0px 0px 3px #CEE0F6;
+  --dropdown-shadow-active-blue: 0px 0px 0px 1px #b9d3e9;
+  --checkbox-shadow-red-hover: 0px 0px 0px 1px #FCEDE8;
+  --checkbox-shadow-red-focused: 0px 0px 0px 1px #FCEDE8;
+  --toggle-shadow-red-hover: 0px 0px 0px 1px #FCEDE8;
+  --toggle-shadow-blue-hover: 0px 0px 0px 1px #CEE0F6;
+  --toggle-icon-shadow: -0.5px 0px 2px 0px #3a0e0e3d;
+  --dialog-shadow: 0px 10px 15px -3px #0000001a;
+  --basic-shadow: 0px 3px 10px 0px #0000001a;
+}
