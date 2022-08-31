@@ -545,7 +545,7 @@
     "toggle": {
       "border": {
         "grey": {
-          "value": "#F0F2F3",
+          "value": "#E1E5E8",
           "type": "color"
         },
         "red-200": {
@@ -574,36 +574,24 @@
         }
       },
       "fill": {
-        "red": {
+        "on": {
           "value": "#DD0D0B",
           "type": "color"
         },
         "grey": {
-          "value": "#F0F2F3",
+          "value": "#E1E5E8",
           "type": "color"
         },
-        "grey-dark": {
-          "value": "#888888",
-          "type": "color"
-        },
-        "blue": {
-          "value": "#132D4F",
+        "off": {
+          "value": "#9E9EA6",
           "type": "color"
         },
         "white": {
           "value": "#FFFFFF",
           "type": "color"
         },
-        "blue-light": {
-          "value": "#77B7E3",
-          "type": "color"
-        },
-        "red-light": {
-          "value": "#FCEDE8",
-          "type": "color"
-        },
-        "blue-light-off": {
-          "value": "#CEE0F6",
+        "on-hover": {
+          "value": "#F99591",
           "type": "color"
         }
       },
