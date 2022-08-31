@@ -32,31 +32,29 @@
             "type": "color"
           },
           "pressed": {
-            "value": "#B90E0D",
+            "value": "#e54948",
             "description": "Pressed",
             "type": "color"
           }
         },
         "secondary": {
           "base": {
-            "value": "#FCEDE8",
+            "value": "#FFFFFF",
             "type": "color"
           },
           "hover": {
-            "value": "#FFC6C6",
+            "value": "#6E6D79",
             "type": "color"
           },
           "pressed": {
-            "value": "#F99591",
+            "value": "#6E6D79",
             "type": "color"
           }
         },
-        "inverted": {
-          "white": {
-            "base": {
-              "value": "#ffffff",
-              "type": "color"
-            }
+        "tertiary": {
+          "hover": {
+            "value": "#FCEDE8",
+            "type": "color"
           }
         }
       },
@@ -67,14 +65,22 @@
           "type": "color"
         },
         "secondary": {
-          "value": "#DD0D0B",
+          "value": "#6E6D79",
           "description": "Base",
           "type": "color"
         },
         "inverted": {
           "value": "#132D4F",
           "type": "color"
+        },
+        "tertiary": {
+          "value": "#DD0D0B",
+          "type": "color"
         }
+      },
+      "stroke": {
+        "value": "#6E6D79",
+        "type": "color"
       }
     },
     "link": {
@@ -164,6 +170,10 @@
         },
         "200": {
           "value": "#F0F2F3",
+          "type": "color"
+        },
+        "250": {
+          "value": "#E1E5E8",
           "type": "color"
         },
         "300": {
@@ -398,7 +408,7 @@
       },
       "border": {
         "hover": {
-          "value": "#F0F2F3",
+          "value": "#CEE0F6",
           "type": "color"
         },
         "active": {
@@ -422,7 +432,7 @@
           "type": "color"
         },
         "default": {
-          "value": "#F0F2F3",
+          "value": "#E1E5E8",
           "type": "color"
         },
         "active-search": {
@@ -2012,9 +2022,9 @@
         "label": {
           "value": {
             "fontFamily": "DINOT",
-            "fontWeight": "Regular",
+            "fontWeight": "Medium",
             "lineHeight": "140%",
-            "fontSize": 14,
+            "fontSize": 18,
             "letterSpacing": 0.25,
             "paragraphSpacing": 0,
             "textDecoration": 0,
@@ -2781,11 +2791,12 @@
   "input": {
     "shadow-active": {
       "value": {
-        "color": "#FCEDE8",
-        "spread": 3,
-        "blur": 0,
+        "x": 0,
         "y": 0,
-        "x": 0
+        "blur": 0,
+        "spread": 3,
+        "color": "#77B7E3",
+        "type": "dropShadow"
       },
       "type": "boxShadow"
     },
@@ -2801,11 +2812,12 @@
     },
     "shadow-blue-hover": {
       "value": {
-        "color": "#CEE0F6",
-        "spread": 3,
-        "blur": 0,
+        "x": 0,
         "y": 0,
-        "x": 0
+        "blur": 0,
+        "spread": 3,
+        "color": "#EDF5FB",
+        "type": "dropShadow"
       },
       "type": "boxShadow"
     }

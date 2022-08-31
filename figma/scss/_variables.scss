@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Wed, 01 Jun 2022 11:07:45 GMT
+// Generated on Wed, 31 Aug 2022 12:25:56 GMT
 
 $color-section-white: #ffffff;
 $color-section-light: #edf5fb;
@@ -8,14 +8,16 @@ $color-section-dark: #132d4f;
 $color-section-aurora: #ffffff;
 $color-button-background-primary-base: #dd0d0b;
 $color-button-background-primary-hover: #e54948;
-$color-button-background-primary-pressed: #b90e0d;
-$color-button-background-secondary-base: #fcede8;
-$color-button-background-secondary-hover: #ffc6c6;
-$color-button-background-secondary-pressed: #f99591;
-$color-button-background-inverted-white-base: #ffffff;
+$color-button-background-primary-pressed: #e54948;
+$color-button-background-secondary-base: #ffffff;
+$color-button-background-secondary-hover: #6e6d79;
+$color-button-background-secondary-pressed: #6e6d79;
+$color-button-background-tertiary-hover: #fcede8;
 $color-button-text-primary: #ffffff;
-$color-button-text-secondary: #dd0d0b;
+$color-button-text-secondary: #6e6d79;
 $color-button-text-inverted: #132d4f;
+$color-button-text-tertiary: #dd0d0b;
+$color-button-stroke: #6e6d79;
 $color-link-primary-base: #dd0d0b;
 $color-link-primary-hover: #e54948;
 $color-link-primary-pressed: #b90e0d;
@@ -34,6 +36,7 @@ $color-base-blue-800: #4e617b;
 $color-base-blue-900: #132d4f;
 $color-base-grey-100: #f9f9f9;
 $color-base-grey-200: #f0f2f3;
+$color-base-grey-250: #e1e5e8;
 $color-base-grey-300: #9e9ea6;
 $color-base-grey-400: #6e6d79;
 $color-base-grey-500: #888888;
@@ -83,13 +86,13 @@ $color-input-background-invalid: #fff3e9;
 $color-input-background-default: #f0f2f3;
 $color-input-background-filled-blue: #cee0f6;
 $color-input-background-disabled: #f0f2f3;
-$color-input-border-hover: #f0f2f3;
+$color-input-border-hover: #cee0f6;
 $color-input-border-active: #ffc6c6;
 $color-input-border-valid: #006c6c;
 $color-input-border-invalid: #ee7d52;
 $color-input-border-active-blue: #77b7e3;
 $color-input-border-disabled: #9e9ea6;
-$color-input-border-default: #f0f2f3;
+$color-input-border-default: #e1e5e8;
 $color-input-border-active-search: #dd0d0b;
 $color-input-text-blue: #132d4f;
 $color-input-text-grey: #6e6d79;
@@ -690,9 +693,9 @@ $typography-input-large-body: (
     );
 $typography-input-large-label: (
       fontFamily: var(--ff-primary),
-      fontSize: 0.875rem,
-      lineHeight: 1.225rem,
-      fontWeight: 200,
+      fontSize: 1.125rem,
+      lineHeight: 1.575rem,
+      fontWeight: 400,
       letterSpacing: 0.015625rem
     );
 $typography-input-large-descriptive: (
@@ -954,9 +957,9 @@ $opacity-input-disabled: 0.5;
 $opacity-checkbox-disabled: 0.5;
 $opacity-toggle-disabled: 0.5;
 $opacity-base-box-background: 0.5;
-$input-shadow-active: 0px 0px 0px 3px #FCEDE8;
+$input-shadow-active: 0px 0px 0px 3px #77B7E3;
 $input-shadow-valid: 0px 0px 0px 3px #CFE6E1;
-$input-shadow-blue-hover: 0px 0px 0px 3px #CEE0F6;
+$input-shadow-blue-hover: 0px 0px 0px 3px #EDF5FB;
 $dropdown-shadow-active-blue: 0px 0px 0px 1px #b9d3e9;
 $checkbox-shadow-red-hover: 0px 0px 0px 1px #FCEDE8;
 $checkbox-shadow-red-focused: 0px 0px 0px 1px #FCEDE8;
