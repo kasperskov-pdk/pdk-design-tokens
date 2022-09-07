@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Wed, 31 Aug 2022 18:13:20 GMT
+// Generated on Wed, 07 Sep 2022 05:57:48 GMT
 
 $color-section-white: #ffffff;
 $color-section-light: #edf5fb;
@@ -24,9 +24,9 @@ $color-link-primary-pressed: #b90e0d;
 $color-link-secondary-base: #0052cc;
 $color-link-secondary-hover: #132d4f;
 $color-link-secondary-pressed: #77b7e3;
-$color-link-inverted-base: #000000;
+$color-link-inverted-base: #ffffff;
 $color-link-inverted-hover: #b9d3e9;
-$color-link-inverted-pressed: #000000;
+$color-link-inverted-pressed: #ffffff;
 $color-base-blue-100: #edf5fb;
 $color-base-blue-200: #cee0f6;
 $color-base-blue-300: #b9d3e9;
@@ -692,7 +692,7 @@ $typography-input-large-label: (
       fontFamily: var(--ff-primary),
       fontSize: 1.125rem,
       lineHeight: 1.575rem,
-      fontWeight: 400,
+      fontWeight: 200,
       letterSpacing: 0.015625rem
     );
 $typography-input-large-descriptive: (

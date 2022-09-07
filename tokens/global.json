@@ -117,18 +117,16 @@
       },
       "inverted": {
         "base": {
-          "value": "$color.button.text.white",
-          "type": "color",
-          "failedToResolve": true
+          "value": "#FFFFFF",
+          "type": "color"
         },
         "hover": {
           "value": "#b9d3e9",
           "type": "color"
         },
         "pressed": {
-          "value": "$color.button.text.white",
-          "type": "color",
-          "failedToResolve": true
+          "value": "#FFFFFF",
+          "type": "color"
         }
       }
     },
@@ -2010,7 +2008,7 @@
         "label": {
           "value": {
             "fontFamily": "DINOT",
-            "fontWeight": "Medium",
+            "fontWeight": "Regular",
             "lineHeight": "140%",
             "fontSize": 18,
             "letterSpacing": 0.25,
