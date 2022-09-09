@@ -1256,7 +1256,7 @@
           "fontFamily": "DINOT",
           "fontWeight": "Medium",
           "lineHeight": "140%",
-          "fontSize": 12,
+          "fontSize": 16,
           "letterSpacing": 0.2,
           "paragraphSpacing": 0
         },
@@ -1269,7 +1269,7 @@
           "fontFamily": "DINOT",
           "fontWeight": "Medium",
           "lineHeight": "140%",
-          "fontSize": 16,
+          "fontSize": 18,
           "letterSpacing": 0.2,
           "paragraphSpacing": 0
         },
@@ -1280,7 +1280,7 @@
           "fontFamily": "DINOT",
           "fontWeight": "Medium",
           "lineHeight": "140%",
-          "fontSize": 12,
+          "fontSize": 16,
           "letterSpacing": 0.2,
           "paragraphSpacing": 0
         },
@@ -2008,7 +2008,7 @@
         "label": {
           "value": {
             "fontFamily": "DINOT",
-            "fontWeight": "Medium",
+            "fontWeight": "Regular",
             "lineHeight": "140%",
             "fontSize": 18,
             "letterSpacing": 0.25,

@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Thu, 08 Sep 2022 14:01:24 GMT
+// Generated on Fri, 09 Sep 2022 07:27:43 GMT
 
 $color-section-white: #ffffff;
 $color-section-light: #edf5fb;
@@ -263,22 +263,22 @@ $typography-button-large: (
     );
 $typography-button-small: (
       fontFamily: var(--ff-primary),
-      fontSize: 0.75rem,
-      lineHeight: 1.05rem,
-      fontWeight: 400,
-      letterSpacing: 0.0125rem
-    );
-$typography-link-large: (
-      fontFamily: var(--ff-primary),
       fontSize: 1rem,
       lineHeight: 1.4rem,
       fontWeight: 400,
       letterSpacing: 0.0125rem
     );
+$typography-link-large: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1.125rem,
+      lineHeight: 1.575rem,
+      fontWeight: 400,
+      letterSpacing: 0.0125rem
+    );
 $typography-link-small: (
       fontFamily: var(--ff-primary),
-      fontSize: 0.75rem,
-      lineHeight: 1.05rem,
+      fontSize: 1rem,
+      lineHeight: 1.4rem,
       fontWeight: 400,
       letterSpacing: 0.0125rem
     );
@@ -692,7 +692,7 @@ $typography-input-large-label: (
       fontFamily: var(--ff-primary),
       fontSize: 1.125rem,
       lineHeight: 1.575rem,
-      fontWeight: 400,
+      fontWeight: 200,
       letterSpacing: 0.015625rem
     );
 $typography-input-large-descriptive: (
