@@ -56,6 +56,16 @@
             "value": "#FCEDE8",
             "type": "color"
           }
+        },
+        "inverted": {
+          "base": {
+            "value": "#FFFFFF",
+            "type": "color"
+          },
+          "hover": {
+            "value": "#EDF5FB",
+            "type": "color"
+          }
         }
       },
       "text": {
