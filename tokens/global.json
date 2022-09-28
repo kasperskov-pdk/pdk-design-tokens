@@ -56,6 +56,16 @@
             "value": "#FCEDE8",
             "type": "color"
           }
+        },
+        "inverted": {
+          "base": {
+            "value": "#FFFFFF",
+            "type": "color"
+          },
+          "hover": {
+            "value": "#EDF5FB",
+            "type": "color"
+          }
         }
       },
       "text": {
@@ -444,9 +454,8 @@
           "description": "",
           "type": "color"
         },
-        "grey": {
-          "value": "#6E6D79",
-          "description": "",
+        "placeholder": {
+          "value": "#9E9EA6",
           "type": "color"
         },
         "red": {
