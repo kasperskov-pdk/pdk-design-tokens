@@ -698,6 +698,10 @@
         "green": {
           "value": "#E8F4F4",
           "type": "color"
+        },
+        "white": {
+          "value": "#FFFFFF",
+          "type": "color"
         }
       }
     },
