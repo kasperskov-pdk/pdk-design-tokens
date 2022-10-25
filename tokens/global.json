@@ -2819,6 +2819,17 @@
         "type": "dropShadow"
       },
       "type": "boxShadow"
+    },
+    "shadow-red-hover": {
+      "value": {
+        "x": 0,
+        "y": 0,
+        "blur": 0,
+        "spread": 3,
+        "color": "#FCEDE8",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
     }
   },
   "dropdown": {
