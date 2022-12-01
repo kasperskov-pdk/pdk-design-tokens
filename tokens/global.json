@@ -1607,17 +1607,6 @@
         },
         "type": "typography"
       },
-      "h6": {
-        "value": {
-          "fontFamily": "DINOT",
-          "fontWeight": "Regular",
-          "lineHeight": "130%",
-          "fontSize": 14,
-          "letterSpacing": 0.1,
-          "paragraphSpacing": 0
-        },
-        "type": "typography"
-      },
       "body": {
         "value": {
           "fontFamily": "DINOT",
