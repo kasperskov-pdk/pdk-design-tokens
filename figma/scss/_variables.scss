@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Wed, 28 Sep 2022 09:04:51 GMT
+// Generated on Thu, 01 Dec 2022 10:51:27 GMT
 
 $color-section-white: #ffffff;
 $color-section-light: #edf5fb;
@@ -15,6 +15,8 @@ $color-button-background-secondary-pressed: #6e6d79;
 $color-button-background-tertiary-hover: #fcede8;
 $color-button-background-inverted-base: #ffffff;
 $color-button-background-inverted-hover: #edf5fb;
+$color-button-background-table-function-base: #cee0f6;
+$color-button-background-table-function-hover: #132d4f;
 $color-button-text-primary: #ffffff;
 $color-button-text-secondary: #6e6d79;
 $color-button-text-inverted: #132d4f;
@@ -145,6 +147,7 @@ $color-tag-fill-green: #006c6c;
 $color-tag-background-orange: #fff3e9;
 $color-tag-background-blue: #edf5fb;
 $color-tag-background-green: #e8f4f4;
+$color-tag-background-white: #ffffff;
 $color-avatar-bakcground-dark-blue: #132d4f;
 $color-avatar-bakcground-light-blue: #cee0f6;
 $color-avatar-bakcground-red: #fcede8;
@@ -183,8 +186,8 @@ $spacing-container-mobile-padding-x-xlarge: 1.25rem;
 $spacing-container-mobile-padding-x-xxxlarge: 1.25rem;
 $spacing-container-mobile-padding-x-xxxxlarge: 12.5rem;
 $spacing-container-mobile-padding-x-none: 0rem;
-$spacing-container-mobile-padding-y-small: 1.25rem;
-$spacing-container-mobile-padding-y-large: 2.5rem;
+$spacing-container-mobile-padding-y-small: 2.5rem;
+$spacing-container-mobile-padding-y-large: 4rem;
 $spacing-container-mobile-padding-y-none: 0rem;
 $spacing-container-mobile-gap-y-small: 0.75rem;
 $spacing-container-mobile-gap-y-medium: 1rem;
@@ -205,6 +208,7 @@ $spacing-button-large-gab: 0.5rem;
 $spacing-button-small-x: 1.5rem;
 $spacing-button-small-y: 0.75rem;
 $spacing-button-small-gab: 0.375rem;
+$spacing-button-small-icon-x: 0.75rem;
 $spacing-link-gap-x: 0.5rem;
 $spacing-mobile-0: 0rem;
 $spacing-mobile-1: 0.25rem;
@@ -377,8 +381,8 @@ $typography-tablet-h1: (
     );
 $typography-tablet-h2: (
       fontFamily: var(--ff-primary),
-      fontSize: 2.375rem,
-      lineHeight: 2.6125rem,
+      fontSize: 1.75rem,
+      lineHeight: 1.925rem,
       fontWeight: 200,
       letterSpacing: 0.00625rem
     );
@@ -433,33 +437,26 @@ $typography-desktop-h1: (
     );
 $typography-desktop-h2: (
       fontFamily: var(--ff-primary),
-      fontSize: 2.5rem,
-      lineHeight: 2.75rem,
-      fontWeight: 200,
-      letterSpacing: 0.00625rem
-    );
-$typography-desktop-h3: (
-      fontFamily: var(--ff-primary),
       fontSize: 2rem,
       lineHeight: 2.2rem,
       fontWeight: 200,
       letterSpacing: 0.00625rem
     );
-$typography-desktop-h4: (
+$typography-desktop-h3: (
       fontFamily: var(--ff-primary),
       fontSize: 1.5rem,
-      lineHeight: 1.95rem,
+      lineHeight: 1.65rem,
+      fontWeight: 200,
+      letterSpacing: 0.00625rem
+    );
+$typography-desktop-h4: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1.125rem,
+      lineHeight: 1.4625rem,
       fontWeight: 200,
       letterSpacing: 0.00625rem
     );
 $typography-desktop-h5: (
-      fontFamily: var(--ff-primary),
-      fontSize: 1rem,
-      lineHeight: 1.3rem,
-      fontWeight: 200,
-      letterSpacing: 0.00625rem
-    );
-$typography-desktop-h6: (
       fontFamily: var(--ff-primary),
       fontSize: 0.875rem,
       lineHeight: 1.1375rem,
@@ -891,7 +888,7 @@ $font-size-mobile-h6: 0.875rem;
 $font-size-mobile-body: 1rem;
 $font-size-tablet-title: 3.5rem;
 $font-size-tablet-h1: 2.625rem;
-$font-size-tablet-h2: 2.375rem;
+$font-size-tablet-h2: 1.75rem;
 $font-size-tablet-h3: 2rem;
 $font-size-tablet-h4: 1.25rem;
 $font-size-tablet-h5: 1rem;
@@ -899,10 +896,10 @@ $font-size-tablet-h6: 0.875rem;
 $font-size-tablet-body: 1.0625rem;
 $font-size-desktop-title: 4rem;
 $font-size-desktop-h1: 2.875rem;
-$font-size-desktop-h2: 2.5rem;
-$font-size-desktop-h3: 2rem;
-$font-size-desktop-h4: 1.5rem;
-$font-size-desktop-h5: 1rem;
+$font-size-desktop-h2: 2rem;
+$font-size-desktop-h3: 1.5rem;
+$font-size-desktop-h4: 1.125rem;
+$font-size-desktop-h5: 0.875rem;
 $font-size-desktop-h6: 0.875rem;
 $font-size-desktop-body: 1.125rem;
 $font-size-base-xxxsmall: 0.625rem;
@@ -959,6 +956,7 @@ $opacity-base-box-background: 0.5;
 $input-shadow-active: 0px 0px 0px 3px #77B7E3;
 $input-shadow-valid: 0px 0px 0px 3px #CFE6E1;
 $input-shadow-blue-hover: 0px 0px 0px 3px #EDF5FB;
+$input-shadow-red-hover: 0px 0px 0px 3px #FCEDE8;
 $dropdown-shadow-active-blue: 0px 0px 0px 1px #b9d3e9;
 $checkbox-shadow-red-hover: 0px 0px 0px 1px #FCEDE8;
 $checkbox-shadow-red-focused: 0px 0px 0px 1px #FCEDE8;
