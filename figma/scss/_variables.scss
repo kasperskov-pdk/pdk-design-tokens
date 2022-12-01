@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Fri, 04 Nov 2022 13:56:53 GMT
+// Generated on Thu, 01 Dec 2022 10:14:38 GMT
 
 $color-section-white: #ffffff;
 $color-section-light: #edf5fb;
@@ -381,8 +381,8 @@ $typography-tablet-h1: (
     );
 $typography-tablet-h2: (
       fontFamily: var(--ff-primary),
-      fontSize: 2.375rem,
-      lineHeight: 2.6125rem,
+      fontSize: 1.75rem,
+      lineHeight: 1.925rem,
       fontWeight: 200,
       letterSpacing: 0.00625rem
     );
@@ -437,29 +437,29 @@ $typography-desktop-h1: (
     );
 $typography-desktop-h2: (
       fontFamily: var(--ff-primary),
-      fontSize: 2.5rem,
-      lineHeight: 2.75rem,
-      fontWeight: 200,
-      letterSpacing: 0.00625rem
-    );
-$typography-desktop-h3: (
-      fontFamily: var(--ff-primary),
       fontSize: 2rem,
       lineHeight: 2.2rem,
       fontWeight: 200,
       letterSpacing: 0.00625rem
     );
-$typography-desktop-h4: (
+$typography-desktop-h3: (
       fontFamily: var(--ff-primary),
       fontSize: 1.5rem,
-      lineHeight: 1.95rem,
+      lineHeight: 1.65rem,
+      fontWeight: 200,
+      letterSpacing: 0.00625rem
+    );
+$typography-desktop-h4: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1.125rem,
+      lineHeight: 1.4625rem,
       fontWeight: 200,
       letterSpacing: 0.00625rem
     );
 $typography-desktop-h5: (
       fontFamily: var(--ff-primary),
-      fontSize: 1rem,
-      lineHeight: 1.3rem,
+      fontSize: 0.875rem,
+      lineHeight: 1.1375rem,
       fontWeight: 200,
       letterSpacing: 0.00625rem
     );
@@ -895,7 +895,7 @@ $font-size-mobile-h6: 0.875rem;
 $font-size-mobile-body: 1rem;
 $font-size-tablet-title: 3.5rem;
 $font-size-tablet-h1: 2.625rem;
-$font-size-tablet-h2: 2.375rem;
+$font-size-tablet-h2: 1.75rem;
 $font-size-tablet-h3: 2rem;
 $font-size-tablet-h4: 1.25rem;
 $font-size-tablet-h5: 1rem;
@@ -903,10 +903,10 @@ $font-size-tablet-h6: 0.875rem;
 $font-size-tablet-body: 1.0625rem;
 $font-size-desktop-title: 4rem;
 $font-size-desktop-h1: 2.875rem;
-$font-size-desktop-h2: 2.5rem;
-$font-size-desktop-h3: 2rem;
-$font-size-desktop-h4: 1.5rem;
-$font-size-desktop-h5: 1rem;
+$font-size-desktop-h2: 2rem;
+$font-size-desktop-h3: 1.5rem;
+$font-size-desktop-h4: 1.125rem;
+$font-size-desktop-h5: 0.875rem;
 $font-size-desktop-h6: 0.875rem;
 $font-size-desktop-body: 1.125rem;
 $font-size-base-xxxsmall: 0.625rem;
