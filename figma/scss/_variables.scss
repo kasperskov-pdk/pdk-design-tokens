@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Thu, 01 Dec 2022 10:51:27 GMT
+// Generated on Wed, 07 Dec 2022 20:01:59 GMT
 
 $color-section-white: #ffffff;
 $color-section-light: #edf5fb;
@@ -70,11 +70,13 @@ $color-signal-background-error: #fcede8;
 $color-signal-background-question: #eae6ff;
 $color-signal-background-neutral: #f9f9f9;
 $color-signal-icon-signal-info: #132d4f;
+$color-signal-icon-signal-info-inverted: #b9d3e9;
 $color-signal-icon-signal-valid: #006c6c;
 $color-signal-icon-signal-yellow: #a06001;
 $color-signal-icon-signal-error: #b90e0d;
 $color-signal-icon-signal-question: #403294;
 $color-signal-icon-signal-neutral: #9e9ea6;
+$color-signal-icon-signal-alert: #ee7d52;
 $color-background-blue-light: #edf5fb;
 $color-background-blue: #77b7e3;
 $color-background-blue-dark: #132d4f;
@@ -167,6 +169,14 @@ $color-graph-light-red: #c7638d;
 $color-graph-light-yellow: #f2d899;
 $color-graph-light-purple: #b391cb;
 $color-graph-light-gold: #bfbfbd;
+$color-banner-lokal-text-dark-blue: #132d4f;
+$color-banner-lokal-text-alert: #cc3e08;
+$color-banner-lokal-text-white: #ffffff;
+$color-banner-lokal-text-info: #b9d3e9;
+$color-banner-lokal-background-dark-blue: #132d4f;
+$color-banner-lokal-background-alert: #fff3e9;
+$color-banner-lokal-header-alert: #b73504;
+$color-banner-lokal-header-info: #ffffff;
 $spacing-container-desktop-padding-x-small: 2.5rem;
 $spacing-container-desktop-padding-x-large: 5rem;
 $spacing-container-desktop-padding-x-xlarge: 7.25rem;

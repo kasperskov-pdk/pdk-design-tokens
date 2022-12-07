@@ -330,6 +330,10 @@
             "value": "#132D4F",
             "type": "color"
           },
+          "info-inverted": {
+            "value": "#b9d3e9",
+            "type": "color"
+          },
           "valid": {
             "value": "#006C6C",
             "type": "color"
@@ -348,6 +352,10 @@
           },
           "neutral": {
             "value": "#9E9EA6",
+            "type": "color"
+          },
+          "alert": {
+            "value": "#EE7D52",
             "type": "color"
           }
         }
@@ -799,6 +807,47 @@
         },
         "gold": {
           "value": "#BFBFBD",
+          "type": "color"
+        }
+      }
+    },
+    "Banner-lokal": {
+      "text": {
+        "dark-blue": {
+          "value": "#132D4F",
+          "description": "",
+          "type": "color"
+        },
+        "alert": {
+          "value": "#CC3E08",
+          "type": "color"
+        },
+        "white": {
+          "value": "#FFFFFF",
+          "type": "color"
+        },
+        "info": {
+          "value": "#b9d3e9",
+          "type": "color"
+        }
+      },
+      "background": {
+        "dark-blue": {
+          "value": "#132D4F",
+          "type": "color"
+        },
+        "alert": {
+          "value": "#FFF3E9",
+          "type": "color"
+        }
+      },
+      "header": {
+        "alert": {
+          "value": "#B73504",
+          "type": "color"
+        },
+        "info": {
+          "value": "#FFFFFF",
           "type": "color"
         }
       }
