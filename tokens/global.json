@@ -653,7 +653,11 @@
           "type": "color"
         },
         "grey-300": {
-          "value": "#F0F2F3",
+          "value": "#9E9EA6",
+          "type": "color"
+        },
+        "hover": {
+          "value": "#DD0D0B",
           "type": "color"
         }
       }
