@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Mon, 09 Jan 2023 14:38:42 GMT
+// Generated on Fri, 20 Jan 2023 10:15:42 GMT
 
 $color-section-white: #ffffff;
 $color-section-light: #edf5fb;
@@ -301,50 +301,50 @@ $typography-link-small: (
     );
 $typography-mobile-title: (
       fontFamily: var(--ff-primary),
-      fontSize: 3rem,
-      lineHeight: 3.6rem,
+      fontSize: 2.5rem,
+      lineHeight: 3rem,
       fontWeight: 200,
       letterSpacing: 0.021875rem
     );
 $typography-mobile-h1: (
       fontFamily: var(--ff-primary),
-      fontSize: 2.25rem,
-      lineHeight: 2.475rem,
+      fontSize: 2rem,
+      lineHeight: 2.2rem,
       fontWeight: 200,
       letterSpacing: 0.021875rem
     );
 $typography-mobile-h2: (
       fontFamily: var(--ff-primary),
-      fontSize: 2rem,
-      lineHeight: 2.2rem,
+      fontSize: 1.5rem,
+      lineHeight: 1.65rem,
       fontWeight: 200,
       letterSpacing: 0.00625rem
     );
 $typography-mobile-h3: (
       fontFamily: var(--ff-primary),
-      fontSize: 1.75rem,
-      lineHeight: 1.925rem,
+      fontSize: 1.25rem,
+      lineHeight: 1.375rem,
       fontWeight: 200,
       letterSpacing: 0.00625rem
     );
 $typography-mobile-h4: (
       fontFamily: var(--ff-primary),
-      fontSize: 1.25rem,
-      lineHeight: 1.5rem,
+      fontSize: 1rem,
+      lineHeight: 1.2rem,
       fontWeight: 200,
       letterSpacing: 0.00625rem
     );
 $typography-mobile-h5: (
       fontFamily: var(--ff-primary),
-      fontSize: 1rem,
-      lineHeight: 1.3rem,
+      fontSize: 0.75rem,
+      lineHeight: 0.975rem,
       fontWeight: 200,
       letterSpacing: 0.00625rem
     );
 $typography-mobile-h6: (
       fontFamily: var(--ff-primary),
-      fontSize: 0.875rem,
-      lineHeight: 1.1375rem,
+      fontSize: $font-size.mobile.h6,
+      lineHeight: NaNrem,
       fontWeight: 200,
       letterSpacing: 0.00625rem
     );
@@ -889,13 +889,12 @@ $border-radius-round: 50%;
 $border-radius-xlg: 1rem;
 $font-family-primary: var(--ff-primary);
 $font-family-secondary: var(--ff-secondary);
-$font-size-mobile-title: 3rem;
-$font-size-mobile-h1: 2.25rem;
-$font-size-mobile-h2: 2rem;
-$font-size-mobile-h3: 1.75rem;
-$font-size-mobile-h4: 1.25rem;
-$font-size-mobile-h5: 1rem;
-$font-size-mobile-h6: 0.875rem;
+$font-size-mobile-title: 2.5rem;
+$font-size-mobile-h1: 2rem;
+$font-size-mobile-h2: 1.5rem;
+$font-size-mobile-h3: 1.25rem;
+$font-size-mobile-h4: 1rem;
+$font-size-mobile-h5: 0.75rem;
 $font-size-mobile-body: 1rem;
 $font-size-tablet-title: 3.5rem;
 $font-size-tablet-h1: 2.625rem;
@@ -911,7 +910,6 @@ $font-size-desktop-h2: 2rem;
 $font-size-desktop-h3: 1.5rem;
 $font-size-desktop-h4: 1.125rem;
 $font-size-desktop-h5: 0.875rem;
-$font-size-desktop-h6: 0.875rem;
 $font-size-desktop-body: 1.125rem;
 $font-size-base-xxxsmall: 0.625rem;
 $font-size-base-xxsmall: 0.75rem;
