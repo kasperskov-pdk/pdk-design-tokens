@@ -341,13 +341,6 @@ $typography-mobile-h5: (
       fontWeight: 200,
       letterSpacing: 0.00625rem
     );
-$typography-mobile-h6: (
-      fontFamily: var(--ff-primary),
-      fontSize: $font-size.mobile.h6,
-      lineHeight: NaNrem,
-      fontWeight: 200,
-      letterSpacing: 0.00625rem
-    );
 $typography-mobile-body: (
       fontFamily: var(--ff-primary),
       fontSize: 1rem,
