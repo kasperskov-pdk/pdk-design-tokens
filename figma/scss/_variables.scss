@@ -1,6 +1,5 @@
-
-// Do not edit directly
 // Generated on Wed, 10 May 2023 09:30:37 GMT
+
 
 $color-section-white: #ffffff;
 $color-section-light: #edf5fb;
@@ -334,10 +333,18 @@ $typography-mobile-h4: (
       fontWeight: 200,
       letterSpacing: 0.00625rem
     );
-$typography-mobile-h5: (
+$typography-mobile-h4: (
       fontFamily: var(--ff-primary),
       fontSize: 0.75rem,
       lineHeight: 0.975rem,
+
+      fontWeight: 200,
+      letterSpacing: 0.00625rem
+    );
+$typography-mobile-h5: (
+      fontFamily: var(--ff-primary),
+      fontSize: $font-size.mobile.h6,
+      lineHeight: 1rem,
       fontWeight: 200,
       letterSpacing: 0.00625rem
     );
