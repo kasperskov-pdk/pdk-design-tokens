@@ -1,6 +1,7 @@
 
 // Do not edit directly
-// Generated on Thu, 01 Dec 2022 10:51:27 GMT
+// Generated on Fri, 20 Jan 2023 10:15:42 GMT
+
 
 $color-section-white: #ffffff;
 $color-section-light: #edf5fb;
@@ -70,11 +71,13 @@ $color-signal-background-error: #fcede8;
 $color-signal-background-question: #eae6ff;
 $color-signal-background-neutral: #f9f9f9;
 $color-signal-icon-signal-info: #132d4f;
+$color-signal-icon-signal-info-inverted: #b9d3e9;
 $color-signal-icon-signal-valid: #006c6c;
 $color-signal-icon-signal-yellow: #a06001;
 $color-signal-icon-signal-error: #b90e0d;
 $color-signal-icon-signal-question: #403294;
 $color-signal-icon-signal-neutral: #9e9ea6;
+$color-signal-icon-signal-alert: #ee7d52;
 $color-background-blue-light: #edf5fb;
 $color-background-blue: #77b7e3;
 $color-background-blue-dark: #132d4f;
@@ -134,7 +137,8 @@ $color-checkbox-fill-grey: #f0f2f3;
 $color-checkbox-fill-red: #dd0d0b;
 $color-checkbox-fill-grey-400: #6e6d79;
 $color-checkbox-border-red-200: #ffc6c6;
-$color-checkbox-border-grey-300: #f0f2f3;
+$color-checkbox-border-grey-300: #9e9ea6;
+$color-checkbox-border-hover: #dd0d0b;
 $color-tooltip-text-dark-blue: #132d4f;
 $color-tooltip-text-primary: #4e617b;
 $color-tooltip-text-white: #ffffff;
@@ -167,6 +171,14 @@ $color-graph-light-red: #c7638d;
 $color-graph-light-yellow: #f2d899;
 $color-graph-light-purple: #b391cb;
 $color-graph-light-gold: #bfbfbd;
+$color-banner-lokal-text-dark-blue: #132d4f;
+$color-banner-lokal-text-alert: #cc3e08;
+$color-banner-lokal-text-white: #ffffff;
+$color-banner-lokal-text-info: #b9d3e9;
+$color-banner-lokal-background-dark-blue: #132d4f;
+$color-banner-lokal-background-alert: #fff3e9;
+$color-banner-lokal-header-alert: #b73504;
+$color-banner-lokal-header-info: #ffffff;
 $spacing-container-desktop-padding-x-small: 2.5rem;
 $spacing-container-desktop-padding-x-large: 5rem;
 $spacing-container-desktop-padding-x-xlarge: 7.25rem;
@@ -290,50 +302,50 @@ $typography-link-small: (
     );
 $typography-mobile-title: (
       fontFamily: var(--ff-primary),
-      fontSize: 3rem,
-      lineHeight: 3.6rem,
+      fontSize: 2.5rem,
+      lineHeight: 3rem,
       fontWeight: 200,
       letterSpacing: 0.021875rem
     );
 $typography-mobile-h1: (
       fontFamily: var(--ff-primary),
-      fontSize: 2.25rem,
-      lineHeight: 2.475rem,
+      fontSize: 2rem,
+      lineHeight: 2.2rem,
       fontWeight: 200,
       letterSpacing: 0.021875rem
     );
 $typography-mobile-h2: (
       fontFamily: var(--ff-primary),
-      fontSize: 2rem,
-      lineHeight: 2.2rem,
+      fontSize: 1.5rem,
+      lineHeight: 1.65rem,
       fontWeight: 200,
       letterSpacing: 0.00625rem
     );
 $typography-mobile-h3: (
       fontFamily: var(--ff-primary),
-      fontSize: 1.75rem,
-      lineHeight: 1.925rem,
+      fontSize: 1.25rem,
+      lineHeight: 1.375rem,
       fontWeight: 200,
       letterSpacing: 0.00625rem
     );
 $typography-mobile-h4: (
       fontFamily: var(--ff-primary),
-      fontSize: 1.25rem,
-      lineHeight: 1.5rem,
+      fontSize: 1rem,
+      lineHeight: 1.2rem,
       fontWeight: 200,
       letterSpacing: 0.00625rem
     );
 $typography-mobile-h5: (
       fontFamily: var(--ff-primary),
-      fontSize: 1rem,
-      lineHeight: 1.3rem,
+      fontSize: 0.75rem,
+      lineHeight: 0.975rem,
       fontWeight: 200,
       letterSpacing: 0.00625rem
     );
 $typography-mobile-h6: (
       fontFamily: var(--ff-primary),
-      fontSize: 0.875rem,
-      lineHeight: 1.1375rem,
+      fontSize: $font-size.mobile.h6,
+      lineHeight: NaNrem,
       fontWeight: 200,
       letterSpacing: 0.00625rem
     );
@@ -878,13 +890,12 @@ $border-radius-round: 50%;
 $border-radius-xlg: 1rem;
 $font-family-primary: var(--ff-primary);
 $font-family-secondary: var(--ff-secondary);
-$font-size-mobile-title: 3rem;
-$font-size-mobile-h1: 2.25rem;
-$font-size-mobile-h2: 2rem;
-$font-size-mobile-h3: 1.75rem;
-$font-size-mobile-h4: 1.25rem;
-$font-size-mobile-h5: 1rem;
-$font-size-mobile-h6: 0.875rem;
+$font-size-mobile-title: 2.5rem;
+$font-size-mobile-h1: 2rem;
+$font-size-mobile-h2: 1.5rem;
+$font-size-mobile-h3: 1.25rem;
+$font-size-mobile-h4: 1rem;
+$font-size-mobile-h5: 0.75rem;
 $font-size-mobile-body: 1rem;
 $font-size-tablet-title: 3.5rem;
 $font-size-tablet-h1: 2.625rem;
