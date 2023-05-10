@@ -2597,6 +2597,10 @@
         "value": 14,
         "type": "fontSizes"
       },
+      "h6": {
+        "value": 14,
+        "type": "fontSizes"
+      },
       "body": {
         "value": 18,
         "type": "fontSizes"
