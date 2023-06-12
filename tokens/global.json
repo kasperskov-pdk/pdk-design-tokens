@@ -694,7 +694,7 @@
       }
     },
     "tag": {
-      "fill": {
+      "text": {
         "orange": {
           "value": "#B73504",
           "type": "color"
@@ -714,7 +714,7 @@
           "type": "color"
         },
         "blue": {
-          "value": "#EDF5FB",
+          "value": "#b9d3e9",
           "type": "color"
         },
         "green": {
