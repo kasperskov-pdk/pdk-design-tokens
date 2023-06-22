@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Mon, 12 Jun 2023 11:44:36 GMT
+// Generated on Thu, 22 Jun 2023 10:49:10 GMT
 
 $color-section-white: #ffffff;
 $color-section-light: #edf5fb;
@@ -107,7 +107,7 @@ $color-input-text-green: #006c6c;
 $color-input-text-orange: #b73504;
 $color-input-text-orange-copy: #cc3e08;
 $color-dropdown-text-blue: #132d4f;
-$color-dropdown-text-grey: #6e6d79;
+$color-dropdown-text-grey: #9e9ea6;
 $color-dropdown-text-red: #dd0d0b;
 $color-dropdown-text-primary: #4e617b;
 $color-dropdown-text-fix: #9e9ea6;
@@ -115,9 +115,10 @@ $color-dropdown-text-active: #77b7e3;
 $color-dropdown-icon-blue: #4e617b;
 $color-dropdown-icon-active: #77b7e3;
 $color-dropdown-icon-blue-dark: #132d4f;
+$color-dropdown-icon-default: #dd0d0b;
 $color-dropdown-background-blue: #edf5fb;
 $color-dropdown-background-white: #ffffff;
-$color-dropdown-border-active-blue: #77b7e3;
+$color-dropdown-border-default: #e1e5e8;
 $color-toggle-border-grey: #e1e5e8;
 $color-toggle-border-red-200: #ffc6c6;
 $color-toggle-border-red: #dd0d0b;
@@ -621,84 +622,56 @@ $typography-section-large-title: (
       fontWeight: 400,
       letterSpacing: 0.0125rem
     );
-$typography-input-small-label: (
+$typography-input-mobile-fix: (
       fontFamily: var(--ff-primary),
       fontSize: 0.875rem,
       lineHeight: 1.225rem,
       fontWeight: 200,
       letterSpacing: 0.015625rem
     );
-$typography-input-small-fix: (
-      fontFamily: var(--ff-primary),
-      fontSize: 0.75rem,
-      lineHeight: 1.05rem,
-      fontWeight: 200,
-      letterSpacing: 0.015625rem
-    );
-$typography-input-small-body: (
+$typography-input-mobile-body: (
       fontFamily: var(--ff-primary),
       fontSize: 1rem,
       lineHeight: 1.4rem,
       fontWeight: 200,
       letterSpacing: 0.015625rem
     );
-$typography-input-small-descriptive: (
+$typography-input-mobile-label: (
+      fontFamily: var(--ff-primary),
+      fontSize: 0.875rem,
+      lineHeight: 1.225rem,
+      fontWeight: 200,
+      letterSpacing: 0.015625rem
+    );
+$typography-input-mobile-descriptive: (
       fontFamily: var(--ff-primary),
       fontSize: 0.75rem,
       lineHeight: 1.05rem,
       fontWeight: 200,
       letterSpacing: 0.015625rem
     );
-$typography-input-medium-fix: (
+$typography-input-desktop-fix: (
       fontFamily: var(--ff-primary),
       fontSize: 0.875rem,
       lineHeight: 1.225rem,
       fontWeight: 200,
       letterSpacing: 0.015625rem
     );
-$typography-input-medium-body: (
-      fontFamily: var(--ff-primary),
-      fontSize: 1rem,
-      lineHeight: 1.4rem,
-      fontWeight: 200,
-      letterSpacing: 0.015625rem
-    );
-$typography-input-medium-label: (
-      fontFamily: var(--ff-primary),
-      fontSize: 0.875rem,
-      lineHeight: 1.225rem,
-      fontWeight: 200,
-      letterSpacing: 0.015625rem
-    );
-$typography-input-medium-descriptive: (
-      fontFamily: var(--ff-primary),
-      fontSize: 0.75rem,
-      lineHeight: 1.05rem,
-      fontWeight: 200,
-      letterSpacing: 0.015625rem
-    );
-$typography-input-large-fix: (
-      fontFamily: var(--ff-primary),
-      fontSize: 0.875rem,
-      lineHeight: 1.225rem,
-      fontWeight: 200,
-      letterSpacing: 0.015625rem
-    );
-$typography-input-large-body: (
+$typography-input-desktop-body: (
       fontFamily: var(--ff-primary),
       fontSize: 1.125rem,
       lineHeight: 1.575rem,
       fontWeight: 200,
       letterSpacing: 0.015625rem
     );
-$typography-input-large-label: (
+$typography-input-desktop-label: (
       fontFamily: var(--ff-primary),
       fontSize: 1.125rem,
       lineHeight: 1.575rem,
       fontWeight: 200,
       letterSpacing: 0.015625rem
     );
-$typography-input-large-descriptive: (
+$typography-input-desktop-descriptive: (
       fontFamily: var(--ff-primary),
       fontSize: 0.875rem,
       lineHeight: 1.225rem,
