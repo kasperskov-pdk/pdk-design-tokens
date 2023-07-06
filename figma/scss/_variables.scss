@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Thu, 29 Jun 2023 13:15:45 GMT
+// Generated on Thu, 06 Jul 2023 13:34:44 GMT
 
 $color-section-white: #ffffff;
 $color-section-light: #edf5fb;
@@ -23,11 +23,10 @@ $color-button-text-inverted: #132d4f;
 $color-button-text-tertiary: #dd0d0b;
 $color-button-stroke: #6e6d79;
 $color-link-primary-base: #dd0d0b;
-$color-link-primary-hover: #e54948;
-$color-link-primary-pressed: #b90e0d;
-$color-link-secondary-base: #0052cc;
-$color-link-secondary-hover: #132d4f;
-$color-link-secondary-pressed: #77b7e3;
+$color-link-primary-hover: #dd0d0b;
+$color-link-primary-pressed: #dd0d0b;
+$color-link-primary-focus: #ffffff;
+$color-link-primary-focus-background: #132d4f;
 $color-link-inverted-base: #ffffff;
 $color-link-inverted-hover: #b9d3e9;
 $color-link-inverted-pressed: #ffffff;
@@ -153,14 +152,14 @@ $color-tag-background-orange: #fff3e9;
 $color-tag-background-blue: #cee0f6;
 $color-tag-background-green: #e8f4f4;
 $color-tag-background-white: #ffffff;
-$color-avatar-bakcground-dark-blue: #132d4f;
-$color-avatar-bakcground-light-blue: #cee0f6;
-$color-avatar-bakcground-red: #fcede8;
-$color-avatar-bakcground-grey: #f0f2f3;
-$color-avatar-fill-light-blue: #edf5fb;
-$color-avatar-fill-dark-blue: #132d4f;
-$color-avatar-fill-red: #dd0d0b;
+$color-avatar-background-dark-blue: #132d4f;
+$color-avatar-background-light-blue: #cee0f6;
+$color-avatar-background-red: #fcede8;
+$color-avatar-background-grey: #f0f2f3;
+$color-avatar-fill-dark: #132d4f;
 $color-avatar-fill-grey: #9e9ea6;
+$color-avatar-fill-default: #77b7e3;
+$color-avatar-fill-light: #ffffff;
 $color-graph-main-blue: #77b7e3;
 $color-graph-main-green: #479390;
 $color-graph-main-red: #a81d57;
@@ -942,3 +941,4 @@ $toggle-shadow-blue-hover: 0px 0px 0px 1px #CEE0F6;
 $toggle-icon-shadow: -0.5px 0px 2px 0px #3a0e0e3d;
 $dialog-shadow: 0px 10px 15px -3px #0000001a;
 $basic-shadow: 0px 3px 10px 0px #0000001a;
+$text-decoration-underline: underline;

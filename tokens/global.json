@@ -111,27 +111,21 @@
           "type": "color"
         },
         "hover": {
-          "value": "#e54948",
-          "description": "Hover",
-          "type": "color"
+          "value": "#DD0D0B",
+          "type": "color",
+          "description": "Hover"
         },
         "pressed": {
-          "value": "#B90E0D",
-          "description": "Pressed",
-          "type": "color"
-        }
-      },
-      "secondary": {
-        "base": {
-          "value": "#0052CC",
+          "value": "#DD0D0B",
+          "type": "color",
+          "description": "Pressed"
+        },
+        "focus": {
+          "value": "#FFFFFF",
           "type": "color"
         },
-        "hover": {
+        "focus-background": {
           "value": "#132D4F",
-          "type": "color"
-        },
-        "pressed": {
-          "value": "#77B7E3",
           "type": "color"
         }
       },
@@ -738,7 +732,7 @@
       }
     },
     "avatar": {
-      "bakcground": {
+      "background": {
         "dark-blue": {
           "value": "#132D4F",
           "type": "color"
@@ -757,20 +751,20 @@
         }
       },
       "fill": {
-        "light-blue": {
-          "value": "#EDF5FB",
-          "type": "color"
-        },
-        "dark-blue": {
+        "dark": {
           "value": "#132D4F",
-          "type": "color"
-        },
-        "red": {
-          "value": "#DD0D0B",
           "type": "color"
         },
         "grey": {
           "value": "#9E9EA6",
+          "type": "color"
+        },
+        "default": {
+          "value": "#77B7E3",
+          "type": "color"
+        },
+        "light": {
+          "value": "#FFFFFF",
           "type": "color"
         }
       }
@@ -2920,6 +2914,12 @@
         "type": "dropShadow"
       },
       "type": "boxShadow"
+    }
+  },
+  "text-decoration": {
+    "underline": {
+      "value": "underline",
+      "type": "textDecoration"
     }
   }
 }
