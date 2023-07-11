@@ -859,6 +859,21 @@
           "type": "color"
         }
       }
+    },
+    "krydslink": {
+      "border-accessability": {
+        "value": "#132D4F",
+        "type": "color",
+        "description": "Shown when users tab between interactions with the keyboard"
+      },
+      "background": {
+        "value": "#FFFFFF",
+        "type": "color"
+      },
+      "label": {
+        "value": "#132D4F",
+        "type": "color"
+      }
     }
   },
   "spacing": {
@@ -2742,7 +2757,7 @@
       "type": "borderWidth"
     },
     "lg": {
-      "value": 4,
+      "value": 3,
       "type": "borderWidth"
     }
   },
