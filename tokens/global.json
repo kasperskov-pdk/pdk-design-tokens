@@ -826,7 +826,7 @@
           "description": "",
           "type": "color"
         },
-        "alert": {
+        "attention": {
           "value": "#CC3E08",
           "type": "color"
         },
@@ -844,13 +844,13 @@
           "value": "#132D4F",
           "type": "color"
         },
-        "alert": {
+        "attention": {
           "value": "#FFF3E9",
           "type": "color"
         }
       },
       "header": {
-        "alert": {
+        "attention": {
           "value": "#B73504",
           "type": "color"
         },
