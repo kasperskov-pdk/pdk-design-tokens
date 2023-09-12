@@ -43,11 +43,11 @@
             "type": "color"
           },
           "hover": {
-            "value": "#6E6D79",
+            "value": "#132D4F",
             "type": "color"
           },
           "pressed": {
-            "value": "#6E6D79",
+            "value": "#132D4F",
             "type": "color"
           }
         },
@@ -85,9 +85,9 @@
           "type": "color"
         },
         "secondary": {
-          "value": "#6E6D79",
-          "description": "Base",
-          "type": "color"
+          "value": "#132D4F",
+          "type": "color",
+          "description": "Base"
         },
         "inverted": {
           "value": "#132D4F",
@@ -99,7 +99,7 @@
         }
       },
       "stroke": {
-        "value": "#6E6D79",
+        "value": "#132D4F",
         "type": "color"
       }
     },
