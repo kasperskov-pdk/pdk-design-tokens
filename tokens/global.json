@@ -21,20 +21,36 @@
     "button": {
       "background": {
         "primary": {
-          "base": {
-            "value": "#DD0D0B",
-            "description": "Base",
-            "type": "color"
+          "medlemmer": {
+            "base": {
+              "value": "#DD0D0B",
+              "type": "color",
+              "description": "Base"
+            },
+            "hover": {
+              "value": "#e54948",
+              "type": "color",
+              "description": "Hover"
+            },
+            "pressed": {
+              "value": "#e54948",
+              "type": "color",
+              "description": "Pressed"
+            }
           },
-          "hover": {
-            "value": "#e54948",
-            "description": "Hover",
-            "type": "color"
-          },
-          "pressed": {
-            "value": "#e54948",
-            "description": "Pressed",
-            "type": "color"
+          "virksomhed": {
+            "base": {
+              "value": "#132D4F",
+              "type": "color"
+            },
+            "hover": {
+              "value": "#0052CC",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "#0052CC",
+              "type": "color"
+            }
           }
         },
         "secondary": {
@@ -52,9 +68,17 @@
           }
         },
         "tertiary": {
-          "hover": {
-            "value": "#FCEDE8",
-            "type": "color"
+          "medlemmer": {
+            "hover": {
+              "value": "#FCEDE8",
+              "type": "color"
+            }
+          },
+          "virksomheder": {
+            "hover": {
+              "value": "#FFFFFF",
+              "type": "color"
+            }
           }
         },
         "inverted": {
@@ -79,54 +103,114 @@
         }
       },
       "text": {
-        "primary": {
-          "value": "#FFFFFF",
-          "description": "Base",
-          "type": "color"
+        "medlemmer": {
+          "primary": {
+            "value": "#FFFFFF",
+            "type": "color",
+            "description": "Base"
+          },
+          "secondary": {
+            "value": "#132D4F",
+            "type": "color",
+            "description": "Base"
+          },
+          "inverted": {
+            "value": "#132D4F",
+            "type": "color"
+          },
+          "tertiary": {
+            "value": "#DD0D0B",
+            "type": "color"
+          }
         },
+        "virksomheder": {
+          "primary": {
+            "value": "#FFFFFF",
+            "type": "color"
+          },
+          "secondary-dark": {
+            "value": "#132D4F",
+            "type": "color"
+          },
+          "secondary-light": {
+            "value": "#FFFFFF",
+            "type": "color"
+          },
+          "inverted": {
+            "value": "#132D4F",
+            "type": "color"
+          },
+          "tertiary": {
+            "value": "#0052CC",
+            "type": "color"
+          }
+        }
+      },
+      "stroke": {
         "secondary": {
-          "value": "#132D4F",
-          "type": "color",
-          "description": "Base"
-        },
-        "inverted": {
           "value": "#132D4F",
           "type": "color"
         },
         "tertiary": {
-          "value": "#DD0D0B",
+          "value": "#0052CC",
           "type": "color"
+        },
+        "medlemmer": {
+          "tertiary": {
+            "value": "#DD0D0B",
+            "type": "color"
+          }
         }
-      },
-      "stroke": {
-        "value": "#132D4F",
-        "type": "color"
       }
     },
     "link": {
       "primary": {
-        "base": {
-          "value": "#DD0D0B",
-          "description": "Base",
-          "type": "color"
+        "medlemmer": {
+          "base": {
+            "value": "#DD0D0B",
+            "description": "Base",
+            "type": "color"
+          },
+          "hover": {
+            "value": "#DD0D0B",
+            "type": "color",
+            "description": "Hover"
+          },
+          "pressed": {
+            "value": "#DD0D0B",
+            "type": "color",
+            "description": "Pressed"
+          },
+          "focus": {
+            "value": "#FFFFFF",
+            "type": "color"
+          },
+          "focus-background": {
+            "value": "#132D4F",
+            "type": "color"
+          }
         },
-        "hover": {
-          "value": "#DD0D0B",
-          "type": "color",
-          "description": "Hover"
-        },
-        "pressed": {
-          "value": "#DD0D0B",
-          "type": "color",
-          "description": "Pressed"
-        },
-        "focus": {
-          "value": "#FFFFFF",
-          "type": "color"
-        },
-        "focus-background": {
-          "value": "#132D4F",
-          "type": "color"
+        "virksomheder": {
+          "base": {
+            "value": "#0052CC",
+            "type": "color"
+          },
+          "hover": {
+            "value": "#0052CC",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "#0052CC",
+            "type": "color"
+          },
+          "focus": {
+            "value": "#FFFFFF",
+            "type": "color"
+          },
+          "focus-background": {
+            "value": "#132D4F",
+            "type": "color"
+          }
         }
       },
       "inverted": {
@@ -375,6 +459,34 @@
       "transparent-white": {
         "value": "#ffffff80",
         "type": "color"
+      },
+      "page-header": {
+        "frontpage": {
+          "virksomheder": {
+            "value": "#132D4F",
+            "type": "color"
+          },
+          "medlemmer": {
+            "value": "#DD0D0B",
+            "type": "color"
+          }
+        },
+        "article": {
+          "base": {
+            "value": "#FFFFFF",
+            "type": "color"
+          }
+        },
+        "product": {
+          "textarea": {
+            "value": "#FFFFFF",
+            "type": "color"
+          },
+          "actionarea": {
+            "value": "#EDF5FB",
+            "type": "color"
+          }
+        }
       }
     },
     "text": {
@@ -1401,7 +1513,7 @@
       "h1": {
         "value": {
           "fontFamily": "DINOT",
-          "fontWeight": "Regular",
+          "fontWeight": "Medium",
           "lineHeight": "110%",
           "fontSize": 32,
           "letterSpacing": 0.35,
@@ -1412,7 +1524,7 @@
       "h2": {
         "value": {
           "fontFamily": "DINOT",
-          "fontWeight": "Regular",
+          "fontWeight": "Medium",
           "lineHeight": "110%",
           "fontSize": 24,
           "letterSpacing": 0.1,
@@ -1423,7 +1535,7 @@
       "h3": {
         "value": {
           "fontFamily": "DINOT",
-          "fontWeight": "Regular",
+          "fontWeight": "Medium",
           "lineHeight": "110%",
           "fontSize": 20,
           "letterSpacing": 0.1,
@@ -1616,7 +1728,7 @@
       "h1": {
         "value": {
           "fontFamily": "DINOT",
-          "fontWeight": "Regular",
+          "fontWeight": "Medium",
           "lineHeight": "110%",
           "fontSize": 46,
           "letterSpacing": 0.35,
@@ -1627,7 +1739,7 @@
       "h2": {
         "value": {
           "fontFamily": "DINOT",
-          "fontWeight": "Regular",
+          "fontWeight": "Medium",
           "lineHeight": "110%",
           "fontSize": 32,
           "letterSpacing": 0.1,
@@ -1638,7 +1750,7 @@
       "h3": {
         "value": {
           "fontFamily": "DINOT",
-          "fontWeight": "Regular",
+          "fontWeight": "Medium",
           "lineHeight": "110%",
           "fontSize": 24,
           "letterSpacing": 0.1,

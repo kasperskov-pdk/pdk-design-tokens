@@ -1,32 +1,48 @@
 
 // Do not edit directly
-// Generated on Tue, 12 Sep 2023 14:01:34 GMT
+// Generated on Tue, 19 Sep 2023 07:26:12 GMT
 
 $color-section-white: #ffffff;
 $color-section-light: #edf5fb;
 $color-section-dark: #132d4f;
 $color-section-aurora: #ffffff;
-$color-button-background-primary-base: #dd0d0b;
-$color-button-background-primary-hover: #e54948;
-$color-button-background-primary-pressed: #e54948;
+$color-button-background-primary-medlemmer-base: #dd0d0b;
+$color-button-background-primary-medlemmer-hover: #e54948;
+$color-button-background-primary-medlemmer-pressed: #e54948;
+$color-button-background-primary-virksomhed-base: #132d4f;
+$color-button-background-primary-virksomhed-hover: #0052cc;
+$color-button-background-primary-virksomhed-pressed: #0052cc;
 $color-button-background-secondary-base: #ffffff;
 $color-button-background-secondary-hover: #132d4f;
 $color-button-background-secondary-pressed: #132d4f;
-$color-button-background-tertiary-hover: #fcede8;
+$color-button-background-tertiary-medlemmer-hover: #fcede8;
+$color-button-background-tertiary-virksomheder-hover: #ffffff;
 $color-button-background-inverted-base: #ffffff;
 $color-button-background-inverted-hover: #edf5fb;
 $color-button-background-table-function-base: #cee0f6;
 $color-button-background-table-function-hover: #132d4f;
-$color-button-text-primary: #ffffff;
-$color-button-text-secondary: #132d4f;
-$color-button-text-inverted: #132d4f;
-$color-button-text-tertiary: #dd0d0b;
-$color-button-stroke: #132d4f;
-$color-link-primary-base: #dd0d0b;
-$color-link-primary-hover: #dd0d0b;
-$color-link-primary-pressed: #dd0d0b;
-$color-link-primary-focus: #ffffff;
-$color-link-primary-focus-background: #132d4f;
+$color-button-text-medlemmer-primary: #ffffff;
+$color-button-text-medlemmer-secondary: #132d4f;
+$color-button-text-medlemmer-inverted: #132d4f;
+$color-button-text-medlemmer-tertiary: #dd0d0b;
+$color-button-text-virksomheder-primary: #ffffff;
+$color-button-text-virksomheder-secondary-dark: #132d4f;
+$color-button-text-virksomheder-secondary-light: #ffffff;
+$color-button-text-virksomheder-inverted: #132d4f;
+$color-button-text-virksomheder-tertiary: #0052cc;
+$color-button-stroke-secondary: #132d4f;
+$color-button-stroke-tertiary: #0052cc;
+$color-button-stroke-medlemmer-tertiary: #dd0d0b;
+$color-link-primary-medlemmer-base: #dd0d0b;
+$color-link-primary-medlemmer-hover: #dd0d0b;
+$color-link-primary-medlemmer-pressed: #dd0d0b;
+$color-link-primary-medlemmer-focus: #ffffff;
+$color-link-primary-medlemmer-focus-background: #132d4f;
+$color-link-primary-virksomheder-base: #0052cc;
+$color-link-primary-virksomheder-hover: #0052cc;
+$color-link-primary-virksomheder-pressed: #0052cc;
+$color-link-primary-virksomheder-focus: #ffffff;
+$color-link-primary-virksomheder-focus-background: #132d4f;
 $color-link-inverted-base: #ffffff;
 $color-link-inverted-hover: #b9d3e9;
 $color-link-inverted-pressed: #ffffff;
@@ -81,6 +97,11 @@ $color-background-blue: #77b7e3;
 $color-background-blue-dark: #132d4f;
 $color-background-white: #ffffff;
 $color-background-transparent-white: #ffffff;
+$color-background-page-header-frontpage-virksomheder: #132d4f;
+$color-background-page-header-frontpage-medlemmer: #dd0d0b;
+$color-background-page-header-article-base: #ffffff;
+$color-background-page-header-product-textarea: #ffffff;
+$color-background-page-header-product-actionarea: #edf5fb;
 $color-text-header-primary: #132d4f;
 $color-text-header-inverted: #ffffff;
 $color-text-body-primary: #4e617b;
@@ -314,21 +335,21 @@ $typography-mobile-h1: (
       fontFamily: var(--ff-primary),
       fontSize: 2rem,
       lineHeight: 2.2rem,
-      fontWeight: 200,
+      fontWeight: 400,
       letterSpacing: 0.021875rem
     );
 $typography-mobile-h2: (
       fontFamily: var(--ff-primary),
       fontSize: 1.5rem,
       lineHeight: 1.65rem,
-      fontWeight: 200,
+      fontWeight: 400,
       letterSpacing: 0.00625rem
     );
 $typography-mobile-h3: (
       fontFamily: var(--ff-primary),
       fontSize: 1.25rem,
       lineHeight: 1.375rem,
-      fontWeight: 200,
+      fontWeight: 400,
       letterSpacing: 0.00625rem
     );
 $typography-mobile-h4: (
@@ -440,21 +461,21 @@ $typography-desktop-h1: (
       fontFamily: var(--ff-primary),
       fontSize: 2.875rem,
       lineHeight: 3.1625rem,
-      fontWeight: 200,
+      fontWeight: 400,
       letterSpacing: 0.021875rem
     );
 $typography-desktop-h2: (
       fontFamily: var(--ff-primary),
       fontSize: 2rem,
       lineHeight: 2.2rem,
-      fontWeight: 200,
+      fontWeight: 400,
       letterSpacing: 0.00625rem
     );
 $typography-desktop-h3: (
       fontFamily: var(--ff-primary),
       fontSize: 1.5rem,
       lineHeight: 1.65rem,
-      fontWeight: 200,
+      fontWeight: 400,
       letterSpacing: 0.00625rem
     );
 $typography-desktop-h4: (
