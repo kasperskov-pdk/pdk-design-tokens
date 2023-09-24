@@ -44,11 +44,11 @@
               "type": "color"
             },
             "hover": {
-              "value": "#0052CC",
+              "value": "#004BBA",
               "type": "color"
             },
             "pressed": {
-              "value": "#0052CC",
+              "value": "#004BBA",
               "type": "color"
             }
           }
@@ -141,7 +141,7 @@
             "type": "color"
           },
           "tertiary": {
-            "value": "#0052CC",
+            "value": "#004BBA",
             "type": "color"
           }
         }
@@ -152,7 +152,7 @@
           "type": "color"
         },
         "tertiary": {
-          "value": "#0052CC",
+          "value": "#004BBA",
           "type": "color"
         },
         "medlemmer": {
@@ -192,15 +192,15 @@
         },
         "virksomheder": {
           "base": {
-            "value": "#0052CC",
+            "value": "#004BBA",
             "type": "color"
           },
           "hover": {
-            "value": "#0052CC",
+            "value": "#004BBA",
             "type": "color"
           },
           "pressed": {
-            "value": "#0052CC",
+            "value": "#004BBA",
             "type": "color"
           },
           "focus": {
@@ -247,7 +247,7 @@
           "type": "color"
         },
         "700": {
-          "value": "#0052CC",
+          "value": "#004BBA",
           "type": "color"
         },
         "800": {
