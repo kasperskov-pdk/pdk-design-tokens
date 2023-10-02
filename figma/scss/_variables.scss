@@ -1,33 +1,49 @@
 
 // Do not edit directly
-// Generated on Wed, 10 May 2023 09:44:39 GMT
+// Generated on Mon, 02 Oct 2023 08:16:06 GMT
+
 
 $color-section-white: #ffffff;
 $color-section-light: #edf5fb;
 $color-section-dark: #132d4f;
 $color-section-aurora: #ffffff;
-$color-button-background-primary-base: #dd0d0b;
-$color-button-background-primary-hover: #e54948;
-$color-button-background-primary-pressed: #e54948;
+$color-button-background-primary-medlemmer-base: #dd0d0b;
+$color-button-background-primary-medlemmer-hover: #e54948;
+$color-button-background-primary-medlemmer-pressed: #e54948;
+$color-button-background-primary-virksomhed-base: #132d4f;
+$color-button-background-primary-virksomhed-hover: #004bba;
+$color-button-background-primary-virksomhed-pressed: #004bba;
 $color-button-background-secondary-base: #ffffff;
-$color-button-background-secondary-hover: #6e6d79;
-$color-button-background-secondary-pressed: #6e6d79;
-$color-button-background-tertiary-hover: #fcede8;
+$color-button-background-secondary-hover: #132d4f;
+$color-button-background-secondary-pressed: #132d4f;
+$color-button-background-tertiary-medlemmer-hover: #fcede8;
+$color-button-background-tertiary-virksomheder-hover: #ffffff;
 $color-button-background-inverted-base: #ffffff;
 $color-button-background-inverted-hover: #edf5fb;
 $color-button-background-table-function-base: #cee0f6;
 $color-button-background-table-function-hover: #132d4f;
-$color-button-text-primary: #ffffff;
-$color-button-text-secondary: #6e6d79;
-$color-button-text-inverted: #132d4f;
-$color-button-text-tertiary: #dd0d0b;
-$color-button-stroke: #6e6d79;
-$color-link-primary-base: #dd0d0b;
-$color-link-primary-hover: #e54948;
-$color-link-primary-pressed: #b90e0d;
-$color-link-secondary-base: #0052cc;
-$color-link-secondary-hover: #132d4f;
-$color-link-secondary-pressed: #77b7e3;
+$color-button-text-medlemmer-primary: #ffffff;
+$color-button-text-medlemmer-secondary: #132d4f;
+$color-button-text-medlemmer-inverted: #132d4f;
+$color-button-text-medlemmer-tertiary: #dd0d0b;
+$color-button-text-virksomheder-primary: #ffffff;
+$color-button-text-virksomheder-secondary-dark: #132d4f;
+$color-button-text-virksomheder-secondary-light: #ffffff;
+$color-button-text-virksomheder-inverted: #132d4f;
+$color-button-text-virksomheder-tertiary: #004bba;
+$color-button-stroke-secondary: #132d4f;
+$color-button-stroke-tertiary: #004bba;
+$color-button-stroke-medlemmer-tertiary: #dd0d0b;
+$color-link-primary-medlemmer-base: #dd0d0b;
+$color-link-primary-medlemmer-hover: #dd0d0b;
+$color-link-primary-medlemmer-pressed: #dd0d0b;
+$color-link-primary-medlemmer-focus: #ffffff;
+$color-link-primary-medlemmer-focus-background: #132d4f;
+$color-link-primary-virksomheder-base: #004bba;
+$color-link-primary-virksomheder-hover: #004bba;
+$color-link-primary-virksomheder-pressed: #004bba;
+$color-link-primary-virksomheder-focus: #ffffff;
+$color-link-primary-virksomheder-focus-background: #132d4f;
 $color-link-inverted-base: #ffffff;
 $color-link-inverted-hover: #b9d3e9;
 $color-link-inverted-pressed: #ffffff;
@@ -35,7 +51,7 @@ $color-base-blue-100: #edf5fb;
 $color-base-blue-200: #cee0f6;
 $color-base-blue-300: #b9d3e9;
 $color-base-blue-500: #77b7e3;
-$color-base-blue-700: #0052cc;
+$color-base-blue-700: #004bba;
 $color-base-blue-800: #4e617b;
 $color-base-blue-900: #132d4f;
 $color-base-grey-100: #f9f9f9;
@@ -82,6 +98,11 @@ $color-background-blue: #77b7e3;
 $color-background-blue-dark: #132d4f;
 $color-background-white: #ffffff;
 $color-background-transparent-white: #ffffff;
+$color-background-page-header-frontpage-virksomheder: #ffffff;
+$color-background-page-header-frontpage-medlemmer: #dd0d0b;
+$color-background-page-header-article-base: #ffffff;
+$color-background-page-header-product-textarea: #ffffff;
+$color-background-page-header-product-actionarea: #edf5fb;
 $color-text-header-primary: #132d4f;
 $color-text-header-inverted: #ffffff;
 $color-text-body-primary: #4e617b;
@@ -106,8 +127,9 @@ $color-input-text-red: #dd0d0b;
 $color-input-text-green: #006c6c;
 $color-input-text-orange: #b73504;
 $color-input-text-orange-copy: #cc3e08;
+$color-input-icon-default: #dd0d0b;
 $color-dropdown-text-blue: #132d4f;
-$color-dropdown-text-grey: #6e6d79;
+$color-dropdown-text-grey: #9e9ea6;
 $color-dropdown-text-red: #dd0d0b;
 $color-dropdown-text-primary: #4e617b;
 $color-dropdown-text-fix: #9e9ea6;
@@ -115,9 +137,10 @@ $color-dropdown-text-active: #77b7e3;
 $color-dropdown-icon-blue: #4e617b;
 $color-dropdown-icon-active: #77b7e3;
 $color-dropdown-icon-blue-dark: #132d4f;
+$color-dropdown-icon-default: #dd0d0b;
 $color-dropdown-background-blue: #edf5fb;
 $color-dropdown-background-white: #ffffff;
-$color-dropdown-border-active-blue: #77b7e3;
+$color-dropdown-border-default: #e1e5e8;
 $color-toggle-border-grey: #e1e5e8;
 $color-toggle-border-red-200: #ffc6c6;
 $color-toggle-border-red: #dd0d0b;
@@ -144,21 +167,21 @@ $color-tooltip-text-white: #ffffff;
 $color-tooltip-background-blue-light: #edf5fb;
 $color-tooltip-background-dark-blue: #132d4f;
 $color-tooltip-background-white: #ffffff;
-$color-tag-fill-orange: #b73504;
-$color-tag-fill-blue: #132d4f;
-$color-tag-fill-green: #006c6c;
+$color-tag-text-orange: #b73504;
+$color-tag-text-blue: #132d4f;
+$color-tag-text-green: #006c6c;
 $color-tag-background-orange: #fff3e9;
-$color-tag-background-blue: #edf5fb;
+$color-tag-background-blue: #cee0f6;
 $color-tag-background-green: #e8f4f4;
 $color-tag-background-white: #ffffff;
-$color-avatar-bakcground-dark-blue: #132d4f;
-$color-avatar-bakcground-light-blue: #cee0f6;
-$color-avatar-bakcground-red: #fcede8;
-$color-avatar-bakcground-grey: #f0f2f3;
-$color-avatar-fill-light-blue: #edf5fb;
-$color-avatar-fill-dark-blue: #132d4f;
-$color-avatar-fill-red: #dd0d0b;
+$color-avatar-background-dark-blue: #132d4f;
+$color-avatar-background-light-blue: #cee0f6;
+$color-avatar-background-red: #fcede8;
+$color-avatar-background-grey: #f0f2f3;
+$color-avatar-fill-dark: #132d4f;
 $color-avatar-fill-grey: #9e9ea6;
+$color-avatar-fill-default: #77b7e3;
+$color-avatar-fill-light: #ffffff;
 $color-graph-main-blue: #77b7e3;
 $color-graph-main-green: #479390;
 $color-graph-main-red: #a81d57;
@@ -171,13 +194,16 @@ $color-graph-light-yellow: #f2d899;
 $color-graph-light-purple: #b391cb;
 $color-graph-light-gold: #bfbfbd;
 $color-banner-lokal-text-dark-blue: #132d4f;
-$color-banner-lokal-text-alert: #cc3e08;
+$color-banner-lokal-text-attention: #cc3e08;
 $color-banner-lokal-text-white: #ffffff;
 $color-banner-lokal-text-info: #b9d3e9;
 $color-banner-lokal-background-dark-blue: #132d4f;
-$color-banner-lokal-background-alert: #fff3e9;
-$color-banner-lokal-header-alert: #b73504;
+$color-banner-lokal-background-attention: #fff3e9;
+$color-banner-lokal-header-attention: #b73504;
 $color-banner-lokal-header-info: #ffffff;
+$color-krydslink-border-accessability: #132d4f;
+$color-krydslink-background: #ffffff;
+$color-krydslink-label: #132d4f;
 $spacing-container-desktop-padding-x-small: 2.5rem;
 $spacing-container-desktop-padding-x-large: 5rem;
 $spacing-container-desktop-padding-x-xlarge: 7.25rem;
@@ -191,6 +217,7 @@ $spacing-container-desktop-padding-y-none: 0rem;
 $spacing-container-desktop-gap-y-small: 1rem;
 $spacing-container-desktop-gap-y-medium: 1.5rem;
 $spacing-container-desktop-gap-y-large: 2.5rem;
+$spacing-container-desktop-gap-y-xlarge: 5rem;
 $spacing-container-mobile-padding-x-small: 1rem;
 $spacing-container-mobile-padding-x-large: 1.25rem;
 $spacing-container-mobile-padding-x-xlarge: 1.25rem;
@@ -203,6 +230,7 @@ $spacing-container-mobile-padding-y-none: 0rem;
 $spacing-container-mobile-gap-y-small: 0.75rem;
 $spacing-container-mobile-gap-y-medium: 1rem;
 $spacing-container-mobile-gap-y-large: 1.5rem;
+$spacing-container-mobile-gap-y-xlarge: 4rem;
 $spacing-grid-desktop-gap-small: 1.5rem;
 $spacing-grid-desktop-gap-medium: 2rem;
 $spacing-grid-desktop-gap-large: 2.5rem;
@@ -230,7 +258,7 @@ $spacing-mobile-5: 1.25rem;
 $spacing-mobile-6: 1.5rem;
 $spacing-mobile-7: 2rem;
 $spacing-mobile-8: 3rem;
-$spacing-mobile-9: 5rem;
+$spacing-mobile-9: 4rem;
 $spacing-mobile-base: 0.25rem;
 $spacing-mobile-auto: auto;
 $spacing-mobile-section-container-large: 1.5rem;
@@ -310,21 +338,21 @@ $typography-mobile-h1: (
       fontFamily: var(--ff-primary),
       fontSize: 2rem,
       lineHeight: 2.2rem,
-      fontWeight: 200,
+      fontWeight: 400,
       letterSpacing: 0.021875rem
     );
 $typography-mobile-h2: (
       fontFamily: var(--ff-primary),
       fontSize: 1.5rem,
       lineHeight: 1.65rem,
-      fontWeight: 200,
+      fontWeight: 400,
       letterSpacing: 0.00625rem
     );
 $typography-mobile-h3: (
       fontFamily: var(--ff-primary),
       fontSize: 1.25rem,
       lineHeight: 1.375rem,
-      fontWeight: 200,
+      fontWeight: 400,
       letterSpacing: 0.00625rem
     );
 $typography-mobile-h4: (
@@ -436,21 +464,21 @@ $typography-desktop-h1: (
       fontFamily: var(--ff-primary),
       fontSize: 2.875rem,
       lineHeight: 3.1625rem,
-      fontWeight: 200,
+      fontWeight: 400,
       letterSpacing: 0.021875rem
     );
 $typography-desktop-h2: (
       fontFamily: var(--ff-primary),
       fontSize: 2rem,
       lineHeight: 2.2rem,
-      fontWeight: 200,
+      fontWeight: 400,
       letterSpacing: 0.00625rem
     );
 $typography-desktop-h3: (
       fontFamily: var(--ff-primary),
       fontSize: 1.5rem,
       lineHeight: 1.65rem,
-      fontWeight: 200,
+      fontWeight: 400,
       letterSpacing: 0.00625rem
     );
 $typography-desktop-h4: (
@@ -621,84 +649,56 @@ $typography-section-large-title: (
       fontWeight: 400,
       letterSpacing: 0.0125rem
     );
-$typography-input-small-label: (
+$typography-input-mobile-fix: (
       fontFamily: var(--ff-primary),
       fontSize: 0.875rem,
       lineHeight: 1.225rem,
       fontWeight: 200,
       letterSpacing: 0.015625rem
     );
-$typography-input-small-fix: (
-      fontFamily: var(--ff-primary),
-      fontSize: 0.75rem,
-      lineHeight: 1.05rem,
-      fontWeight: 200,
-      letterSpacing: 0.015625rem
-    );
-$typography-input-small-body: (
+$typography-input-mobile-body: (
       fontFamily: var(--ff-primary),
       fontSize: 1rem,
       lineHeight: 1.4rem,
       fontWeight: 200,
       letterSpacing: 0.015625rem
     );
-$typography-input-small-descriptive: (
+$typography-input-mobile-label: (
+      fontFamily: var(--ff-primary),
+      fontSize: 0.875rem,
+      lineHeight: 1.225rem,
+      fontWeight: 200,
+      letterSpacing: 0.015625rem
+    );
+$typography-input-mobile-descriptive: (
       fontFamily: var(--ff-primary),
       fontSize: 0.75rem,
       lineHeight: 1.05rem,
       fontWeight: 200,
       letterSpacing: 0.015625rem
     );
-$typography-input-medium-fix: (
+$typography-input-desktop-fix: (
       fontFamily: var(--ff-primary),
       fontSize: 0.875rem,
       lineHeight: 1.225rem,
       fontWeight: 200,
       letterSpacing: 0.015625rem
     );
-$typography-input-medium-body: (
-      fontFamily: var(--ff-primary),
-      fontSize: 1rem,
-      lineHeight: 1.4rem,
-      fontWeight: 200,
-      letterSpacing: 0.015625rem
-    );
-$typography-input-medium-label: (
-      fontFamily: var(--ff-primary),
-      fontSize: 0.875rem,
-      lineHeight: 1.225rem,
-      fontWeight: 200,
-      letterSpacing: 0.015625rem
-    );
-$typography-input-medium-descriptive: (
-      fontFamily: var(--ff-primary),
-      fontSize: 0.75rem,
-      lineHeight: 1.05rem,
-      fontWeight: 200,
-      letterSpacing: 0.015625rem
-    );
-$typography-input-large-fix: (
-      fontFamily: var(--ff-primary),
-      fontSize: 0.875rem,
-      lineHeight: 1.225rem,
-      fontWeight: 200,
-      letterSpacing: 0.015625rem
-    );
-$typography-input-large-body: (
+$typography-input-desktop-body: (
       fontFamily: var(--ff-primary),
       fontSize: 1.125rem,
       lineHeight: 1.575rem,
       fontWeight: 200,
       letterSpacing: 0.015625rem
     );
-$typography-input-large-label: (
+$typography-input-desktop-label: (
       fontFamily: var(--ff-primary),
       fontSize: 1.125rem,
       lineHeight: 1.575rem,
       fontWeight: 200,
       letterSpacing: 0.015625rem
     );
-$typography-input-large-descriptive: (
+$typography-input-desktop-descriptive: (
       fontFamily: var(--ff-primary),
       fontSize: 0.875rem,
       lineHeight: 1.225rem,
@@ -950,7 +950,7 @@ $size-icon-xxl: 5rem;
 $size-icon-xxxl: 8rem;
 $border-sm: 0.0625rem;
 $border-md: 0.125rem;
-$border-lg: 0.25rem;
+$border-lg: 0.1875rem;
 $opacity-button-disabled: 0.5;
 $opacity-input-disabled: 0.5;
 $opacity-checkbox-disabled: 0.5;
@@ -968,3 +968,4 @@ $toggle-shadow-blue-hover: 0px 0px 0px 1px #CEE0F6;
 $toggle-icon-shadow: -0.5px 0px 2px 0px #3a0e0e3d;
 $dialog-shadow: 0px 10px 15px -3px #0000001a;
 $basic-shadow: 0px 3px 10px 0px #0000001a;
+$text-decoration-underline: underline;
