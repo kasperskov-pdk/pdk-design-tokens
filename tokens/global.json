@@ -1047,6 +1047,11 @@
           "large": {
             "value": 40,
             "type": "spacing"
+          },
+          "xlarge": {
+            "value": 80,
+            "type": "spacing",
+            "description": "Used only for spacing between sections and blocks (containers)"
           }
         }
       },
@@ -1103,6 +1108,11 @@
           "large": {
             "value": 24,
             "type": "spacing"
+          },
+          "xlarge": {
+            "value": 64,
+            "type": "spacing",
+            "description": "Used only for spacing between sections and blocks (containers)"
           }
         }
       }
@@ -1237,7 +1247,7 @@
         "type": "spacing"
       },
       "9": {
-        "value": 80,
+        "value": 64,
         "type": "spacing"
       },
       "base": {
