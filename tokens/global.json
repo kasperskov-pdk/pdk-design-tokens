@@ -570,6 +570,10 @@
         "active-search": {
           "value": "#DD0D0B",
           "type": "color"
+        },
+        "focus": {
+          "value": "#132D4F",
+          "type": "color"
         }
       },
       "text": {
@@ -1545,7 +1549,7 @@
       "h3": {
         "value": {
           "fontFamily": "DINOT",
-          "fontWeight": "Medium",
+          "fontWeight": "Regular",
           "lineHeight": "110%",
           "fontSize": 20,
           "letterSpacing": 0.1,
@@ -1760,7 +1764,7 @@
       "h3": {
         "value": {
           "fontFamily": "DINOT",
-          "fontWeight": "Medium",
+          "fontWeight": "Regular",
           "lineHeight": "110%",
           "fontSize": 24,
           "letterSpacing": 0.1,
@@ -2955,6 +2959,17 @@
         "blur": 0,
         "spread": 3,
         "color": "#FCEDE8",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "shadow-focus": {
+      "value": {
+        "x": 0,
+        "y": 0,
+        "blur": 0,
+        "spread": 3,
+        "color": "#132D4F",
         "type": "dropShadow"
       },
       "type": "boxShadow"

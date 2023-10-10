@@ -1,6 +1,5 @@
+// Generated on Tue, 10 Oct 2023 09:08:03 GMT
 
-// Do not edit directly
-// Generated on Mon, 02 Oct 2023 17:44:22 GMT
 
 $color-section-white: #ffffff;
 $color-section-light: #edf5fb;
@@ -120,6 +119,7 @@ $color-input-border-active-blue: #77b7e3;
 $color-input-border-disabled: #9e9ea6;
 $color-input-border-default: #e1e5e8;
 $color-input-border-active-search: #dd0d0b;
+$color-input-border-focus: #132d4f;
 $color-input-text-blue: #132d4f;
 $color-input-text-placeholder: #9e9ea6;
 $color-input-text-red: #dd0d0b;
@@ -351,7 +351,7 @@ $typography-mobile-h3: (
       fontFamily: var(--ff-primary),
       fontSize: 1.25rem,
       lineHeight: 1.375rem,
-      fontWeight: 400,
+      fontWeight: 200,
       letterSpacing: 0.00625rem
     );
 $typography-mobile-h4: (
@@ -477,7 +477,7 @@ $typography-desktop-h3: (
       fontFamily: var(--ff-primary),
       fontSize: 1.5rem,
       lineHeight: 1.65rem,
-      fontWeight: 400,
+      fontWeight: 200,
       letterSpacing: 0.00625rem
     );
 $typography-desktop-h4: (
@@ -959,6 +959,7 @@ $input-shadow-active: 0px 0px 0px 3px #77B7E3;
 $input-shadow-valid: 0px 0px 0px 3px #CFE6E1;
 $input-shadow-blue-hover: 0px 0px 0px 3px #EDF5FB;
 $input-shadow-red-hover: 0px 0px 0px 3px #FCEDE8;
+$input-shadow-focus: 0px 0px 0px 3px #132D4F;
 $dropdown-shadow-active-blue: 0px 0px 0px 1px #b9d3e9;
 $checkbox-shadow-red-hover: 0px 0px 0px 1px #FCEDE8;
 $checkbox-shadow-red-focused: 0px 0px 0px 1px #FCEDE8;
