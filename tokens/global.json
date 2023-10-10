@@ -1549,7 +1549,7 @@
       "h3": {
         "value": {
           "fontFamily": "DINOT",
-          "fontWeight": "Medium",
+          "fontWeight": "Regular",
           "lineHeight": "110%",
           "fontSize": 20,
           "letterSpacing": 0.1,
@@ -1764,7 +1764,7 @@
       "h3": {
         "value": {
           "fontFamily": "DINOT",
-          "fontWeight": "Medium",
+          "fontWeight": "Regular",
           "lineHeight": "110%",
           "fontSize": 24,
           "letterSpacing": 0.1,
