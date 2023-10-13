@@ -605,6 +605,10 @@
           "value": "#CC3E08",
           "description": "invalid pre,-suf- fix",
           "type": "color"
+        },
+        "disabled": {
+          "value": "#4E617B",
+          "type": "color"
         }
       },
       "icon": {
