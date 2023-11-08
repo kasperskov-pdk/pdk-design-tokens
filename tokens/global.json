@@ -994,6 +994,50 @@
         "value": "#132D4F",
         "type": "color"
       }
+    },
+    "alert": {
+      "background": {
+        "info": {
+          "value": "#004BBA",
+          "type": "color"
+        },
+        "attention": {
+          "value": "#FFF3E9",
+          "type": "color"
+        }
+      },
+      "text": {
+        "info": {
+          "body": {
+            "value": "#EDF5FB",
+            "type": "color"
+          },
+          "heading": {
+            "value": "#FFFFFF",
+            "type": "color"
+          }
+        },
+        "attention": {
+          "body": {
+            "value": "#4E617B",
+            "type": "color"
+          },
+          "heading": {
+            "value": "#132D4F",
+            "type": "color"
+          }
+        }
+      },
+      "icon": {
+        "info": {
+          "value": "#ffffff80",
+          "type": "color"
+        },
+        "attention": {
+          "value": "#4E617B",
+          "type": "color"
+        }
+      }
     }
   },
   "spacing": {
