@@ -378,7 +378,7 @@
     "signal": {
       "background": {
         "info": {
-          "value": "#004BBA",
+          "value": "#EDF5FB",
           "type": "color"
         },
         "valid": {
@@ -682,11 +682,19 @@
           "value": "#FFFFFF",
           "description": "",
           "type": "color"
+        },
+        "disabled": {
+          "value": "#F0F2F3",
+          "type": "color"
         }
       },
       "border": {
         "default": {
           "value": "#E1E5E8",
+          "type": "color"
+        },
+        "focus": {
+          "value": "#132D4F",
           "type": "color"
         }
       }
@@ -1037,6 +1045,12 @@
           "value": "#132D4F",
           "type": "color"
         }
+      }
+    },
+    "primary": {
+      "medlem": {
+        "value": "#DD0D0B",
+        "type": "color"
       }
     }
   },
