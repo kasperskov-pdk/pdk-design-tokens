@@ -1048,10 +1048,16 @@
       }
     },
     "primary": {
-      "medlem": {
-        "value": "#DD0D0B",
-        "type": "color"
-      }
+      "value": "#DD0D0B",
+      "type": "color"
+    },
+    "secondary": {
+      "value": "#132D4F",
+      "type": "color"
+    },
+    "tertiary": {
+      "value": "#004BBA",
+      "type": "color"
     }
   },
   "spacing": {
