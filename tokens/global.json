@@ -445,7 +445,7 @@
         "type": "color"
       },
       "blue": {
-        "value": "#77B7E3",
+        "value": "#004BBA",
         "type": "color"
       },
       "blue-dark": {
@@ -536,6 +536,10 @@
         "disabled": {
           "value": "#F0F2F3",
           "type": "color"
+        },
+        "checked": {
+          "value": "#004BBA",
+          "type": "color"
         }
       },
       "border": {
@@ -559,20 +563,16 @@
           "value": "#77B7E3",
           "type": "color"
         },
-        "disabled": {
+        "default": {
           "value": "#9E9EA6",
           "type": "color"
         },
-        "default": {
+        "disabled": {
           "value": "#E1E5E8",
           "type": "color"
         },
-        "active-search": {
-          "value": "#DD0D0B",
-          "type": "color"
-        },
         "focus": {
-          "value": "#132D4F",
+          "value": "#FFFFFF",
           "type": "color"
         }
       },
@@ -616,6 +616,10 @@
           "value": "#DD0D0B",
           "type": "color",
           "description": "Anvendes fx på chevrons"
+        },
+        "inverted": {
+          "value": "#FFFFFF",
+          "type": "color"
         }
       }
     },
@@ -756,40 +760,6 @@
         "blue": {
           "value": "#132D4F",
           "description": "",
-          "type": "color"
-        }
-      }
-    },
-    "checkbox": {
-      "fill": {
-        "white": {
-          "value": "#FFFFFF",
-          "type": "color"
-        },
-        "grey": {
-          "value": "#F0F2F3",
-          "type": "color"
-        },
-        "red": {
-          "value": "#DD0D0B",
-          "type": "color"
-        },
-        "grey-400": {
-          "value": "#6E6D79",
-          "type": "color"
-        }
-      },
-      "border": {
-        "red-200": {
-          "value": "#FFC6C6",
-          "type": "color"
-        },
-        "grey-300": {
-          "value": "#9E9EA6",
-          "type": "color"
-        },
-        "hover": {
-          "value": "#DD0D0B",
           "type": "color"
         }
       }
