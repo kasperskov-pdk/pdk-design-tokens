@@ -513,7 +513,7 @@
     },
     "input": {
       "background": {
-        "white": {
+        "default": {
           "value": "#FFFFFF",
           "type": "color"
         },
@@ -523,10 +523,6 @@
         },
         "invalid": {
           "value": "#FFF3E9",
-          "type": "color"
-        },
-        "default": {
-          "value": "#F0F2F3",
           "type": "color"
         },
         "filled-blue": {
