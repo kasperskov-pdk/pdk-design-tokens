@@ -445,8 +445,9 @@
         "type": "color"
       },
       "blue": {
-        "value": "#004BBA",
-        "type": "color"
+        "value": "$color.medlem.tertiary",
+        "type": "color",
+        "failedToResolve": true
       },
       "blue-dark": {
         "value": "#132D4F",
@@ -956,17 +957,15 @@
         }
       }
     },
-    "primary": {
-      "value": "#DD0D0B",
-      "type": "color"
-    },
-    "secondary": {
-      "value": "#132D4F",
-      "type": "color"
-    },
-    "tertiary": {
-      "value": "#004BBA",
-      "type": "color"
+    "medlem": {
+      "primary": {
+        "value": "#DD0D0B",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "#132D4F",
+        "type": "color"
+      }
     },
     "toggle": {
       "handle": {
@@ -992,6 +991,16 @@
           "value": "#132D4F",
           "type": "color"
         }
+      }
+    },
+    "virksomhed": {
+      "primary": {
+        "value": "#132D4F",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "#004BBA",
+        "type": "color"
       }
     }
   },
