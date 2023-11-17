@@ -445,9 +445,8 @@
         "type": "color"
       },
       "blue": {
-        "value": "$color.medlem.tertiary",
-        "type": "color",
-        "failedToResolve": true
+        "value": "#004BBA",
+        "type": "color"
       },
       "blue-dark": {
         "value": "#132D4F",
