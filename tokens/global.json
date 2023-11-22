@@ -378,7 +378,7 @@
     "signal": {
       "background": {
         "info": {
-          "value": "#004BBA",
+          "value": "#EDF5FB",
           "type": "color"
         },
         "valid": {
@@ -445,7 +445,7 @@
         "type": "color"
       },
       "blue": {
-        "value": "#77B7E3",
+        "value": "#004BBA",
         "type": "color"
       },
       "blue-dark": {
@@ -513,7 +513,7 @@
     },
     "input": {
       "background": {
-        "white": {
+        "default": {
           "value": "#FFFFFF",
           "type": "color"
         },
@@ -525,16 +525,16 @@
           "value": "#FFF3E9",
           "type": "color"
         },
-        "default": {
-          "value": "#F0F2F3",
-          "type": "color"
-        },
         "filled-blue": {
           "value": "#CEE0F6",
           "type": "color"
         },
         "disabled": {
           "value": "#F0F2F3",
+          "type": "color"
+        },
+        "checked": {
+          "value": "#132D4F",
           "type": "color"
         }
       },
@@ -559,20 +559,16 @@
           "value": "#77B7E3",
           "type": "color"
         },
-        "disabled": {
+        "default": {
           "value": "#9E9EA6",
           "type": "color"
         },
-        "default": {
+        "disabled": {
           "value": "#E1E5E8",
           "type": "color"
         },
-        "active-search": {
-          "value": "#DD0D0B",
-          "type": "color"
-        },
         "focus": {
-          "value": "#132D4F",
+          "value": "#FFFFFF",
           "type": "color"
         }
       },
@@ -616,6 +612,14 @@
           "value": "#DD0D0B",
           "type": "color",
           "description": "Anvendes fx på chevrons"
+        },
+        "inverted": {
+          "value": "#FFFFFF",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "#9E9EA6",
+          "type": "color"
         }
       }
     },
@@ -682,106 +686,19 @@
           "value": "#FFFFFF",
           "description": "",
           "type": "color"
+        },
+        "disabled": {
+          "value": "#F0F2F3",
+          "type": "color"
         }
       },
       "border": {
         "default": {
           "value": "#E1E5E8",
           "type": "color"
-        }
-      }
-    },
-    "toggle": {
-      "border": {
-        "grey": {
-          "value": "#E1E5E8",
-          "type": "color"
         },
-        "red-200": {
-          "value": "#FFC6C6",
-          "type": "color"
-        },
-        "red": {
-          "value": "#DD0D0B",
-          "type": "color"
-        },
-        "grey-dark": {
-          "value": "#9E9EA6",
-          "type": "color"
-        },
-        "blue-dark": {
-          "value": "#4E617B",
-          "type": "color"
-        },
-        "blue": {
+        "focus": {
           "value": "#132D4F",
-          "type": "color"
-        },
-        "blue-light": {
-          "value": "#77B7E3",
-          "type": "color"
-        }
-      },
-      "fill": {
-        "on": {
-          "value": "#DD0D0B",
-          "type": "color"
-        },
-        "grey": {
-          "value": "#E1E5E8",
-          "type": "color"
-        },
-        "off": {
-          "value": "#9E9EA6",
-          "type": "color"
-        },
-        "white": {
-          "value": "#FFFFFF",
-          "type": "color"
-        },
-        "on-hover": {
-          "value": "#F99591",
-          "type": "color"
-        }
-      },
-      "text": {
-        "blue": {
-          "value": "#132D4F",
-          "description": "",
-          "type": "color"
-        }
-      }
-    },
-    "checkbox": {
-      "fill": {
-        "white": {
-          "value": "#FFFFFF",
-          "type": "color"
-        },
-        "grey": {
-          "value": "#F0F2F3",
-          "type": "color"
-        },
-        "red": {
-          "value": "#DD0D0B",
-          "type": "color"
-        },
-        "grey-400": {
-          "value": "#6E6D79",
-          "type": "color"
-        }
-      },
-      "border": {
-        "red-200": {
-          "value": "#FFC6C6",
-          "type": "color"
-        },
-        "grey-300": {
-          "value": "#9E9EA6",
-          "type": "color"
-        },
-        "hover": {
-          "value": "#DD0D0B",
           "type": "color"
         }
       }
@@ -1037,6 +954,52 @@
           "value": "#132D4F",
           "type": "color"
         }
+      }
+    },
+    "medlem": {
+      "primary": {
+        "value": "#DD0D0B",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "#132D4F",
+        "type": "color"
+      }
+    },
+    "toggle": {
+      "handle": {
+        "off": {
+          "value": "#132D4F",
+          "type": "color"
+        },
+        "on": {
+          "value": "#FFFFFF",
+          "type": "color"
+        }
+      },
+      "border": {
+        "off": {
+          "default": {
+            "value": "#132D4F",
+            "type": "color"
+          }
+        }
+      },
+      "background": {
+        "on": {
+          "value": "#132D4F",
+          "type": "color"
+        }
+      }
+    },
+    "virksomhed": {
+      "primary": {
+        "value": "#132D4F",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "#004BBA",
+        "type": "color"
       }
     }
   },
