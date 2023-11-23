@@ -529,12 +529,16 @@
           "value": "#CEE0F6",
           "type": "color"
         },
-        "disabled": {
+        "disabled-off": {
           "value": "#F0F2F3",
           "type": "color"
         },
         "checked": {
           "value": "#132D4F",
+          "type": "color"
+        },
+        "disabled-on": {
+          "value": "#9E9EA6",
           "type": "color"
         }
       },
