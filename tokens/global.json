@@ -975,6 +975,14 @@
         "on": {
           "value": "#FFFFFF",
           "type": "color"
+        },
+        "disabled-on": {
+          "value": "#F0F2F3",
+          "type": "color"
+        },
+        "disabled-off": {
+          "value": "#9E9EA6",
+          "type": "color"
         }
       },
       "border": {
