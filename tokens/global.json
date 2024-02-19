@@ -1013,6 +1013,12 @@
         "value": "#004BBA",
         "type": "color"
       }
+    },
+    "progress-bar": {
+      "track": {
+        "value": "#F0F2F3",
+        "type": "color"
+      }
     }
   },
   "spacing": {
@@ -1812,6 +1818,17 @@
           "fontWeight": "Regular",
           "lineHeight": "130%",
           "fontSize": 14,
+          "letterSpacing": 0.1,
+          "paragraphSpacing": 0
+        },
+        "type": "typography"
+      },
+      "manchet": {
+        "value": {
+          "fontFamily": "DINOT",
+          "fontWeight": "Regular",
+          "lineHeight": "110%",
+          "fontSize": 24,
           "letterSpacing": 0.1,
           "paragraphSpacing": 0
         },
