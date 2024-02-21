@@ -487,6 +487,10 @@
             "type": "color"
           }
         }
+      },
+      "light-grey": {
+        "value": "#F9F9F9",
+        "type": "color"
       }
     },
     "text": {
