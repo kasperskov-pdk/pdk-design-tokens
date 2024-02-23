@@ -1560,7 +1560,7 @@
       "h1": {
         "value": {
           "fontFamily": "DINOT",
-          "fontWeight": "Medium",
+          "fontWeight": "Bold",
           "lineHeight": "110%",
           "fontSize": 32,
           "letterSpacing": 0.35,
@@ -1571,7 +1571,7 @@
       "h2": {
         "value": {
           "fontFamily": "DINOT",
-          "fontWeight": "Medium",
+          "fontWeight": "Bold",
           "lineHeight": "110%",
           "fontSize": 24,
           "letterSpacing": 0.1,
@@ -1626,7 +1626,7 @@
       "body-bold": {
         "value": {
           "fontFamily": "DINOT",
-          "fontWeight": "Medium",
+          "fontWeight": "Bold",
           "lineHeight": "160%",
           "fontSize": 16,
           "letterSpacing": 0.2,
@@ -1775,7 +1775,7 @@
       "h1": {
         "value": {
           "fontFamily": "DINOT",
-          "fontWeight": "Medium",
+          "fontWeight": "Bold",
           "lineHeight": "110%",
           "fontSize": 46,
           "letterSpacing": 0.35,
@@ -1786,7 +1786,7 @@
       "h2": {
         "value": {
           "fontFamily": "DINOT",
-          "fontWeight": "Medium",
+          "fontWeight": "Bold",
           "lineHeight": "110%",
           "fontSize": 32,
           "letterSpacing": 0.1,
@@ -1853,7 +1853,7 @@
       "body-bold": {
         "value": {
           "fontFamily": "DINOT",
-          "fontWeight": "Medium",
+          "fontWeight": "Bold",
           "lineHeight": "160%",
           "fontSize": 18,
           "letterSpacing": 0.2,
