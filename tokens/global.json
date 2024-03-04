@@ -403,39 +403,37 @@
         }
       },
       "icon": {
-        "signal": {
-          "info": {
-            "value": "#132D4F",
-            "type": "color"
-          },
-          "info-inverted": {
-            "value": "#b9d3e9",
-            "type": "color"
-          },
-          "valid": {
-            "value": "#006C6C",
-            "type": "color"
-          },
-          "yellow": {
-            "value": "#A06001",
-            "type": "color"
-          },
-          "error": {
-            "value": "#B90E0D",
-            "type": "color"
-          },
-          "question": {
-            "value": "#403294",
-            "type": "color"
-          },
-          "neutral": {
-            "value": "#9E9EA6",
-            "type": "color"
-          },
-          "alert": {
-            "value": "#EE7D52",
-            "type": "color"
-          }
+        "info": {
+          "value": "#004BBA",
+          "type": "color"
+        },
+        "info-inverted": {
+          "value": "#b9d3e9",
+          "type": "color"
+        },
+        "valid": {
+          "value": "#006C6C",
+          "type": "color"
+        },
+        "yellow": {
+          "value": "#A06001",
+          "type": "color"
+        },
+        "error": {
+          "value": "#B90E0D",
+          "type": "color"
+        },
+        "question": {
+          "value": "#403294",
+          "type": "color"
+        },
+        "neutral": {
+          "value": "#9E9EA6",
+          "type": "color"
+        },
+        "warning": {
+          "value": "#EE7D52",
+          "type": "color"
         }
       }
     },
