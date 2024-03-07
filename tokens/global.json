@@ -313,15 +313,27 @@
       },
       "green": {
         "100": {
-          "value": "#E8F4F4",
+          "value": "#ECF9F2",
           "type": "color"
         },
         "200": {
-          "value": "#CFE6E1",
+          "value": "#CEEDDE",
           "type": "color"
         },
         "300": {
-          "value": "#006C6C",
+          "value": "#96D9B8",
+          "type": "color"
+        },
+        "400": {
+          "value": "#5CBC8C",
+          "type": "color"
+        },
+        "600": {
+          "value": "#2D8659",
+          "type": "color"
+        },
+        "900": {
+          "value": "#1D5E48",
           "type": "color"
         }
       },
@@ -382,7 +394,7 @@
           "type": "color"
         },
         "valid": {
-          "value": "#E8F4F4",
+          "value": "#ECF9F2",
           "type": "color"
         },
         "yellow": {
@@ -412,7 +424,7 @@
           "type": "color"
         },
         "valid": {
-          "value": "#006C6C",
+          "value": "#96D9B8",
           "type": "color"
         },
         "yellow": {
@@ -524,7 +536,7 @@
           "type": "color"
         },
         "invalid": {
-          "value": "#FFF3E9",
+          "value": "#FCEDE8",
           "type": "color"
         },
         "filled-blue": {
@@ -554,7 +566,7 @@
           "type": "color"
         },
         "valid": {
-          "value": "#006C6C",
+          "value": "#96D9B8",
           "type": "color"
         },
         "invalid": {
@@ -594,7 +606,7 @@
           "type": "color"
         },
         "green": {
-          "value": "#006C6C",
+          "value": "#96D9B8",
           "description": "",
           "type": "color"
         },
@@ -751,7 +763,7 @@
           "type": "color"
         },
         "green": {
-          "value": "#006C6C",
+          "value": "#96D9B8",
           "type": "color"
         }
       },
@@ -765,7 +777,7 @@
           "type": "color"
         },
         "green": {
-          "value": "#E8F4F4",
+          "value": "#ECF9F2",
           "type": "color"
         },
         "white": {
@@ -2975,7 +2987,7 @@
     },
     "shadow-valid": {
       "value": {
-        "color": "#CFE6E1",
+        "color": "#CEEDDE",
         "spread": 3,
         "blur": 0,
         "y": 0,
