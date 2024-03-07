@@ -333,7 +333,7 @@
           "type": "color"
         },
         "900": {
-          "value": "#1D5E48",
+          "value": "#206040",
           "type": "color"
         }
       },
@@ -424,7 +424,7 @@
           "type": "color"
         },
         "valid": {
-          "value": "#96D9B8",
+          "value": "#2D8659",
           "type": "color"
         },
         "yellow": {
@@ -606,8 +606,7 @@
           "type": "color"
         },
         "green": {
-          "value": "#96D9B8",
-          "description": "",
+          "value": "#206040",
           "type": "color"
         },
         "orange": {
@@ -763,7 +762,7 @@
           "type": "color"
         },
         "green": {
-          "value": "#96D9B8",
+          "value": "#206040",
           "type": "color"
         }
       },
