@@ -432,7 +432,7 @@
           "type": "color"
         },
         "error": {
-          "value": "#B90E0D",
+          "value": "#DD0D0B",
           "type": "color"
         },
         "question": {
@@ -445,6 +445,12 @@
         },
         "warning": {
           "value": "#EE7D52",
+          "type": "color"
+        }
+      },
+      "border": {
+        "error": {
+          "value": "#DD0D0B",
           "type": "color"
         }
       }
@@ -570,7 +576,7 @@
           "type": "color"
         },
         "invalid": {
-          "value": "#EE7D52",
+          "value": "#DD0D0B",
           "type": "color"
         },
         "active-blue": {
@@ -600,9 +606,8 @@
           "value": "#9E9EA6",
           "type": "color"
         },
-        "red": {
-          "value": "#DD0D0B",
-          "description": "",
+        "error": {
+          "value": "#B90E0D",
           "type": "color"
         },
         "green": {
@@ -636,6 +641,10 @@
         },
         "disabled": {
           "value": "#9E9EA6",
+          "type": "color"
+        },
+        "error": {
+          "value": "#DD0D0B",
           "type": "color"
         }
       }
