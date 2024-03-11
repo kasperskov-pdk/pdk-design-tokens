@@ -313,15 +313,27 @@
       },
       "green": {
         "100": {
-          "value": "#E8F4F4",
+          "value": "#ECF9F2",
           "type": "color"
         },
         "200": {
-          "value": "#CFE6E1",
+          "value": "#CEEDDE",
           "type": "color"
         },
         "300": {
-          "value": "#006C6C",
+          "value": "#96D9B8",
+          "type": "color"
+        },
+        "400": {
+          "value": "#5CBC8C",
+          "type": "color"
+        },
+        "600": {
+          "value": "#2D8659",
+          "type": "color"
+        },
+        "900": {
+          "value": "#206040",
           "type": "color"
         }
       },
@@ -382,7 +394,7 @@
           "type": "color"
         },
         "valid": {
-          "value": "#E8F4F4",
+          "value": "#ECF9F2",
           "type": "color"
         },
         "yellow": {
@@ -403,39 +415,43 @@
         }
       },
       "icon": {
-        "signal": {
-          "info": {
-            "value": "#132D4F",
-            "type": "color"
-          },
-          "info-inverted": {
-            "value": "#b9d3e9",
-            "type": "color"
-          },
-          "valid": {
-            "value": "#006C6C",
-            "type": "color"
-          },
-          "yellow": {
-            "value": "#A06001",
-            "type": "color"
-          },
-          "error": {
-            "value": "#B90E0D",
-            "type": "color"
-          },
-          "question": {
-            "value": "#403294",
-            "type": "color"
-          },
-          "neutral": {
-            "value": "#9E9EA6",
-            "type": "color"
-          },
-          "alert": {
-            "value": "#EE7D52",
-            "type": "color"
-          }
+        "info": {
+          "value": "#004BBA",
+          "type": "color"
+        },
+        "info-inverted": {
+          "value": "#b9d3e9",
+          "type": "color"
+        },
+        "valid": {
+          "value": "#2D8659",
+          "type": "color"
+        },
+        "yellow": {
+          "value": "#A06001",
+          "type": "color"
+        },
+        "error": {
+          "value": "#DD0D0B",
+          "type": "color"
+        },
+        "question": {
+          "value": "#403294",
+          "type": "color"
+        },
+        "neutral": {
+          "value": "#9E9EA6",
+          "type": "color"
+        },
+        "warning": {
+          "value": "#EE7D52",
+          "type": "color"
+        }
+      },
+      "border": {
+        "error": {
+          "value": "#DD0D0B",
+          "type": "color"
         }
       }
     },
@@ -487,6 +503,10 @@
             "type": "color"
           }
         }
+      },
+      "light-grey": {
+        "value": "#F9F9F9",
+        "type": "color"
       }
     },
     "text": {
@@ -508,6 +528,10 @@
         "inverted": {
           "value": "#FFFFFF",
           "type": "color"
+        },
+        "subtle": {
+          "value": "#6E6D79",
+          "type": "color"
         }
       }
     },
@@ -522,19 +546,23 @@
           "type": "color"
         },
         "invalid": {
-          "value": "#FFF3E9",
+          "value": "#FCEDE8",
           "type": "color"
         },
         "filled-blue": {
           "value": "#CEE0F6",
           "type": "color"
         },
-        "disabled": {
+        "disabled-off": {
           "value": "#F0F2F3",
           "type": "color"
         },
         "checked": {
           "value": "#132D4F",
+          "type": "color"
+        },
+        "disabled-on": {
+          "value": "#9E9EA6",
           "type": "color"
         }
       },
@@ -548,11 +576,11 @@
           "type": "color"
         },
         "valid": {
-          "value": "#006C6C",
+          "value": "#96D9B8",
           "type": "color"
         },
         "invalid": {
-          "value": "#EE7D52",
+          "value": "#DD0D0B",
           "type": "color"
         },
         "active-blue": {
@@ -582,14 +610,12 @@
           "value": "#9E9EA6",
           "type": "color"
         },
-        "red": {
-          "value": "#DD0D0B",
-          "description": "",
+        "error": {
+          "value": "#B90E0D",
           "type": "color"
         },
         "green": {
-          "value": "#006C6C",
-          "description": "",
+          "value": "#206040",
           "type": "color"
         },
         "orange": {
@@ -619,6 +645,10 @@
         },
         "disabled": {
           "value": "#9E9EA6",
+          "type": "color"
+        },
+        "error": {
+          "value": "#DD0D0B",
           "type": "color"
         }
       }
@@ -745,7 +775,7 @@
           "type": "color"
         },
         "green": {
-          "value": "#006C6C",
+          "value": "#206040",
           "type": "color"
         }
       },
@@ -759,7 +789,7 @@
           "type": "color"
         },
         "green": {
-          "value": "#E8F4F4",
+          "value": "#ECF9F2",
           "type": "color"
         },
         "white": {
@@ -975,6 +1005,14 @@
         "on": {
           "value": "#FFFFFF",
           "type": "color"
+        },
+        "disabled-on": {
+          "value": "#F0F2F3",
+          "type": "color"
+        },
+        "disabled-off": {
+          "value": "#9E9EA6",
+          "type": "color"
         }
       },
       "border": {
@@ -1001,6 +1039,12 @@
         "value": "#004BBA",
         "type": "color"
       }
+    },
+    "progress-bar": {
+      "track": {
+        "value": "#F0F2F3",
+        "type": "color"
+      }
     }
   },
   "spacing": {
@@ -1020,11 +1064,11 @@
             "type": "spacing"
           },
           "xxlarge": {
-            "value": 220,
+            "value": 288,
             "type": "spacing"
           },
           "xxxlarge": {
-            "value": 280,
+            "value": 360,
             "type": "spacing"
           },
           "xxxxlarge": {
@@ -1538,7 +1582,7 @@
       "h1": {
         "value": {
           "fontFamily": "DINOT",
-          "fontWeight": "Medium",
+          "fontWeight": "Bold",
           "lineHeight": "110%",
           "fontSize": 32,
           "letterSpacing": 0.35,
@@ -1549,7 +1593,7 @@
       "h2": {
         "value": {
           "fontFamily": "DINOT",
-          "fontWeight": "Medium",
+          "fontWeight": "Bold",
           "lineHeight": "110%",
           "fontSize": 24,
           "letterSpacing": 0.1,
@@ -1604,7 +1648,7 @@
       "body-bold": {
         "value": {
           "fontFamily": "DINOT",
-          "fontWeight": "Medium",
+          "fontWeight": "Bold",
           "lineHeight": "160%",
           "fontSize": 16,
           "letterSpacing": 0.2,
@@ -1644,6 +1688,16 @@
           "type": "typography",
           "description": "Bruges til tab navigation"
         }
+      },
+      "help": {
+        "value": {
+          "fontFamily": "DINOT",
+          "fontWeight": "Regular",
+          "fontSize": 12,
+          "lineHeight": "140%",
+          "letterSpacing": 0.25
+        },
+        "type": "typography"
       }
     },
     "tablet": {
@@ -1753,7 +1807,7 @@
       "h1": {
         "value": {
           "fontFamily": "DINOT",
-          "fontWeight": "Medium",
+          "fontWeight": "Bold",
           "lineHeight": "110%",
           "fontSize": 46,
           "letterSpacing": 0.35,
@@ -1764,7 +1818,7 @@
       "h2": {
         "value": {
           "fontFamily": "DINOT",
-          "fontWeight": "Medium",
+          "fontWeight": "Bold",
           "lineHeight": "110%",
           "fontSize": 32,
           "letterSpacing": 0.1,
@@ -1805,6 +1859,17 @@
         },
         "type": "typography"
       },
+      "manchet": {
+        "value": {
+          "fontFamily": "DINOT",
+          "fontWeight": "Regular",
+          "lineHeight": "110%",
+          "fontSize": 24,
+          "letterSpacing": 0.1,
+          "paragraphSpacing": 0
+        },
+        "type": "typography"
+      },
       "body": {
         "value": {
           "fontFamily": "DINOT",
@@ -1820,7 +1885,7 @@
       "body-bold": {
         "value": {
           "fontFamily": "DINOT",
-          "fontWeight": "Medium",
+          "fontWeight": "Bold",
           "lineHeight": "160%",
           "fontSize": 18,
           "letterSpacing": 0.2,
@@ -1830,6 +1895,17 @@
         },
         "type": "typography",
         "description": "none"
+      },
+      "help": {
+        "value": {
+          "fontFamily": "DINOT",
+          "fontWeight": "Regular",
+          "fontSize": 14,
+          "lineHeight": "140%",
+          "letterSpacing": 0.25
+        },
+        "type": "typography",
+        "description": "Bruges til disclaimer tekst og anden sekundær/tertiær information"
       }
     },
     "base": {
@@ -2944,7 +3020,7 @@
     },
     "shadow-valid": {
       "value": {
-        "color": "#CFE6E1",
+        "color": "#CEEDDE",
         "spread": 3,
         "blur": 0,
         "y": 0,
@@ -2986,74 +3062,6 @@
       "type": "boxShadow"
     }
   },
-  "dropdown": {
-    "shadow-active-blue": {
-      "value": {
-        "color": "#b9d3e9",
-        "spread": 1,
-        "blur": 0,
-        "y": 0,
-        "x": 0
-      },
-      "type": "boxShadow"
-    }
-  },
-  "checkbox": {
-    "shadow-red-hover": {
-      "value": {
-        "color": "#FCEDE8",
-        "spread": 1,
-        "blur": 0,
-        "y": 0,
-        "x": 0
-      },
-      "type": "boxShadow"
-    },
-    "shadow-red-focused": {
-      "value": {
-        "color": "#FCEDE8",
-        "spread": 1,
-        "blur": 0,
-        "y": 0,
-        "x": 0
-      },
-      "type": "boxShadow"
-    }
-  },
-  "toggle": {
-    "shadow-red-hover": {
-      "value": {
-        "color": "#FCEDE8",
-        "spread": 1,
-        "blur": 0,
-        "y": 0,
-        "x": 0
-      },
-      "type": "boxShadow"
-    },
-    "shadow-blue-hover": {
-      "value": {
-        "color": "#CEE0F6",
-        "spread": 1,
-        "blur": 0,
-        "y": 0,
-        "x": 0
-      },
-      "type": "boxShadow"
-    },
-    "icon": {
-      "shadow": {
-        "value": {
-          "color": "#3a0e0e3d",
-          "spread": 0,
-          "blur": 2,
-          "y": 0,
-          "x": -0.5
-        },
-        "type": "boxShadow"
-      }
-    }
-  },
   "dialog": {
     "shadow": {
       "value": {
@@ -3084,5 +3092,29 @@
       "value": "underline",
       "type": "textDecoration"
     }
+  },
+  "shadow-raised": {
+    "value": {
+      "x": 0,
+      "y": 2,
+      "blur": 4,
+      "spread": 0,
+      "color": "#132D4F15",
+      "type": "dropShadow"
+    },
+    "type": "boxShadow",
+    "description": "Anvendes til at indikere interaktivitet samt øge opmærksomheden omkring et område."
+  },
+  "shadow-overlay": {
+    "value": {
+      "x": 0,
+      "y": 4,
+      "blur": 8,
+      "spread": 0,
+      "color": "#132D4F15",
+      "type": "dropShadow"
+    },
+    "type": "boxShadow",
+    "description": "Anvendes til at indikere interaktivitet samt øge opmærksomheden omkring et område."
   }
 }
