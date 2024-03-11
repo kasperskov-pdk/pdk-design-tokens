@@ -528,6 +528,10 @@
         "inverted": {
           "value": "#FFFFFF",
           "type": "color"
+        },
+        "subtle": {
+          "value": "#6E6D79",
+          "type": "color"
         }
       }
     },
@@ -1684,6 +1688,16 @@
           "type": "typography",
           "description": "Bruges til tab navigation"
         }
+      },
+      "help": {
+        "value": {
+          "fontFamily": "DINOT",
+          "fontWeight": "Regular",
+          "fontSize": 12,
+          "lineHeight": "140%",
+          "letterSpacing": 0.25
+        },
+        "type": "typography"
       }
     },
     "tablet": {
@@ -1881,6 +1895,17 @@
         },
         "type": "typography",
         "description": "none"
+      },
+      "help": {
+        "value": {
+          "fontFamily": "DINOT",
+          "fontWeight": "Regular",
+          "fontSize": 14,
+          "lineHeight": "140%",
+          "letterSpacing": 0.25
+        },
+        "type": "typography",
+        "description": "Bruges til disclaimer tekst og anden sekundær/tertiær information"
       }
     },
     "base": {

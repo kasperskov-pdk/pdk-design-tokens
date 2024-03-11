@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Fri, 08 Mar 2024 11:53:45 GMT
+// Generated on Mon, 11 Mar 2024 08:53:35 GMT
 
 $color-section-white: #ffffff;
 $color-section-light: #edf5fb;
@@ -111,6 +111,7 @@ $color-text-header-primary: #132d4f;
 $color-text-header-inverted: #ffffff;
 $color-text-body-primary: #4e617b;
 $color-text-body-inverted: #ffffff;
+$color-text-body-subtle: #6e6d79;
 $color-input-background-default: #ffffff;
 $color-input-background-filled: #edf5fb;
 $color-input-background-invalid: #fcede8;
@@ -407,6 +408,13 @@ $typography-mobile-app-xxsmall-bold: (
       fontWeight: 400,
       letterSpacing: 0.0125rem
     );
+$typography-mobile-help: (
+      fontFamily: var(--ff-primary),
+      fontSize: 0.75rem,
+      lineHeight: 1.05rem,
+      fontWeight: 200,
+      letterSpacing: 0.015625rem
+    );
 $typography-tablet-title: (
       fontFamily: var(--ff-primary),
       fontSize: 3.5rem,
@@ -525,6 +533,13 @@ $typography-desktop-body-bold: (
       lineHeight: 1.8rem,
       fontWeight: bold,
       letterSpacing: 0.0125rem
+    );
+$typography-desktop-help: (
+      fontFamily: var(--ff-primary),
+      fontSize: 0.875rem,
+      lineHeight: 1.225rem,
+      fontWeight: 200,
+      letterSpacing: 0.015625rem
     );
 $typography-base-xxlarge: (
       fontFamily: var(--ff-primary),
