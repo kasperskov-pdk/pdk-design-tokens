@@ -412,6 +412,10 @@
         "neutral": {
           "value": "#F9F9F9",
           "type": "color"
+        },
+        "error-bold": {
+          "value": "#DD0D0B",
+          "type": "color"
         }
       },
       "icon": {
@@ -1012,6 +1016,10 @@
         },
         "disabled-off": {
           "value": "#9E9EA6",
+          "type": "color"
+        },
+        "error": {
+          "value": "#DD0D0B",
           "type": "color"
         }
       },
