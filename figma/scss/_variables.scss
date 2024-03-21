@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Thu, 21 Mar 2024 08:23:22 GMT
+// Generated on Thu, 21 Mar 2024 08:37:05 GMT
 
 $color-section-white: #ffffff;
 $color-section-light: #edf5fb;
@@ -355,14 +355,14 @@ $typography-mobile-h1: (
       fontFamily: var(--ff-primary),
       fontSize: 2rem,
       lineHeight: 2.2rem,
-      fontWeight: bold,
+      fontWeight: 400,
       letterSpacing: 0.021875rem
     );
 $typography-mobile-h2: (
       fontFamily: var(--ff-primary),
       fontSize: 1.5rem,
       lineHeight: 1.65rem,
-      fontWeight: bold,
+      fontWeight: 400,
       letterSpacing: 0.00625rem
     );
 $typography-mobile-h3: (
@@ -397,7 +397,7 @@ $typography-mobile-body-bold: (
       fontFamily: var(--ff-primary),
       fontSize: 1rem,
       lineHeight: 1.6rem,
-      fontWeight: bold,
+      fontWeight: 400,
       letterSpacing: 0.0125rem
     );
 $typography-mobile-app-xxsmall: (
@@ -488,14 +488,14 @@ $typography-desktop-h1: (
       fontFamily: var(--ff-primary),
       fontSize: 2.875rem,
       lineHeight: 3.1625rem,
-      fontWeight: bold,
+      fontWeight: 400,
       letterSpacing: 0.021875rem
     );
 $typography-desktop-h2: (
       fontFamily: var(--ff-primary),
       fontSize: 2rem,
       lineHeight: 2.2rem,
-      fontWeight: bold,
+      fontWeight: 400,
       letterSpacing: 0.00625rem
     );
 $typography-desktop-h3: (
@@ -537,7 +537,7 @@ $typography-desktop-body-bold: (
       fontFamily: var(--ff-primary),
       fontSize: 1.125rem,
       lineHeight: 1.8rem,
-      fontWeight: bold,
+      fontWeight: 400,
       letterSpacing: 0.0125rem
     );
 $typography-desktop-help: (
