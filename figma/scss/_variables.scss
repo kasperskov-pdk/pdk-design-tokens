@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Mon, 11 Mar 2024 13:24:36 GMT
+// Generated on Thu, 21 Mar 2024 08:22:41 GMT
 
 $color-section-white: #ffffff;
 $color-section-light: #edf5fb;
@@ -86,16 +86,21 @@ $color-signal-background-valid: #ecf9f2;
 $color-signal-background-yellow: #fff7e1;
 $color-signal-background-error: #fcede8;
 $color-signal-background-question: #eae6ff;
-$color-signal-background-neutral: #f9f9f9;
+$color-signal-background-neutral: #f0f2f3;
+$color-signal-background-error-bold: #dd0d0b;
 $color-signal-icon-info: #004bba;
-$color-signal-icon-info-inverted: #b9d3e9;
+$color-signal-icon-info-inverted: #cee0f6;
 $color-signal-icon-valid: #2d8659;
 $color-signal-icon-yellow: #a06001;
 $color-signal-icon-error: #dd0d0b;
 $color-signal-icon-question: #403294;
 $color-signal-icon-neutral: #9e9ea6;
 $color-signal-icon-warning: #ee7d52;
+$color-signal-icon-warning-subtle: #fff3e9;
 $color-signal-border-error: #dd0d0b;
+$color-signal-border-info: #004bba;
+$color-signal-border-succes: #2d8659;
+$color-signal-border-warning: #ee7d52;
 $color-background-blue-light: #edf5fb;
 $color-background-blue: #004bba;
 $color-background-blue-dark: #132d4f;
@@ -210,6 +215,7 @@ $color-toggle-handle-off: #132d4f;
 $color-toggle-handle-on: #ffffff;
 $color-toggle-handle-disabled-on: #f0f2f3;
 $color-toggle-handle-disabled-off: #9e9ea6;
+$color-toggle-handle-error: #dd0d0b;
 $color-toggle-border-off-default: #132d4f;
 $color-toggle-background-on: #132d4f;
 $color-virksomhed-primary: #132d4f;
