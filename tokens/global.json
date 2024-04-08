@@ -79,6 +79,12 @@
               "value": "#FFFFFF",
               "type": "color"
             }
+          },
+          "neutral": {
+            "hover": {
+              "value": "#132D4F10",
+              "type": "color"
+            }
           }
         },
         "inverted": {
@@ -473,6 +479,22 @@
           "value": "#EE7D52",
           "type": "color"
         }
+      },
+      "text": {
+        "default": {
+          "value": "#132D4F",
+          "type": "color",
+          "description": "Anvendes til beskeder, hvor tekstens udseende ikke skal have for meget  signalværdi."
+        },
+        "error": {
+          "value": "#B90E0D",
+          "type": "color",
+          "description": "Anvendes til tekst i forbindelse med kommunikation af fejl."
+        },
+        "success": {
+          "value": "#206040",
+          "type": "color"
+        }
       }
     },
     "background": {
@@ -621,9 +643,8 @@
         }
       },
       "text": {
-        "blue": {
+        "default": {
           "value": "#132D4F",
-          "description": "",
           "type": "color"
         },
         "placeholder": {
@@ -634,7 +655,7 @@
           "value": "#B90E0D",
           "type": "color"
         },
-        "green": {
+        "success": {
           "value": "#206040",
           "type": "color"
         },
@@ -643,10 +664,10 @@
           "description": "invalid text",
           "type": "color"
         },
-        "orange-copy": {
+        "warning": {
           "value": "#CC3E08",
-          "description": "invalid pre,-suf- fix",
-          "type": "color"
+          "type": "color",
+          "description": "invalid pre,-suf- fix"
         },
         "disabled": {
           "value": "#4E617B",
