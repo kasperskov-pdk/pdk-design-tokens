@@ -400,7 +400,7 @@
           "type": "color"
         },
         "valid": {
-          "value": "#ECF9F2",
+          "value": "#CEEDDE",
           "type": "color"
         },
         "yellow": {
@@ -408,7 +408,7 @@
           "type": "color"
         },
         "error": {
-          "value": "#FCEDE8",
+          "value": "#FFC6C6",
           "type": "color"
         },
         "question": {
@@ -588,7 +588,7 @@
           "type": "color"
         },
         "invalid": {
-          "value": "#FCEDE8",
+          "value": "#FFC6C6",
           "type": "color"
         },
         "filled-blue": {
@@ -1745,96 +1745,6 @@
         "type": "typography"
       }
     },
-    "tablet": {
-      "title": {
-        "value": {
-          "fontFamily": "DINOT",
-          "fontWeight": "Regular",
-          "lineHeight": "110%",
-          "fontSize": 56,
-          "letterSpacing": 0.35,
-          "paragraphSpacing": 0
-        },
-        "type": "typography"
-      },
-      "h1": {
-        "value": {
-          "fontFamily": "DINOT",
-          "fontWeight": "Regular",
-          "lineHeight": "110%",
-          "fontSize": 42,
-          "letterSpacing": 0.35,
-          "paragraphSpacing": 0
-        },
-        "type": "typography"
-      },
-      "h2": {
-        "value": {
-          "fontFamily": "DINOT",
-          "fontWeight": "Regular",
-          "lineHeight": "110%",
-          "fontSize": 28,
-          "letterSpacing": 0.1,
-          "paragraphSpacing": 0
-        },
-        "type": "typography"
-      },
-      "h3": {
-        "value": {
-          "fontFamily": "DINOT",
-          "fontWeight": "Regular",
-          "lineHeight": "110%",
-          "fontSize": 32,
-          "letterSpacing": 0.1,
-          "paragraphSpacing": 0
-        },
-        "type": "typography"
-      },
-      "h4": {
-        "value": {
-          "fontFamily": "DINOT",
-          "fontWeight": "Regular",
-          "lineHeight": "160%",
-          "fontSize": 20,
-          "letterSpacing": 0.1,
-          "paragraphSpacing": 0
-        },
-        "type": "typography"
-      },
-      "h5": {
-        "value": {
-          "fontFamily": "DINOT",
-          "fontWeight": "Regular",
-          "lineHeight": "160%",
-          "fontSize": 16,
-          "letterSpacing": 0.1,
-          "paragraphSpacing": 0
-        },
-        "type": "typography"
-      },
-      "h6": {
-        "value": {
-          "fontFamily": "DINOT",
-          "fontWeight": "Regular",
-          "lineHeight": "160%",
-          "fontSize": 14,
-          "letterSpacing": 0.1,
-          "paragraphSpacing": 0
-        },
-        "type": "typography"
-      },
-      "body": {
-        "value": {
-          "fontFamily": "DINOT",
-          "fontWeight": "Regular",
-          "lineHeight": "160%",
-          "fontSize": 17,
-          "letterSpacing": 0.2,
-          "paragraphSpacing": 0
-        },
-        "type": "typography"
-      }
-    },
     "desktop": {
       "title": {
         "value": {
@@ -2089,121 +1999,6 @@
         "description": "none"
       }
     },
-    "toast": {
-      "mobile-header": {
-        "value": {
-          "fontFamily": "DINOT",
-          "fontWeight": "Medium",
-          "lineHeight": "150%",
-          "fontSize": 16,
-          "letterSpacing": 0.2,
-          "paragraphSpacing": 0
-        },
-        "type": "typography"
-      },
-      "mobile-text": {
-        "value": {
-          "fontFamily": "DINOT",
-          "fontWeight": "Regular",
-          "lineHeight": "140%",
-          "fontSize": 16,
-          "letterSpacing": 0.25,
-          "paragraphSpacing": 0
-        },
-        "type": "typography"
-      },
-      "desktop-text": {
-        "value": {
-          "fontFamily": "DINOT",
-          "fontWeight": "Regular",
-          "lineHeight": "140%",
-          "fontSize": 18,
-          "letterSpacing": 0.25,
-          "paragraphSpacing": 0
-        },
-        "type": "typography"
-      },
-      "desktop-header": {
-        "value": {
-          "fontFamily": "DINOT",
-          "fontWeight": "Medium",
-          "lineHeight": "140%",
-          "fontSize": 18,
-          "letterSpacing": 0.25,
-          "paragraphSpacing": 0
-        },
-        "type": "typography"
-      },
-      "tablet-text": {
-        "value": {
-          "fontFamily": "DINOT",
-          "fontWeight": "Regular",
-          "lineHeight": "150%",
-          "fontSize": 17,
-          "letterSpacing": 0.25,
-          "paragraphSpacing": 0
-        },
-        "type": "typography"
-      }
-    },
-    "section": {
-      "small": {
-        "title": {
-          "value": {
-            "fontFamily": "DINOT",
-            "fontWeight": "Medium",
-            "lineHeight": "120%",
-            "fontSize": 17,
-            "letterSpacing": 0.2,
-            "paragraphSpacing": 0,
-            "textDecoration": 0,
-            "textCase": 0
-          },
-          "type": "typography"
-        },
-        "body": {
-          "value": {
-            "fontFamily": "DINOT",
-            "fontWeight": "Regular",
-            "lineHeight": "150%",
-            "fontSize": 16,
-            "letterSpacing": 0.2,
-            "paragraphSpacing": 0,
-            "textDecoration": 0,
-            "textCase": 0
-          },
-          "type": "typography"
-        }
-      },
-      "large": {
-        "body": {
-          "value": {
-            "fontFamily": "DINOT",
-            "fontWeight": "Regular",
-            "lineHeight": "150%",
-            "fontSize": 17,
-            "letterSpacing": 0.2,
-            "paragraphSpacing": 0,
-            "textDecoration": 0,
-            "textCase": 0
-          },
-          "type": "typography"
-        },
-        "title": {
-          "value": {
-            "fontFamily": "DINOT",
-            "fontWeight": "Medium",
-            "lineHeight": "120%",
-            "fontSize": 17,
-            "letterSpacing": 0.2,
-            "paragraphSpacing": 0,
-            "textDecoration": 0,
-            "textCase": 0
-          },
-          "type": "typography"
-        }
-      }
-    },
     "input": {
       "mobile": {
         "fix": {
@@ -2314,217 +2109,6 @@
         }
       }
     },
-    "dropdown": {
-      "small": {
-        "label": {
-          "value": {
-            "fontFamily": "DINOT",
-            "fontWeight": "Regular",
-            "lineHeight": "140%",
-            "fontSize": 12,
-            "letterSpacing": 0.25,
-            "paragraphSpacing": 0,
-            "textDecoration": 0,
-            "textCase": 0
-          },
-          "type": "typography"
-        },
-        "description": {
-          "value": {
-            "fontFamily": "DINOT",
-            "fontWeight": "Regular",
-            "lineHeight": "140%",
-            "fontSize": 10,
-            "letterSpacing": 0.25,
-            "paragraphSpacing": 0,
-            "textDecoration": 0,
-            "textCase": 0
-          },
-          "type": "typography"
-        },
-        "fix": {
-          "value": {
-            "fontFamily": "DINOT",
-            "fontWeight": "Regular",
-            "lineHeight": "140%",
-            "fontSize": 12,
-            "letterSpacing": 0.25,
-            "paragraphSpacing": 0,
-            "textDecoration": 0,
-            "textCase": 0
-          },
-          "type": "typography"
-        },
-        "body": {
-          "value": {
-            "fontFamily": "DINOT",
-            "fontWeight": "Regular",
-            "lineHeight": "140%",
-            "fontSize": 14,
-            "letterSpacing": 0.25,
-            "paragraphSpacing": 0,
-            "textDecoration": 0,
-            "textCase": 0
-          },
-          "type": "typography"
-        },
-        "body-input": {
-          "value": {
-            "fontFamily": "DINOT",
-            "fontWeight": "Medium",
-            "lineHeight": "140%",
-            "fontSize": 16,
-            "letterSpacing": 0.25,
-            "paragraphSpacing": 0,
-            "textDecoration": 0,
-            "textCase": 0
-          },
-          "type": "typography"
-        }
-      },
-      "medium": {
-        "label": {
-          "value": {
-            "fontFamily": "DINOT",
-            "fontWeight": "Regular",
-            "lineHeight": "140%",
-            "fontSize": 14,
-            "letterSpacing": 0.25,
-            "paragraphSpacing": 0,
-            "textDecoration": 0,
-            "textCase": 0
-          },
-          "type": "typography"
-        },
-        "description": {
-          "value": {
-            "fontFamily": "DINOT",
-            "fontWeight": "Regular",
-            "lineHeight": "140%",
-            "fontSize": 12,
-            "letterSpacing": 0.25,
-            "paragraphSpacing": 0,
-            "textDecoration": 0,
-            "textCase": 0
-          },
-          "type": "typography"
-        },
-        "fix": {
-          "value": {
-            "fontFamily": "DINOT",
-            "fontWeight": "Regular",
-            "lineHeight": "140%",
-            "fontSize": 12,
-            "letterSpacing": 0.25,
-            "paragraphSpacing": 0,
-            "textDecoration": 0,
-            "textCase": 0
-          },
-          "type": "typography"
-        },
-        "body": {
-          "value": {
-            "fontFamily": "DINOT",
-            "fontWeight": "Regular",
-            "lineHeight": "140%",
-            "fontSize": 16,
-            "letterSpacing": 0.25,
-            "paragraphSpacing": 0,
-            "textDecoration": 0,
-            "textCase": 0
-          },
-          "type": "typography"
-        }
-      },
-      "large": {
-        "label": {
-          "value": {
-            "fontFamily": "DINOT",
-            "fontWeight": "Regular",
-            "lineHeight": "140%",
-            "fontSize": 14,
-            "letterSpacing": 0.25,
-            "paragraphSpacing": 0,
-            "textDecoration": 0,
-            "textCase": 0
-          },
-          "type": "typography"
-        },
-        "description": {
-          "value": {
-            "fontFamily": "DINOT",
-            "fontWeight": "Regular",
-            "lineHeight": "140%",
-            "fontSize": 14,
-            "letterSpacing": 0.25,
-            "paragraphSpacing": 0,
-            "textDecoration": 0,
-            "textCase": 0
-          },
-          "type": "typography"
-        },
-        "fix": {
-          "value": {
-            "fontFamily": "DINOT",
-            "fontWeight": "Regular",
-            "lineHeight": "140%",
-            "fontSize": 12,
-            "letterSpacing": 0.25,
-            "paragraphSpacing": 0,
-            "textDecoration": 0,
-            "textCase": 0
-          },
-          "type": "typography"
-        },
-        "body": {
-          "value": {
-            "fontFamily": "DINOT",
-            "fontWeight": "Regular",
-            "lineHeight": "140%",
-            "fontSize": 18,
-            "letterSpacing": 0.25,
-            "paragraphSpacing": 0,
-            "textDecoration": 0,
-            "textCase": 0
-          },
-          "type": "typography"
-        }
-      }
-    },
-    "checkbox": {
-      "small": {
-        "body": {
-          "value": {
-            "fontFamily": "DINOT",
-            "fontWeight": "Regular",
-            "lineHeight": "140%",
-            "fontSize": 16,
-            "letterSpacing": 0.25,
-            "paragraphSpacing": 0,
-            "textDecoration": 0,
-            "textCase": 0
-          },
-          "type": "typography"
-        }
-      }
-    },
-    "toggle": {
-      "small": {
-        "body": {
-          "value": {
-            "fontFamily": "DINOT",
-            "fontWeight": "Regular",
-            "lineHeight": "140%",
-            "fontSize": 14,
-            "letterSpacing": 0.25,
-            "paragraphSpacing": 0,
-            "textDecoration": 0,
-            "textCase": 0
-          },
-          "type": "typography"
-        }
-      }
-    },
     "dialog": {
       "large": {
         "title": {
@@ -2553,47 +2137,6 @@
           },
           "type": "typography"
         }
-      }
-    },
-    "tag": {
-      "text": {
-        "value": {
-          "fontFamily": "DINOT",
-          "fontWeight": "Regular",
-          "lineHeight": "110%",
-          "fontSize": 12,
-          "letterSpacing": 0.25,
-          "paragraphSpacing": 0,
-          "textDecoration": 0,
-          "textCase": 0
-        },
-        "type": "typography"
-      },
-      "text-medium": {
-        "value": {
-          "fontFamily": "DINOT",
-          "fontWeight": "Regular",
-          "lineHeight": "110%",
-          "fontSize": 14,
-          "letterSpacing": 0.25,
-          "paragraphSpacing": 0,
-          "textDecoration": 0,
-          "textCase": 0
-        },
-        "type": "typography"
-      },
-      "text-large": {
-        "value": {
-          "fontFamily": "DINOT",
-          "fontWeight": "Regular",
-          "lineHeight": "110%",
-          "fontSize": 16,
-          "letterSpacing": 0.25,
-          "paragraphSpacing": 0,
-          "textDecoration": 0,
-          "textCase": 0
-        },
-        "type": "typography"
       }
     },
     "navigation": {
