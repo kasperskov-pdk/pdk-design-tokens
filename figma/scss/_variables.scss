@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Wed, 10 Apr 2024 18:24:27 GMT
+// Generated on Tue, 23 Apr 2024 19:35:48 GMT
 
 $color-section-white: #ffffff;
 $color-section-light: #edf5fb;
@@ -142,7 +142,7 @@ $color-input-text-error: #b90e0d;
 $color-input-text-success: #206040;
 $color-input-text-orange: #b73504;
 $color-input-text-warning: #cc3e08;
-$color-input-text-disabled: #4e617b;
+$color-input-text-disabled: #9e9ea6;
 $color-input-icon-default: #dd0d0b;
 $color-input-icon-inverted: #ffffff;
 $color-input-icon-disabled: #9e9ea6;
@@ -397,6 +397,13 @@ $typography-mobile-body: (
       fontWeight: 200,
       letterSpacing: 0.0125rem
     );
+$typography-mobile-link: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1rem,
+      lineHeight: 1.6rem,
+      fontWeight: 400,
+      letterSpacing: 0.0125rem
+    );
 $typography-mobile-body-bold: (
       fontFamily: var(--ff-primary),
       fontSize: 1rem,
@@ -479,6 +486,13 @@ $typography-desktop-body: (
       fontSize: 1.125rem,
       lineHeight: 1.8rem,
       fontWeight: 200,
+      letterSpacing: 0.0125rem
+    );
+$typography-desktop-link: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1.125rem,
+      lineHeight: 1.8rem,
+      fontWeight: 400,
       letterSpacing: 0.0125rem
     );
 $typography-desktop-body-bold: (

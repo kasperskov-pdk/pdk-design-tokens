@@ -670,7 +670,7 @@
           "description": "invalid pre,-suf- fix"
         },
         "disabled": {
-          "value": "#4E617B",
+          "value": "#9E9EA6",
           "type": "color"
         }
       },
@@ -1690,6 +1690,18 @@
         },
         "type": "typography"
       },
+      "link": {
+        "value": {
+          "fontFamily": "DINOT",
+          "fontWeight": "Medium",
+          "lineHeight": "160%",
+          "fontSize": 16,
+          "letterSpacing": 0.2,
+          "paragraphSpacing": 0,
+          "textDecoration": "underline"
+        },
+        "type": "typography"
+      },
       "body-bold": {
         "value": {
           "fontFamily": "DINOT",
@@ -1833,6 +1845,19 @@
           "fontSize": 18,
           "letterSpacing": 0.2,
           "paragraphSpacing": 0
+        },
+        "type": "typography",
+        "description": " "
+      },
+      "link": {
+        "value": {
+          "fontFamily": "DINOT",
+          "fontWeight": "Medium",
+          "lineHeight": "160%",
+          "fontSize": 18,
+          "letterSpacing": 0.2,
+          "paragraphSpacing": 0,
+          "textDecoration": "underline"
         },
         "type": "typography",
         "description": " "
