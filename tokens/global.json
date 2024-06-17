@@ -802,6 +802,10 @@
         "white": {
           "value": "#FFFFFF",
           "type": "color"
+        },
+        "info": {
+          "value": "#004BBA",
+          "type": "color"
         }
       }
     },
