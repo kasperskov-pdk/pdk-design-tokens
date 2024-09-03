@@ -549,6 +549,10 @@
       "light-grey": {
         "value": "#F9F9F9",
         "type": "color"
+      },
+      "neutral": {
+        "value": "#132D4F30",
+        "type": "color"
       }
     },
     "text": {
@@ -2125,7 +2129,7 @@
           "value": {
             "fontFamily": "DINOT",
             "fontWeight": "Regular",
-            "lineHeight": "140%",
+            "lineHeight": "160%",
             "fontSize": 18,
             "letterSpacing": 0.25,
             "paragraphSpacing": 0,

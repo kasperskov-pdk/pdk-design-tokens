@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Tue, 25 Jun 2024 09:16:22 GMT
+// Generated on Tue, 03 Sep 2024 07:26:31 GMT
 
 $color-section-white: #ffffff;
 $color-section-light: #edf5fb;
@@ -116,6 +116,7 @@ $color-background-page-header-article-base: #ffffff;
 $color-background-page-header-product-textarea: #ffffff;
 $color-background-page-header-product-actionarea: #edf5fb;
 $color-background-light-grey: #f9f9f9;
+$color-background-neutral: #132d4f;
 $color-text-header-primary: #132d4f;
 $color-text-header-inverted: #ffffff;
 $color-text-body-primary: #4e617b;
@@ -639,7 +640,7 @@ $typography-input-desktop-body: (
 $typography-input-desktop-label: (
       fontFamily: var(--ff-primary),
       fontSize: 1.125rem,
-      lineHeight: 1.575rem,
+      lineHeight: 1.8rem,
       fontWeight: 200,
       letterSpacing: 0.015625rem
     );
