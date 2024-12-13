@@ -1098,6 +1098,11 @@
         "value": "#F0F2F3",
         "type": "color"
       }
+    },
+    "blanket": {
+      "value": "#4E617B15",
+      "type": "color",
+      "description": "Used for screen overlays behind modals etc."
     }
   },
   "spacing": {
