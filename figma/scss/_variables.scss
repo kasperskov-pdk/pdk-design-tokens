@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Thu, 21 Mar 2024 08:39:09 GMT
+// Generated on Tue, 25 Mar 2025 10:11:02 GMT
 
 $color-section-white: #ffffff;
 $color-section-light: #edf5fb;
@@ -17,6 +17,7 @@ $color-button-background-secondary-hover: #132d4f;
 $color-button-background-secondary-pressed: #132d4f;
 $color-button-background-tertiary-medlemmer-hover: #fcede8;
 $color-button-background-tertiary-virksomheder-hover: #ffffff;
+$color-button-background-tertiary-neutral-hover: #132d4f;
 $color-button-background-inverted-base: #ffffff;
 $color-button-background-inverted-hover: #edf5fb;
 $color-button-background-table-function-base: #cee0f6;
@@ -82,9 +83,9 @@ $color-base-orange-200: #ee7d52;
 $color-base-orange-300: #cc3e08;
 $color-base-orange-400: #b73504;
 $color-signal-background-info: #edf5fb;
-$color-signal-background-valid: #ecf9f2;
+$color-signal-background-valid: #ceedde;
 $color-signal-background-yellow: #fff7e1;
-$color-signal-background-error: #fcede8;
+$color-signal-background-error: #ffc6c6;
 $color-signal-background-question: #eae6ff;
 $color-signal-background-neutral: #f0f2f3;
 $color-signal-background-error-bold: #dd0d0b;
@@ -101,6 +102,9 @@ $color-signal-border-error: #dd0d0b;
 $color-signal-border-info: #004bba;
 $color-signal-border-succes: #2d8659;
 $color-signal-border-warning: #ee7d52;
+$color-signal-text-default: #132d4f;
+$color-signal-text-error: #b90e0d;
+$color-signal-text-success: #206040;
 $color-background-blue-light: #edf5fb;
 $color-background-blue: #004bba;
 $color-background-blue-dark: #132d4f;
@@ -112,6 +116,7 @@ $color-background-page-header-article-base: #ffffff;
 $color-background-page-header-product-textarea: #ffffff;
 $color-background-page-header-product-actionarea: #edf5fb;
 $color-background-light-grey: #f9f9f9;
+$color-background-neutral: #132d4f;
 $color-text-header-primary: #132d4f;
 $color-text-header-inverted: #ffffff;
 $color-text-body-primary: #4e617b;
@@ -119,7 +124,7 @@ $color-text-body-inverted: #ffffff;
 $color-text-body-subtle: #6e6d79;
 $color-input-background-default: #ffffff;
 $color-input-background-filled: #edf5fb;
-$color-input-background-invalid: #fcede8;
+$color-input-background-invalid: #ffc6c6;
 $color-input-background-filled-blue: #cee0f6;
 $color-input-background-disabled-off: #f0f2f3;
 $color-input-background-checked: #132d4f;
@@ -132,13 +137,13 @@ $color-input-border-active-blue: #77b7e3;
 $color-input-border-default: #9e9ea6;
 $color-input-border-disabled: #e1e5e8;
 $color-input-border-focus: #ffffff;
-$color-input-text-blue: #132d4f;
+$color-input-text-default: #132d4f;
 $color-input-text-placeholder: #9e9ea6;
 $color-input-text-error: #b90e0d;
-$color-input-text-green: #206040;
+$color-input-text-success: #206040;
 $color-input-text-orange: #b73504;
-$color-input-text-orange-copy: #cc3e08;
-$color-input-text-disabled: #4e617b;
+$color-input-text-warning: #cc3e08;
+$color-input-text-disabled: #9e9ea6;
 $color-input-icon-default: #dd0d0b;
 $color-input-icon-inverted: #ffffff;
 $color-input-icon-disabled: #9e9ea6;
@@ -164,6 +169,7 @@ $color-tooltip-text-white: #ffffff;
 $color-tooltip-background-blue-light: #edf5fb;
 $color-tooltip-background-dark-blue: #132d4f;
 $color-tooltip-background-white: #ffffff;
+$color-tooltip-background-info: #004bba;
 $color-tag-text-orange: #b73504;
 $color-tag-text-blue: #132d4f;
 $color-tag-text-green: #206040;
@@ -221,6 +227,7 @@ $color-toggle-background-on: #132d4f;
 $color-virksomhed-primary: #132d4f;
 $color-virksomhed-secondary: #004bba;
 $color-progress-bar-track: #f0f2f3;
+$color-blanket: #4e617b;
 $spacing-container-desktop-padding-x-small: 2.5rem;
 $spacing-container-desktop-padding-x-large: 5rem;
 $spacing-container-desktop-padding-x-xlarge: 7.25rem;
@@ -386,11 +393,25 @@ $typography-mobile-h5: (
       fontWeight: 200,
       letterSpacing: 0.00625rem
     );
+$typography-mobile-manchet: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1.25rem,
+      lineHeight: 1.375rem,
+      fontWeight: 200,
+      letterSpacing: 0.00625rem
+    );
 $typography-mobile-body: (
       fontFamily: var(--ff-primary),
       fontSize: 1rem,
       lineHeight: 1.6rem,
       fontWeight: 200,
+      letterSpacing: 0.0125rem
+    );
+$typography-mobile-link: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1rem,
+      lineHeight: 1.6rem,
+      fontWeight: 400,
       letterSpacing: 0.0125rem
     );
 $typography-mobile-body-bold: (
@@ -420,62 +441,6 @@ $typography-mobile-help: (
       lineHeight: 1.05rem,
       fontWeight: 200,
       letterSpacing: 0.015625rem
-    );
-$typography-tablet-title: (
-      fontFamily: var(--ff-primary),
-      fontSize: 3.5rem,
-      lineHeight: 3.85rem,
-      fontWeight: 200,
-      letterSpacing: 0.021875rem
-    );
-$typography-tablet-h1: (
-      fontFamily: var(--ff-primary),
-      fontSize: 2.625rem,
-      lineHeight: 2.8875rem,
-      fontWeight: 200,
-      letterSpacing: 0.021875rem
-    );
-$typography-tablet-h2: (
-      fontFamily: var(--ff-primary),
-      fontSize: 1.75rem,
-      lineHeight: 1.925rem,
-      fontWeight: 200,
-      letterSpacing: 0.00625rem
-    );
-$typography-tablet-h3: (
-      fontFamily: var(--ff-primary),
-      fontSize: 2rem,
-      lineHeight: 2.2rem,
-      fontWeight: 200,
-      letterSpacing: 0.00625rem
-    );
-$typography-tablet-h4: (
-      fontFamily: var(--ff-primary),
-      fontSize: 1.25rem,
-      lineHeight: 2rem,
-      fontWeight: 200,
-      letterSpacing: 0.00625rem
-    );
-$typography-tablet-h5: (
-      fontFamily: var(--ff-primary),
-      fontSize: 1rem,
-      lineHeight: 1.6rem,
-      fontWeight: 200,
-      letterSpacing: 0.00625rem
-    );
-$typography-tablet-h6: (
-      fontFamily: var(--ff-primary),
-      fontSize: 0.875rem,
-      lineHeight: 1.4rem,
-      fontWeight: 200,
-      letterSpacing: 0.00625rem
-    );
-$typography-tablet-body: (
-      fontFamily: var(--ff-primary),
-      fontSize: 1.0625rem,
-      lineHeight: 1.7rem,
-      fontWeight: 200,
-      letterSpacing: 0.0125rem
     );
 $typography-desktop-title: (
       fontFamily: var(--ff-primary),
@@ -531,6 +496,13 @@ $typography-desktop-body: (
       fontSize: 1.125rem,
       lineHeight: 1.8rem,
       fontWeight: 200,
+      letterSpacing: 0.0125rem
+    );
+$typography-desktop-link: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1.125rem,
+      lineHeight: 1.8rem,
+      fontWeight: 400,
       letterSpacing: 0.0125rem
     );
 $typography-desktop-body-bold: (
@@ -624,69 +596,6 @@ $typography-footer-linklist: (
       fontWeight: 200,
       letterSpacing: 0.0125rem
     );
-$typography-toast-mobile-header: (
-      fontFamily: var(--ff-primary),
-      fontSize: 1rem,
-      lineHeight: 1.5rem,
-      fontWeight: 400,
-      letterSpacing: 0.0125rem
-    );
-$typography-toast-mobile-text: (
-      fontFamily: var(--ff-primary),
-      fontSize: 1rem,
-      lineHeight: 1.4rem,
-      fontWeight: 200,
-      letterSpacing: 0.015625rem
-    );
-$typography-toast-desktop-text: (
-      fontFamily: var(--ff-primary),
-      fontSize: 1.125rem,
-      lineHeight: 1.575rem,
-      fontWeight: 200,
-      letterSpacing: 0.015625rem
-    );
-$typography-toast-desktop-header: (
-      fontFamily: var(--ff-primary),
-      fontSize: 1.125rem,
-      lineHeight: 1.575rem,
-      fontWeight: 400,
-      letterSpacing: 0.015625rem
-    );
-$typography-toast-tablet-text: (
-      fontFamily: var(--ff-primary),
-      fontSize: 1.0625rem,
-      lineHeight: 1.59375rem,
-      fontWeight: 200,
-      letterSpacing: 0.015625rem
-    );
-$typography-section-small-title: (
-      fontFamily: var(--ff-primary),
-      fontSize: 1.0625rem,
-      lineHeight: 1.275rem,
-      fontWeight: 400,
-      letterSpacing: 0.0125rem
-    );
-$typography-section-small-body: (
-      fontFamily: var(--ff-primary),
-      fontSize: 1rem,
-      lineHeight: 1.5rem,
-      fontWeight: 200,
-      letterSpacing: 0.0125rem
-    );
-$typography-section-large-body: (
-      fontFamily: var(--ff-primary),
-      fontSize: 1.0625rem,
-      lineHeight: 1.59375rem,
-      fontWeight: 200,
-      letterSpacing: 0.0125rem
-    );
-$typography-section-large-title: (
-      fontFamily: var(--ff-primary),
-      fontSize: 1.0625rem,
-      lineHeight: 1.275rem,
-      fontWeight: 400,
-      letterSpacing: 0.0125rem
-    );
 $typography-input-mobile-fix: (
       fontFamily: var(--ff-primary),
       fontSize: 0.875rem,
@@ -732,116 +641,11 @@ $typography-input-desktop-body: (
 $typography-input-desktop-label: (
       fontFamily: var(--ff-primary),
       fontSize: 1.125rem,
-      lineHeight: 1.575rem,
+      lineHeight: 1.8rem,
       fontWeight: 200,
       letterSpacing: 0.015625rem
     );
 $typography-input-desktop-descriptive: (
-      fontFamily: var(--ff-primary),
-      fontSize: 0.875rem,
-      lineHeight: 1.225rem,
-      fontWeight: 200,
-      letterSpacing: 0.015625rem
-    );
-$typography-dropdown-small-label: (
-      fontFamily: var(--ff-primary),
-      fontSize: 0.75rem,
-      lineHeight: 1.05rem,
-      fontWeight: 200,
-      letterSpacing: 0.015625rem
-    );
-$typography-dropdown-small-description: (
-      fontFamily: var(--ff-primary),
-      fontSize: 0.625rem,
-      lineHeight: 0.875rem,
-      fontWeight: 200,
-      letterSpacing: 0.015625rem
-    );
-$typography-dropdown-small-fix: (
-      fontFamily: var(--ff-primary),
-      fontSize: 0.75rem,
-      lineHeight: 1.05rem,
-      fontWeight: 200,
-      letterSpacing: 0.015625rem
-    );
-$typography-dropdown-small-body: (
-      fontFamily: var(--ff-primary),
-      fontSize: 0.875rem,
-      lineHeight: 1.225rem,
-      fontWeight: 200,
-      letterSpacing: 0.015625rem
-    );
-$typography-dropdown-small-body-input: (
-      fontFamily: var(--ff-primary),
-      fontSize: 1rem,
-      lineHeight: 1.4rem,
-      fontWeight: 400,
-      letterSpacing: 0.015625rem
-    );
-$typography-dropdown-medium-label: (
-      fontFamily: var(--ff-primary),
-      fontSize: 0.875rem,
-      lineHeight: 1.225rem,
-      fontWeight: 200,
-      letterSpacing: 0.015625rem
-    );
-$typography-dropdown-medium-description: (
-      fontFamily: var(--ff-primary),
-      fontSize: 0.75rem,
-      lineHeight: 1.05rem,
-      fontWeight: 200,
-      letterSpacing: 0.015625rem
-    );
-$typography-dropdown-medium-fix: (
-      fontFamily: var(--ff-primary),
-      fontSize: 0.75rem,
-      lineHeight: 1.05rem,
-      fontWeight: 200,
-      letterSpacing: 0.015625rem
-    );
-$typography-dropdown-medium-body: (
-      fontFamily: var(--ff-primary),
-      fontSize: 1rem,
-      lineHeight: 1.4rem,
-      fontWeight: 200,
-      letterSpacing: 0.015625rem
-    );
-$typography-dropdown-large-label: (
-      fontFamily: var(--ff-primary),
-      fontSize: 0.875rem,
-      lineHeight: 1.225rem,
-      fontWeight: 200,
-      letterSpacing: 0.015625rem
-    );
-$typography-dropdown-large-description: (
-      fontFamily: var(--ff-primary),
-      fontSize: 0.875rem,
-      lineHeight: 1.225rem,
-      fontWeight: 200,
-      letterSpacing: 0.015625rem
-    );
-$typography-dropdown-large-fix: (
-      fontFamily: var(--ff-primary),
-      fontSize: 0.75rem,
-      lineHeight: 1.05rem,
-      fontWeight: 200,
-      letterSpacing: 0.015625rem
-    );
-$typography-dropdown-large-body: (
-      fontFamily: var(--ff-primary),
-      fontSize: 1.125rem,
-      lineHeight: 1.575rem,
-      fontWeight: 200,
-      letterSpacing: 0.015625rem
-    );
-$typography-checkbox-small-body: (
-      fontFamily: var(--ff-primary),
-      fontSize: 1rem,
-      lineHeight: 1.4rem,
-      fontWeight: 200,
-      letterSpacing: 0.015625rem
-    );
-$typography-toggle-small-body: (
       fontFamily: var(--ff-primary),
       fontSize: 0.875rem,
       lineHeight: 1.225rem,
@@ -860,27 +664,6 @@ $typography-dialog-large-body: (
       fontSize: 1rem,
       lineHeight: 1.4rem,
       fontWeight: 400,
-      letterSpacing: 0.015625rem
-    );
-$typography-tag-text: (
-      fontFamily: var(--ff-primary),
-      fontSize: 0.75rem,
-      lineHeight: 0.825rem,
-      fontWeight: 200,
-      letterSpacing: 0.015625rem
-    );
-$typography-tag-text-medium: (
-      fontFamily: var(--ff-primary),
-      fontSize: 0.875rem,
-      lineHeight: 0.9625rem,
-      fontWeight: 200,
-      letterSpacing: 0.015625rem
-    );
-$typography-tag-text-large: (
-      fontFamily: var(--ff-primary),
-      fontSize: 1rem,
-      lineHeight: 1.1rem,
-      fontWeight: 200,
       letterSpacing: 0.015625rem
     );
 $typography-navigation-desktop-global: (
