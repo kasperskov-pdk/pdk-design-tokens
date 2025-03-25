@@ -1106,14 +1106,6 @@
     }
   },
   "spacing": {
-    "1": {
-      "value": "§spacing.base * 0.5",
-      "type": "spacing"
-    },
-    "2": {
-      "value": "§spacing.base * 1",
-      "type": "spacing"
-    },
     "container": {
       "desktop": {
         "paddingX": {
@@ -2715,5 +2707,21 @@
     },
     "type": "boxShadow",
     "description": "Anvendes til at indikere interaktivitet samt øge opmærksomheden omkring et område."
+  },
+  "sejl": {
+    "spacing": {
+      "0": {
+        "value": 0,
+        "type": "spacing"
+      },
+      "1": {
+        "value": "§sejl.spacing.base * 0.5",
+        "type": "spacing"
+      },
+      "base": {
+        "value": 8,
+        "type": "spacing"
+      }
+    }
   }
 }
