@@ -1106,6 +1106,14 @@
     }
   },
   "spacing": {
+    "1": {
+      "value": "§spacing.base * 0.5",
+      "type": "spacing"
+    },
+    "2": {
+      "value": "§spacing.base * 1",
+      "type": "spacing"
+    },
     "container": {
       "desktop": {
         "paddingX": {
@@ -1383,56 +1391,6 @@
         }
       }
     },
-    "tablet": {
-      "0": {
-        "value": 0,
-        "type": "spacing"
-      },
-      "1": {
-        "value": 4,
-        "type": "spacing"
-      },
-      "2": {
-        "value": 8,
-        "type": "spacing"
-      },
-      "3": {
-        "value": 12,
-        "type": "spacing"
-      },
-      "4": {
-        "value": 16,
-        "type": "spacing"
-      },
-      "5": {
-        "value": 20,
-        "type": "spacing"
-      },
-      "6": {
-        "value": 24,
-        "type": "spacing"
-      },
-      "7": {
-        "value": 32,
-        "type": "spacing"
-      },
-      "8": {
-        "value": 48,
-        "type": "spacing"
-      },
-      "9": {
-        "value": 80,
-        "type": "spacing"
-      },
-      "base": {
-        "value": 4,
-        "type": "spacing"
-      },
-      "auto": {
-        "value": "auto",
-        "type": "spacing"
-      }
-    },
     "desktop": {
       "0": {
         "value": 0,
@@ -1513,6 +1471,10 @@
         "value": 1,
         "type": "spacing"
       }
+    },
+    "base": {
+      "value": 8,
+      "type": "spacing"
     }
   },
   "card": {
