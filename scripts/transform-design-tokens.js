@@ -132,3 +132,4 @@ const restructureTypographyObject = (obj) => {
 
 
 generateJson("global", "global");
+generateJson("sejl", "sejl");
