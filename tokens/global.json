@@ -1,4 +1,656 @@
 {
+  "spacing": {
+    "100": {
+      "value": 8,
+      "type": "spacing",
+      "description": "Bruges til kompakte UI elementer, som er nært beslægtede"
+    },
+    "150": {
+      "value": 12,
+      "type": "spacing",
+      "description": "Bruges til kompakte UI elementer, som er nært beslægtede"
+    },
+    "200": {
+      "value": 16,
+      "type": "spacing",
+      "description": "Bruges til kompakte UI elementer, som er nært beslægtede"
+    },
+    "250": {
+      "value": 20,
+      "type": "spacing",
+      "description": "Bruges til mellemstore og lidt mindre kompakte UI elementer."
+    },
+    "300": {
+      "value": 24,
+      "type": "spacing",
+      "description": "Bruges til mellemstore og lidt mindre kompakte UI elementer."
+    },
+    "400": {
+      "value": 32,
+      "type": "spacing",
+      "description": "Bruges til mellemstore og lidt mindre kompakte UI elementer."
+    },
+    "500": {
+      "value": 40,
+      "type": "spacing",
+      "description": "Bruges til mellemstore og lidt mindre kompakte UI elementer."
+    },
+    "800": {
+      "value": 64,
+      "type": "spacing",
+      "description": "Bruges til store UI elementer og layout element, fx til at skabe afstand til andre sektioner"
+    },
+    "1000": {
+      "value": 80,
+      "type": "spacing",
+      "description": "Bruges til store UI elementer og layout element, fx til at skabe afstand til andre sektioner"
+    },
+    "050": {
+      "value": 4,
+      "type": "spacing",
+      "description": "Bruges til kompakte UI elementer, som er nært beslægtede"
+    },
+    "negative": {
+      "100": {
+        "value": -8,
+        "type": "spacing",
+        "description": "Bruges til at modvirke nedarvet whitespace eller til små overlappende UI elementer."
+      },
+      "150": {
+        "value": -12,
+        "type": "spacing",
+        "description": "Bruges til at modvirke nedarvet whitespace eller til små overlappende UI elementer."
+      },
+      "200": {
+        "value": -16,
+        "type": "spacing",
+        "description": "Bruges til at modvirke nedarvet whitespace eller til små overlappende UI elementer."
+      },
+      "250": {
+        "value": -20,
+        "type": "spacing",
+        "description": "Bruges til at modvirke nedarvet whitespace eller til små overlappende UI elementer."
+      },
+      "300": {
+        "value": -24,
+        "type": "spacing",
+        "description": "Bruges til at modvirke nedarvet whitespace eller til små overlappende UI elementer."
+      },
+      "400": {
+        "value": -32,
+        "type": "spacing",
+        "description": "Bruges til at modvirke nedarvet whitespace eller til små overlappende UI elementer."
+      },
+      "500": {
+        "value": -40,
+        "type": "spacing",
+        "description": "Bruges til at modvirke nedarvet whitespace eller til små overlappende UI elementer."
+      },
+      "800": {
+        "value": -64,
+        "type": "spacing",
+        "description": "Bruges til at modvirke nedarvet whitespace eller til små overlappende UI elementer."
+      },
+      "1000": {
+        "value": -80,
+        "type": "spacing",
+        "description": "Bruges til at modvirke nedarvet whitespace eller til små overlappende UI elementer."
+      },
+      "050": {
+        "value": -4,
+        "type": "spacing",
+        "description": "Bruges til at modvirke nedarvet whitespace eller til små overlappende UI elementer."
+      }
+    },
+    "base": {
+      "value": 8,
+      "type": "spacing"
+    },
+    "container": {
+      "desktop": {
+        "paddingX": {
+          "small": {
+            "value": 40,
+            "type": "spacing"
+          },
+          "large": {
+            "value": 80,
+            "type": "spacing"
+          },
+          "xlarge": {
+            "value": 116,
+            "type": "spacing"
+          },
+          "xxlarge": {
+            "value": 288,
+            "type": "spacing"
+          },
+          "xxxlarge": {
+            "value": 360,
+            "type": "spacing"
+          },
+          "xxxxlarge": {
+            "value": 400,
+            "type": "spacing"
+          },
+          "none": {
+            "value": 0,
+            "type": "spacing"
+          }
+        },
+        "paddingY": {
+          "small": {
+            "value": 40,
+            "type": "spacing"
+          },
+          "large": {
+            "value": 80,
+            "type": "spacing"
+          },
+          "none": {
+            "value": 0,
+            "type": "spacing"
+          }
+        },
+        "gapY": {
+          "small": {
+            "value": 16,
+            "type": "spacing"
+          },
+          "medium": {
+            "value": 24,
+            "type": "spacing"
+          },
+          "large": {
+            "value": 40,
+            "type": "spacing"
+          },
+          "xlarge": {
+            "value": 80,
+            "type": "spacing",
+            "description": "Used only for spacing between sections and blocks (containers)"
+          }
+        }
+      },
+      "mobile": {
+        "paddingX": {
+          "small": {
+            "value": 16,
+            "type": "spacing"
+          },
+          "large": {
+            "value": 20,
+            "type": "spacing"
+          },
+          "xlarge": {
+            "value": 20,
+            "type": "spacing"
+          },
+          "xxxlarge": {
+            "value": 20,
+            "type": "spacing"
+          },
+          "xxxxlarge": {
+            "value": 200,
+            "type": "spacing"
+          },
+          "none": {
+            "value": 0,
+            "type": "spacing"
+          }
+        },
+        "paddingY": {
+          "small": {
+            "value": 40,
+            "type": "spacing"
+          },
+          "large": {
+            "value": 64,
+            "type": "spacing"
+          },
+          "none": {
+            "value": 0,
+            "type": "spacing"
+          }
+        },
+        "gapY": {
+          "small": {
+            "value": 12,
+            "type": "spacing"
+          },
+          "medium": {
+            "value": 16,
+            "type": "spacing"
+          },
+          "large": {
+            "value": 24,
+            "type": "spacing"
+          },
+          "xlarge": {
+            "value": 64,
+            "type": "spacing",
+            "description": "Used only for spacing between sections and blocks (containers)"
+          }
+        }
+      }
+    },
+    "grid": {
+      "desktop": {
+        "gap": {
+          "small": {
+            "value": 24,
+            "type": "spacing"
+          },
+          "medium": {
+            "value": 32,
+            "type": "spacing"
+          },
+          "large": {
+            "value": 40,
+            "type": "spacing"
+          }
+        }
+      },
+      "mobile": {
+        "gap": {
+          "small": {
+            "value": 20,
+            "type": "spacing"
+          },
+          "medium": {
+            "value": 32,
+            "type": "spacing"
+          },
+          "large": {
+            "value": 48,
+            "type": "spacing"
+          }
+        }
+      }
+    },
+    "card": {
+      "item": {
+        "gapY": {
+          "small": {
+            "value": 8,
+            "type": "spacing"
+          },
+          "medium": {
+            "value": 12,
+            "type": "spacing"
+          },
+          "large": {
+            "value": 16,
+            "type": "spacing"
+          }
+        }
+      },
+      "row": {
+        "value": 24,
+        "type": "spacing"
+      }
+    },
+    "button": {
+      "large-x": {
+        "value": 32,
+        "type": "spacing"
+      },
+      "large-y": {
+        "value": 14,
+        "type": "spacing"
+      },
+      "large-gab": {
+        "value": 8,
+        "type": "spacing"
+      },
+      "small-x": {
+        "value": 24,
+        "type": "spacing"
+      },
+      "small-y": {
+        "value": 12,
+        "type": "spacing"
+      },
+      "small-gab": {
+        "value": 6,
+        "type": "spacing"
+      },
+      "small-icon-x": {
+        "value": 12,
+        "type": "spacing"
+      }
+    },
+    "link": {
+      "gapX": {
+        "value": 8,
+        "type": "spacing"
+      }
+    },
+    "mobile": {
+      "0": {
+        "value": 0,
+        "type": "spacing"
+      },
+      "1": {
+        "value": 4,
+        "type": "spacing"
+      },
+      "2": {
+        "value": 8,
+        "type": "spacing"
+      },
+      "3": {
+        "value": 12,
+        "type": "spacing"
+      },
+      "4": {
+        "value": 16,
+        "type": "spacing"
+      },
+      "5": {
+        "value": 20,
+        "type": "spacing"
+      },
+      "6": {
+        "value": 24,
+        "type": "spacing"
+      },
+      "7": {
+        "value": 32,
+        "type": "spacing"
+      },
+      "8": {
+        "value": 48,
+        "type": "spacing"
+      },
+      "9": {
+        "value": 64,
+        "type": "spacing"
+      },
+      "base": {
+        "value": 4,
+        "type": "spacing"
+      },
+      "auto": {
+        "value": "auto",
+        "type": "spacing"
+      },
+      "section-container": {
+        "large": {
+          "value": 24,
+          "type": "spacing",
+          "description": "til større indhak i siderne af sektioner"
+        }
+      }
+    },
+    "desktop": {
+      "0": {
+        "value": 0,
+        "type": "spacing"
+      },
+      "1": {
+        "value": 8,
+        "type": "spacing"
+      },
+      "2": {
+        "value": 16,
+        "type": "spacing"
+      },
+      "3": {
+        "value": 24,
+        "type": "spacing"
+      },
+      "4": {
+        "value": 32,
+        "type": "spacing"
+      },
+      "5": {
+        "value": 40,
+        "type": "spacing"
+      },
+      "6": {
+        "value": 48,
+        "type": "spacing"
+      },
+      "7": {
+        "value": 80,
+        "type": "spacing"
+      },
+      "8": {
+        "value": 96,
+        "type": "spacing"
+      },
+      "base": {
+        "value": 8,
+        "type": "spacing"
+      },
+      "auto": {
+        "value": "auto",
+        "type": "spacing"
+      },
+      "section-container": {
+        "large": {
+          "value": 200,
+          "type": "spacing",
+          "description": "til større indhak i siderne af sektioner"
+        }
+      }
+    },
+    "emneside": {
+      "desktop": {
+        "header-top": {
+          "value": 400,
+          "type": "spacing"
+        }
+      },
+      "mobil": {
+        "header-top": {
+          "value": 200,
+          "type": "spacing"
+        }
+      }
+    },
+    "text-section": {
+      "desktop": {
+        "large": {
+          "value": 400,
+          "type": "spacing"
+        }
+      }
+    },
+    "accordion": {
+      "gab": {
+        "value": 1,
+        "type": "spacing"
+      }
+    }
+  },
+  "font-size": {
+    "base": {
+      "value": 16,
+      "type": "fontSizes",
+      "xxxsmall": {
+        "value": 10,
+        "type": "fontSizes"
+      },
+      "xxsmall": {
+        "value": 12,
+        "type": "fontSizes"
+      },
+      "xsmall": {
+        "value": 13,
+        "type": "fontSizes"
+      },
+      "small": {
+        "value": 14,
+        "type": "fontSizes"
+      },
+      "medium": {
+        "value": 16,
+        "type": "fontSizes"
+      },
+      "large": {
+        "value": 17,
+        "type": "fontSizes"
+      },
+      "xlarge": {
+        "value": 19,
+        "type": "fontSizes"
+      },
+      "xxlarge": {
+        "value": 20,
+        "type": "fontSizes"
+      }
+    },
+    "xxxl": {
+      "value": "$sejl.font-size.base * 4",
+      "type": "fontSizes",
+      "failedToResolve": true
+    },
+    "xxl": {
+      "value": "$sejl.font-size.base * 2.5",
+      "type": "fontSizes",
+      "failedToResolve": true
+    },
+    "xl": {
+      "value": "$sejl.font-size.base * 2",
+      "type": "fontSizes",
+      "failedToResolve": true
+    },
+    "l": {
+      "value": "$sejl.font-size.base * 1.5",
+      "type": "fontSizes",
+      "failedToResolve": true
+    },
+    "m": {
+      "value": "$sejl.font-size.base * 1.25",
+      "type": "fontSizes",
+      "failedToResolve": true
+    },
+    "xs": {
+      "value": "$sejl.font-size.base * 1",
+      "type": "fontSizes",
+      "failedToResolve": true
+    },
+    "xxs": {
+      "value": "$sejl.font-size.base * 0.875",
+      "type": "fontSizes",
+      "failedToResolve": true
+    },
+    "xxxs": {
+      "value": "$sejl.font-size.base * 0.75",
+      "type": "fontSizes",
+      "failedToResolve": true
+    },
+    "mobile": {
+      "title": {
+        "value": 40,
+        "type": "fontSizes"
+      },
+      "h1": {
+        "value": 32,
+        "type": "fontSizes"
+      },
+      "h2": {
+        "value": 24,
+        "type": "fontSizes"
+      },
+      "h3": {
+        "value": 20,
+        "type": "fontSizes"
+      },
+      "h4": {
+        "value": 16,
+        "type": "fontSizes"
+      },
+      "h5": {
+        "value": 12,
+        "type": "fontSizes"
+      },
+      "body": {
+        "value": 16,
+        "type": "fontSizes"
+      }
+    },
+    "tablet": {
+      "title": {
+        "value": 56,
+        "type": "fontSizes"
+      },
+      "h1": {
+        "value": 42,
+        "type": "fontSizes"
+      },
+      "h2": {
+        "value": 28,
+        "type": "fontSizes"
+      },
+      "h3": {
+        "value": 32,
+        "type": "fontSizes"
+      },
+      "h4": {
+        "value": 20,
+        "type": "fontSizes"
+      },
+      "h5": {
+        "value": 16,
+        "type": "fontSizes"
+      },
+      "h6": {
+        "value": 14,
+        "type": "fontSizes"
+      },
+      "body": {
+        "value": 17,
+        "type": "fontSizes"
+      }
+    },
+    "desktop": {
+      "title": {
+        "value": 64,
+        "type": "fontSizes"
+      },
+      "h1": {
+        "value": 46,
+        "type": "fontSizes"
+      },
+      "h2": {
+        "value": 32,
+        "type": "fontSizes"
+      },
+      "h3": {
+        "value": 24,
+        "type": "fontSizes"
+      },
+      "h4": {
+        "value": 18,
+        "type": "fontSizes"
+      },
+      "h5": {
+        "value": 14,
+        "type": "fontSizes"
+      },
+      "h6": {
+        "value": 14,
+        "type": "fontSizes"
+      },
+      "body": {
+        "value": 18,
+        "type": "fontSizes"
+      }
+    }
+  },
+  "font-family": {
+    "primary": {
+      "value": "DINOT",
+      "type": "fontFamilies"
+    },
+    "secondary": {
+      "value": "helvetica",
+      "type": "fontFamilies"
+    }
+  },
   "color": {
     "section": {
       "white": {
@@ -1105,370 +1757,6 @@
       "description": "Used for screen overlays behind modals etc."
     }
   },
-  "spacing": {
-    "container": {
-      "desktop": {
-        "paddingX": {
-          "small": {
-            "value": 40,
-            "type": "spacing"
-          },
-          "large": {
-            "value": 80,
-            "type": "spacing"
-          },
-          "xlarge": {
-            "value": 116,
-            "type": "spacing"
-          },
-          "xxlarge": {
-            "value": 288,
-            "type": "spacing"
-          },
-          "xxxlarge": {
-            "value": 360,
-            "type": "spacing"
-          },
-          "xxxxlarge": {
-            "value": 400,
-            "type": "spacing"
-          },
-          "none": {
-            "value": 0,
-            "type": "spacing"
-          }
-        },
-        "paddingY": {
-          "small": {
-            "value": 40,
-            "type": "spacing"
-          },
-          "large": {
-            "value": 80,
-            "type": "spacing"
-          },
-          "none": {
-            "value": 0,
-            "type": "spacing"
-          }
-        },
-        "gapY": {
-          "small": {
-            "value": 16,
-            "type": "spacing"
-          },
-          "medium": {
-            "value": 24,
-            "type": "spacing"
-          },
-          "large": {
-            "value": 40,
-            "type": "spacing"
-          },
-          "xlarge": {
-            "value": 80,
-            "type": "spacing",
-            "description": "Used only for spacing between sections and blocks (containers)"
-          }
-        }
-      },
-      "mobile": {
-        "paddingX": {
-          "small": {
-            "value": 16,
-            "type": "spacing"
-          },
-          "large": {
-            "value": 20,
-            "type": "spacing"
-          },
-          "xlarge": {
-            "value": 20,
-            "type": "spacing"
-          },
-          "xxxlarge": {
-            "value": 20,
-            "type": "spacing"
-          },
-          "xxxxlarge": {
-            "value": 200,
-            "type": "spacing"
-          },
-          "none": {
-            "value": 0,
-            "type": "spacing"
-          }
-        },
-        "paddingY": {
-          "small": {
-            "value": 40,
-            "type": "spacing"
-          },
-          "large": {
-            "value": 64,
-            "type": "spacing"
-          },
-          "none": {
-            "value": 0,
-            "type": "spacing"
-          }
-        },
-        "gapY": {
-          "small": {
-            "value": 12,
-            "type": "spacing"
-          },
-          "medium": {
-            "value": 16,
-            "type": "spacing"
-          },
-          "large": {
-            "value": 24,
-            "type": "spacing"
-          },
-          "xlarge": {
-            "value": 64,
-            "type": "spacing",
-            "description": "Used only for spacing between sections and blocks (containers)"
-          }
-        }
-      }
-    },
-    "grid": {
-      "desktop": {
-        "gap": {
-          "small": {
-            "value": 24,
-            "type": "spacing"
-          },
-          "medium": {
-            "value": 32,
-            "type": "spacing"
-          },
-          "large": {
-            "value": 40,
-            "type": "spacing"
-          }
-        }
-      },
-      "mobile": {
-        "gap": {
-          "small": {
-            "value": 20,
-            "type": "spacing"
-          },
-          "medium": {
-            "value": 32,
-            "type": "spacing"
-          },
-          "large": {
-            "value": 48,
-            "type": "spacing"
-          }
-        }
-      }
-    },
-    "card": {
-      "item": {
-        "gapY": {
-          "small": {
-            "value": 8,
-            "type": "spacing"
-          },
-          "medium": {
-            "value": 12,
-            "type": "spacing"
-          },
-          "large": {
-            "value": 16,
-            "type": "spacing"
-          }
-        }
-      },
-      "row": {
-        "value": 24,
-        "type": "spacing"
-      }
-    },
-    "button": {
-      "large-x": {
-        "value": 32,
-        "type": "spacing"
-      },
-      "large-y": {
-        "value": 14,
-        "type": "spacing"
-      },
-      "large-gab": {
-        "value": 8,
-        "type": "spacing"
-      },
-      "small-x": {
-        "value": 24,
-        "type": "spacing"
-      },
-      "small-y": {
-        "value": 12,
-        "type": "spacing"
-      },
-      "small-gab": {
-        "value": 6,
-        "type": "spacing"
-      },
-      "small-icon-x": {
-        "value": 12,
-        "type": "spacing"
-      }
-    },
-    "link": {
-      "gapX": {
-        "value": 8,
-        "type": "spacing"
-      }
-    },
-    "mobile": {
-      "0": {
-        "value": 0,
-        "type": "spacing"
-      },
-      "1": {
-        "value": 4,
-        "type": "spacing"
-      },
-      "2": {
-        "value": 8,
-        "type": "spacing"
-      },
-      "3": {
-        "value": 12,
-        "type": "spacing"
-      },
-      "4": {
-        "value": 16,
-        "type": "spacing"
-      },
-      "5": {
-        "value": 20,
-        "type": "spacing"
-      },
-      "6": {
-        "value": 24,
-        "type": "spacing"
-      },
-      "7": {
-        "value": 32,
-        "type": "spacing"
-      },
-      "8": {
-        "value": 48,
-        "type": "spacing"
-      },
-      "9": {
-        "value": 64,
-        "type": "spacing"
-      },
-      "base": {
-        "value": 4,
-        "type": "spacing"
-      },
-      "auto": {
-        "value": "auto",
-        "type": "spacing"
-      },
-      "section-container": {
-        "large": {
-          "value": 24,
-          "type": "spacing",
-          "description": "til større indhak i siderne af sektioner"
-        }
-      }
-    },
-    "desktop": {
-      "0": {
-        "value": 0,
-        "type": "spacing"
-      },
-      "1": {
-        "value": 8,
-        "type": "spacing"
-      },
-      "2": {
-        "value": 16,
-        "type": "spacing"
-      },
-      "3": {
-        "value": 24,
-        "type": "spacing"
-      },
-      "4": {
-        "value": 32,
-        "type": "spacing"
-      },
-      "5": {
-        "value": 40,
-        "type": "spacing"
-      },
-      "6": {
-        "value": 48,
-        "type": "spacing"
-      },
-      "7": {
-        "value": 80,
-        "type": "spacing"
-      },
-      "8": {
-        "value": 96,
-        "type": "spacing"
-      },
-      "base": {
-        "value": 8,
-        "type": "spacing"
-      },
-      "auto": {
-        "value": "auto",
-        "type": "spacing"
-      },
-      "section-container": {
-        "large": {
-          "value": 200,
-          "type": "spacing",
-          "description": "til større indhak i siderne af sektioner"
-        }
-      }
-    },
-    "emneside": {
-      "desktop": {
-        "header-top": {
-          "value": 400,
-          "type": "spacing"
-        }
-      },
-      "mobil": {
-        "header-top": {
-          "value": 200,
-          "type": "spacing"
-        }
-      }
-    },
-    "text-section": {
-      "desktop": {
-        "large": {
-          "value": 400,
-          "type": "spacing"
-        }
-      }
-    },
-    "accordion": {
-      "gab": {
-        "value": 1,
-        "type": "spacing"
-      }
-    },
-    "base": {
-      "value": 8,
-      "type": "spacing"
-    }
-  },
   "card": {
     "row": {
       "desktop": {
@@ -2253,150 +2541,6 @@
     "xlg": {
       "value": 16,
       "type": "borderRadius"
-    }
-  },
-  "font-family": {
-    "primary": {
-      "value": "DINOT",
-      "type": "fontFamilies"
-    },
-    "secondary": {
-      "value": "helvetica",
-      "type": "fontFamilies"
-    }
-  },
-  "font-size": {
-    "mobile": {
-      "title": {
-        "value": 40,
-        "type": "fontSizes"
-      },
-      "h1": {
-        "value": 32,
-        "type": "fontSizes"
-      },
-      "h2": {
-        "value": 24,
-        "type": "fontSizes"
-      },
-      "h3": {
-        "value": 20,
-        "type": "fontSizes"
-      },
-      "h4": {
-        "value": 16,
-        "type": "fontSizes"
-      },
-      "h5": {
-        "value": 12,
-        "type": "fontSizes"
-      },
-      "body": {
-        "value": 16,
-        "type": "fontSizes"
-      }
-    },
-    "tablet": {
-      "title": {
-        "value": 56,
-        "type": "fontSizes"
-      },
-      "h1": {
-        "value": 42,
-        "type": "fontSizes"
-      },
-      "h2": {
-        "value": 28,
-        "type": "fontSizes"
-      },
-      "h3": {
-        "value": 32,
-        "type": "fontSizes"
-      },
-      "h4": {
-        "value": 20,
-        "type": "fontSizes"
-      },
-      "h5": {
-        "value": 16,
-        "type": "fontSizes"
-      },
-      "h6": {
-        "value": 14,
-        "type": "fontSizes"
-      },
-      "body": {
-        "value": 17,
-        "type": "fontSizes"
-      }
-    },
-    "desktop": {
-      "title": {
-        "value": 64,
-        "type": "fontSizes"
-      },
-      "h1": {
-        "value": 46,
-        "type": "fontSizes"
-      },
-      "h2": {
-        "value": 32,
-        "type": "fontSizes"
-      },
-      "h3": {
-        "value": 24,
-        "type": "fontSizes"
-      },
-      "h4": {
-        "value": 18,
-        "type": "fontSizes"
-      },
-      "h5": {
-        "value": 14,
-        "type": "fontSizes"
-      },
-      "h6": {
-        "value": 14,
-        "type": "fontSizes"
-      },
-      "body": {
-        "value": 18,
-        "type": "fontSizes"
-      }
-    },
-    "base": {
-      "xxxsmall": {
-        "value": 10,
-        "type": "fontSizes"
-      },
-      "xxsmall": {
-        "value": 12,
-        "type": "fontSizes"
-      },
-      "xsmall": {
-        "value": 13,
-        "type": "fontSizes"
-      },
-      "small": {
-        "value": 14,
-        "type": "fontSizes"
-      },
-      "medium": {
-        "value": 16,
-        "type": "fontSizes"
-      },
-      "large": {
-        "value": 17,
-        "type": "fontSizes"
-      },
-      "xlarge": {
-        "value": 19,
-        "type": "fontSizes"
-      },
-      "xxlarge": {
-        "value": 20,
-        "type": "fontSizes"
-      }
     }
   },
   "letter-spacing": {
