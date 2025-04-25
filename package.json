@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "clean": "style-dictionary clean",
-    "build": "npx token-transformer tokens.json tokens/global.json global,Atoms,Molecules,Utils,sejl && npm run clean && style-dictionary build",
+    "build": "npx token-transformer tokens.json tokens/global.json global,Atoms,Molecules,Utils && npm run clean && style-dictionary build && npm run build:sejl",
+    "build:sejl": "npx token-transformer tokens.json tokens/sejl.json sejl && npm run clean && style-dictionary build",
+    
     "test": "node ./scripts/transform-design-tokens.js && npm run clean && style-dictionary build"
   },
   "dependencies": {
