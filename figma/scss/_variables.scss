@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Mon, 28 Apr 2025 07:07:01 GMT
+// Generated on Mon, 28 Apr 2025 12:54:52 GMT
 
 $color-section-white: #ffffff;
 $color-section-light: #edf5fb;
@@ -228,6 +228,15 @@ $color-virksomhed-primary: #132d4f;
 $color-virksomhed-secondary: #004bba;
 $color-progress-bar-track: #f0f2f3;
 $color-blanket: #4e617b;
+$spacing-100: $sejl.spacing.base * 1;
+$spacing-150: $sejl.spacing.base * 1.5;
+$spacing-200: $sejl.spacing.base * 2;
+$spacing-250: $sejl.spacing.base * 2.5;
+$spacing-300: $sejl.spacing.base * 3;
+$spacing-400: $sejl.spacing.base * 4;
+$spacing-500: $sejl.spacing.base * 5;
+$spacing-800: $sejl.spacing.base * 8;
+$spacing-1000: $sejl.spacing.base * 10;
 $spacing-container-desktop-padding-x-small: 2.5rem;
 $spacing-container-desktop-padding-x-large: 5rem;
 $spacing-container-desktop-padding-x-xlarge: 7.25rem;
@@ -303,6 +312,17 @@ $spacing-emneside-mobil-header-top: 12.5rem;
 $spacing-text-section-desktop-large: 25rem;
 $spacing-accordion-gab: 0.0625rem;
 $spacing-base: 0.5rem;
+$spacing-050: $sejl.spacing.base * 0.5;
+$spacing-negative-100: $sejl.spacing.base * -1;
+$spacing-negative-150: $sejl.spacing.base * -1.5;
+$spacing-negative-200: $sejl.spacing.base * -2;
+$spacing-negative-250: $sejl.spacing.base * -2.5;
+$spacing-negative-300: $sejl.spacing.base * -3;
+$spacing-negative-400: $sejl.spacing.base * -4;
+$spacing-negative-500: $sejl.spacing.base * -5;
+$spacing-negative-800: $sejl.spacing.base * -8;
+$spacing-negative-1000: $sejl.spacing.base * -10;
+$spacing-negative-050: $sejl.spacing.base * -0.5;
 $card-row-desktop-gap-y-large: 2rem;
 $card-row-desktop-gap-y-small: 1.5rem;
 $card-row-mobile-gap-y-large: 1.25rem;
@@ -715,14 +735,15 @@ $font-size-desktop-h4: 1.125rem;
 $font-size-desktop-h5: 0.875rem;
 $font-size-desktop-h6: 0.875rem;
 $font-size-desktop-body: 1.125rem;
-$font-size-base-xxxsmall: 0.625rem;
-$font-size-base-xxsmall: 0.75rem;
-$font-size-base-xsmall: 0.8125rem;
-$font-size-base-small: 0.875rem;
-$font-size-base-medium: 1rem;
-$font-size-base-large: 1.0625rem;
-$font-size-base-xlarge: 1.1875rem;
-$font-size-base-xxlarge: 1.25rem;
+$font-size-base: 1rem;
+$font-size-xxxl: $sejl.font-size.base * 4;
+$font-size-xxl: $sejl.font-size.base * 2.5;
+$font-size-xl: $sejl.font-size.base * 2;
+$font-size-l: $sejl.font-size.base * 1.5;
+$font-size-m: $sejl.font-size.base * 1.25;
+$font-size-xs: $sejl.font-size.base * 1;
+$font-size-xxs: $sejl.font-size.base * 0.875;
+$font-size-xxxs: $sejl.font-size.base * 0.75;
 $letter-spacing-xxs: -0.00625rem;
 $letter-spacing-xs: 0.00625rem;
 $letter-spacing-sm: 0.0125rem;

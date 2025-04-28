@@ -1,43 +1,7 @@
 const StyleDictionary = require("style-dictionary");
+const { cleanFontWeight, cleanRemSize, cleanLineHeight, cleanFontFamily } = require('./config');
 
-const cleanFontWeight = (val) => {
-  if (val === "Light") {
-    return 100;
-  } else if (val === "Regular") {
-    return 200;
-  } else if (val === "Medium") {
-    return 400;
-  } else {
-    return "bold";
-  }
-}
-
-const cleanRemSize = (val) => {
-  if(typeof val == 'number'){
-    return val/16 + "rem";
-  }else{
-    return val;
-  }
-}
-
-const cleanLineHeight = (lh, fz) => {
-  let output = lh.replace("%", "");
-  output = Number(output) * Number(fz);
-  output = (output / 100)/16 + "rem";
-  return output;
-}
-
-const cleanFontFamily = (val) => {
-  let output;
-  if (val == "DINOT") {
-    output = 'var(--ff-primary)';
-  } else {
-    output = 'var(--ff-secondary)';
-  }
-  return output;
-}
-
-// Transform line-height
+// Re-register all transforms from main config
 StyleDictionary.registerTransform({
   name: 'size/lh',
   type: 'value',
@@ -54,7 +18,7 @@ StyleDictionary.registerTransform({
     }
   }
 });
-// Transform typography
+
 StyleDictionary.registerTransform({
   name: "typography/map",
   type: "value",
@@ -72,7 +36,7 @@ StyleDictionary.registerTransform({
     return output;
   },
 });
-// Transform font-family
+
 StyleDictionary.registerTransform({
   name: 'size/fontFamilies',
   type: 'value',
@@ -83,7 +47,7 @@ StyleDictionary.registerTransform({
     return cleanFontFamily(prop.value);
   }
 });
-// transform font-weight
+
 StyleDictionary.registerTransform({
   name: 'size/fontWeight',
   type: 'value',
@@ -104,7 +68,7 @@ StyleDictionary.registerTransform({
     return output;
   }
 });
-// transform shadows
+
 StyleDictionary.registerTransform({
   name: "shadow/shorthand",
   type: "value",
@@ -115,7 +79,7 @@ StyleDictionary.registerTransform({
     return x +"px "+ y +"px "+ blur +"px "+ spread +"px "+ color
   }, 
 });
-// Convert to rem
+
 StyleDictionary.registerTransform({
   name: 'size/toREM',
   type: 'value',
@@ -127,20 +91,15 @@ StyleDictionary.registerTransform({
   }
 });
 
-// Export helper functions to be used in config.sejl.js
 module.exports = {
-  cleanFontWeight,
-  cleanRemSize,
-  cleanLineHeight,
-  cleanFontFamily,
-  source: ["tokens/global.json"],
+  source: ["tokens/sejl.json"],
   platforms: {
     scss: {
       transformGroup: "scss",
       transforms: ["attribute/cti", "name/cti/kebab", "color/hex", "typography/map", "size/fontWeight", "size/fontFamilies", "size/lh", "size/toREM", "shadow/shorthand"],
       buildPath: './figma/',
       files: [{
-        destination: "scss/_variables.scss",
+        destination: "scss/_sejl-variables.scss",
         format: "scss/variables",
       }],
     }
