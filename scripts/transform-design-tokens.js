@@ -1,135 +1,148 @@
-/**
- * Transforming the jsonbin token file. 
- * 
- * Usage: node ./transform.js [inputFile] [outputFile]
- * inputFile is optional (falls back to default), relative to project root
- * outputFile is optional (falls back to default), relative to project root
- * 
- * It reads the json inputFile and does 3 transformations
- * 
- * 1. It replaces '.' with '-' in strings that start with '$'. String endings are currently space ' '. NB! if there is no spacing in the strings this breaks
- * 2. It restructures the typography objects
- * 3. It removes the root node values.global, and places the content of that in the root
- * 
- * TODO:
- * Fix data types. Right now all data types in the output are strings
- */
+const StyleDictionary = require("style-dictionary");
 
-const path = require('path');
-const fs = require('fs')
-const _ = require('lodash');
-
-
-
-const generateJson = (obj, key) => {
-
-  let inputFile = `tokens.json`;
-  let outputFile = `tokens/${key}.json`;
-  const toRoot = '../';
-  const inputFilePath = path.resolve(__dirname, toRoot, inputFile);
-  const outputFilePath = path.resolve(__dirname, toRoot, outputFile);
-
-  fs.access(inputFilePath, fs.F_OK, (err) => {
-    if (err) {
-      console.error(err)
-      return
-    }
-
-    fs.readFile(inputFilePath, (err, data) => {
-      if (err) {
-        console.error(err)
-        return
-      }
-
-      let json = JSON.parse(data); // TODO: handle non json content gracefully
-
-      traverse(json, (key, value, scope) => {
-        // Restructure typography object
-        if (key === 'type' && value === 'typography' || key === 'type' && value === 'boxShadow') {
-          // Joins scope (dot syntax) and removes last item, so we get the parent object
-          const path = scope.concat(key).map(k => isNaN(k) ? `${k}` : k).slice(0, -1).join('.')
-          _.set(json, path, restructureTypographyObject(_.get(json, path)))
-        }
-
-        // Add .value if starts with "{" 
-        // From figma token we can get vars like this {varname} or $varname
-        if (value.toString().indexOf('{') === 0) {
-          let parsed = value.split(' ').map(val => {
-            if (val.indexOf('{') === 0) {
-              return val.split('}').join('.value}')
-            }
-            return val
-          }).join(' ')
-          // Joins scope (dot syntax)
-          const path = scope.concat(key).map(k => isNaN(k) ? `${k}` : k).join('.')
-          _.set(json, path, parsed)
-        }
-        // Add .value if starts with "$"
-        if (value.toString().indexOf('$') === 0) {
-          let parsed = value.split(' ').map(val => {
-            if (val.indexOf('$') === 0) {
-              return val.split('$').join('{') + '.value}'
-            }
-
-            return val
-          }).join(' ')
-          // Joins scope (dot syntax)
-          const path = scope.concat(key).map(k => isNaN(k) ? `${k}` : k).join('.')
-          _.set(json, path, parsed)
-        }
-      })
-
-      // Save only what is in values.global or values.sejl based on the key parameter
-      // NB! Hardcoded path logic
-      const temp = key === 'global' ? _.get(json, 'values.' + obj, json) : _.get(json, obj, json);
-
-      // Type can conflict if more than one value
-      let output = JSON.stringify(key === 'global' ? temp[obj] : temp, null, '').split(',"type":"typography"').join('');
-      output = output.split(',"type":"boxShadow"').join('');
-
-
-      // Write output file
-      fs.writeFile(outputFilePath, output, 'utf8', function (err) {
-        if (err) {
-          console.log('An error occured while writing JSON Object to File.');
-          return console.log(err);
-        }
-
-        console.log(`Transformed JSON has been saved to ${outputFile}`);
-      });
-    })
-  })
-
-}
-
-
-
-const traverse = (o, fn, scope = []) => {
-  for (let i in o) {
-    fn.apply(this, [i, o[i], scope]);
-    if (o[i] !== null && typeof o[i] === 'object') {
-      traverse(o[i], fn, scope.concat(i));
-    }
+const cleanFontWeight = (val) => {
+  if (val === "Light") {
+    return 100;
+  } else if (val === "Regular") {
+    return 200;
+  } else if (val === "Medium") {
+    return 400;
+  } else {
+    return "bold";
   }
 }
 
-const restructureTypographyObject = (obj) => {
-  if (!obj.value) {
-    return obj
-  }
-
-  let parsed = {}
-  for (const [key, value] of Object.entries(obj.value)) {
-    parsed[key] = {
-      value
-    }
-  }
-  return {
-    ...parsed,
-    ..._.omit(obj, 'value')
+const cleanRemSize = (val) => {
+  if(typeof val == 'number'){
+    return val/16 + "rem";
+  }else{
+    return val;
   }
 }
 
-// Generate both global and sejl tokens
-generateJson("global", "global");
-generateJson("sejl", "sejl");
+const cleanLineHeight = (lh, fz) => {
+  let output = lh.replace("%", "");
+  output = Number(output) * Number(fz);
+  output = (output / 100)/16 + "rem";
+  return output;
+}
+
+const cleanFontFamily = (val) => {
+  let output;
+  if (val == "DINOT") {
+    output = 'var(--ff-primary)';
+  } else {
+    output = 'var(--ff-secondary)';
+  }
+  return output;
+}
+
+// Transform line-height
+StyleDictionary.registerTransform({
+  name: 'size/lh',
+  type: 'value',
+  matcher: function (prop) {
+    return prop.attributes.category === 'line-height';
+  },
+  transformer: function (prop) {
+    if (prop.value.includes('%')) {
+      let output = prop.value.replace("%", "");
+      output = Number(output);
+      return output * 0.01
+    } else {
+      return prop.value;
+    }
+  }
+});
+// Transform typography
+StyleDictionary.registerTransform({
+  name: "typography/map",
+  type: "value",
+  transitive: true,
+  matcher: (token) => token.type === "typography",
+  transformer: (token) => {
+    let {fontWeight, fontSize, lineHeight, fontFamily, letterSpacing} = token.original.value;
+    let output = `(
+      fontFamily: ${cleanFontFamily(fontFamily)},
+      fontSize: ${cleanRemSize(fontSize)},
+      lineHeight: ${cleanLineHeight(lineHeight, fontSize)},
+      fontWeight: ${cleanFontWeight(fontWeight)},
+      letterSpacing: ${letterSpacing/16}rem
+    )`;
+    return output;
+  },
+});
+// Transform font-family
+StyleDictionary.registerTransform({
+  name: 'size/fontFamilies',
+  type: 'value',
+  matcher: function (prop) {
+    return prop.attributes.category === 'font-family';
+  },
+  transformer: function (prop) {
+    return cleanFontFamily(prop.value);
+  }
+});
+// transform font-weight
+StyleDictionary.registerTransform({
+  name: 'size/fontWeight',
+  type: 'value',
+  matcher: function (prop) {
+    return prop.attributes.category === 'font-weight';
+  },
+  transformer: function (prop) {
+    let output;
+    if (prop.value == "Light") {
+      output = "100";
+    } else if (prop.value == "Regular") {
+      output = "200";
+    } else if (prop.value == "Medium") {
+      output = "400";
+    } else {
+      output = "bold";
+    }
+    return output;
+  }
+});
+// transform shadows
+StyleDictionary.registerTransform({
+  name: "shadow/shorthand",
+  type: "value",
+  transitive: true,
+  matcher: (token) => ["boxShadow"].includes(token.type),
+  transformer: (token) => {
+    let {color, x, y, blur, spread} = token.original.value;
+    return x +"px "+ y +"px "+ blur +"px "+ spread +"px "+ color
+  }, 
+});
+// Convert to rem
+StyleDictionary.registerTransform({
+  name: 'size/toREM',
+  type: 'value',
+  matcher: function (prop) {
+    return prop.attributes.category === 'letter-spacing' || prop.attributes.category === 'font-size' || prop.type === 'spacing' || prop.type === 'sizing' || prop.attributes.category === 'border' || prop.attributes.category === 'border-radius';
+  },
+  transformer: function (prop) {
+    return cleanRemSize(prop.value);
+  }
+});
+
+// Export helper functions to be used in config.sejl.js
+module.exports = {
+  cleanFontWeight,
+  cleanRemSize,
+  cleanLineHeight,
+  cleanFontFamily,
+  source: ["tokens/global.json"],
+  platforms: {
+    scss: {
+      transformGroup: "scss",
+      transforms: ["attribute/cti", "name/cti/kebab", "color/hex", "typography/map", "size/fontWeight", "size/fontFamilies", "size/lh", "size/toREM", "shadow/shorthand"],
+      buildPath: './figma/',
+      files: [{
+        destination: "scss/_variables.scss",
+        format: "scss/variables",
+      }],
+    }
+  }
+};
