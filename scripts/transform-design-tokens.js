@@ -79,13 +79,13 @@ const generateJson = (obj, key) => {
         }
       })
 
-      // Save only what is in values.global
-      // NB! Hardcoded path
-      const temp = _.get(json, 'values.' + obj, json)
+      // Save only what is in values.global or values.sejl based on the key parameter
+      // NB! Hardcoded path logic
+      const temp = key === 'global' ? _.get(json, 'values.' + obj, json) : _.get(json, obj, json);
 
       // Type can conflict if more than one value
-      let output = JSON.stringify(temp[obj], null, '').split(',"type":"typography"').join('');
-      output = JSON.stringify(temp[obj], null, '').split(',"type":"boxShadow"').join('');
+      let output = JSON.stringify(key === 'global' ? temp[obj] : temp, null, '').split(',"type":"typography"').join('');
+      output = output.split(',"type":"boxShadow"').join('');
 
 
       // Write output file
@@ -130,4 +130,6 @@ const restructureTypographyObject = (obj) => {
   }
 }
 
+// Generate both global and sejl tokens
 generateJson("global", "global");
+generateJson("sejl", "sejl");

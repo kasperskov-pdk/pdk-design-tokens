@@ -5,8 +5,8 @@
   "scripts": {
     "clean": "style-dictionary clean",
     "build": "npx token-transformer tokens.json tokens/global.json global,Atoms,Molecules,Utils && npm run clean && style-dictionary build",
-    "build:sejl": "npx token-transformer tokens.json tokens/sejl.json sejl global,Atoms,Molecules,Utils && npm run clean && style-dictionary build",
-    
+    "build:sejl": "npx token-transformer tokens.json tokens/sejl.json sejl global,Atoms,Molecules,Utils && npm run clean && style-dictionary build --config config.sejl.js",
+    "build:all": "node ./scripts/build-all.js",
     "test": "node ./scripts/transform-design-tokens.js && npm run clean && style-dictionary build"
   },
   "dependencies": {
