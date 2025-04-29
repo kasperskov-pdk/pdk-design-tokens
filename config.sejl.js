@@ -1,5 +1,11 @@
 const StyleDictionary = require("style-dictionary");
-const { cleanFontWeight, cleanRemSize, cleanLineHeight, cleanFontFamily } = require('./config');
+const fs = require('fs');
+const { 
+  cleanFontWeight, 
+  cleanRemSize, 
+  cleanLineHeight, 
+  cleanFontFamily 
+} = require("./utils/transform-utils");
 
 // Re-register all transforms from main config
 StyleDictionary.registerTransform({
@@ -84,9 +90,29 @@ StyleDictionary.registerTransform({
   name: 'size/toREM',
   type: 'value',
   matcher: function (prop) {
-    return prop.attributes.category === 'letter-spacing' || prop.attributes.category === 'font-size' || prop.type === 'spacing' || prop.type === 'sizing' || prop.attributes.category === 'border' || prop.attributes.category === 'border-radius';
+    return prop.attributes.category === 'letter-spacing' || 
+           prop.attributes.category === 'font-size' || 
+           prop.type === 'spacing' || 
+           prop.type === 'sizing' || 
+           prop.attributes.category === 'border' || 
+           prop.attributes.category === 'border-radius';
   },
   transformer: function (prop) {
+    return cleanRemSize(prop.value);
+  }
+});
+
+StyleDictionary.registerTransform({
+  name: 'size/px',
+  type: 'value',
+  matcher: (prop) => {
+    return prop.type === 'spacing' || 
+           prop.type === 'sizing' || 
+           prop.type === 'borderRadius' || 
+           prop.type === 'borderWidth' ||
+           prop.type === 'fontSizes';
+  },
+  transformer: (prop) => {
     return cleanRemSize(prop.value);
   }
 });
