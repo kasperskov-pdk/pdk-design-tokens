@@ -10,7 +10,7 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v2.4.0
       - run: npm install
-      - run: npm run build
+      - run: npm run build:all
       - run: curl -X POST -d {} https://api.netlify.com/build_hooks/61981177da0be32e4d65912d
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
