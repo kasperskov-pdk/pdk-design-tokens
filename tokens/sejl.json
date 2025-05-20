@@ -114,7 +114,7 @@
         "type": "fontSizes"
       },
       "xxxl": {
-        "value": 64,
+        "value": 48,
         "type": "fontSizes"
       },
       "xxl": {
@@ -144,27 +144,49 @@
       "xxxs": {
         "value": 12,
         "type": "fontSizes"
+      },
+      "s": {
+        "value": 18,
+        "type": "fontSizes"
       }
     },
     "font-family": {
       "primary": {
-        "value": "DINOT",
+        "value": "ABC Monument Grotesk",
         "type": "fontFamilies"
       }
     },
     "color": {
       "background": {
         "neutral": {
-          "value": "#F5F7FA",
-          "type": "color",
-          "description": "Standard baggrunden for neutrale elementer som fx sekundære knapper"
+          "default": {
+            "value": "#2330410f",
+            "type": "color",
+            "description": "Standard baggrunden for neutrale elementer som fx sekundære knapper"
+          },
+          "hover": {
+            "value": "#2330411f",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "#ffffff00",
+            "type": "color"
+          }
         },
         "disabled": {
-          "value": "#2330410a",
+          "value": "#23304108",
+          "type": "color"
+        },
+        "input": {
+          "value": "#ffffff",
           "type": "color"
         }
       },
       "neutral": {
+        "0": {
+          "value": "#ffffff",
+          "type": "color"
+        },
         "50": {
           "value": "#F5F7FA",
           "type": "color"
@@ -214,19 +236,19 @@
           "type": "color"
         },
         "400A": {
-          "value": "#23304152",
+          "value": "#2330413d",
           "type": "color"
         },
         "300A": {
-          "value": "#23304129",
+          "value": "#2330411f",
           "type": "color"
         },
         "200A": {
-          "value": "#23304114",
+          "value": "#2330410f",
           "type": "color"
         },
         "100A": {
-          "value": "#2330410a",
+          "value": "#23304108",
           "type": "color"
         }
       },
@@ -424,14 +446,56 @@
           "type": "color"
         },
         "disabled": {
-          "value": "#23304152",
+          "value": "#2330413d",
           "type": "color"
         }
       },
       "border": {
         "disabled": {
-          "value": "#23304114",
+          "value": "#2330410f",
           "type": "color"
+        }
+      },
+      "surface": {
+        "primary": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "#F5F7FA",
+          "type": "color"
+        }
+      }
+    },
+    "size": {
+      "icon": {
+        "xxsmall": {
+          "value": 16,
+          "type": "sizing"
+        },
+        "xsmall": {
+          "value": 24,
+          "type": "sizing"
+        },
+        "small": {
+          "value": 32,
+          "type": "sizing"
+        },
+        "medium": {
+          "value": 40,
+          "type": "sizing"
+        },
+        "large": {
+          "value": 48,
+          "type": "sizing"
+        },
+        "xlarge": {
+          "value": 64,
+          "type": "sizing"
+        },
+        "xxlarge": {
+          "value": 80,
+          "type": "sizing"
         }
       }
     }
