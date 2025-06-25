@@ -125,12 +125,16 @@
         "value": 32,
         "type": "fontSizes"
       },
-      "l": {
+      "lg": {
         "value": 24,
         "type": "fontSizes"
       },
-      "m": {
+      "md": {
         "value": 20,
+        "type": "fontSizes"
+      },
+      "sm": {
+        "value": 18,
         "type": "fontSizes"
       },
       "xs": {
@@ -143,10 +147,6 @@
       },
       "xxxs": {
         "value": 12,
-        "type": "fontSizes"
-      },
-      "s": {
-        "value": 18,
         "type": "fontSizes"
       }
     },
@@ -171,6 +171,10 @@
           "subtle": {
             "value": "#ffffff00",
             "type": "color"
+          },
+          "pressed": {
+            "value": "#2330413d",
+            "type": "color"
           }
         },
         "disabled": {
@@ -180,6 +184,20 @@
         "input": {
           "value": "#ffffff",
           "type": "color"
+        },
+        "selected": {
+          "default": {
+            "value": "#195db4",
+            "type": "color"
+          },
+          "hover": {
+            "value": "#1a508e",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "#132D4F",
+            "type": "color"
+          }
         }
       },
       "neutral": {
@@ -445,6 +463,10 @@
           "value": "#406489",
           "type": "color"
         },
+        "subtlest": {
+          "value": "#749ABC",
+          "type": "color"
+        },
         "disabled": {
           "value": "#2330413d",
           "type": "color"
@@ -453,6 +475,14 @@
       "border": {
         "disabled": {
           "value": "#2330410f",
+          "type": "color"
+        },
+        "error": {
+          "value": "#f11311",
+          "type": "color"
+        },
+        "input": {
+          "value": "#A5BDD4",
           "type": "color"
         }
       },
@@ -463,6 +493,24 @@
         },
         "secondary": {
           "value": "#F5F7FA",
+          "type": "color"
+        }
+      },
+      "icon": {
+        "default": {
+          "value": "#233041",
+          "type": "color"
+        },
+        "subtle": {
+          "value": "#406489",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "#2330413d",
+          "type": "color"
+        },
+        "destructive": {
+          "value": "#f11311",
           "type": "color"
         }
       }
@@ -497,6 +545,188 @@
           "value": 80,
           "type": "sizing"
         }
+      }
+    },
+    "font-weight": {
+      "heading": {
+        "subtle": {
+          "value": "Light",
+          "type": "fontWeights"
+        },
+        "default": {
+          "value": "Medium",
+          "type": "fontWeights"
+        }
+      },
+      "body": {
+        "default": {
+          "value": "Regular",
+          "type": "fontWeights"
+        },
+        "emphasis": {
+          "value": "Bold",
+          "type": "fontWeights"
+        }
+      }
+    },
+    "typography": {
+      "desktop": {
+        "body": {
+          "large-emphasis": {
+            "value": {
+              "fontFamily": "ABC Monument Grotesk",
+              "fontWeight": "Bold",
+              "fontSize": 18,
+              "lineHeight": "140%"
+            },
+            "type": "typography"
+          },
+          "medium-emphasis": {
+            "value": {
+              "fontFamily": "ABC Monument Grotesk",
+              "fontWeight": "Bold",
+              "fontSize": 16,
+              "lineHeight": "130%"
+            },
+            "type": "typography"
+          },
+          "medium": {
+            "value": {
+              "fontFamily": "ABC Monument Grotesk",
+              "fontWeight": "Regular",
+              "fontSize": 16,
+              "lineHeight": "130%"
+            },
+            "type": "typography"
+          },
+          "small": {
+            "value": {
+              "fontFamily": "ABC Monument Grotesk",
+              "fontWeight": "Regular",
+              "fontSize": 14,
+              "lineHeight": "120%"
+            },
+            "type": "typography"
+          },
+          "small-emphasis": {
+            "value": {
+              "fontFamily": "ABC Monument Grotesk",
+              "fontWeight": "Bold",
+              "fontSize": 14,
+              "lineHeight": "120%"
+            },
+            "type": "typography"
+          },
+          "large": {
+            "value": {
+              "fontFamily": "ABC Monument Grotesk",
+              "fontWeight": "Regular",
+              "fontSize": 18,
+              "lineHeight": "140%"
+            },
+            "type": "typography"
+          }
+        }
+      },
+      "mobile": {
+        "body": {
+          "large-emphasis": {
+            "value": {
+              "fontFamily": "ABC Monument Grotesk",
+              "fontWeight": "Bold",
+              "fontSize": 16,
+              "lineHeight": "140%"
+            },
+            "type": "typography"
+          },
+          "medium-emphasis": {
+            "value": {
+              "fontFamily": "ABC Monument Grotesk",
+              "fontWeight": "Bold",
+              "fontSize": 14,
+              "lineHeight": "130%"
+            },
+            "type": "typography"
+          },
+          "medium": {
+            "value": {
+              "fontFamily": "ABC Monument Grotesk",
+              "fontWeight": "Regular",
+              "fontSize": 14,
+              "lineHeight": "130%"
+            },
+            "type": "typography"
+          },
+          "small": {
+            "value": {
+              "fontFamily": "ABC Monument Grotesk",
+              "fontWeight": "Regular",
+              "fontSize": 12,
+              "lineHeight": "120%"
+            },
+            "type": "typography"
+          },
+          "small-emphasis": {
+            "value": {
+              "fontFamily": "ABC Monument Grotesk",
+              "fontWeight": "Bold",
+              "fontSize": 12,
+              "lineHeight": "120%"
+            },
+            "type": "typography"
+          },
+          "large": {
+            "value": {
+              "fontFamily": "ABC Monument Grotesk",
+              "fontWeight": "Regular",
+              "fontSize": 16,
+              "lineHeight": "140%"
+            },
+            "type": "typography"
+          }
+        }
+      }
+    },
+    "line-height": {
+      "md": {
+        "value": "130%",
+        "type": "lineHeights",
+        "description": "Used for medium body text"
+      },
+      "sm": {
+        "value": "120%",
+        "type": "lineHeights"
+      },
+      "lg": {
+        "value": "140%",
+        "type": "lineHeights",
+        "description": "Used for large body text, e.g. longer reading experiences."
+      }
+    },
+    "border-radius": {
+      "xs": {
+        "value": 4,
+        "type": "borderRadius"
+      },
+      "sm": {
+        "value": 8,
+        "type": "borderRadius"
+      },
+      "md": {
+        "value": 12,
+        "type": "borderRadius"
+      },
+      "lg": {
+        "value": 16,
+        "type": "borderRadius"
+      },
+      "xl": {
+        "value": 24,
+        "type": "borderRadius"
+      },
+      "xxl": {
+        "value": 32,
+        "type": "borderRadius"
       }
     }
   }

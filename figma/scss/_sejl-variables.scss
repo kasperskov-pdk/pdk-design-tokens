@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Tue, 20 May 2025 12:10:14 GMT
+// Generated on Wed, 25 Jun 2025 06:56:02 GMT
 
 $sejl-spacing-100: 0.5rem;
 $sejl-spacing-150: 0.75rem;
@@ -27,18 +27,22 @@ $sejl-font-size-base: 16;
 $sejl-font-size-xxxl: 48;
 $sejl-font-size-xxl: 40;
 $sejl-font-size-xl: 32;
-$sejl-font-size-l: 24;
-$sejl-font-size-m: 20;
+$sejl-font-size-lg: 24;
+$sejl-font-size-md: 20;
+$sejl-font-size-sm: 18;
 $sejl-font-size-xs: 16;
 $sejl-font-size-xxs: 14;
 $sejl-font-size-xxxs: 12;
-$sejl-font-size-s: 18;
 $sejl-font-family-primary: ABC Monument Grotesk;
 $sejl-color-background-neutral-default: #2330410f;
 $sejl-color-background-neutral-hover: #2330411f;
 $sejl-color-background-neutral-subtle: #ffffff00;
+$sejl-color-background-neutral-pressed: #2330413d;
 $sejl-color-background-disabled: #23304108;
 $sejl-color-background-input: #ffffff;
+$sejl-color-background-selected-default: #195db4;
+$sejl-color-background-selected-hover: #1a508e;
+$sejl-color-background-selected-pressed: #132D4F;
 $sejl-color-neutral-0: #ffffff;
 $sejl-color-neutral-50: #F5F7FA;
 $sejl-color-neutral-100: #E9EEF5;
@@ -102,10 +106,17 @@ $sejl-color-red-900: #8a1312;
 $sejl-color-red-950: #4c0403;
 $sejl-color-text-primary: #233041;
 $sejl-color-text-subtle: #406489;
+$sejl-color-text-subtlest: #749ABC;
 $sejl-color-text-disabled: #2330413d;
 $sejl-color-border-disabled: #2330410f;
+$sejl-color-border-error: #f11311;
+$sejl-color-border-input: #A5BDD4;
 $sejl-color-surface-primary: #ffffff;
 $sejl-color-surface-secondary: #F5F7FA;
+$sejl-color-icon-default: #233041;
+$sejl-color-icon-subtle: #406489;
+$sejl-color-icon-disabled: #2330413d;
+$sejl-color-icon-destructive: #f11311;
 $sejl-size-icon-xxsmall: 1rem;
 $sejl-size-icon-xsmall: 1.5rem;
 $sejl-size-icon-small: 2rem;
@@ -113,3 +124,100 @@ $sejl-size-icon-medium: 2.5rem;
 $sejl-size-icon-large: 3rem;
 $sejl-size-icon-xlarge: 4rem;
 $sejl-size-icon-xxlarge: 5rem;
+$sejl-font-weight-heading-subtle: Light;
+$sejl-font-weight-heading-default: Medium;
+$sejl-font-weight-body-default: Regular;
+$sejl-font-weight-body-emphasis: Bold;
+$sejl-typography-desktop-body-large-emphasis: (
+      fontFamily: var(--ff-secondary),
+      fontSize: 1.125rem,
+      lineHeight: 1.575rem,
+      fontWeight: bold,
+      letterSpacing: NaNrem
+    );
+$sejl-typography-desktop-body-medium-emphasis: (
+      fontFamily: var(--ff-secondary),
+      fontSize: 1rem,
+      lineHeight: 1.3rem,
+      fontWeight: bold,
+      letterSpacing: NaNrem
+    );
+$sejl-typography-desktop-body-medium: (
+      fontFamily: var(--ff-secondary),
+      fontSize: 1rem,
+      lineHeight: 1.3rem,
+      fontWeight: 200,
+      letterSpacing: NaNrem
+    );
+$sejl-typography-desktop-body-small: (
+      fontFamily: var(--ff-secondary),
+      fontSize: 0.875rem,
+      lineHeight: 1.05rem,
+      fontWeight: 200,
+      letterSpacing: NaNrem
+    );
+$sejl-typography-desktop-body-small-emphasis: (
+      fontFamily: var(--ff-secondary),
+      fontSize: 0.875rem,
+      lineHeight: 1.05rem,
+      fontWeight: bold,
+      letterSpacing: NaNrem
+    );
+$sejl-typography-desktop-body-large: (
+      fontFamily: var(--ff-secondary),
+      fontSize: 1.125rem,
+      lineHeight: 1.575rem,
+      fontWeight: 200,
+      letterSpacing: NaNrem
+    );
+$sejl-typography-mobile-body-large-emphasis: (
+      fontFamily: var(--ff-secondary),
+      fontSize: 1rem,
+      lineHeight: 1.4rem,
+      fontWeight: bold,
+      letterSpacing: NaNrem
+    );
+$sejl-typography-mobile-body-medium-emphasis: (
+      fontFamily: var(--ff-secondary),
+      fontSize: 0.875rem,
+      lineHeight: 1.1375rem,
+      fontWeight: bold,
+      letterSpacing: NaNrem
+    );
+$sejl-typography-mobile-body-medium: (
+      fontFamily: var(--ff-secondary),
+      fontSize: 0.875rem,
+      lineHeight: 1.1375rem,
+      fontWeight: 200,
+      letterSpacing: NaNrem
+    );
+$sejl-typography-mobile-body-small: (
+      fontFamily: var(--ff-secondary),
+      fontSize: 0.75rem,
+      lineHeight: 0.9rem,
+      fontWeight: 200,
+      letterSpacing: NaNrem
+    );
+$sejl-typography-mobile-body-small-emphasis: (
+      fontFamily: var(--ff-secondary),
+      fontSize: 0.75rem,
+      lineHeight: 0.9rem,
+      fontWeight: bold,
+      letterSpacing: NaNrem
+    );
+$sejl-typography-mobile-body-large: (
+      fontFamily: var(--ff-secondary),
+      fontSize: 1rem,
+      lineHeight: 1.4rem,
+      fontWeight: 200,
+      letterSpacing: NaNrem
+    );
+$sejl-line-height-md: 130%;
+$sejl-line-height-sm: 120%;
+$sejl-line-height-lg: 140%;
+$sejl-border-radius-xs: 4;
+$sejl-border-radius-sm: 8;
+$sejl-border-radius-md: 12;
+$sejl-border-radius-lg: 16;
+$sejl-border-radius-xl: 24;
+$sejl-border-radius-xxl: 32;
