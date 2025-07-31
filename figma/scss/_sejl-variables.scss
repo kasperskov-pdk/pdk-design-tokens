@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Wed, 25 Jun 2025 06:56:02 GMT
+// Generated on Thu, 31 Jul 2025 11:52:35 GMT
 
 $sejl-spacing-100: 0.5rem;
 $sejl-spacing-150: 0.75rem;
@@ -33,7 +33,7 @@ $sejl-font-size-sm: 18;
 $sejl-font-size-xs: 16;
 $sejl-font-size-xxs: 14;
 $sejl-font-size-xxxs: 12;
-$sejl-font-family-primary: ABC Monument Grotesk;
+$sejl-font-family-primary: DINOT;
 $sejl-color-background-neutral-default: #2330410f;
 $sejl-color-background-neutral-hover: #2330411f;
 $sejl-color-background-neutral-subtle: #ffffff00;
@@ -111,6 +111,7 @@ $sejl-color-text-disabled: #2330413d;
 $sejl-color-border-disabled: #2330410f;
 $sejl-color-border-error: #f11311;
 $sejl-color-border-input: #A5BDD4;
+$sejl-color-border-focus: #132D4F;
 $sejl-color-surface-primary: #ffffff;
 $sejl-color-surface-secondary: #F5F7FA;
 $sejl-color-icon-default: #233041;
@@ -128,88 +129,116 @@ $sejl-font-weight-heading-subtle: Light;
 $sejl-font-weight-heading-default: Medium;
 $sejl-font-weight-body-default: Regular;
 $sejl-font-weight-body-emphasis: Bold;
+$sejl-typography-desktop-body-xlarge-emphasis: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1.5rem,
+      lineHeight: 2.1rem,
+      fontWeight: bold,
+      letterSpacing: NaNrem
+    );
 $sejl-typography-desktop-body-large-emphasis: (
-      fontFamily: var(--ff-secondary),
+      fontFamily: var(--ff-primary),
       fontSize: 1.125rem,
       lineHeight: 1.575rem,
       fontWeight: bold,
       letterSpacing: NaNrem
     );
 $sejl-typography-desktop-body-medium-emphasis: (
-      fontFamily: var(--ff-secondary),
+      fontFamily: var(--ff-primary),
       fontSize: 1rem,
       lineHeight: 1.3rem,
       fontWeight: bold,
       letterSpacing: NaNrem
     );
 $sejl-typography-desktop-body-medium: (
-      fontFamily: var(--ff-secondary),
+      fontFamily: var(--ff-primary),
       fontSize: 1rem,
       lineHeight: 1.3rem,
       fontWeight: 200,
       letterSpacing: NaNrem
     );
 $sejl-typography-desktop-body-small: (
-      fontFamily: var(--ff-secondary),
+      fontFamily: var(--ff-primary),
       fontSize: 0.875rem,
       lineHeight: 1.05rem,
       fontWeight: 200,
       letterSpacing: NaNrem
     );
 $sejl-typography-desktop-body-small-emphasis: (
-      fontFamily: var(--ff-secondary),
+      fontFamily: var(--ff-primary),
       fontSize: 0.875rem,
       lineHeight: 1.05rem,
       fontWeight: bold,
       letterSpacing: NaNrem
     );
 $sejl-typography-desktop-body-large: (
-      fontFamily: var(--ff-secondary),
+      fontFamily: var(--ff-primary),
       fontSize: 1.125rem,
       lineHeight: 1.575rem,
       fontWeight: 200,
       letterSpacing: NaNrem
     );
+$sejl-typography-desktop-body-xlarge: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1.5rem,
+      lineHeight: 2.1rem,
+      fontWeight: 200,
+      letterSpacing: NaNrem
+    );
+$sejl-typography-mobile-body-xlarge-emphasis: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1.25rem,
+      lineHeight: 1.75rem,
+      fontWeight: bold,
+      letterSpacing: NaNrem
+    );
+$sejl-typography-mobile-body-xlarge: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1.25rem,
+      lineHeight: 1.75rem,
+      fontWeight: 200,
+      letterSpacing: NaNrem
+    );
 $sejl-typography-mobile-body-large-emphasis: (
-      fontFamily: var(--ff-secondary),
+      fontFamily: var(--ff-primary),
       fontSize: 1rem,
       lineHeight: 1.4rem,
       fontWeight: bold,
       letterSpacing: NaNrem
     );
+$sejl-typography-mobile-body-large: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1rem,
+      lineHeight: 1.4rem,
+      fontWeight: 200,
+      letterSpacing: NaNrem
+    );
 $sejl-typography-mobile-body-medium-emphasis: (
-      fontFamily: var(--ff-secondary),
+      fontFamily: var(--ff-primary),
       fontSize: 0.875rem,
       lineHeight: 1.1375rem,
       fontWeight: bold,
       letterSpacing: NaNrem
     );
 $sejl-typography-mobile-body-medium: (
-      fontFamily: var(--ff-secondary),
+      fontFamily: var(--ff-primary),
       fontSize: 0.875rem,
       lineHeight: 1.1375rem,
       fontWeight: 200,
       letterSpacing: NaNrem
     );
 $sejl-typography-mobile-body-small: (
-      fontFamily: var(--ff-secondary),
+      fontFamily: var(--ff-primary),
       fontSize: 0.75rem,
       lineHeight: 0.9rem,
       fontWeight: 200,
       letterSpacing: NaNrem
     );
 $sejl-typography-mobile-body-small-emphasis: (
-      fontFamily: var(--ff-secondary),
+      fontFamily: var(--ff-primary),
       fontSize: 0.75rem,
       lineHeight: 0.9rem,
       fontWeight: bold,
-      letterSpacing: NaNrem
-    );
-$sejl-typography-mobile-body-large: (
-      fontFamily: var(--ff-secondary),
-      fontSize: 1rem,
-      lineHeight: 1.4rem,
-      fontWeight: 200,
       letterSpacing: NaNrem
     );
 $sejl-line-height-md: 130%;

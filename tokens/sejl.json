@@ -152,7 +152,7 @@
     },
     "font-family": {
       "primary": {
-        "value": "ABC Monument Grotesk",
+        "value": "DINOT",
         "type": "fontFamilies"
       }
     },
@@ -484,6 +484,10 @@
         "input": {
           "value": "#A5BDD4",
           "type": "color"
+        },
+        "focus": {
+          "value": "#132D4F",
+          "type": "color"
         }
       },
       "surface": {
@@ -572,9 +576,18 @@
     "typography": {
       "desktop": {
         "body": {
+          "Xlarge-emphasis": {
+            "value": {
+              "fontFamily": "DINOT",
+              "fontWeight": "Bold",
+              "fontSize": 24,
+              "lineHeight": "140%"
+            },
+            "type": "typography"
+          },
           "large-emphasis": {
             "value": {
-              "fontFamily": "ABC Monument Grotesk",
+              "fontFamily": "DINOT",
               "fontWeight": "Bold",
               "fontSize": 18,
               "lineHeight": "140%"
@@ -583,7 +596,7 @@
           },
           "medium-emphasis": {
             "value": {
-              "fontFamily": "ABC Monument Grotesk",
+              "fontFamily": "DINOT",
               "fontWeight": "Bold",
               "fontSize": 16,
               "lineHeight": "130%"
@@ -592,7 +605,7 @@
           },
           "medium": {
             "value": {
-              "fontFamily": "ABC Monument Grotesk",
+              "fontFamily": "DINOT",
               "fontWeight": "Regular",
               "fontSize": 16,
               "lineHeight": "130%"
@@ -601,7 +614,7 @@
           },
           "small": {
             "value": {
-              "fontFamily": "ABC Monument Grotesk",
+              "fontFamily": "DINOT",
               "fontWeight": "Regular",
               "fontSize": 14,
               "lineHeight": "120%"
@@ -610,7 +623,7 @@
           },
           "small-emphasis": {
             "value": {
-              "fontFamily": "ABC Monument Grotesk",
+              "fontFamily": "DINOT",
               "fontWeight": "Bold",
               "fontSize": 14,
               "lineHeight": "120%"
@@ -619,9 +632,18 @@
           },
           "large": {
             "value": {
-              "fontFamily": "ABC Monument Grotesk",
+              "fontFamily": "DINOT",
               "fontWeight": "Regular",
               "fontSize": 18,
+              "lineHeight": "140%"
+            },
+            "type": "typography"
+          },
+          "Xlarge": {
+            "value": {
+              "fontFamily": "DINOT",
+              "fontWeight": "Regular",
+              "fontSize": 24,
               "lineHeight": "140%"
             },
             "type": "typography"
@@ -630,10 +652,37 @@
       },
       "mobile": {
         "body": {
+          "xlarge-emphasis": {
+            "value": {
+              "fontFamily": "DINOT",
+              "fontWeight": "Bold",
+              "fontSize": 20,
+              "lineHeight": "140%"
+            },
+            "type": "typography"
+          },
+          "Xlarge": {
+            "value": {
+              "fontFamily": "DINOT",
+              "fontWeight": "Regular",
+              "fontSize": 20,
+              "lineHeight": "140%"
+            },
+            "type": "typography"
+          },
           "large-emphasis": {
             "value": {
-              "fontFamily": "ABC Monument Grotesk",
+              "fontFamily": "DINOT",
               "fontWeight": "Bold",
+              "fontSize": 16,
+              "lineHeight": "140%"
+            },
+            "type": "typography"
+          },
+          "large": {
+            "value": {
+              "fontFamily": "DINOT",
+              "fontWeight": "Regular",
               "fontSize": 16,
               "lineHeight": "140%"
             },
@@ -641,7 +690,7 @@
           },
           "medium-emphasis": {
             "value": {
-              "fontFamily": "ABC Monument Grotesk",
+              "fontFamily": "DINOT",
               "fontWeight": "Bold",
               "fontSize": 14,
               "lineHeight": "130%"
@@ -650,7 +699,7 @@
           },
           "medium": {
             "value": {
-              "fontFamily": "ABC Monument Grotesk",
+              "fontFamily": "DINOT",
               "fontWeight": "Regular",
               "fontSize": 14,
               "lineHeight": "130%"
@@ -659,7 +708,7 @@
           },
           "small": {
             "value": {
-              "fontFamily": "ABC Monument Grotesk",
+              "fontFamily": "DINOT",
               "fontWeight": "Regular",
               "fontSize": 12,
               "lineHeight": "120%"
@@ -668,19 +717,10 @@
           },
           "small-emphasis": {
             "value": {
-              "fontFamily": "ABC Monument Grotesk",
+              "fontFamily": "DINOT",
               "fontWeight": "Bold",
               "fontSize": 12,
               "lineHeight": "120%"
-            },
-            "type": "typography"
-          },
-          "large": {
-            "value": {
-              "fontFamily": "ABC Monument Grotesk",
-              "fontWeight": "Regular",
-              "fontSize": 16,
-              "lineHeight": "140%"
             },
             "type": "typography"
           }
