@@ -648,6 +648,53 @@
             },
             "type": "typography"
           }
+        },
+        "heading": {
+          "xlarge": {
+            "value": {
+              "fontFamily": "DINOT",
+              "fontWeight": "Bold",
+              "fontSize": 48,
+              "lineHeight": "120%"
+            },
+            "type": "typography"
+          },
+          "large": {
+            "value": {
+              "fontFamily": "DINOT",
+              "fontWeight": "Bold",
+              "fontSize": 32,
+              "lineHeight": "120%"
+            },
+            "type": "typography"
+          },
+          "medium": {
+            "value": {
+              "fontFamily": "DINOT",
+              "fontWeight": "Bold",
+              "fontSize": 24,
+              "lineHeight": "120%"
+            },
+            "type": "typography"
+          },
+          "small": {
+            "value": {
+              "fontFamily": "DINOT",
+              "fontWeight": "Bold",
+              "fontSize": 18,
+              "lineHeight": "120%"
+            },
+            "type": "typography"
+          },
+          "xsmall": {
+            "value": {
+              "fontFamily": "DINOT",
+              "fontWeight": "Bold",
+              "fontSize": 16,
+              "lineHeight": "120%"
+            },
+            "type": "typography"
+          }
         }
       },
       "mobile": {
@@ -720,6 +767,53 @@
               "fontFamily": "DINOT",
               "fontWeight": "Bold",
               "fontSize": 12,
+              "lineHeight": "120%"
+            },
+            "type": "typography"
+          }
+        },
+        "heading": {
+          "xlarge": {
+            "value": {
+              "fontFamily": "DINOT",
+              "fontWeight": "Bold",
+              "fontSize": 32,
+              "lineHeight": "120%"
+            },
+            "type": "typography"
+          },
+          "large": {
+            "value": {
+              "fontFamily": "DINOT",
+              "fontWeight": "Bold",
+              "fontSize": 24,
+              "lineHeight": "120%"
+            },
+            "type": "typography"
+          },
+          "medium": {
+            "value": {
+              "fontFamily": "DINOT",
+              "fontWeight": "Bold",
+              "fontSize": 20,
+              "lineHeight": "120%"
+            },
+            "type": "typography"
+          },
+          "small": {
+            "value": {
+              "fontFamily": "DINOT",
+              "fontWeight": "Bold",
+              "fontSize": 16,
+              "lineHeight": "120%"
+            },
+            "type": "typography"
+          },
+          "xsmall": {
+            "value": {
+              "fontFamily": "DINOT",
+              "fontWeight": "Bold",
+              "fontSize": 14,
               "lineHeight": "120%"
             },
             "type": "typography"
