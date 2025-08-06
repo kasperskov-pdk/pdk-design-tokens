@@ -581,7 +581,7 @@
               "fontFamily": "DINOT",
               "fontWeight": "Bold",
               "fontSize": 24,
-              "lineHeight": "140%"
+              "lineHeight": "130%"
             },
             "type": "typography"
           },
@@ -644,7 +644,7 @@
               "fontFamily": "DINOT",
               "fontWeight": "Regular",
               "fontSize": 24,
-              "lineHeight": "140%"
+              "lineHeight": "130%"
             },
             "type": "typography"
           }
@@ -690,7 +690,7 @@
             "value": {
               "fontFamily": "DINOT",
               "fontWeight": "Bold",
-              "fontSize": 16,
+              "fontSize": 14,
               "lineHeight": "120%"
             },
             "type": "typography"
@@ -704,7 +704,7 @@
               "fontFamily": "DINOT",
               "fontWeight": "Bold",
               "fontSize": 20,
-              "lineHeight": "140%"
+              "lineHeight": "130%"
             },
             "type": "typography"
           },
@@ -713,7 +713,7 @@
               "fontFamily": "DINOT",
               "fontWeight": "Regular",
               "fontSize": 20,
-              "lineHeight": "140%"
+              "lineHeight": "130%"
             },
             "type": "typography"
           },
@@ -813,7 +813,7 @@
             "value": {
               "fontFamily": "DINOT",
               "fontWeight": "Bold",
-              "fontSize": 14,
+              "fontSize": 12,
               "lineHeight": "120%"
             },
             "type": "typography"

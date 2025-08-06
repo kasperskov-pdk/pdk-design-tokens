@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Fri, 01 Aug 2025 08:55:14 GMT
+// Generated on Wed, 06 Aug 2025 12:55:54 GMT
 
 $color-section-white: #ffffff;
 $color-section-light: #edf5fb;
@@ -906,7 +906,7 @@ $sejl-font-weight-body-emphasis: Bold;
 $sejl-typography-desktop-body-xlarge-emphasis: (
       fontFamily: var(--ff-primary),
       fontSize: 1.5rem,
-      lineHeight: 2.1rem,
+      lineHeight: 1.95rem,
       fontWeight: bold,
       letterSpacing: NaNrem
     );
@@ -955,7 +955,7 @@ $sejl-typography-desktop-body-large: (
 $sejl-typography-desktop-body-xlarge: (
       fontFamily: var(--ff-primary),
       fontSize: 1.5rem,
-      lineHeight: 2.1rem,
+      lineHeight: 1.95rem,
       fontWeight: 200,
       letterSpacing: NaNrem
     );
@@ -989,22 +989,22 @@ $sejl-typography-desktop-heading-small: (
     );
 $sejl-typography-desktop-heading-xsmall: (
       fontFamily: var(--ff-primary),
-      fontSize: 1rem,
-      lineHeight: 1.2rem,
+      fontSize: 0.875rem,
+      lineHeight: 1.05rem,
       fontWeight: bold,
       letterSpacing: NaNrem
     );
 $sejl-typography-mobile-body-xlarge-emphasis: (
       fontFamily: var(--ff-primary),
       fontSize: 1.25rem,
-      lineHeight: 1.75rem,
+      lineHeight: 1.625rem,
       fontWeight: bold,
       letterSpacing: NaNrem
     );
 $sejl-typography-mobile-body-xlarge: (
       fontFamily: var(--ff-primary),
       fontSize: 1.25rem,
-      lineHeight: 1.75rem,
+      lineHeight: 1.625rem,
       fontWeight: 200,
       letterSpacing: NaNrem
     );
@@ -1080,8 +1080,8 @@ $sejl-typography-mobile-heading-small: (
     );
 $sejl-typography-mobile-heading-xsmall: (
       fontFamily: var(--ff-primary),
-      fontSize: 0.875rem,
-      lineHeight: 1.05rem,
+      fontSize: 0.75rem,
+      lineHeight: 0.9rem,
       fontWeight: bold,
       letterSpacing: NaNrem
     );
