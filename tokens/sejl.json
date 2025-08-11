@@ -106,6 +106,236 @@
       "base": {
         "value": 8,
         "type": "spacing"
+      },
+      "section": {
+        "mobile": {
+          "xsmall": {
+            "value": 16,
+            "type": "spacing"
+          },
+          "small": {
+            "value": 24,
+            "type": "spacing"
+          },
+          "medium": {
+            "value": 32,
+            "type": "spacing"
+          },
+          "large": {
+            "value": 40,
+            "type": "spacing"
+          },
+          "xlarge": {
+            "value": 64,
+            "type": "spacing"
+          }
+        },
+        "desktop": {
+          "xsmall": {
+            "value": 24,
+            "type": "spacing"
+          },
+          "small": {
+            "value": 32,
+            "type": "spacing"
+          },
+          "medium": {
+            "value": 40,
+            "type": "spacing"
+          },
+          "large": {
+            "value": 64,
+            "type": "spacing"
+          },
+          "xlarge": {
+            "value": 80,
+            "type": "spacing"
+          }
+        }
+      },
+      "container": {
+        "mobile": {
+          "xsmall": {
+            "value": 16,
+            "type": "spacing"
+          },
+          "small": {
+            "value": 24,
+            "type": "spacing"
+          },
+          "medium": {
+            "value": 32,
+            "type": "spacing"
+          },
+          "large": {
+            "value": 40,
+            "type": "spacing"
+          },
+          "xlarge": {
+            "value": 64,
+            "type": "spacing"
+          }
+        },
+        "desktop": {
+          "xsmall": {
+            "value": 24,
+            "type": "spacing"
+          },
+          "small": {
+            "value": 32,
+            "type": "spacing"
+          },
+          "medium": {
+            "value": 40,
+            "type": "spacing"
+          },
+          "large": {
+            "value": 64,
+            "type": "spacing"
+          },
+          "xlarge": {
+            "value": 80,
+            "type": "spacing"
+          }
+        }
+      },
+      "paper": {
+        "mobile": {
+          "xsmall": {
+            "value": 4,
+            "type": "spacing"
+          },
+          "small": {
+            "value": 8,
+            "type": "spacing"
+          },
+          "medium": {
+            "value": 12,
+            "type": "spacing"
+          },
+          "large": {
+            "value": 16,
+            "type": "spacing"
+          },
+          "xlarge": {
+            "value": 24,
+            "type": "spacing"
+          }
+        },
+        "desktop": {
+          "xsmall": {
+            "value": 8,
+            "type": "spacing"
+          },
+          "small": {
+            "value": 12,
+            "type": "spacing"
+          },
+          "medium": {
+            "value": 16,
+            "type": "spacing"
+          },
+          "large": {
+            "value": 24,
+            "type": "spacing"
+          },
+          "xlarge": {
+            "value": 32,
+            "type": "spacing"
+          }
+        }
+      },
+      "stack": {
+        "mobile": {
+          "xsmall": {
+            "value": 4,
+            "type": "spacing"
+          },
+          "small": {
+            "value": 8,
+            "type": "spacing"
+          },
+          "medium": {
+            "value": 12,
+            "type": "spacing"
+          },
+          "large": {
+            "value": 16,
+            "type": "spacing"
+          },
+          "xlarge": {
+            "value": 24,
+            "type": "spacing"
+          }
+        },
+        "desktop": {
+          "xsmall": {
+            "value": 8,
+            "type": "spacing"
+          },
+          "small": {
+            "value": 12,
+            "type": "spacing"
+          },
+          "medium": {
+            "value": 16,
+            "type": "spacing"
+          },
+          "large": {
+            "value": 24,
+            "type": "spacing"
+          },
+          "xlarge": {
+            "value": 32,
+            "type": "spacing"
+          }
+        }
+      },
+      "inline": {
+        "mobile": {
+          "xsmall": {
+            "value": 4,
+            "type": "spacing"
+          },
+          "small": {
+            "value": 8,
+            "type": "spacing"
+          },
+          "medium": {
+            "value": 12,
+            "type": "spacing"
+          },
+          "large": {
+            "value": 16,
+            "type": "spacing"
+          },
+          "xlarge": {
+            "value": 24,
+            "type": "spacing"
+          }
+        },
+        "desktop": {
+          "xsmall": {
+            "value": 8,
+            "type": "spacing"
+          },
+          "small": {
+            "value": 12,
+            "type": "spacing"
+          },
+          "medium": {
+            "value": 16,
+            "type": "spacing"
+          },
+          "large": {
+            "value": 24,
+            "type": "spacing"
+          },
+          "xlarge": {
+            "value": 32,
+            "type": "spacing"
+          }
+        }
       }
     },
     "font-size": {
@@ -160,12 +390,16 @@
       "background": {
         "neutral": {
           "default": {
-            "value": "#2330410f",
+            "value": "#749ABC29",
             "type": "color",
             "description": "Standard baggrunden for neutrale elementer som fx sekundære knapper"
           },
           "hover": {
-            "value": "#2330411f",
+            "value": "#537DA43d",
+            "type": "color"
+          },
+          "focus": {
+            "value": "#537DA43d",
             "type": "color"
           },
           "subtle": {
@@ -173,12 +407,12 @@
             "type": "color"
           },
           "pressed": {
-            "value": "#2330413d",
+            "value": "#40648952",
             "type": "color"
           }
         },
         "disabled": {
-          "value": "#23304108",
+          "value": "#A5BDD41f",
           "type": "color"
         },
         "input": {
@@ -198,6 +432,10 @@
             "value": "#132D4F",
             "type": "color"
           }
+        },
+        "danger": {
+          "value": "#ffc5c4",
+          "type": "color"
         }
       },
       "neutral": {
@@ -250,23 +488,23 @@
           "type": "color"
         },
         "500A": {
-          "value": "#23304180",
+          "value": "#3451707a",
           "type": "color"
         },
         "400A": {
-          "value": "#2330413d",
+          "value": "#40648952",
           "type": "color"
         },
         "300A": {
-          "value": "#2330411f",
+          "value": "#537DA43d",
           "type": "color"
         },
         "200A": {
-          "value": "#2330410f",
+          "value": "#749ABC29",
           "type": "color"
         },
         "100A": {
-          "value": "#23304108",
+          "value": "#A5BDD41f",
           "type": "color"
         }
       },
@@ -468,16 +706,21 @@
           "type": "color"
         },
         "disabled": {
-          "value": "#2330413d",
+          "value": "#40648952",
           "type": "color"
         }
       },
       "border": {
+        "default": {
+          "value": "#537DA43d",
+          "type": "color",
+          "description": "Bruges til at samle eller adskille UI elementer, fx dividers."
+        },
         "disabled": {
-          "value": "#2330410f",
+          "value": "#749ABC29",
           "type": "color"
         },
-        "error": {
+        "danger": {
           "value": "#f11311",
           "type": "color"
         },
@@ -510,11 +753,21 @@
           "type": "color"
         },
         "disabled": {
-          "value": "#2330413d",
+          "value": "#40648952",
           "type": "color"
         },
-        "destructive": {
+        "danger": {
           "value": "#f11311",
+          "type": "color"
+        }
+      },
+      "link": {
+        "default": {
+          "value": "#dd0d0b",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "#a70e0d",
           "type": "color"
         }
       }
