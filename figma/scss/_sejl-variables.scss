@@ -1,100 +1,122 @@
 
 // Do not edit directly
-// Generated on Wed, 13 Aug 2025 07:13:50 GMT
+// Generated on Thu, 14 Aug 2025 07:58:05 GMT
 
-$sejl-spacing-100: 0.5rem;
-$sejl-spacing-150: 0.75rem;
-$sejl-spacing-200: 1rem;
-$sejl-spacing-250: 1.25rem;
-$sejl-spacing-300: 1.5rem;
-$sejl-spacing-400: 2rem;
-$sejl-spacing-500: 2.5rem;
-$sejl-spacing-800: 4rem;
-$sejl-spacing-1000: 5rem;
-$sejl-spacing-050: 0.25rem;
-$sejl-spacing-negative-100: -0.5rem;
-$sejl-spacing-negative-150: -0.75rem;
-$sejl-spacing-negative-200: -1rem;
-$sejl-spacing-negative-250: -1.25rem;
-$sejl-spacing-negative-300: -1.5rem;
-$sejl-spacing-negative-400: -2rem;
-$sejl-spacing-negative-500: -2.5rem;
-$sejl-spacing-negative-800: -4rem;
-$sejl-spacing-negative-1000: -5rem;
-$sejl-spacing-negative-050: -0.25rem;
-$sejl-spacing-base: 0.5rem;
-$sejl-spacing-section-mobile-xsmall: 1rem;
-$sejl-spacing-section-mobile-small: 1.5rem;
-$sejl-spacing-section-mobile-medium: 2rem;
-$sejl-spacing-section-mobile-large: 2.5rem;
-$sejl-spacing-section-mobile-xlarge: 4rem;
-$sejl-spacing-section-desktop-xsmall: 1.5rem;
-$sejl-spacing-section-desktop-small: 2rem;
-$sejl-spacing-section-desktop-medium: 2.5rem;
-$sejl-spacing-section-desktop-large: 4rem;
-$sejl-spacing-section-desktop-xlarge: 5rem;
-$sejl-spacing-container-mobile-xsmall: 1rem;
-$sejl-spacing-container-mobile-small: 1.5rem;
-$sejl-spacing-container-mobile-medium: 2rem;
-$sejl-spacing-container-mobile-large: 2.5rem;
-$sejl-spacing-container-mobile-xlarge: 4rem;
-$sejl-spacing-container-desktop-xsmall: 1.5rem;
-$sejl-spacing-container-desktop-small: 2rem;
-$sejl-spacing-container-desktop-medium: 2.5rem;
-$sejl-spacing-container-desktop-large: 4rem;
-$sejl-spacing-container-desktop-xlarge: 5rem;
-$sejl-spacing-paper-mobile-xsmall: 0.25rem;
-$sejl-spacing-paper-mobile-small: 0.5rem;
-$sejl-spacing-paper-mobile-medium: 0.75rem;
-$sejl-spacing-paper-mobile-large: 1rem;
-$sejl-spacing-paper-mobile-xlarge: 1.5rem;
-$sejl-spacing-paper-desktop-xsmall: 0.5rem;
-$sejl-spacing-paper-desktop-small: 0.75rem;
-$sejl-spacing-paper-desktop-medium: 1rem;
-$sejl-spacing-paper-desktop-large: 1.5rem;
-$sejl-spacing-paper-desktop-xlarge: 2rem;
-$sejl-spacing-stack-mobile-xsmall: 0.25rem;
-$sejl-spacing-stack-mobile-small: 0.5rem;
-$sejl-spacing-stack-mobile-medium: 0.75rem;
-$sejl-spacing-stack-mobile-large: 1rem;
-$sejl-spacing-stack-mobile-xlarge: 1.5rem;
-$sejl-spacing-stack-desktop-xsmall: 0.5rem;
-$sejl-spacing-stack-desktop-small: 0.75rem;
-$sejl-spacing-stack-desktop-medium: 1rem;
-$sejl-spacing-stack-desktop-large: 1.5rem;
-$sejl-spacing-stack-desktop-xlarge: 2rem;
-$sejl-spacing-inline-mobile-xsmall: 0.25rem;
-$sejl-spacing-inline-mobile-small: 0.5rem;
-$sejl-spacing-inline-mobile-medium: 0.75rem;
-$sejl-spacing-inline-mobile-large: 1rem;
-$sejl-spacing-inline-mobile-xlarge: 1.5rem;
-$sejl-spacing-inline-desktop-xsmall: 0.5rem;
-$sejl-spacing-inline-desktop-small: 0.75rem;
-$sejl-spacing-inline-desktop-medium: 1rem;
-$sejl-spacing-inline-desktop-large: 1.5rem;
-$sejl-spacing-inline-desktop-xlarge: 2rem;
-$sejl-font-size-base: 16;
-$sejl-font-size-xxxl: 48;
-$sejl-font-size-xxl: 40;
-$sejl-font-size-xl: 32;
-$sejl-font-size-lg: 24;
-$sejl-font-size-md: 20;
-$sejl-font-size-sm: 18;
-$sejl-font-size-xs: 16;
-$sejl-font-size-xxs: 14;
-$sejl-font-size-xxxs: 12;
+$sejl-spacing-100: 8px * 1;
+$sejl-spacing-150: 8px * 1.5;
+$sejl-spacing-200: 8px * 2;
+$sejl-spacing-250: 8px * 2.5;
+$sejl-spacing-300: 8px * 3;
+$sejl-spacing-400: 8px * 4;
+$sejl-spacing-500: 8px * 5;
+$sejl-spacing-800: 8px * 8;
+$sejl-spacing-1000: 8px * 10;
+$sejl-spacing-050: 8px * 0.5;
+$sejl-spacing-negative-100: 8px * -1;
+$sejl-spacing-negative-150: 8px * -1.5;
+$sejl-spacing-negative-200: 8px * -2;
+$sejl-spacing-negative-250: 8px * -2.5;
+$sejl-spacing-negative-300: 8px * -3;
+$sejl-spacing-negative-400: 8px * -4;
+$sejl-spacing-negative-500: 8px * -5;
+$sejl-spacing-negative-800: 8px * -8;
+$sejl-spacing-negative-1000: 8px * -10;
+$sejl-spacing-negative-050: 8px * -0.5;
+$sejl-spacing-base: 8px;
+$sejl-spacing-section-mobile-xsmall: 8px * 2;
+$sejl-spacing-section-mobile-small: 8px * 3;
+$sejl-spacing-section-mobile-medium: 8px * 4;
+$sejl-spacing-section-mobile-large: 8px * 5;
+$sejl-spacing-section-mobile-xlarge: 8px * 8;
+$sejl-spacing-section-desktop-xsmall: 8px * 3;
+$sejl-spacing-section-desktop-small: 8px * 4;
+$sejl-spacing-section-desktop-medium: 8px * 5;
+$sejl-spacing-section-desktop-large: 8px * 8;
+$sejl-spacing-section-desktop-xlarge: 8px * 10;
+$sejl-spacing-container-mobile-xsmall: 8px * 2;
+$sejl-spacing-container-mobile-small: 8px * 3;
+$sejl-spacing-container-mobile-medium: 8px * 4;
+$sejl-spacing-container-mobile-large: 8px * 5;
+$sejl-spacing-container-mobile-xlarge: 8px * 8;
+$sejl-spacing-container-desktop-xsmall: 8px * 3;
+$sejl-spacing-container-desktop-small: 8px * 4;
+$sejl-spacing-container-desktop-medium: 8px * 5;
+$sejl-spacing-container-desktop-large: 8px * 8;
+$sejl-spacing-container-desktop-xlarge: 8px * 10;
+$sejl-spacing-paper-mobile-xsmall: 8px * 0.5;
+$sejl-spacing-paper-mobile-small: 8px * 1;
+$sejl-spacing-paper-mobile-medium: 8px * 1.5;
+$sejl-spacing-paper-mobile-large: 8px * 2;
+$sejl-spacing-paper-mobile-xlarge: 8px * 3;
+$sejl-spacing-paper-desktop-xsmall: 8px * 1;
+$sejl-spacing-paper-desktop-small: 8px * 1.5;
+$sejl-spacing-paper-desktop-medium: 8px * 2;
+$sejl-spacing-paper-desktop-large: 8px * 3;
+$sejl-spacing-paper-desktop-xlarge: 8px * 4;
+$sejl-spacing-stack-mobile-xsmall: 8px * 0.5;
+$sejl-spacing-stack-mobile-small: 8px * 1;
+$sejl-spacing-stack-mobile-medium: 8px * 1.5;
+$sejl-spacing-stack-mobile-large: 8px * 2;
+$sejl-spacing-stack-mobile-xlarge: 8px * 3;
+$sejl-spacing-stack-desktop-xsmall: 8px * 1;
+$sejl-spacing-stack-desktop-small: 8px * 1.5;
+$sejl-spacing-stack-desktop-medium: 8px * 2;
+$sejl-spacing-stack-desktop-large: 8px * 3;
+$sejl-spacing-stack-desktop-xlarge: 8px * 4;
+$sejl-spacing-inline-mobile-xsmall: 8px * 0.5;
+$sejl-spacing-inline-mobile-small: 8px * 1;
+$sejl-spacing-inline-mobile-medium: 8px * 1.5;
+$sejl-spacing-inline-mobile-large: 8px * 2;
+$sejl-spacing-inline-mobile-xlarge: 8px * 3;
+$sejl-spacing-inline-desktop-xsmall: 8px * 1;
+$sejl-spacing-inline-desktop-small: 8px * 1.5;
+$sejl-spacing-inline-desktop-medium: 8px * 2;
+$sejl-spacing-inline-desktop-large: 8px * 3;
+$sejl-spacing-inline-desktop-xlarge: 8px * 4;
+$sejl-font-size-base: 16px;
+$sejl-font-size-xxxl: 16px * 3;
+$sejl-font-size-xxl: 16px * 2.5;
+$sejl-font-size-xl: 16px * 2;
+$sejl-font-size-lg: 16px * 1.5;
+$sejl-font-size-md: 16px * 1.25;
+$sejl-font-size-sm: 16px * 1.125;
+$sejl-font-size-xs: 16px * 1;
+$sejl-font-size-xxs: 16px * 0.875;
+$sejl-font-size-xxxs: 16px * 0.75;
 $sejl-font-family-primary: DINOT;
 $sejl-color-background-neutral-default: #749ABC29;
 $sejl-color-background-neutral-hover: #537DA43d;
 $sejl-color-background-neutral-focus: #537DA43d;
 $sejl-color-background-neutral-subtle: #ffffff00;
 $sejl-color-background-neutral-pressed: #40648952;
+$sejl-color-background-neutral-inverse-default: #F5F7FA29;
+$sejl-color-background-neutral-inverse-hover: #F5F7FA52;
 $sejl-color-background-disabled: #A5BDD41f;
 $sejl-color-background-input: #ffffff;
 $sejl-color-background-selected-default: #195db4;
 $sejl-color-background-selected-hover: #1a508e;
 $sejl-color-background-selected-pressed: #132D4F;
 $sejl-color-background-danger: #ffc5c4;
+$sejl-color-background-brand-red-subtle-default: #ffdfdf;
+$sejl-color-background-brand-red-subtle-hover: #ffc5c4;
+$sejl-color-background-brand-red-subtle-pressed: #ff9c9b;
+$sejl-color-background-brand-red-default: #ff6362;
+$sejl-color-background-brand-red-pressed: #f11311;
+$sejl-color-background-brand-red-hover: #ff3331;
+$sejl-color-background-brand-red-bold-default: #dd0d0b;
+$sejl-color-background-brand-red-bold-hover: #a70e0d;
+$sejl-color-background-brand-red-bold-pressed: #8a1312;
+$sejl-color-background-brand-red-boldest-default: #8a1312;
+$sejl-color-background-brand-blue-subtle-default: #daf2ff;
+$sejl-color-background-brand-blue-subtle-hover: #bde8ff;
+$sejl-color-background-brand-blue-subtle-pressed: #8fdcff;
+$sejl-color-background-brand-blue-default: #5ac6ff;
+$sejl-color-background-brand-blue-hover: #34a9fd;
+$sejl-color-background-brand-blue-pressed: #1e8bf2;
+$sejl-color-background-brand-blue-bold-default: #1674df;
+$sejl-color-background-brand-blue-bold-hover: #195db4;
+$sejl-color-background-brand-blue-bold-pressed: #1a508e;
+$sejl-color-background-brand-blue-boldest: #132D4F;
 $sejl-color-neutral-0: #ffffff;
 $sejl-color-neutral-50: #F5F7FA;
 $sejl-color-neutral-100: #E9EEF5;
@@ -160,6 +182,7 @@ $sejl-color-text-primary: #233041;
 $sejl-color-text-subtle: #406489;
 $sejl-color-text-subtlest: #749ABC;
 $sejl-color-text-disabled: #40648952;
+$sejl-color-text-inverse: #F5F7FA;
 $sejl-color-border-default: #537DA43d;
 $sejl-color-border-disabled: #749ABC29;
 $sejl-color-border-danger: #f11311;
@@ -171,6 +194,7 @@ $sejl-color-icon-default: #233041;
 $sejl-color-icon-subtle: #406489;
 $sejl-color-icon-disabled: #40648952;
 $sejl-color-icon-danger: #f11311;
+$sejl-color-icon-inverse: #F5F7FA;
 $sejl-color-link-default: #dd0d0b;
 $sejl-color-link-pressed: #a70e0d;
 $sejl-size-icon-xxsmall: 1rem;
@@ -186,192 +210,192 @@ $sejl-font-weight-body-default: Regular;
 $sejl-font-weight-body-emphasis: Bold;
 $sejl-typography-desktop-body-xlarge-emphasis: (
       fontFamily: var(--ff-primary),
-      fontSize: 1.5rem,
-      lineHeight: 1.95rem,
+      fontSize: 16px * 1.5,
+      lineHeight: NaNrem,
       fontWeight: bold,
       letterSpacing: NaNrem
     );
 $sejl-typography-desktop-body-large-emphasis: (
       fontFamily: var(--ff-primary),
-      fontSize: 1.125rem,
-      lineHeight: 1.575rem,
+      fontSize: 16px * 1.125,
+      lineHeight: NaNrem,
       fontWeight: bold,
       letterSpacing: NaNrem
     );
 $sejl-typography-desktop-body-medium-emphasis: (
       fontFamily: var(--ff-primary),
-      fontSize: 1rem,
-      lineHeight: 1.3rem,
+      fontSize: 16px * 1,
+      lineHeight: NaNrem,
       fontWeight: bold,
       letterSpacing: NaNrem
     );
 $sejl-typography-desktop-body-medium: (
       fontFamily: var(--ff-primary),
-      fontSize: 1rem,
-      lineHeight: 1.3rem,
+      fontSize: 16px * 1,
+      lineHeight: NaNrem,
       fontWeight: 200,
       letterSpacing: NaNrem
     );
 $sejl-typography-desktop-body-small: (
       fontFamily: var(--ff-primary),
-      fontSize: 0.875rem,
-      lineHeight: 1.05rem,
+      fontSize: 16px * 0.875,
+      lineHeight: NaNrem,
       fontWeight: 200,
       letterSpacing: NaNrem
     );
 $sejl-typography-desktop-body-small-emphasis: (
       fontFamily: var(--ff-primary),
-      fontSize: 0.875rem,
-      lineHeight: 1.05rem,
+      fontSize: 16px * 0.875,
+      lineHeight: NaNrem,
       fontWeight: bold,
       letterSpacing: NaNrem
     );
 $sejl-typography-desktop-body-large: (
       fontFamily: var(--ff-primary),
-      fontSize: 1.125rem,
-      lineHeight: 1.575rem,
+      fontSize: 16px * 1.125,
+      lineHeight: NaNrem,
       fontWeight: 200,
       letterSpacing: NaNrem
     );
 $sejl-typography-desktop-body-xlarge: (
       fontFamily: var(--ff-primary),
-      fontSize: 1.5rem,
-      lineHeight: 1.95rem,
+      fontSize: 16px * 1.5,
+      lineHeight: NaNrem,
       fontWeight: 200,
       letterSpacing: NaNrem
     );
 $sejl-typography-desktop-heading-xlarge: (
       fontFamily: var(--ff-primary),
-      fontSize: 3rem,
-      lineHeight: 3.6rem,
+      fontSize: 16px * 3,
+      lineHeight: NaNrem,
       fontWeight: bold,
       letterSpacing: NaNrem
     );
 $sejl-typography-desktop-heading-large: (
       fontFamily: var(--ff-primary),
-      fontSize: 2rem,
-      lineHeight: 2.4rem,
+      fontSize: 16px * 2,
+      lineHeight: NaNrem,
       fontWeight: bold,
       letterSpacing: NaNrem
     );
 $sejl-typography-desktop-heading-medium: (
       fontFamily: var(--ff-primary),
-      fontSize: 1.5rem,
-      lineHeight: 1.8rem,
+      fontSize: 16px * 1.5,
+      lineHeight: NaNrem,
       fontWeight: bold,
       letterSpacing: NaNrem
     );
 $sejl-typography-desktop-heading-small: (
       fontFamily: var(--ff-primary),
-      fontSize: 1.125rem,
-      lineHeight: 1.35rem,
+      fontSize: 16px * 1.125,
+      lineHeight: NaNrem,
       fontWeight: bold,
       letterSpacing: NaNrem
     );
 $sejl-typography-desktop-heading-xsmall: (
       fontFamily: var(--ff-primary),
-      fontSize: 0.875rem,
-      lineHeight: 1.05rem,
+      fontSize: 16px * 0.875,
+      lineHeight: NaNrem,
       fontWeight: bold,
       letterSpacing: NaNrem
     );
 $sejl-typography-mobile-body-xlarge-emphasis: (
       fontFamily: var(--ff-primary),
-      fontSize: 1.25rem,
-      lineHeight: 1.625rem,
+      fontSize: 16px * 1.25,
+      lineHeight: NaNrem,
       fontWeight: bold,
       letterSpacing: NaNrem
     );
 $sejl-typography-mobile-body-xlarge: (
       fontFamily: var(--ff-primary),
-      fontSize: 1.25rem,
-      lineHeight: 1.625rem,
+      fontSize: 16px * 1.25,
+      lineHeight: NaNrem,
       fontWeight: 200,
       letterSpacing: NaNrem
     );
 $sejl-typography-mobile-body-large-emphasis: (
       fontFamily: var(--ff-primary),
-      fontSize: 1rem,
-      lineHeight: 1.4rem,
+      fontSize: 16px * 1,
+      lineHeight: NaNrem,
       fontWeight: bold,
       letterSpacing: NaNrem
     );
 $sejl-typography-mobile-body-large: (
       fontFamily: var(--ff-primary),
-      fontSize: 1rem,
-      lineHeight: 1.4rem,
+      fontSize: 16px * 1,
+      lineHeight: NaNrem,
       fontWeight: 200,
       letterSpacing: NaNrem
     );
 $sejl-typography-mobile-body-medium-emphasis: (
       fontFamily: var(--ff-primary),
-      fontSize: 0.875rem,
-      lineHeight: 1.1375rem,
+      fontSize: 16px * 0.875,
+      lineHeight: NaNrem,
       fontWeight: bold,
       letterSpacing: NaNrem
     );
 $sejl-typography-mobile-body-medium: (
       fontFamily: var(--ff-primary),
-      fontSize: 0.875rem,
-      lineHeight: 1.1375rem,
+      fontSize: 16px * 0.875,
+      lineHeight: NaNrem,
       fontWeight: 200,
       letterSpacing: NaNrem
     );
 $sejl-typography-mobile-body-small: (
       fontFamily: var(--ff-primary),
-      fontSize: 0.75rem,
-      lineHeight: 0.9rem,
+      fontSize: 16px * 0.75,
+      lineHeight: NaNrem,
       fontWeight: 200,
       letterSpacing: NaNrem
     );
 $sejl-typography-mobile-body-small-emphasis: (
       fontFamily: var(--ff-primary),
-      fontSize: 0.75rem,
-      lineHeight: 0.9rem,
+      fontSize: 16px * 0.75,
+      lineHeight: NaNrem,
       fontWeight: bold,
       letterSpacing: NaNrem
     );
 $sejl-typography-mobile-heading-xlarge: (
       fontFamily: var(--ff-primary),
-      fontSize: 2rem,
-      lineHeight: 2.4rem,
+      fontSize: 16px * 2,
+      lineHeight: NaNrem,
       fontWeight: bold,
       letterSpacing: NaNrem
     );
 $sejl-typography-mobile-heading-large: (
       fontFamily: var(--ff-primary),
-      fontSize: 1.5rem,
-      lineHeight: 1.8rem,
+      fontSize: 16px * 1.5,
+      lineHeight: NaNrem,
       fontWeight: bold,
       letterSpacing: NaNrem
     );
 $sejl-typography-mobile-heading-medium: (
       fontFamily: var(--ff-primary),
-      fontSize: 1.25rem,
-      lineHeight: 1.5rem,
+      fontSize: 16px * 1.25,
+      lineHeight: NaNrem,
       fontWeight: bold,
       letterSpacing: NaNrem
     );
 $sejl-typography-mobile-heading-small: (
       fontFamily: var(--ff-primary),
-      fontSize: 1rem,
-      lineHeight: 1.2rem,
+      fontSize: 16px * 1,
+      lineHeight: NaNrem,
       fontWeight: bold,
       letterSpacing: NaNrem
     );
 $sejl-typography-mobile-heading-xsmall: (
       fontFamily: var(--ff-primary),
-      fontSize: 0.75rem,
-      lineHeight: 0.9rem,
+      fontSize: 16px * 0.75,
+      lineHeight: NaNrem,
       fontWeight: bold,
       letterSpacing: NaNrem
     );
 $sejl-line-height-md: 130%;
 $sejl-line-height-sm: 120%;
 $sejl-line-height-lg: 140%;
-$sejl-border-radius-xs: 4;
-$sejl-border-radius-sm: 8;
-$sejl-border-radius-md: 12;
-$sejl-border-radius-lg: 16;
-$sejl-border-radius-xl: 24;
-$sejl-border-radius-xxl: 32;
+$sejl-border-radius-xs: 4px;
+$sejl-border-radius-sm: 8px;
+$sejl-border-radius-md: 12px;
+$sejl-border-radius-lg: 16px;
+$sejl-border-radius-xl: 24px;
+$sejl-border-radius-xxl: 32px;
