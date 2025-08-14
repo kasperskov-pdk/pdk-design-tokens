@@ -948,7 +948,8 @@
               "fontFamily": "DINOT",
               "fontWeight": "Bold",
               "fontSize": "16px * 1.5",
-              "lineHeight": "130%"
+              "lineHeight": "130%",
+              "letterSpacing": "0px"
             },
             "type": "typography"
           },
@@ -957,7 +958,8 @@
               "fontFamily": "DINOT",
               "fontWeight": "Bold",
               "fontSize": "16px * 1.125",
-              "lineHeight": "140%"
+              "lineHeight": "140%",
+              "letterSpacing": "0px"
             },
             "type": "typography"
           },
@@ -966,7 +968,8 @@
               "fontFamily": "DINOT",
               "fontWeight": "Bold",
               "fontSize": "16px * 1",
-              "lineHeight": "130%"
+              "lineHeight": "130%",
+              "letterSpacing": "0px"
             },
             "type": "typography"
           },
@@ -975,7 +978,8 @@
               "fontFamily": "DINOT",
               "fontWeight": "Regular",
               "fontSize": "16px * 1",
-              "lineHeight": "130%"
+              "lineHeight": "130%",
+              "letterSpacing": "0px"
             },
             "type": "typography"
           },
@@ -984,7 +988,8 @@
               "fontFamily": "DINOT",
               "fontWeight": "Regular",
               "fontSize": "16px * 0.875",
-              "lineHeight": "120%"
+              "lineHeight": "120%",
+              "letterSpacing": "0px"
             },
             "type": "typography"
           },
@@ -993,7 +998,8 @@
               "fontFamily": "DINOT",
               "fontWeight": "Bold",
               "fontSize": "16px * 0.875",
-              "lineHeight": "120%"
+              "lineHeight": "120%",
+              "letterSpacing": "0px"
             },
             "type": "typography"
           },
@@ -1002,7 +1008,8 @@
               "fontFamily": "DINOT",
               "fontWeight": "Regular",
               "fontSize": "16px * 1.125",
-              "lineHeight": "140%"
+              "lineHeight": "140%",
+              "letterSpacing": "0px"
             },
             "type": "typography"
           },
@@ -1011,7 +1018,8 @@
               "fontFamily": "DINOT",
               "fontWeight": "Regular",
               "fontSize": "16px * 1.5",
-              "lineHeight": "130%"
+              "lineHeight": "130%",
+              "letterSpacing": "0px"
             },
             "type": "typography"
           }
@@ -1022,7 +1030,8 @@
               "fontFamily": "DINOT",
               "fontWeight": "Bold",
               "fontSize": "16px * 3",
-              "lineHeight": "120%"
+              "lineHeight": "120%",
+              "letterSpacing": "0px"
             },
             "type": "typography"
           },
@@ -1031,7 +1040,8 @@
               "fontFamily": "DINOT",
               "fontWeight": "Bold",
               "fontSize": "16px * 2",
-              "lineHeight": "120%"
+              "lineHeight": "120%",
+              "letterSpacing": "0px"
             },
             "type": "typography"
           },
@@ -1040,7 +1050,8 @@
               "fontFamily": "DINOT",
               "fontWeight": "Bold",
               "fontSize": "16px * 1.5",
-              "lineHeight": "120%"
+              "lineHeight": "120%",
+              "letterSpacing": "0px"
             },
             "type": "typography"
           },
@@ -1049,7 +1060,8 @@
               "fontFamily": "DINOT",
               "fontWeight": "Bold",
               "fontSize": "16px * 1.125",
-              "lineHeight": "120%"
+              "lineHeight": "120%",
+              "letterSpacing": "0px"
             },
             "type": "typography"
           },
@@ -1058,7 +1070,8 @@
               "fontFamily": "DINOT",
               "fontWeight": "Bold",
               "fontSize": "16px * 0.875",
-              "lineHeight": "120%"
+              "lineHeight": "120%",
+              "letterSpacing": "0px"
             },
             "type": "typography"
           }
@@ -1071,7 +1084,8 @@
               "fontFamily": "DINOT",
               "fontWeight": "Bold",
               "fontSize": "16px * 1.25",
-              "lineHeight": "130%"
+              "lineHeight": "130%",
+              "letterSpacing": "0px"
             },
             "type": "typography"
           },
@@ -1080,7 +1094,8 @@
               "fontFamily": "DINOT",
               "fontWeight": "Regular",
               "fontSize": "16px * 1.25",
-              "lineHeight": "130%"
+              "lineHeight": "130%",
+              "letterSpacing": "0px"
             },
             "type": "typography"
           },
@@ -1089,7 +1104,8 @@
               "fontFamily": "DINOT",
               "fontWeight": "Bold",
               "fontSize": "16px * 1",
-              "lineHeight": "140%"
+              "lineHeight": "140%",
+              "letterSpacing": "0px"
             },
             "type": "typography"
           },
@@ -1098,7 +1114,8 @@
               "fontFamily": "DINOT",
               "fontWeight": "Regular",
               "fontSize": "16px * 1",
-              "lineHeight": "140%"
+              "lineHeight": "140%",
+              "letterSpacing": "0px"
             },
             "type": "typography"
           },
@@ -1107,7 +1124,8 @@
               "fontFamily": "DINOT",
               "fontWeight": "Bold",
               "fontSize": "16px * 0.875",
-              "lineHeight": "130%"
+              "lineHeight": "130%",
+              "letterSpacing": "0px"
             },
             "type": "typography"
           },
@@ -1116,7 +1134,8 @@
               "fontFamily": "DINOT",
               "fontWeight": "Regular",
               "fontSize": "16px * 0.875",
-              "lineHeight": "130%"
+              "lineHeight": "130%",
+              "letterSpacing": "0px"
             },
             "type": "typography"
           },
@@ -1125,7 +1144,8 @@
               "fontFamily": "DINOT",
               "fontWeight": "Regular",
               "fontSize": "16px * 0.75",
-              "lineHeight": "120%"
+              "lineHeight": "120%",
+              "letterSpacing": "0px"
             },
             "type": "typography"
           },
@@ -1134,7 +1154,8 @@
               "fontFamily": "DINOT",
               "fontWeight": "Bold",
               "fontSize": "16px * 0.75",
-              "lineHeight": "120%"
+              "lineHeight": "120%",
+              "letterSpacing": "0px"
             },
             "type": "typography"
           }
@@ -1145,7 +1166,8 @@
               "fontFamily": "DINOT",
               "fontWeight": "Bold",
               "fontSize": "16px * 2",
-              "lineHeight": "120%"
+              "lineHeight": "120%",
+              "letterSpacing": "0px"
             },
             "type": "typography"
           },
@@ -1154,7 +1176,8 @@
               "fontFamily": "DINOT",
               "fontWeight": "Bold",
               "fontSize": "16px * 1.5",
-              "lineHeight": "120%"
+              "lineHeight": "120%",
+              "letterSpacing": "0px"
             },
             "type": "typography"
           },
@@ -1163,7 +1186,8 @@
               "fontFamily": "DINOT",
               "fontWeight": "Bold",
               "fontSize": "16px * 1.25",
-              "lineHeight": "120%"
+              "lineHeight": "120%",
+              "letterSpacing": "0px"
             },
             "type": "typography"
           },
@@ -1172,7 +1196,8 @@
               "fontFamily": "DINOT",
               "fontWeight": "Bold",
               "fontSize": "16px * 1",
-              "lineHeight": "120%"
+              "lineHeight": "120%",
+              "letterSpacing": "0px"
             },
             "type": "typography"
           },
@@ -1181,7 +1206,8 @@
               "fontFamily": "DINOT",
               "fontWeight": "Bold",
               "fontSize": "16px * 0.75",
-              "lineHeight": "120%"
+              "lineHeight": "120%",
+              "letterSpacing": "0px"
             },
             "type": "typography"
           }
@@ -1228,6 +1254,12 @@
       "xxl": {
         "value": "32px",
         "type": "borderRadius"
+      }
+    },
+    "letter-spacing": {
+      "none": {
+        "value": "0px",
+        "type": "letterSpacing"
       }
     }
   }
