@@ -564,6 +564,14 @@
               "type": "color"
             }
           }
+        },
+        "accent": {
+          "neutral": {
+            "subtlest": {
+              "value": "#E9EEF5",
+              "type": "color"
+            }
+          }
         }
       },
       "neutral": {
@@ -838,7 +846,7 @@
           "type": "color"
         },
         "inverse": {
-          "value": "#F5F7FA",
+          "value": "#ffffff",
           "type": "color"
         }
       },
@@ -1254,29 +1262,57 @@
       }
     },
     "border-radius": {
-      "xs": {
-        "value": "4px",
-        "type": "borderRadius"
+      "mobile": {
+        "xs": {
+          "value": "4px",
+          "type": "borderRadius"
+        },
+        "sm": {
+          "value": "8px",
+          "type": "borderRadius"
+        },
+        "md": {
+          "value": "12px",
+          "type": "borderRadius"
+        },
+        "lg": {
+          "value": "16px",
+          "type": "borderRadius"
+        },
+        "xl": {
+          "value": "24px",
+          "type": "borderRadius"
+        },
+        "xxl": {
+          "value": "32px",
+          "type": "borderRadius"
+        }
       },
-      "sm": {
-        "value": "8px",
-        "type": "borderRadius"
-      },
-      "md": {
-        "value": "12px",
-        "type": "borderRadius"
-      },
-      "lg": {
-        "value": "16px",
-        "type": "borderRadius"
-      },
-      "xl": {
-        "value": "24px",
-        "type": "borderRadius"
-      },
-      "xxl": {
-        "value": "32px",
-        "type": "borderRadius"
+      "desktop": {
+        "xs": {
+          "value": "8px",
+          "type": "borderRadius"
+        },
+        "sm": {
+          "value": "12px",
+          "type": "borderRadius"
+        },
+        "md": {
+          "value": "16px",
+          "type": "borderRadius"
+        },
+        "lg": {
+          "value": "24px",
+          "type": "borderRadius"
+        },
+        "xl": {
+          "value": "32px",
+          "type": "borderRadius"
+        },
+        "xxl": {
+          "value": "40px",
+          "type": "borderRadius"
+        }
       }
     },
     "letter-spacing": {

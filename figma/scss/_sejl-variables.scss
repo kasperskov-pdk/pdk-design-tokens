@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Mon, 25 Aug 2025 09:13:16 GMT
+// Generated on Wed, 27 Aug 2025 12:13:56 GMT
 
 $sejl-spacing-100: 8px * 1;
 $sejl-spacing-150: 8px * 1.5;
@@ -121,6 +121,7 @@ $sejl-color-background-brand-blue-bold-default: #1674df;
 $sejl-color-background-brand-blue-bold-hover: #195db4;
 $sejl-color-background-brand-blue-bold-pressed: #1a508e;
 $sejl-color-background-brand-blue-boldest: #132D4F;
+$sejl-color-background-accent-neutral-subtlest: #E9EEF5;
 $sejl-color-neutral-0: #ffffff;
 $sejl-color-neutral-50: #F5F7FA;
 $sejl-color-neutral-100: #E9EEF5;
@@ -186,7 +187,7 @@ $sejl-color-text-primary: #233041;
 $sejl-color-text-subtle: #406489;
 $sejl-color-text-subtlest: #749ABC;
 $sejl-color-text-disabled: #40648952;
-$sejl-color-text-inverse: #F5F7FA;
+$sejl-color-text-inverse: #ffffff;
 $sejl-color-border-default: #537DA43d;
 $sejl-color-border-disabled: #749ABC29;
 $sejl-color-border-danger: #f11311;
@@ -397,10 +398,16 @@ $sejl-typography-mobile-heading-xsmall: (
 $sejl-line-height-md: 130%;
 $sejl-line-height-sm: 120%;
 $sejl-line-height-lg: 140%;
-$sejl-border-radius-xs: 4px;
-$sejl-border-radius-sm: 8px;
-$sejl-border-radius-md: 12px;
-$sejl-border-radius-lg: 16px;
-$sejl-border-radius-xl: 24px;
-$sejl-border-radius-xxl: 32px;
+$sejl-border-radius-mobile-xs: 4px;
+$sejl-border-radius-mobile-sm: 8px;
+$sejl-border-radius-mobile-md: 12px;
+$sejl-border-radius-mobile-lg: 16px;
+$sejl-border-radius-mobile-xl: 24px;
+$sejl-border-radius-mobile-xxl: 32px;
+$sejl-border-radius-desktop-xs: 8px;
+$sejl-border-radius-desktop-sm: 12px;
+$sejl-border-radius-desktop-md: 16px;
+$sejl-border-radius-desktop-lg: 24px;
+$sejl-border-radius-desktop-xl: 32px;
+$sejl-border-radius-desktop-xxl: 40px;
 $sejl-letter-spacing-none: 0px;
