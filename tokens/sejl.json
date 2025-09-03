@@ -403,8 +403,18 @@
             "type": "color"
           },
           "subtle": {
-            "value": "#ffffff00",
-            "type": "color"
+            "default": {
+              "value": "#ffffff00",
+              "type": "color"
+            },
+            "hover": {
+              "value": "#749ABC29",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "#537DA43d",
+              "type": "color"
+            }
           },
           "pressed": {
             "value": "#40648952",
@@ -455,18 +465,6 @@
           "pressed": {
             "value": "#132D4F",
             "type": "color"
-          }
-        },
-        "danger": {
-          "default": {
-            "value": "#ffc5c4",
-            "type": "color"
-          },
-          "bold": {
-            "default": {
-              "value": "#dd0d0b",
-              "type": "color"
-            }
           }
         },
         "brand": {
@@ -569,6 +567,54 @@
           "neutral": {
             "subtlest": {
               "value": "#E9EEF5",
+              "type": "color"
+            }
+          }
+        },
+        "danger": {
+          "default": {
+            "value": "#ffc5c4",
+            "type": "color"
+          },
+          "bold": {
+            "default": {
+              "value": "#dd0d0b",
+              "type": "color"
+            }
+          }
+        },
+        "success": {
+          "default": {
+            "value": "#c5edd8",
+            "type": "color"
+          },
+          "bold": {
+            "default": {
+              "value": "#286d4b",
+              "type": "color"
+            }
+          }
+        },
+        "warning": {
+          "default": {
+            "value": "#ffdf88",
+            "type": "color"
+          },
+          "bold": {
+            "default": {
+              "value": "#ffb120",
+              "type": "color"
+            }
+          }
+        },
+        "information": {
+          "default": {
+            "value": "#bde8ff",
+            "type": "color"
+          },
+          "bold": {
+            "default": {
+              "value": "#1674df",
               "type": "color"
             }
           }
@@ -904,6 +950,10 @@
         "inverse": {
           "value": "#F5F7FA",
           "type": "color"
+        },
+        "warning": {
+          "value": "#dd6802",
+          "type": "color"
         }
       },
       "link": {
@@ -966,7 +1016,7 @@
           "type": "fontWeights"
         },
         "emphasis": {
-          "value": "Bold",
+          "value": "Medium",
           "type": "fontWeights"
         }
       }
@@ -977,7 +1027,7 @@
           "Xlarge-emphasis": {
             "value": {
               "fontFamily": "DINOT",
-              "fontWeight": "Bold",
+              "fontWeight": "Medium",
               "fontSize": "16px * 1.5",
               "lineHeight": "130%",
               "letterSpacing": "0px"
@@ -987,7 +1037,7 @@
           "large-emphasis": {
             "value": {
               "fontFamily": "DINOT",
-              "fontWeight": "Bold",
+              "fontWeight": "Medium",
               "fontSize": "16px * 1.125",
               "lineHeight": "140%",
               "letterSpacing": "0px"
@@ -997,7 +1047,7 @@
           "medium-emphasis": {
             "value": {
               "fontFamily": "DINOT",
-              "fontWeight": "Bold",
+              "fontWeight": "Medium",
               "fontSize": "16px * 1",
               "lineHeight": "130%",
               "letterSpacing": "0px"
@@ -1027,7 +1077,7 @@
           "small-emphasis": {
             "value": {
               "fontFamily": "DINOT",
-              "fontWeight": "Bold",
+              "fontWeight": "Medium",
               "fontSize": "16px * 0.875",
               "lineHeight": "120%",
               "letterSpacing": "0px"
@@ -1059,7 +1109,7 @@
           "xlarge": {
             "value": {
               "fontFamily": "DINOT",
-              "fontWeight": "Bold",
+              "fontWeight": "Medium",
               "fontSize": "16px * 3",
               "lineHeight": "120%",
               "letterSpacing": "0px"
@@ -1069,7 +1119,7 @@
           "large": {
             "value": {
               "fontFamily": "DINOT",
-              "fontWeight": "Bold",
+              "fontWeight": "Medium",
               "fontSize": "16px * 2",
               "lineHeight": "120%",
               "letterSpacing": "0px"
@@ -1079,7 +1129,7 @@
           "medium": {
             "value": {
               "fontFamily": "DINOT",
-              "fontWeight": "Bold",
+              "fontWeight": "Medium",
               "fontSize": "16px * 1.5",
               "lineHeight": "120%",
               "letterSpacing": "0px"
@@ -1089,7 +1139,7 @@
           "small": {
             "value": {
               "fontFamily": "DINOT",
-              "fontWeight": "Bold",
+              "fontWeight": "Medium",
               "fontSize": "16px * 1.125",
               "lineHeight": "120%",
               "letterSpacing": "0px"
@@ -1099,7 +1149,7 @@
           "xsmall": {
             "value": {
               "fontFamily": "DINOT",
-              "fontWeight": "Bold",
+              "fontWeight": "Medium",
               "fontSize": "16px * 0.875",
               "lineHeight": "120%",
               "letterSpacing": "0px"
@@ -1113,7 +1163,7 @@
           "xlarge-emphasis": {
             "value": {
               "fontFamily": "DINOT",
-              "fontWeight": "Bold",
+              "fontWeight": "Medium",
               "fontSize": "16px * 1.25",
               "lineHeight": "130%",
               "letterSpacing": "0px"
@@ -1133,7 +1183,7 @@
           "large-emphasis": {
             "value": {
               "fontFamily": "DINOT",
-              "fontWeight": "Bold",
+              "fontWeight": "Medium",
               "fontSize": "16px * 1",
               "lineHeight": "140%",
               "letterSpacing": "0px"
@@ -1153,7 +1203,7 @@
           "medium-emphasis": {
             "value": {
               "fontFamily": "DINOT",
-              "fontWeight": "Bold",
+              "fontWeight": "Medium",
               "fontSize": "16px * 0.875",
               "lineHeight": "130%",
               "letterSpacing": "0px"
@@ -1183,7 +1233,7 @@
           "small-emphasis": {
             "value": {
               "fontFamily": "DINOT",
-              "fontWeight": "Bold",
+              "fontWeight": "Medium",
               "fontSize": "16px * 0.75",
               "lineHeight": "120%",
               "letterSpacing": "0px"
@@ -1195,7 +1245,7 @@
           "xlarge": {
             "value": {
               "fontFamily": "DINOT",
-              "fontWeight": "Bold",
+              "fontWeight": "Medium",
               "fontSize": "16px * 2",
               "lineHeight": "120%",
               "letterSpacing": "0px"
@@ -1205,7 +1255,7 @@
           "large": {
             "value": {
               "fontFamily": "DINOT",
-              "fontWeight": "Bold",
+              "fontWeight": "Medium",
               "fontSize": "16px * 1.5",
               "lineHeight": "120%",
               "letterSpacing": "0px"
@@ -1215,7 +1265,7 @@
           "medium": {
             "value": {
               "fontFamily": "DINOT",
-              "fontWeight": "Bold",
+              "fontWeight": "Medium",
               "fontSize": "16px * 1.25",
               "lineHeight": "120%",
               "letterSpacing": "0px"
@@ -1225,7 +1275,7 @@
           "small": {
             "value": {
               "fontFamily": "DINOT",
-              "fontWeight": "Bold",
+              "fontWeight": "Medium",
               "fontSize": "16px * 1",
               "lineHeight": "120%",
               "letterSpacing": "0px"
@@ -1235,7 +1285,7 @@
           "xsmall": {
             "value": {
               "fontFamily": "DINOT",
-              "fontWeight": "Bold",
+              "fontWeight": "Medium",
               "fontSize": "16px * 0.75",
               "lineHeight": "120%",
               "letterSpacing": "0px"
@@ -1319,6 +1369,86 @@
       "none": {
         "value": "0px",
         "type": "letterSpacing"
+      }
+    }
+  },
+  "size": {
+    "input": {
+      "desktop": {
+        "xsmall": {
+          "value": "88px",
+          "type": "dimension",
+          "description": "Helt små input felter, som fx valg af alder, registreringsnr., og lignende."
+        },
+        "small": {
+          "value": "152px",
+          "type": "dimension",
+          "description": "Indtastning af fx beløb, CPR-nr. eller kontonr."
+        },
+        "medium": {
+          "value": "240px",
+          "type": "dimension",
+          "description": "Fx Telefonnumre eller andre felter med mange cifre og evt. suffixes"
+        },
+        "large": {
+          "value": "400px",
+          "type": "dimension",
+          "description": "Dette er standard størrelsen på inputfelter, fx emailadresser eller navne."
+        },
+        "xlarge": {
+          "value": "560px",
+          "type": "dimension",
+          "description": "Bredde på emne- og fritekstfelter"
+        }
+      },
+      "mobile": {
+        "xsmall": {
+          "value": "80px",
+          "type": "dimension",
+          "description": "Helt små input felter, som fx valg af alder, registreringsnr., og lignende."
+        },
+        "small": {
+          "value": "136px",
+          "type": "dimension",
+          "description": "Indtastning af fx beløb, CPR-nr. eller kontonr."
+        },
+        "medium": {
+          "value": "224px",
+          "type": "dimension",
+          "description": "Fx Telefonnumre eller andre felter med mange cifre og evt. suffixes"
+        },
+        "large": {
+          "value": "320px",
+          "type": "dimension",
+          "description": "Dette er standard størrelsen på inputfelter, fx emailadresser eller navne."
+        },
+        "xlarge": {
+          "value": "480px",
+          "type": "dimension",
+          "description": "Bredde på emne- og fritekstfelter"
+        }
+      }
+    },
+    "container": {
+      "small": {
+        "value": "640px",
+        "type": "dimension"
+      },
+      "medium": {
+        "value": "720px",
+        "type": "dimension"
+      },
+      "large": {
+        "value": "1024px",
+        "type": "dimension"
+      },
+      "xlarge": {
+        "value": "1440px",
+        "type": "dimension"
+      },
+      "fluid": {
+        "value": "1440px",
+        "type": "dimension"
       }
     }
   }

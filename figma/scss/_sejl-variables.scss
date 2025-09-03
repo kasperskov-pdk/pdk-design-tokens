@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Wed, 27 Aug 2025 12:13:56 GMT
+// Generated on Wed, 03 Sep 2025 07:49:02 GMT
 
 $sejl-spacing-100: 8px * 1;
 $sejl-spacing-150: 8px * 1.5;
@@ -87,7 +87,9 @@ $sejl-font-family-primary: DINOT;
 $sejl-color-background-neutral-default: #749ABC29;
 $sejl-color-background-neutral-hover: #537DA43d;
 $sejl-color-background-neutral-focus: #537DA43d;
-$sejl-color-background-neutral-subtle: #ffffff00;
+$sejl-color-background-neutral-subtle-default: #ffffff00;
+$sejl-color-background-neutral-subtle-hover: #749ABC29;
+$sejl-color-background-neutral-subtle-pressed: #537DA43d;
 $sejl-color-background-neutral-pressed: #40648952;
 $sejl-color-background-neutral-inverse-default: #F5F7FA29;
 $sejl-color-background-neutral-inverse-hover: #F5F7FA52;
@@ -99,8 +101,6 @@ $sejl-color-background-input: #ffffff;
 $sejl-color-background-selected-default: #195db4;
 $sejl-color-background-selected-hover: #1a508e;
 $sejl-color-background-selected-pressed: #132D4F;
-$sejl-color-background-danger-default: #ffc5c4;
-$sejl-color-background-danger-bold-default: #dd0d0b;
 $sejl-color-background-brand-red-subtle-default: #ffdfdf;
 $sejl-color-background-brand-red-subtle-hover: #ffc5c4;
 $sejl-color-background-brand-red-subtle-pressed: #ff9c9b;
@@ -122,6 +122,14 @@ $sejl-color-background-brand-blue-bold-hover: #195db4;
 $sejl-color-background-brand-blue-bold-pressed: #1a508e;
 $sejl-color-background-brand-blue-boldest: #132D4F;
 $sejl-color-background-accent-neutral-subtlest: #E9EEF5;
+$sejl-color-background-danger-default: #ffc5c4;
+$sejl-color-background-danger-bold-default: #dd0d0b;
+$sejl-color-background-success-default: #c5edd8;
+$sejl-color-background-success-bold-default: #286d4b;
+$sejl-color-background-warning-default: #ffdf88;
+$sejl-color-background-warning-bold-default: #ffb120;
+$sejl-color-background-information-default: #bde8ff;
+$sejl-color-background-information-bold-default: #1674df;
 $sejl-color-neutral-0: #ffffff;
 $sejl-color-neutral-50: #F5F7FA;
 $sejl-color-neutral-100: #E9EEF5;
@@ -200,6 +208,7 @@ $sejl-color-icon-subtle: #406489;
 $sejl-color-icon-disabled: #40648952;
 $sejl-color-icon-danger: #f11311;
 $sejl-color-icon-inverse: #F5F7FA;
+$sejl-color-icon-warning: #dd6802;
 $sejl-color-link-default: #dd0d0b;
 $sejl-color-link-pressed: #a70e0d;
 $sejl-size-icon-xxsmall: 1rem;
@@ -212,26 +221,26 @@ $sejl-size-icon-xxlarge: 5rem;
 $sejl-font-weight-heading-subtle: Light;
 $sejl-font-weight-heading-default: Medium;
 $sejl-font-weight-body-default: Regular;
-$sejl-font-weight-body-emphasis: Bold;
+$sejl-font-weight-body-emphasis: Medium;
 $sejl-typography-desktop-body-xlarge-emphasis: (
       fontFamily: var(--ff-primary),
       fontSize: 16px * 1.5,
       lineHeight: NaNrem,
-      fontWeight: bold,
+      fontWeight: 400,
       letterSpacing: NaNrem
     );
 $sejl-typography-desktop-body-large-emphasis: (
       fontFamily: var(--ff-primary),
       fontSize: 16px * 1.125,
       lineHeight: NaNrem,
-      fontWeight: bold,
+      fontWeight: 400,
       letterSpacing: NaNrem
     );
 $sejl-typography-desktop-body-medium-emphasis: (
       fontFamily: var(--ff-primary),
       fontSize: 16px * 1,
       lineHeight: NaNrem,
-      fontWeight: bold,
+      fontWeight: 400,
       letterSpacing: NaNrem
     );
 $sejl-typography-desktop-body-medium: (
@@ -252,7 +261,7 @@ $sejl-typography-desktop-body-small-emphasis: (
       fontFamily: var(--ff-primary),
       fontSize: 16px * 0.875,
       lineHeight: NaNrem,
-      fontWeight: bold,
+      fontWeight: 400,
       letterSpacing: NaNrem
     );
 $sejl-typography-desktop-body-large: (
@@ -273,42 +282,42 @@ $sejl-typography-desktop-heading-xlarge: (
       fontFamily: var(--ff-primary),
       fontSize: 16px * 3,
       lineHeight: NaNrem,
-      fontWeight: bold,
+      fontWeight: 400,
       letterSpacing: NaNrem
     );
 $sejl-typography-desktop-heading-large: (
       fontFamily: var(--ff-primary),
       fontSize: 16px * 2,
       lineHeight: NaNrem,
-      fontWeight: bold,
+      fontWeight: 400,
       letterSpacing: NaNrem
     );
 $sejl-typography-desktop-heading-medium: (
       fontFamily: var(--ff-primary),
       fontSize: 16px * 1.5,
       lineHeight: NaNrem,
-      fontWeight: bold,
+      fontWeight: 400,
       letterSpacing: NaNrem
     );
 $sejl-typography-desktop-heading-small: (
       fontFamily: var(--ff-primary),
       fontSize: 16px * 1.125,
       lineHeight: NaNrem,
-      fontWeight: bold,
+      fontWeight: 400,
       letterSpacing: NaNrem
     );
 $sejl-typography-desktop-heading-xsmall: (
       fontFamily: var(--ff-primary),
       fontSize: 16px * 0.875,
       lineHeight: NaNrem,
-      fontWeight: bold,
+      fontWeight: 400,
       letterSpacing: NaNrem
     );
 $sejl-typography-mobile-body-xlarge-emphasis: (
       fontFamily: var(--ff-primary),
       fontSize: 16px * 1.25,
       lineHeight: NaNrem,
-      fontWeight: bold,
+      fontWeight: 400,
       letterSpacing: NaNrem
     );
 $sejl-typography-mobile-body-xlarge: (
@@ -322,7 +331,7 @@ $sejl-typography-mobile-body-large-emphasis: (
       fontFamily: var(--ff-primary),
       fontSize: 16px * 1,
       lineHeight: NaNrem,
-      fontWeight: bold,
+      fontWeight: 400,
       letterSpacing: NaNrem
     );
 $sejl-typography-mobile-body-large: (
@@ -336,7 +345,7 @@ $sejl-typography-mobile-body-medium-emphasis: (
       fontFamily: var(--ff-primary),
       fontSize: 16px * 0.875,
       lineHeight: NaNrem,
-      fontWeight: bold,
+      fontWeight: 400,
       letterSpacing: NaNrem
     );
 $sejl-typography-mobile-body-medium: (
@@ -357,42 +366,42 @@ $sejl-typography-mobile-body-small-emphasis: (
       fontFamily: var(--ff-primary),
       fontSize: 16px * 0.75,
       lineHeight: NaNrem,
-      fontWeight: bold,
+      fontWeight: 400,
       letterSpacing: NaNrem
     );
 $sejl-typography-mobile-heading-xlarge: (
       fontFamily: var(--ff-primary),
       fontSize: 16px * 2,
       lineHeight: NaNrem,
-      fontWeight: bold,
+      fontWeight: 400,
       letterSpacing: NaNrem
     );
 $sejl-typography-mobile-heading-large: (
       fontFamily: var(--ff-primary),
       fontSize: 16px * 1.5,
       lineHeight: NaNrem,
-      fontWeight: bold,
+      fontWeight: 400,
       letterSpacing: NaNrem
     );
 $sejl-typography-mobile-heading-medium: (
       fontFamily: var(--ff-primary),
       fontSize: 16px * 1.25,
       lineHeight: NaNrem,
-      fontWeight: bold,
+      fontWeight: 400,
       letterSpacing: NaNrem
     );
 $sejl-typography-mobile-heading-small: (
       fontFamily: var(--ff-primary),
       fontSize: 16px * 1,
       lineHeight: NaNrem,
-      fontWeight: bold,
+      fontWeight: 400,
       letterSpacing: NaNrem
     );
 $sejl-typography-mobile-heading-xsmall: (
       fontFamily: var(--ff-primary),
       fontSize: 16px * 0.75,
       lineHeight: NaNrem,
-      fontWeight: bold,
+      fontWeight: 400,
       letterSpacing: NaNrem
     );
 $sejl-line-height-md: 130%;
@@ -411,3 +420,18 @@ $sejl-border-radius-desktop-lg: 24px;
 $sejl-border-radius-desktop-xl: 32px;
 $sejl-border-radius-desktop-xxl: 40px;
 $sejl-letter-spacing-none: 0px;
+$size-input-desktop-xsmall: 88px;
+$size-input-desktop-small: 152px;
+$size-input-desktop-medium: 240px;
+$size-input-desktop-large: 400px;
+$size-input-desktop-xlarge: 560px;
+$size-input-mobile-xsmall: 80px;
+$size-input-mobile-small: 136px;
+$size-input-mobile-medium: 224px;
+$size-input-mobile-large: 320px;
+$size-input-mobile-xlarge: 480px;
+$size-container-small: 640px;
+$size-container-medium: 720px;
+$size-container-large: 1024px;
+$size-container-xlarge: 1440px;
+$size-container-fluid: 1440px;
