@@ -344,39 +344,39 @@
         "type": "fontSizes"
       },
       "xxxl": {
-        "value": "16px * 3",
+        "value": "3rem",
         "type": "fontSizes"
       },
       "xxl": {
-        "value": "16px * 2.5",
+        "value": "2.5rem",
         "type": "fontSizes"
       },
       "xl": {
-        "value": "16px * 2",
+        "value": "2rem",
         "type": "fontSizes"
       },
       "lg": {
-        "value": "16px * 1.5",
+        "value": "1.5rem",
         "type": "fontSizes"
       },
       "md": {
-        "value": "16px * 1.25",
+        "value": "1.25rem",
         "type": "fontSizes"
       },
       "sm": {
-        "value": "16px * 1.125",
+        "value": "1.125rem",
         "type": "fontSizes"
       },
       "xs": {
-        "value": "16px * 1",
+        "value": "1rem",
         "type": "fontSizes"
       },
       "xxs": {
-        "value": "16px * 0.875",
+        "value": "0.875rem",
         "type": "fontSizes"
       },
       "xxxs": {
-        "value": "16px * 0.75",
+        "value": "0.75rem",
         "type": "fontSizes"
       }
     },
@@ -894,6 +894,16 @@
         "inverse": {
           "value": "#ffffff",
           "type": "color"
+        },
+        "brand": {
+          "red": {
+            "value": "#dd0d0b",
+            "type": "color"
+          },
+          "blue": {
+            "value": "#1674df",
+            "type": "color"
+          }
         }
       },
       "border": {
@@ -948,12 +958,22 @@
           "type": "color"
         },
         "inverse": {
-          "value": "#F5F7FA",
+          "value": "#ffffff",
           "type": "color"
         },
         "warning": {
           "value": "#dd6802",
           "type": "color"
+        },
+        "brand": {
+          "red": {
+            "value": "#dd0d0b",
+            "type": "color"
+          },
+          "blue": {
+            "value": "#1674df",
+            "type": "color"
+          }
         }
       },
       "link": {
@@ -963,6 +983,16 @@
         },
         "pressed": {
           "value": "#a70e0d",
+          "type": "color"
+        }
+      },
+      "link-virksomhed": {
+        "default": {
+          "value": "#1674df",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "#195db4",
           "type": "color"
         }
       }
@@ -1028,7 +1058,7 @@
             "value": {
               "fontFamily": "DINOT",
               "fontWeight": "Medium",
-              "fontSize": "16px * 1.5",
+              "fontSize": "1.5rem",
               "lineHeight": "130%",
               "letterSpacing": "0px"
             },
@@ -1038,7 +1068,7 @@
             "value": {
               "fontFamily": "DINOT",
               "fontWeight": "Medium",
-              "fontSize": "16px * 1.125",
+              "fontSize": "1.125rem",
               "lineHeight": "140%",
               "letterSpacing": "0px"
             },
@@ -1048,7 +1078,7 @@
             "value": {
               "fontFamily": "DINOT",
               "fontWeight": "Medium",
-              "fontSize": "16px * 1",
+              "fontSize": "1rem",
               "lineHeight": "130%",
               "letterSpacing": "0px"
             },
@@ -1058,7 +1088,7 @@
             "value": {
               "fontFamily": "DINOT",
               "fontWeight": "Regular",
-              "fontSize": "16px * 1",
+              "fontSize": "1rem",
               "lineHeight": "130%",
               "letterSpacing": "0px"
             },
@@ -1068,7 +1098,7 @@
             "value": {
               "fontFamily": "DINOT",
               "fontWeight": "Regular",
-              "fontSize": "16px * 0.875",
+              "fontSize": "0.875rem",
               "lineHeight": "120%",
               "letterSpacing": "0px"
             },
@@ -1078,7 +1108,7 @@
             "value": {
               "fontFamily": "DINOT",
               "fontWeight": "Medium",
-              "fontSize": "16px * 0.875",
+              "fontSize": "0.875rem",
               "lineHeight": "120%",
               "letterSpacing": "0px"
             },
@@ -1088,7 +1118,7 @@
             "value": {
               "fontFamily": "DINOT",
               "fontWeight": "Regular",
-              "fontSize": "16px * 1.125",
+              "fontSize": "1.125rem",
               "lineHeight": "140%",
               "letterSpacing": "0px"
             },
@@ -1098,7 +1128,7 @@
             "value": {
               "fontFamily": "DINOT",
               "fontWeight": "Regular",
-              "fontSize": "16px * 1.5",
+              "fontSize": "1.5rem",
               "lineHeight": "130%",
               "letterSpacing": "0px"
             },
@@ -1110,7 +1140,7 @@
             "value": {
               "fontFamily": "DINOT",
               "fontWeight": "Medium",
-              "fontSize": "16px * 3",
+              "fontSize": "3rem",
               "lineHeight": "120%",
               "letterSpacing": "0px"
             },
@@ -1120,7 +1150,7 @@
             "value": {
               "fontFamily": "DINOT",
               "fontWeight": "Medium",
-              "fontSize": "16px * 2",
+              "fontSize": "2rem",
               "lineHeight": "120%",
               "letterSpacing": "0px"
             },
@@ -1130,7 +1160,7 @@
             "value": {
               "fontFamily": "DINOT",
               "fontWeight": "Medium",
-              "fontSize": "16px * 1.5",
+              "fontSize": "1.5rem",
               "lineHeight": "120%",
               "letterSpacing": "0px"
             },
@@ -1140,7 +1170,7 @@
             "value": {
               "fontFamily": "DINOT",
               "fontWeight": "Medium",
-              "fontSize": "16px * 1.125",
+              "fontSize": "1.125rem",
               "lineHeight": "120%",
               "letterSpacing": "0px"
             },
@@ -1150,7 +1180,7 @@
             "value": {
               "fontFamily": "DINOT",
               "fontWeight": "Medium",
-              "fontSize": "16px * 0.875",
+              "fontSize": "0.875rem",
               "lineHeight": "120%",
               "letterSpacing": "0px"
             },
@@ -1164,7 +1194,7 @@
             "value": {
               "fontFamily": "DINOT",
               "fontWeight": "Medium",
-              "fontSize": "16px * 1.25",
+              "fontSize": "1.25rem",
               "lineHeight": "130%",
               "letterSpacing": "0px"
             },
@@ -1174,7 +1204,7 @@
             "value": {
               "fontFamily": "DINOT",
               "fontWeight": "Regular",
-              "fontSize": "16px * 1.25",
+              "fontSize": "1.25rem",
               "lineHeight": "130%",
               "letterSpacing": "0px"
             },
@@ -1184,7 +1214,7 @@
             "value": {
               "fontFamily": "DINOT",
               "fontWeight": "Medium",
-              "fontSize": "16px * 1",
+              "fontSize": "1rem",
               "lineHeight": "140%",
               "letterSpacing": "0px"
             },
@@ -1194,7 +1224,7 @@
             "value": {
               "fontFamily": "DINOT",
               "fontWeight": "Regular",
-              "fontSize": "16px * 1",
+              "fontSize": "1rem",
               "lineHeight": "140%",
               "letterSpacing": "0px"
             },
@@ -1204,7 +1234,7 @@
             "value": {
               "fontFamily": "DINOT",
               "fontWeight": "Medium",
-              "fontSize": "16px * 0.875",
+              "fontSize": "0.875rem",
               "lineHeight": "130%",
               "letterSpacing": "0px"
             },
@@ -1214,7 +1244,7 @@
             "value": {
               "fontFamily": "DINOT",
               "fontWeight": "Regular",
-              "fontSize": "16px * 0.875",
+              "fontSize": "0.875rem",
               "lineHeight": "130%",
               "letterSpacing": "0px"
             },
@@ -1224,7 +1254,7 @@
             "value": {
               "fontFamily": "DINOT",
               "fontWeight": "Regular",
-              "fontSize": "16px * 0.75",
+              "fontSize": "0.75rem",
               "lineHeight": "120%",
               "letterSpacing": "0px"
             },
@@ -1234,7 +1264,7 @@
             "value": {
               "fontFamily": "DINOT",
               "fontWeight": "Medium",
-              "fontSize": "16px * 0.75",
+              "fontSize": "0.75rem",
               "lineHeight": "120%",
               "letterSpacing": "0px"
             },
@@ -1246,7 +1276,7 @@
             "value": {
               "fontFamily": "DINOT",
               "fontWeight": "Medium",
-              "fontSize": "16px * 2",
+              "fontSize": "2rem",
               "lineHeight": "120%",
               "letterSpacing": "0px"
             },
@@ -1256,7 +1286,7 @@
             "value": {
               "fontFamily": "DINOT",
               "fontWeight": "Medium",
-              "fontSize": "16px * 1.5",
+              "fontSize": "1.5rem",
               "lineHeight": "120%",
               "letterSpacing": "0px"
             },
@@ -1266,7 +1296,7 @@
             "value": {
               "fontFamily": "DINOT",
               "fontWeight": "Medium",
-              "fontSize": "16px * 1.25",
+              "fontSize": "1.25rem",
               "lineHeight": "120%",
               "letterSpacing": "0px"
             },
@@ -1276,7 +1306,7 @@
             "value": {
               "fontFamily": "DINOT",
               "fontWeight": "Medium",
-              "fontSize": "16px * 1",
+              "fontSize": "1rem",
               "lineHeight": "120%",
               "letterSpacing": "0px"
             },
@@ -1286,7 +1316,7 @@
             "value": {
               "fontFamily": "DINOT",
               "fontWeight": "Medium",
-              "fontSize": "16px * 0.75",
+              "fontSize": "0.75rem",
               "lineHeight": "120%",
               "letterSpacing": "0px"
             },
