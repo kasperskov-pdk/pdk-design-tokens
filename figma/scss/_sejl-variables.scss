@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Mon, 15 Sep 2025 06:45:44 GMT
+// Generated on Tue, 07 Oct 2025 12:17:53 GMT
 
 $sejl-spacing-100: 8px * 1;
 $sejl-spacing-150: 8px * 1.5;
@@ -87,15 +87,16 @@ $sejl-font-family-primary: DINOT;
 $sejl-color-background-neutral-default: #749ABC29;
 $sejl-color-background-neutral-hover: #537DA43d;
 $sejl-color-background-neutral-focus: #537DA43d;
-$sejl-color-background-neutral-subtle-default: #ffffff00;
+$sejl-color-background-neutral-pressed: #40648952;
+$sejl-color-background-neutral-subtle-default: #A5BDD41f;
 $sejl-color-background-neutral-subtle-hover: #749ABC29;
 $sejl-color-background-neutral-subtle-pressed: #537DA43d;
-$sejl-color-background-neutral-pressed: #40648952;
 $sejl-color-background-neutral-inverse-default: #F5F7FA29;
 $sejl-color-background-neutral-inverse-hover: #F5F7FA52;
 $sejl-color-background-neutral-bold-default: #2e455e;
 $sejl-color-background-neutral-bold-hover: #2b3c4f;
 $sejl-color-background-neutral-bold-pressed: #233041;
+$sejl-color-background-neutral-subtlest-default: #E9EEF500;
 $sejl-color-background-disabled: #A5BDD41f;
 $sejl-color-background-input: #ffffff;
 $sejl-color-background-selected-default: #195db4;
@@ -121,7 +122,6 @@ $sejl-color-background-brand-blue-bold-default: #1674df;
 $sejl-color-background-brand-blue-bold-hover: #195db4;
 $sejl-color-background-brand-blue-bold-pressed: #1a508e;
 $sejl-color-background-brand-blue-boldest: #132D4F;
-$sejl-color-background-accent-neutral-subtlest: #E9EEF5;
 $sejl-color-background-danger-default: #ffc5c4;
 $sejl-color-background-danger-bold-default: #dd0d0b;
 $sejl-color-background-success-default: #c5edd8;
@@ -208,6 +208,7 @@ $sejl-color-surface-secondary: #F5F7FA;
 $sejl-color-icon-default: #233041;
 $sejl-color-icon-subtle: #406489;
 $sejl-color-icon-disabled: #40648952;
+$sejl-color-icon-success: #286d4b;
 $sejl-color-icon-danger: #f11311;
 $sejl-color-icon-inverse: #ffffff;
 $sejl-color-icon-warning: #dd6802;
