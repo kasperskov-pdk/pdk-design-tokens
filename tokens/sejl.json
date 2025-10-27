@@ -448,6 +448,14 @@
             "default": {
               "value": "#E9EEF500",
               "type": "color"
+            },
+            "hover": {
+              "value": "#A5BDD41f",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "#749ABC29",
+              "type": "color"
             }
           }
         },
@@ -926,6 +934,16 @@
         "focus": {
           "value": "#132D4F",
           "type": "color"
+        },
+        "brand": {
+          "blue": {
+            "value": "#1674df",
+            "type": "color"
+          },
+          "red": {
+            "value": "#dd0d0b",
+            "type": "color"
+          }
         }
       },
       "surface": {
@@ -1000,6 +1018,84 @@
       }
     },
     "size": {
+      "input": {
+        "desktop": {
+          "xsmall": {
+            "value": "88px",
+            "type": "dimension",
+            "description": "Helt små input felter, som fx valg af alder, registreringsnr., og lignende."
+          },
+          "small": {
+            "value": "152px",
+            "type": "dimension",
+            "description": "Indtastning af fx beløb, CPR-nr. eller kontonr."
+          },
+          "medium": {
+            "value": "240px",
+            "type": "dimension",
+            "description": "Fx Telefonnumre eller andre felter med mange cifre og evt. suffixes"
+          },
+          "large": {
+            "value": "400px",
+            "type": "dimension",
+            "description": "Dette er standard størrelsen på inputfelter, fx emailadresser eller navne."
+          },
+          "xlarge": {
+            "value": "560px",
+            "type": "dimension",
+            "description": "Bredde på emne- og fritekstfelter"
+          }
+        },
+        "mobile": {
+          "xsmall": {
+            "value": "80px",
+            "type": "dimension",
+            "description": "Helt små input felter, som fx valg af alder, registreringsnr., og lignende."
+          },
+          "small": {
+            "value": "136px",
+            "type": "dimension",
+            "description": "Indtastning af fx beløb, CPR-nr. eller kontonr."
+          },
+          "medium": {
+            "value": "224px",
+            "type": "dimension",
+            "description": "Fx Telefonnumre eller andre felter med mange cifre og evt. suffixes"
+          },
+          "large": {
+            "value": "320px",
+            "type": "dimension",
+            "description": "Dette er standard størrelsen på inputfelter, fx emailadresser eller navne."
+          },
+          "xlarge": {
+            "value": "480px",
+            "type": "dimension",
+            "description": "Bredde på emne- og fritekstfelter"
+          }
+        }
+      },
+      "container": {
+        "small": {
+          "value": "640px",
+          "type": "dimension"
+        },
+        "medium": {
+          "value": "720px",
+          "type": "dimension"
+        },
+        "large": {
+          "value": "1024px",
+          "type": "dimension"
+        },
+        "xlarge": {
+          "value": "1440px",
+          "type": "dimension"
+        },
+        "fluid": {
+          "value": "1440px",
+          "type": "dimension"
+        }
+      },
       "icon": {
         "xxsmall": {
           "value": 16,
@@ -1034,7 +1130,7 @@
     "font-weight": {
       "heading": {
         "subtle": {
-          "value": "Light",
+          "value": "Regular",
           "type": "fontWeights"
         },
         "default": {
@@ -1148,10 +1244,30 @@
             },
             "type": "typography"
           },
+          "xlarge-subtle": {
+            "value": {
+              "fontFamily": "DINOT",
+              "fontWeight": "Regular",
+              "fontSize": "3rem",
+              "lineHeight": "120%",
+              "letterSpacing": "0px"
+            },
+            "type": "typography"
+          },
           "large": {
             "value": {
               "fontFamily": "DINOT",
               "fontWeight": "Medium",
+              "fontSize": "2rem",
+              "lineHeight": "120%",
+              "letterSpacing": "0px"
+            },
+            "type": "typography"
+          },
+          "large-subtle": {
+            "value": {
+              "fontFamily": "DINOT",
+              "fontWeight": "Regular",
               "fontSize": "2rem",
               "lineHeight": "120%",
               "letterSpacing": "0px"
@@ -1168,6 +1284,16 @@
             },
             "type": "typography"
           },
+          "medium-subtle": {
+            "value": {
+              "fontFamily": "DINOT",
+              "fontWeight": "Regular",
+              "fontSize": "1.5rem",
+              "lineHeight": "120%",
+              "letterSpacing": "0px"
+            },
+            "type": "typography"
+          },
           "small": {
             "value": {
               "fontFamily": "DINOT",
@@ -1178,10 +1304,30 @@
             },
             "type": "typography"
           },
+          "small-subtle": {
+            "value": {
+              "fontFamily": "DINOT",
+              "fontWeight": "Regular",
+              "fontSize": "1.125rem",
+              "lineHeight": "120%",
+              "letterSpacing": "0px"
+            },
+            "type": "typography"
+          },
           "xsmall": {
             "value": {
               "fontFamily": "DINOT",
               "fontWeight": "Medium",
+              "fontSize": "0.875rem",
+              "lineHeight": "120%",
+              "letterSpacing": "0px"
+            },
+            "type": "typography"
+          },
+          "xsmall-subtle": {
+            "value": {
+              "fontFamily": "DINOT",
+              "fontWeight": "Regular",
               "fontSize": "0.875rem",
               "lineHeight": "120%",
               "letterSpacing": "0px"
@@ -1284,10 +1430,30 @@
             },
             "type": "typography"
           },
+          "xlarge-subtle": {
+            "value": {
+              "fontFamily": "DINOT",
+              "fontWeight": "Regular",
+              "fontSize": "2rem",
+              "lineHeight": "120%",
+              "letterSpacing": "0px"
+            },
+            "type": "typography"
+          },
           "large": {
             "value": {
               "fontFamily": "DINOT",
               "fontWeight": "Medium",
+              "fontSize": "1.5rem",
+              "lineHeight": "120%",
+              "letterSpacing": "0px"
+            },
+            "type": "typography"
+          },
+          "large-subtle": {
+            "value": {
+              "fontFamily": "DINOT",
+              "fontWeight": "Regular",
               "fontSize": "1.5rem",
               "lineHeight": "120%",
               "letterSpacing": "0px"
@@ -1304,6 +1470,16 @@
             },
             "type": "typography"
           },
+          "medium-subtle": {
+            "value": {
+              "fontFamily": "DINOT",
+              "fontWeight": "Regular",
+              "fontSize": "1.25rem",
+              "lineHeight": "120%",
+              "letterSpacing": "0px"
+            },
+            "type": "typography"
+          },
           "small": {
             "value": {
               "fontFamily": "DINOT",
@@ -1314,10 +1490,30 @@
             },
             "type": "typography"
           },
+          "small-subtle": {
+            "value": {
+              "fontFamily": "DINOT",
+              "fontWeight": "Regular",
+              "fontSize": "1rem",
+              "lineHeight": "120%",
+              "letterSpacing": "0px"
+            },
+            "type": "typography"
+          },
           "xsmall": {
             "value": {
               "fontFamily": "DINOT",
               "fontWeight": "Medium",
+              "fontSize": "0.75rem",
+              "lineHeight": "120%",
+              "letterSpacing": "0px"
+            },
+            "type": "typography"
+          },
+          "xsmall-subtle": {
+            "value": {
+              "fontFamily": "DINOT",
+              "fontWeight": "Regular",
               "fontSize": "0.75rem",
               "lineHeight": "120%",
               "letterSpacing": "0px"

@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Wed, 08 Oct 2025 07:49:09 GMT
+// Generated on Mon, 27 Oct 2025 14:48:29 GMT
 
 $sejl-spacing-100: 8px * 1;
 $sejl-spacing-150: 8px * 1.5;
@@ -97,6 +97,8 @@ $sejl-color-background-neutral-bold-default: #2e455e;
 $sejl-color-background-neutral-bold-hover: #2b3c4f;
 $sejl-color-background-neutral-bold-pressed: #233041;
 $sejl-color-background-neutral-subtlest-default: #E9EEF500;
+$sejl-color-background-neutral-subtlest-hover: #A5BDD41f;
+$sejl-color-background-neutral-subtlest-pressed: #749ABC29;
 $sejl-color-background-disabled: #A5BDD41f;
 $sejl-color-background-input: #ffffff;
 $sejl-color-background-selected-default: #195db4;
@@ -203,6 +205,8 @@ $sejl-color-border-disabled: #749ABC29;
 $sejl-color-border-danger: #f11311;
 $sejl-color-border-input: #A5BDD4;
 $sejl-color-border-focus: #132D4F;
+$sejl-color-border-brand-blue: #1674df;
+$sejl-color-border-brand-red: #dd0d0b;
 $sejl-color-surface-primary: #ffffff;
 $sejl-color-surface-secondary: #F5F7FA;
 $sejl-color-icon-default: #233041;
@@ -218,6 +222,21 @@ $sejl-color-link-default: #dd0d0b;
 $sejl-color-link-pressed: #a70e0d;
 $sejl-color-link-virksomhed-default: #1674df;
 $sejl-color-link-virksomhed-pressed: #195db4;
+$sejl-size-input-desktop-xsmall: 88px;
+$sejl-size-input-desktop-small: 152px;
+$sejl-size-input-desktop-medium: 240px;
+$sejl-size-input-desktop-large: 400px;
+$sejl-size-input-desktop-xlarge: 560px;
+$sejl-size-input-mobile-xsmall: 80px;
+$sejl-size-input-mobile-small: 136px;
+$sejl-size-input-mobile-medium: 224px;
+$sejl-size-input-mobile-large: 320px;
+$sejl-size-input-mobile-xlarge: 480px;
+$sejl-size-container-small: 640px;
+$sejl-size-container-medium: 720px;
+$sejl-size-container-large: 1024px;
+$sejl-size-container-xlarge: 1440px;
+$sejl-size-container-fluid: 1440px;
 $sejl-size-icon-xxsmall: 1rem;
 $sejl-size-icon-xsmall: 1.5rem;
 $sejl-size-icon-small: 2rem;
@@ -225,7 +244,7 @@ $sejl-size-icon-medium: 2.5rem;
 $sejl-size-icon-large: 3rem;
 $sejl-size-icon-xlarge: 4rem;
 $sejl-size-icon-xxlarge: 5rem;
-$sejl-font-weight-heading-subtle: Light;
+$sejl-font-weight-heading-subtle: Regular;
 $sejl-font-weight-heading-default: Medium;
 $sejl-font-weight-body-default: Regular;
 $sejl-font-weight-body-emphasis: Medium;
@@ -292,11 +311,25 @@ $sejl-typography-desktop-heading-xlarge: (
       fontWeight: 400,
       letterSpacing: NaNrem
     );
+$sejl-typography-desktop-heading-xlarge-subtle: (
+      fontFamily: var(--ff-primary),
+      fontSize: 3rem,
+      lineHeight: NaNrem,
+      fontWeight: 200,
+      letterSpacing: NaNrem
+    );
 $sejl-typography-desktop-heading-large: (
       fontFamily: var(--ff-primary),
       fontSize: 2rem,
       lineHeight: NaNrem,
       fontWeight: 400,
+      letterSpacing: NaNrem
+    );
+$sejl-typography-desktop-heading-large-subtle: (
+      fontFamily: var(--ff-primary),
+      fontSize: 2rem,
+      lineHeight: NaNrem,
+      fontWeight: 200,
       letterSpacing: NaNrem
     );
 $sejl-typography-desktop-heading-medium: (
@@ -306,6 +339,13 @@ $sejl-typography-desktop-heading-medium: (
       fontWeight: 400,
       letterSpacing: NaNrem
     );
+$sejl-typography-desktop-heading-medium-subtle: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1.5rem,
+      lineHeight: NaNrem,
+      fontWeight: 200,
+      letterSpacing: NaNrem
+    );
 $sejl-typography-desktop-heading-small: (
       fontFamily: var(--ff-primary),
       fontSize: 1.125rem,
@@ -313,11 +353,25 @@ $sejl-typography-desktop-heading-small: (
       fontWeight: 400,
       letterSpacing: NaNrem
     );
+$sejl-typography-desktop-heading-small-subtle: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1.125rem,
+      lineHeight: NaNrem,
+      fontWeight: 200,
+      letterSpacing: NaNrem
+    );
 $sejl-typography-desktop-heading-xsmall: (
       fontFamily: var(--ff-primary),
       fontSize: 0.875rem,
       lineHeight: NaNrem,
       fontWeight: 400,
+      letterSpacing: NaNrem
+    );
+$sejl-typography-desktop-heading-xsmall-subtle: (
+      fontFamily: var(--ff-primary),
+      fontSize: 0.875rem,
+      lineHeight: NaNrem,
+      fontWeight: 200,
       letterSpacing: NaNrem
     );
 $sejl-typography-mobile-body-xlarge-emphasis: (
@@ -383,11 +437,25 @@ $sejl-typography-mobile-heading-xlarge: (
       fontWeight: 400,
       letterSpacing: NaNrem
     );
+$sejl-typography-mobile-heading-xlarge-subtle: (
+      fontFamily: var(--ff-primary),
+      fontSize: 2rem,
+      lineHeight: NaNrem,
+      fontWeight: 200,
+      letterSpacing: NaNrem
+    );
 $sejl-typography-mobile-heading-large: (
       fontFamily: var(--ff-primary),
       fontSize: 1.5rem,
       lineHeight: NaNrem,
       fontWeight: 400,
+      letterSpacing: NaNrem
+    );
+$sejl-typography-mobile-heading-large-subtle: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1.5rem,
+      lineHeight: NaNrem,
+      fontWeight: 200,
       letterSpacing: NaNrem
     );
 $sejl-typography-mobile-heading-medium: (
@@ -397,6 +465,13 @@ $sejl-typography-mobile-heading-medium: (
       fontWeight: 400,
       letterSpacing: NaNrem
     );
+$sejl-typography-mobile-heading-medium-subtle: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1.25rem,
+      lineHeight: NaNrem,
+      fontWeight: 200,
+      letterSpacing: NaNrem
+    );
 $sejl-typography-mobile-heading-small: (
       fontFamily: var(--ff-primary),
       fontSize: 1rem,
@@ -404,11 +479,25 @@ $sejl-typography-mobile-heading-small: (
       fontWeight: 400,
       letterSpacing: NaNrem
     );
+$sejl-typography-mobile-heading-small-subtle: (
+      fontFamily: var(--ff-primary),
+      fontSize: 1rem,
+      lineHeight: NaNrem,
+      fontWeight: 200,
+      letterSpacing: NaNrem
+    );
 $sejl-typography-mobile-heading-xsmall: (
       fontFamily: var(--ff-primary),
       fontSize: 0.75rem,
       lineHeight: NaNrem,
       fontWeight: 400,
+      letterSpacing: NaNrem
+    );
+$sejl-typography-mobile-heading-xsmall-subtle: (
+      fontFamily: var(--ff-primary),
+      fontSize: 0.75rem,
+      lineHeight: NaNrem,
+      fontWeight: 200,
       letterSpacing: NaNrem
     );
 $sejl-line-height-md: 130%;
