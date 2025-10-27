@@ -3,6 +3,7 @@ const fs = require('fs');
 const { 
   cleanFontWeight, 
   cleanRemSize, 
+  cleanRemSizeNoPercent,
   cleanLineHeight, 
   cleanFontFamily,
   cleanLetterSpacing
@@ -99,7 +100,12 @@ StyleDictionary.registerTransform({
            prop.attributes.category === 'border-radius';
   },
   transformer: function (prop) {
-    return cleanRemSize(prop.value);
+    // Use cleanRemSize (with percentage support) for text-related properties only
+    if (prop.attributes.category === 'letter-spacing' || prop.attributes.category === 'font-size') {
+      return cleanRemSize(prop.value);
+    }
+    // Use cleanRemSizeNoPercent for spacing, sizing, borders, and border-radius
+    return cleanRemSizeNoPercent(prop.value);
   }
 });
 
