@@ -20,15 +20,40 @@ exports.cleanFontWeight = (val) => {
 }
 
 /**
- * Converts pixel or percentage values to rem
+ * Converts pixel or percentage values to rem (for text-related properties)
  * @param {number|string} val - Value to convert
  * @returns {string} - Rem value
  */
 exports.cleanRemSize = (val) => {
-  // Handle percentage values
+  // Handle percentage values (for text properties like font-size)
   if (typeof val === 'string' && val.includes('%')) {
     const numericValue = parseFloat(val.replace('%', ''));
     return (numericValue / 100) + 'rem';
+  }
+  
+  // Handle numeric values (pixels)
+  if (typeof val === 'number') {
+    return val / 16 + "rem";
+  }
+  
+  // Handle string numbers
+  if (typeof val === 'string' && !isNaN(parseFloat(val))) {
+    return parseFloat(val) / 16 + "rem";
+  }
+  
+  // Return as-is if already in rem or other unit
+  return val;
+}
+
+/**
+ * Converts pixel values to rem (does NOT handle percentages - for spacing, borders, etc.)
+ * @param {number|string} val - Value to convert
+ * @returns {string} - Rem value
+ */
+exports.cleanRemSizeNoPercent = (val) => {
+  // Return percentages as-is (don't convert them)
+  if (typeof val === 'string' && val.includes('%')) {
+    return val;
   }
   
   // Handle numeric values (pixels)
