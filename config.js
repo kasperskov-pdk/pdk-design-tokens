@@ -3,7 +3,8 @@ const {
   cleanFontWeight, 
   cleanRemSize, 
   cleanLineHeight, 
-  cleanFontFamily 
+  cleanFontFamily,
+  cleanLetterSpacing
 } = require("./utils/transform-utils");
 
 // Transform line-height
@@ -37,7 +38,7 @@ StyleDictionary.registerTransform({
       fontSize: ${cleanRemSize(fontSize)},
       lineHeight: ${cleanLineHeight(lineHeight, fontSize)},
       fontWeight: ${cleanFontWeight(fontWeight)},
-      letterSpacing: ${letterSpacing/16}rem
+      letterSpacing: ${cleanLetterSpacing(letterSpacing)}
     )`;
     return output;
   },
