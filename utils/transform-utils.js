@@ -25,11 +25,6 @@ exports.cleanFontWeight = (val) => {
  * @returns {string} - Rem value
  */
 exports.cleanRemSize = (val) => {
-  // If already has rem, px, or other unit, return as-is
-  if (typeof val === 'string' && (val.includes('rem') || val.includes('px') || val.includes('em'))) {
-    return val;
-  }
-  
   // Handle percentage values (for text properties like font-size)
   if (typeof val === 'string' && val.includes('%')) {
     const numericValue = parseFloat(val.replace('%', ''));
@@ -41,8 +36,8 @@ exports.cleanRemSize = (val) => {
     return val / 16 + "rem";
   }
   
-  // Handle string numbers (no unit)
-  if (typeof val === 'string' && !isNaN(parseFloat(val)) && !val.includes('*')) {
+  // Handle string numbers
+  if (typeof val === 'string' && !isNaN(parseFloat(val))) {
     return parseFloat(val) / 16 + "rem";
   }
   
@@ -59,26 +54,6 @@ exports.cleanRemSizeNoPercent = (val) => {
   // Return percentages as-is (don't convert them)
   if (typeof val === 'string' && val.includes('%')) {
     return val;
-  }
-  
-  // If already has rem or em, return as-is
-  if (typeof val === 'string' && (val.includes('rem') || val.includes('em'))) {
-    return val;
-  }
-  
-  // Handle math expressions like "8px * 2" or "8px * -2"
-  if (typeof val === 'string' && val.includes('*')) {
-    const match = val.match(/([0-9.]+)\s*px\s*\*\s*(-?[0-9.]+)/);
-    if (match) {
-      const base = parseFloat(match[1]);
-      const multiplier = parseFloat(match[2]);
-      return (base * multiplier) / 16 + "rem";
-    }
-  }
-  
-  // Handle values with px unit
-  if (typeof val === 'string' && val.includes('px')) {
-    return parseFloat(val.replace('px', '')) / 16 + "rem";
   }
   
   // Handle numeric values (pixels)
@@ -102,40 +77,22 @@ exports.cleanRemSizeNoPercent = (val) => {
  * @returns {string} - Line height in rem
  */
 exports.cleanLineHeight = (lh, fz) => {
-  // If lineHeight already has a unit other than %, return as-is
-  if (typeof lh === 'string' && (lh.includes('rem') || lh.includes('px') || lh.includes('em')) && !lh.includes('%')) {
-    return lh;
-  }
-  
-  // Extract numeric value from fontSize if it has units
-  let fontSizeNumeric = fz;
-  if (typeof fz === 'string') {
-    if (fz.includes('rem')) {
-      fontSizeNumeric = parseFloat(fz.replace('rem', ''));
-      // fontSize is already in rem, so we don't need to divide by 16
-    } else if (fz.includes('px')) {
-      fontSizeNumeric = parseFloat(fz.replace('px', '')) / 16;
-    } else {
-      fontSizeNumeric = parseFloat(fz) / 16;
-    }
-  } else if (typeof fz === 'number') {
-    fontSizeNumeric = fz / 16;
-  }
-  
-  // Handle percentage line-height - convert to rem
+  // Handle percentage line-height
   if (typeof lh === 'string' && lh.includes('%')) {
-    const percentage = parseFloat(lh.replace('%', ''));
-    return (fontSizeNumeric * (percentage / 100)) + 'rem';
+    let output = lh.replace("%", "");
+    output = Number(output) * Number(fz);
+    output = (output / 100) / 16 + "rem";
+    return output;
   }
   
   // Handle numeric line-height (unitless multiplier)
   if (typeof lh === 'number') {
-    return (lh * fontSizeNumeric) + "rem";
+    return (lh * Number(fz)) / 16 + "rem";
   }
   
   // Handle string numbers
   if (typeof lh === 'string' && !isNaN(parseFloat(lh))) {
-    return (parseFloat(lh) * fontSizeNumeric) + "rem";
+    return (parseFloat(lh) * Number(fz)) / 16 + "rem";
   }
   
   // Return as-is for other formats
@@ -163,11 +120,6 @@ exports.cleanFontFamily = (val) => {
  * @returns {string} - Rem value
  */
 exports.cleanLetterSpacing = (val) => {
-  // If already has rem, px, or other unit, return as-is
-  if (typeof val === 'string' && (val.includes('rem') || val.includes('px') || val.includes('em'))) {
-    return val;
-  }
-  
   // Handle percentage values
   if (typeof val === 'string' && val.includes('%')) {
     const numericValue = parseFloat(val.replace('%', ''));
