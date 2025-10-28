@@ -4,12 +4,9 @@
   "private": true,
   "scripts": {
     "clean": "style-dictionary clean",
-    "transform:global": "npx token-transformer tokens.json tokens/global.json global,Atoms,Molecules,Utils Sejl",
-    "transform:sejl": "npx token-transformer tokens.json tokens/sejl.json Sejl global,Atoms,Molecules,Utils",
-    "build:global": "style-dictionary build",
+    "transform:sejl": "npx token-transformer tokens.json tokens/sejl.json Sejl",
     "build:sejl": "style-dictionary build --config config.sejl.js",
-    "build:all": "npm run transform:global && npm run transform:sejl && npm run clean && npm run build:global && npm run build:sejl",
-    "build": "npm run build:all",
+    "build": "npm run transform:sejl && npm run build:sejl",
     "test": "node ./scripts/transform-design-tokens.js && npm run clean && style-dictionary build"
   },
   "dependencies": {

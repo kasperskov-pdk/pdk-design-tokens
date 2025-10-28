@@ -130,6 +130,4 @@ const restructureTypographyObject = (obj) => {
   }
 }
 
-// Generate both global and sejl tokens
-generateJson("global", "global");
 generateJson("Sejl", "Sejl");
