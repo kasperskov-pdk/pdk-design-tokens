@@ -31,6 +31,21 @@ exports.cleanRemSize = (val) => {
     return (numericValue / 100) + 'rem';
   }
   
+  // Check if value already has a unit (rem, px, em, etc.) - return as-is
+  if (typeof val === 'string' && /\d+(rem|px|em|vh|vw|%)/.test(val) && !val.includes('*')) {
+    return val;
+  }
+  
+  // Handle math expressions like "8px * 1.5" or "8px * -2"
+  if (typeof val === 'string' && val.includes('*')) {
+    const match = val.match(/([0-9.]+)\s*px\s*\*\s*(-?[0-9.]+)/);
+    if (match) {
+      const pixels = parseFloat(match[1]);
+      const multiplier = parseFloat(match[2]);
+      return (pixels * multiplier) / 16 + "rem";
+    }
+  }
+  
   // Handle numeric values (pixels)
   if (typeof val === 'number') {
     return val / 16 + "rem";
@@ -56,6 +71,21 @@ exports.cleanRemSizeNoPercent = (val) => {
     return val;
   }
   
+  // Check if value already has a unit (rem, px, em, etc.) - return as-is
+  if (typeof val === 'string' && /\d+(rem|px|em|vh|vw|%)/.test(val) && !val.includes('*')) {
+    return val;
+  }
+  
+  // Handle math expressions like "8px * 1.5" or "8px * -2"
+  if (typeof val === 'string' && val.includes('*')) {
+    const match = val.match(/([0-9.]+)\s*px\s*\*\s*(-?[0-9.]+)/);
+    if (match) {
+      const pixels = parseFloat(match[1]);
+      const multiplier = parseFloat(match[2]);
+      return (pixels * multiplier) / 16 + "rem";
+    }
+  }
+  
   // Handle numeric values (pixels)
   if (typeof val === 'number') {
     return val / 16 + "rem";
@@ -77,12 +107,17 @@ exports.cleanRemSizeNoPercent = (val) => {
  * @returns {string} - Line height in rem
  */
 exports.cleanLineHeight = (lh, fz) => {
-  // Handle percentage line-height
+  // If already has rem unit, return as-is
+  if (typeof lh === 'string' && lh.includes('rem')) {
+    return lh;
+  }
+  
+  // Handle percentage line-height - calculate as percentage of fontSize in rem
   if (typeof lh === 'string' && lh.includes('%')) {
-    let output = lh.replace("%", "");
-    output = Number(output) * Number(fz);
-    output = (output / 100) / 16 + "rem";
-    return output;
+    // fontSize should already be in rem from cleanRemSize
+    const fontSizeInRem = parseFloat(fz);
+    const lineHeightPercent = parseFloat(lh);
+    return `${fontSizeInRem * (lineHeightPercent / 100)}rem`;
   }
   
   // Handle numeric line-height (unitless multiplier)
