@@ -1234,7 +1234,7 @@
           }
         },
         "heading": {
-          "xlarge": {
+          "xlarge-emphasis": {
             "value": {
               "fontFamily": "DINOT",
               "fontWeight": "Medium",
@@ -1244,11 +1244,21 @@
             },
             "type": "typography"
           },
-          "xlarge-subtle": {
+          "xlarge": {
             "value": {
               "fontFamily": "DINOT",
               "fontWeight": "Regular",
               "fontSize": "3rem",
+              "lineHeight": "120%",
+              "letterSpacing": "0px"
+            },
+            "type": "typography"
+          },
+          "large-emphasis": {
+            "value": {
+              "fontFamily": "DINOT",
+              "fontWeight": "Medium",
+              "fontSize": "2rem",
               "lineHeight": "120%",
               "letterSpacing": "0px"
             },
@@ -1257,18 +1267,18 @@
           "large": {
             "value": {
               "fontFamily": "DINOT",
-              "fontWeight": "Medium",
+              "fontWeight": "Regular",
               "fontSize": "2rem",
               "lineHeight": "120%",
               "letterSpacing": "0px"
             },
             "type": "typography"
           },
-          "large-subtle": {
+          "medium-emphasis": {
             "value": {
               "fontFamily": "DINOT",
-              "fontWeight": "Regular",
-              "fontSize": "2rem",
+              "fontWeight": "Medium",
+              "fontSize": "1.5rem",
               "lineHeight": "120%",
               "letterSpacing": "0px"
             },
@@ -1277,18 +1287,18 @@
           "medium": {
             "value": {
               "fontFamily": "DINOT",
-              "fontWeight": "Medium",
+              "fontWeight": "Regular",
               "fontSize": "1.5rem",
               "lineHeight": "120%",
               "letterSpacing": "0px"
             },
             "type": "typography"
           },
-          "medium-subtle": {
+          "small-emphasis": {
             "value": {
               "fontFamily": "DINOT",
-              "fontWeight": "Regular",
-              "fontSize": "1.5rem",
+              "fontWeight": "Medium",
+              "fontSize": "1.125rem",
               "lineHeight": "120%",
               "letterSpacing": "0px"
             },
@@ -1297,16 +1307,6 @@
           "small": {
             "value": {
               "fontFamily": "DINOT",
-              "fontWeight": "Medium",
-              "fontSize": "1.125rem",
-              "lineHeight": "120%",
-              "letterSpacing": "0px"
-            },
-            "type": "typography"
-          },
-          "small-subtle": {
-            "value": {
-              "fontFamily": "DINOT",
               "fontWeight": "Regular",
               "fontSize": "1.125rem",
               "lineHeight": "120%",
@@ -1314,7 +1314,7 @@
             },
             "type": "typography"
           },
-          "xsmall": {
+          "xsmall-emphasis": {
             "value": {
               "fontFamily": "DINOT",
               "fontWeight": "Medium",
@@ -1324,7 +1324,7 @@
             },
             "type": "typography"
           },
-          "xsmall-subtle": {
+          "xsmall": {
             "value": {
               "fontFamily": "DINOT",
               "fontWeight": "Regular",
@@ -1420,7 +1420,7 @@
           }
         },
         "heading": {
-          "xlarge": {
+          "xlarge-emphasis": {
             "value": {
               "fontFamily": "DINOT",
               "fontWeight": "Medium",
@@ -1430,11 +1430,21 @@
             },
             "type": "typography"
           },
-          "xlarge-subtle": {
+          "xlarge": {
             "value": {
               "fontFamily": "DINOT",
               "fontWeight": "Regular",
               "fontSize": "2rem",
+              "lineHeight": "120%",
+              "letterSpacing": "0px"
+            },
+            "type": "typography"
+          },
+          "large-emphasis": {
+            "value": {
+              "fontFamily": "DINOT",
+              "fontWeight": "Medium",
+              "fontSize": "1.5rem",
               "lineHeight": "120%",
               "letterSpacing": "0px"
             },
@@ -1443,18 +1453,18 @@
           "large": {
             "value": {
               "fontFamily": "DINOT",
-              "fontWeight": "Medium",
+              "fontWeight": "Regular",
               "fontSize": "1.5rem",
               "lineHeight": "120%",
               "letterSpacing": "0px"
             },
             "type": "typography"
           },
-          "large-subtle": {
+          "medium-emphasis": {
             "value": {
               "fontFamily": "DINOT",
-              "fontWeight": "Regular",
-              "fontSize": "1.5rem",
+              "fontWeight": "Medium",
+              "fontSize": "1.25rem",
               "lineHeight": "120%",
               "letterSpacing": "0px"
             },
@@ -1463,18 +1473,18 @@
           "medium": {
             "value": {
               "fontFamily": "DINOT",
-              "fontWeight": "Medium",
+              "fontWeight": "Regular",
               "fontSize": "1.25rem",
               "lineHeight": "120%",
               "letterSpacing": "0px"
             },
             "type": "typography"
           },
-          "medium-subtle": {
+          "small-emphasis": {
             "value": {
               "fontFamily": "DINOT",
-              "fontWeight": "Regular",
-              "fontSize": "1.25rem",
+              "fontWeight": "Medium",
+              "fontSize": "1rem",
               "lineHeight": "120%",
               "letterSpacing": "0px"
             },
@@ -1483,16 +1493,6 @@
           "small": {
             "value": {
               "fontFamily": "DINOT",
-              "fontWeight": "Medium",
-              "fontSize": "1rem",
-              "lineHeight": "120%",
-              "letterSpacing": "0px"
-            },
-            "type": "typography"
-          },
-          "small-subtle": {
-            "value": {
-              "fontFamily": "DINOT",
               "fontWeight": "Regular",
               "fontSize": "1rem",
               "lineHeight": "120%",
@@ -1500,7 +1500,7 @@
             },
             "type": "typography"
           },
-          "xsmall": {
+          "xsmall-emphasis": {
             "value": {
               "fontFamily": "DINOT",
               "fontWeight": "Medium",
@@ -1510,7 +1510,7 @@
             },
             "type": "typography"
           },
-          "xsmall-subtle": {
+          "xsmall": {
             "value": {
               "fontFamily": "DINOT",
               "fontWeight": "Regular",
