@@ -1,77 +1,77 @@
 // Do not edit directly
-// Generated on Tue, 28 Oct 2025 08:55:33 GMT
+// Generated on Tue, 28 Oct 2025 13:16:59 GMT
 
-$sejl-spacing-100: 8px * 1;
-$sejl-spacing-150: 8px * 1.5;
-$sejl-spacing-200: 8px * 2;
-$sejl-spacing-250: 8px * 2.5;
-$sejl-spacing-300: 8px * 3;
-$sejl-spacing-400: 8px * 4;
-$sejl-spacing-500: 8px * 5;
-$sejl-spacing-800: 8px * 8;
-$sejl-spacing-1000: 8px * 10;
-$sejl-spacing-050: 8px * 0.5;
-$sejl-spacing-negative-100: 8px * -1;
-$sejl-spacing-negative-150: 8px * -1.5;
-$sejl-spacing-negative-200: 8px * -2;
-$sejl-spacing-negative-250: 8px * -2.5;
-$sejl-spacing-negative-300: 8px * -3;
-$sejl-spacing-negative-400: 8px * -4;
-$sejl-spacing-negative-500: 8px * -5;
-$sejl-spacing-negative-800: 8px * -8;
-$sejl-spacing-negative-1000: 8px * -10;
-$sejl-spacing-negative-050: 8px * -0.5;
-$sejl-spacing-base: 8px;
-$sejl-spacing-section-mobile-xsmall: 8px * 2;
-$sejl-spacing-section-mobile-small: 8px * 3;
-$sejl-spacing-section-mobile-medium: 8px * 4;
-$sejl-spacing-section-mobile-large: 8px * 5;
-$sejl-spacing-section-mobile-xlarge: 8px * 8;
-$sejl-spacing-section-desktop-xsmall: 8px * 3;
-$sejl-spacing-section-desktop-small: 8px * 4;
-$sejl-spacing-section-desktop-medium: 8px * 5;
-$sejl-spacing-section-desktop-large: 8px * 8;
-$sejl-spacing-section-desktop-xlarge: 8px * 10;
-$sejl-spacing-container-mobile-xsmall: 8px * 2;
-$sejl-spacing-container-mobile-small: 8px * 3;
-$sejl-spacing-container-mobile-medium: 8px * 4;
-$sejl-spacing-container-mobile-large: 8px * 5;
-$sejl-spacing-container-mobile-xlarge: 8px * 8;
-$sejl-spacing-container-desktop-xsmall: 8px * 3;
-$sejl-spacing-container-desktop-small: 8px * 4;
-$sejl-spacing-container-desktop-medium: 8px * 5;
-$sejl-spacing-container-desktop-large: 8px * 8;
-$sejl-spacing-container-desktop-xlarge: 8px * 10;
-$sejl-spacing-paper-mobile-xsmall: 8px * 0.5;
-$sejl-spacing-paper-mobile-small: 8px * 1;
-$sejl-spacing-paper-mobile-medium: 8px * 1.5;
-$sejl-spacing-paper-mobile-large: 8px * 2;
-$sejl-spacing-paper-mobile-xlarge: 8px * 3;
-$sejl-spacing-paper-desktop-xsmall: 8px * 1;
-$sejl-spacing-paper-desktop-small: 8px * 1.5;
-$sejl-spacing-paper-desktop-medium: 8px * 2;
-$sejl-spacing-paper-desktop-large: 8px * 3;
-$sejl-spacing-paper-desktop-xlarge: 8px * 4;
-$sejl-spacing-stack-mobile-xsmall: 8px * 0.5;
-$sejl-spacing-stack-mobile-small: 8px * 1;
-$sejl-spacing-stack-mobile-medium: 8px * 1.5;
-$sejl-spacing-stack-mobile-large: 8px * 2;
-$sejl-spacing-stack-mobile-xlarge: 8px * 3;
-$sejl-spacing-stack-desktop-xsmall: 8px * 1;
-$sejl-spacing-stack-desktop-small: 8px * 1.5;
-$sejl-spacing-stack-desktop-medium: 8px * 2;
-$sejl-spacing-stack-desktop-large: 8px * 3;
-$sejl-spacing-stack-desktop-xlarge: 8px * 4;
-$sejl-spacing-inline-mobile-xsmall: 8px * 0.5;
-$sejl-spacing-inline-mobile-small: 8px * 1;
-$sejl-spacing-inline-mobile-medium: 8px * 1.5;
-$sejl-spacing-inline-mobile-large: 8px * 2;
-$sejl-spacing-inline-mobile-xlarge: 8px * 3;
-$sejl-spacing-inline-desktop-xsmall: 8px * 1;
-$sejl-spacing-inline-desktop-small: 8px * 1.5;
-$sejl-spacing-inline-desktop-medium: 8px * 2;
-$sejl-spacing-inline-desktop-large: 8px * 3;
-$sejl-spacing-inline-desktop-xlarge: 8px * 4;
+$sejl-spacing-100: 0.5rem;
+$sejl-spacing-150: 0.75rem;
+$sejl-spacing-200: 1rem;
+$sejl-spacing-250: 1.25rem;
+$sejl-spacing-300: 1.5rem;
+$sejl-spacing-400: 2rem;
+$sejl-spacing-500: 2.5rem;
+$sejl-spacing-800: 4rem;
+$sejl-spacing-1000: 5rem;
+$sejl-spacing-050: 0.25rem;
+$sejl-spacing-negative-100: -0.5rem;
+$sejl-spacing-negative-150: -0.75rem;
+$sejl-spacing-negative-200: -1rem;
+$sejl-spacing-negative-250: -1.25rem;
+$sejl-spacing-negative-300: -1.5rem;
+$sejl-spacing-negative-400: -2rem;
+$sejl-spacing-negative-500: -2.5rem;
+$sejl-spacing-negative-800: -4rem;
+$sejl-spacing-negative-1000: -5rem;
+$sejl-spacing-negative-050: -0.25rem;
+$sejl-spacing-base: 0.5rem;
+$sejl-spacing-section-mobile-xsmall: 1rem;
+$sejl-spacing-section-mobile-small: 1.5rem;
+$sejl-spacing-section-mobile-medium: 2rem;
+$sejl-spacing-section-mobile-large: 2.5rem;
+$sejl-spacing-section-mobile-xlarge: 4rem;
+$sejl-spacing-section-desktop-xsmall: 1.5rem;
+$sejl-spacing-section-desktop-small: 2rem;
+$sejl-spacing-section-desktop-medium: 2.5rem;
+$sejl-spacing-section-desktop-large: 4rem;
+$sejl-spacing-section-desktop-xlarge: 5rem;
+$sejl-spacing-container-mobile-xsmall: 1rem;
+$sejl-spacing-container-mobile-small: 1.5rem;
+$sejl-spacing-container-mobile-medium: 2rem;
+$sejl-spacing-container-mobile-large: 2.5rem;
+$sejl-spacing-container-mobile-xlarge: 4rem;
+$sejl-spacing-container-desktop-xsmall: 1.5rem;
+$sejl-spacing-container-desktop-small: 2rem;
+$sejl-spacing-container-desktop-medium: 2.5rem;
+$sejl-spacing-container-desktop-large: 4rem;
+$sejl-spacing-container-desktop-xlarge: 5rem;
+$sejl-spacing-paper-mobile-xsmall: 0.25rem;
+$sejl-spacing-paper-mobile-small: 0.5rem;
+$sejl-spacing-paper-mobile-medium: 0.75rem;
+$sejl-spacing-paper-mobile-large: 1rem;
+$sejl-spacing-paper-mobile-xlarge: 1.5rem;
+$sejl-spacing-paper-desktop-xsmall: 0.5rem;
+$sejl-spacing-paper-desktop-small: 0.75rem;
+$sejl-spacing-paper-desktop-medium: 1rem;
+$sejl-spacing-paper-desktop-large: 1.5rem;
+$sejl-spacing-paper-desktop-xlarge: 2rem;
+$sejl-spacing-stack-mobile-xsmall: 0.25rem;
+$sejl-spacing-stack-mobile-small: 0.5rem;
+$sejl-spacing-stack-mobile-medium: 0.75rem;
+$sejl-spacing-stack-mobile-large: 1rem;
+$sejl-spacing-stack-mobile-xlarge: 1.5rem;
+$sejl-spacing-stack-desktop-xsmall: 0.5rem;
+$sejl-spacing-stack-desktop-small: 0.75rem;
+$sejl-spacing-stack-desktop-medium: 1rem;
+$sejl-spacing-stack-desktop-large: 1.5rem;
+$sejl-spacing-stack-desktop-xlarge: 2rem;
+$sejl-spacing-inline-mobile-xsmall: 0.25rem;
+$sejl-spacing-inline-mobile-small: 0.5rem;
+$sejl-spacing-inline-mobile-medium: 0.75rem;
+$sejl-spacing-inline-mobile-large: 1rem;
+$sejl-spacing-inline-mobile-xlarge: 1.5rem;
+$sejl-spacing-inline-desktop-xsmall: 0.5rem;
+$sejl-spacing-inline-desktop-small: 0.75rem;
+$sejl-spacing-inline-desktop-medium: 1rem;
+$sejl-spacing-inline-desktop-large: 1.5rem;
+$sejl-spacing-inline-desktop-xlarge: 2rem;
 $sejl-font-size-base: 16px;
 $sejl-font-size-xxxl: 3rem;
 $sejl-font-size-xxl: 2.5rem;
@@ -250,254 +250,254 @@ $sejl-font-weight-body-emphasis: Medium;
 $sejl-typography-desktop-body-xlarge-emphasis: (
   fontFamily: var(--ff-primary),
   fontSize: 1.5rem,
-  lineHeight: NaNrem,
+  lineHeight: 1.9500000000000002rem,
   fontWeight: 400,
-  letterSpacing: NaNrem,
+  letterSpacing: 0px,
 );
 $sejl-typography-desktop-body-large-emphasis: (
   fontFamily: var(--ff-primary),
   fontSize: 1.125rem,
-  lineHeight: NaNrem,
+  lineHeight: 1.575rem,
   fontWeight: 400,
-  letterSpacing: NaNrem,
+  letterSpacing: 0px,
 );
 $sejl-typography-desktop-body-medium-emphasis: (
   fontFamily: var(--ff-primary),
   fontSize: 1rem,
-  lineHeight: NaNrem,
+  lineHeight: 1.3rem,
   fontWeight: 400,
-  letterSpacing: NaNrem,
+  letterSpacing: 0px,
 );
 $sejl-typography-desktop-body-medium: (
   fontFamily: var(--ff-primary),
   fontSize: 1rem,
-  lineHeight: NaNrem,
+  lineHeight: 1.3rem,
   fontWeight: 200,
-  letterSpacing: NaNrem,
+  letterSpacing: 0px,
 );
 $sejl-typography-desktop-body-small: (
   fontFamily: var(--ff-primary),
   fontSize: 0.875rem,
-  lineHeight: NaNrem,
+  lineHeight: 1.05rem,
   fontWeight: 200,
-  letterSpacing: NaNrem,
+  letterSpacing: 0px,
 );
 $sejl-typography-desktop-body-small-emphasis: (
   fontFamily: var(--ff-primary),
   fontSize: 0.875rem,
-  lineHeight: NaNrem,
+  lineHeight: 1.05rem,
   fontWeight: 400,
-  letterSpacing: NaNrem,
+  letterSpacing: 0px,
 );
 $sejl-typography-desktop-body-large: (
   fontFamily: var(--ff-primary),
   fontSize: 1.125rem,
-  lineHeight: NaNrem,
+  lineHeight: 1.575rem,
   fontWeight: 200,
-  letterSpacing: NaNrem,
+  letterSpacing: 0px,
 );
 $sejl-typography-desktop-body-xlarge: (
   fontFamily: var(--ff-primary),
   fontSize: 1.5rem,
-  lineHeight: NaNrem,
+  lineHeight: 1.9500000000000002rem,
   fontWeight: 200,
-  letterSpacing: NaNrem,
+  letterSpacing: 0px,
 );
 $sejl-typography-desktop-heading-xlarge-emphasis: (
   fontFamily: var(--ff-primary),
   fontSize: 3rem,
-  lineHeight: NaNrem,
+  lineHeight: 3.5999999999999996rem,
   fontWeight: 400,
-  letterSpacing: NaNrem,
+  letterSpacing: 0px,
 );
 $sejl-typography-desktop-heading-xlarge: (
   fontFamily: var(--ff-primary),
   fontSize: 3rem,
-  lineHeight: NaNrem,
+  lineHeight: 3.5999999999999996rem,
   fontWeight: 200,
-  letterSpacing: NaNrem,
+  letterSpacing: 0px,
 );
 $sejl-typography-desktop-heading-large-emphasis: (
   fontFamily: var(--ff-primary),
   fontSize: 2rem,
-  lineHeight: NaNrem,
+  lineHeight: 2.4rem,
   fontWeight: 400,
-  letterSpacing: NaNrem,
+  letterSpacing: 0px,
 );
 $sejl-typography-desktop-heading-large: (
   fontFamily: var(--ff-primary),
   fontSize: 2rem,
-  lineHeight: NaNrem,
+  lineHeight: 2.4rem,
   fontWeight: 200,
-  letterSpacing: NaNrem,
+  letterSpacing: 0px,
 );
 $sejl-typography-desktop-heading-medium-emphasis: (
   fontFamily: var(--ff-primary),
   fontSize: 1.5rem,
-  lineHeight: NaNrem,
+  lineHeight: 1.7999999999999998rem,
   fontWeight: 400,
-  letterSpacing: NaNrem,
+  letterSpacing: 0px,
 );
 $sejl-typography-desktop-heading-medium: (
   fontFamily: var(--ff-primary),
   fontSize: 1.5rem,
-  lineHeight: NaNrem,
+  lineHeight: 1.7999999999999998rem,
   fontWeight: 200,
-  letterSpacing: NaNrem,
+  letterSpacing: 0px,
 );
 $sejl-typography-desktop-heading-small-emphasis: (
   fontFamily: var(--ff-primary),
   fontSize: 1.125rem,
-  lineHeight: NaNrem,
+  lineHeight: 1.3499999999999999rem,
   fontWeight: 400,
-  letterSpacing: NaNrem,
+  letterSpacing: 0px,
 );
 $sejl-typography-desktop-heading-small: (
   fontFamily: var(--ff-primary),
   fontSize: 1.125rem,
-  lineHeight: NaNrem,
+  lineHeight: 1.3499999999999999rem,
   fontWeight: 200,
-  letterSpacing: NaNrem,
+  letterSpacing: 0px,
 );
 $sejl-typography-desktop-heading-xsmall-emphasis: (
   fontFamily: var(--ff-primary),
   fontSize: 0.875rem,
-  lineHeight: NaNrem,
+  lineHeight: 1.05rem,
   fontWeight: 400,
-  letterSpacing: NaNrem,
+  letterSpacing: 0px,
 );
 $sejl-typography-desktop-heading-xsmall: (
   fontFamily: var(--ff-primary),
   fontSize: 0.875rem,
-  lineHeight: NaNrem,
+  lineHeight: 1.05rem,
   fontWeight: 200,
-  letterSpacing: NaNrem,
+  letterSpacing: 0px,
 );
 $sejl-typography-mobile-body-xlarge-emphasis: (
   fontFamily: var(--ff-primary),
   fontSize: 1.25rem,
-  lineHeight: NaNrem,
+  lineHeight: 1.625rem,
   fontWeight: 400,
-  letterSpacing: NaNrem,
+  letterSpacing: 0px,
 );
 $sejl-typography-mobile-body-xlarge: (
   fontFamily: var(--ff-primary),
   fontSize: 1.25rem,
-  lineHeight: NaNrem,
+  lineHeight: 1.625rem,
   fontWeight: 200,
-  letterSpacing: NaNrem,
+  letterSpacing: 0px,
 );
 $sejl-typography-mobile-body-large-emphasis: (
   fontFamily: var(--ff-primary),
   fontSize: 1rem,
-  lineHeight: NaNrem,
+  lineHeight: 1.4rem,
   fontWeight: 400,
-  letterSpacing: NaNrem,
+  letterSpacing: 0px,
 );
 $sejl-typography-mobile-body-large: (
   fontFamily: var(--ff-primary),
   fontSize: 1rem,
-  lineHeight: NaNrem,
+  lineHeight: 1.4rem,
   fontWeight: 200,
-  letterSpacing: NaNrem,
+  letterSpacing: 0px,
 );
 $sejl-typography-mobile-body-medium-emphasis: (
   fontFamily: var(--ff-primary),
   fontSize: 0.875rem,
-  lineHeight: NaNrem,
+  lineHeight: 1.1375rem,
   fontWeight: 400,
-  letterSpacing: NaNrem,
+  letterSpacing: 0px,
 );
 $sejl-typography-mobile-body-medium: (
   fontFamily: var(--ff-primary),
   fontSize: 0.875rem,
-  lineHeight: NaNrem,
+  lineHeight: 1.1375rem,
   fontWeight: 200,
-  letterSpacing: NaNrem,
+  letterSpacing: 0px,
 );
 $sejl-typography-mobile-body-small: (
   fontFamily: var(--ff-primary),
   fontSize: 0.75rem,
-  lineHeight: NaNrem,
+  lineHeight: 0.8999999999999999rem,
   fontWeight: 200,
-  letterSpacing: NaNrem,
+  letterSpacing: 0px,
 );
 $sejl-typography-mobile-body-small-emphasis: (
   fontFamily: var(--ff-primary),
   fontSize: 0.75rem,
-  lineHeight: NaNrem,
+  lineHeight: 0.8999999999999999rem,
   fontWeight: 400,
-  letterSpacing: NaNrem,
+  letterSpacing: 0px,
 );
 $sejl-typography-mobile-heading-xlarge-emphasis: (
   fontFamily: var(--ff-primary),
   fontSize: 2rem,
-  lineHeight: NaNrem,
+  lineHeight: 2.4rem,
   fontWeight: 400,
-  letterSpacing: NaNrem,
+  letterSpacing: 0px,
 );
 $sejl-typography-mobile-heading-xlarge: (
   fontFamily: var(--ff-primary),
   fontSize: 2rem,
-  lineHeight: NaNrem,
+  lineHeight: 2.4rem,
   fontWeight: 200,
-  letterSpacing: NaNrem,
+  letterSpacing: 0px,
 );
 $sejl-typography-mobile-heading-large-emphasis: (
   fontFamily: var(--ff-primary),
   fontSize: 1.5rem,
-  lineHeight: NaNrem,
+  lineHeight: 1.7999999999999998rem,
   fontWeight: 400,
-  letterSpacing: NaNrem,
+  letterSpacing: 0px,
 );
 $sejl-typography-mobile-heading-large: (
   fontFamily: var(--ff-primary),
   fontSize: 1.5rem,
-  lineHeight: NaNrem,
+  lineHeight: 1.7999999999999998rem,
   fontWeight: 200,
-  letterSpacing: NaNrem,
+  letterSpacing: 0px,
 );
 $sejl-typography-mobile-heading-medium-emphasis: (
   fontFamily: var(--ff-primary),
   fontSize: 1.25rem,
-  lineHeight: NaNrem,
+  lineHeight: 1.5rem,
   fontWeight: 400,
-  letterSpacing: NaNrem,
+  letterSpacing: 0px,
 );
 $sejl-typography-mobile-heading-medium: (
   fontFamily: var(--ff-primary),
   fontSize: 1.25rem,
-  lineHeight: NaNrem,
+  lineHeight: 1.5rem,
   fontWeight: 200,
-  letterSpacing: NaNrem,
+  letterSpacing: 0px,
 );
 $sejl-typography-mobile-heading-small-emphasis: (
   fontFamily: var(--ff-primary),
   fontSize: 1rem,
-  lineHeight: NaNrem,
+  lineHeight: 1.2rem,
   fontWeight: 400,
-  letterSpacing: NaNrem,
+  letterSpacing: 0px,
 );
 $sejl-typography-mobile-heading-small: (
   fontFamily: var(--ff-primary),
   fontSize: 1rem,
-  lineHeight: NaNrem,
+  lineHeight: 1.2rem,
   fontWeight: 200,
-  letterSpacing: NaNrem,
+  letterSpacing: 0px,
 );
 $sejl-typography-mobile-heading-xsmall-emphasis: (
   fontFamily: var(--ff-primary),
   fontSize: 0.75rem,
-  lineHeight: NaNrem,
+  lineHeight: 0.8999999999999999rem,
   fontWeight: 400,
-  letterSpacing: NaNrem,
+  letterSpacing: 0px,
 );
 $sejl-typography-mobile-heading-xsmall: (
   fontFamily: var(--ff-primary),
   fontSize: 0.75rem,
-  lineHeight: NaNrem,
+  lineHeight: 0.8999999999999999rem,
   fontWeight: 200,
-  letterSpacing: NaNrem,
+  letterSpacing: 0px,
 );
 $sejl-line-height-md: 130%;
 $sejl-line-height-sm: 120%;
