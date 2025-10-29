@@ -55,6 +55,21 @@ exports.cleanRemSize = (val) => {
     }
   }
   
+  // Check if value already has a unit (rem, px, em, etc.) - return as-is
+  if (typeof val === 'string' && /\d+(rem|px|em|vh|vw|%)/.test(val) && !val.includes('*')) {
+    return val;
+  }
+  
+  // Handle math expressions like "8px * 1.5" or "8px * -2"
+  if (typeof val === 'string' && val.includes('*')) {
+    const match = val.match(/([0-9.]+)\s*px\s*\*\s*(-?[0-9.]+)/);
+    if (match) {
+      const pixels = parseFloat(match[1]);
+      const multiplier = parseFloat(match[2]);
+      return (pixels * multiplier) / 16 + "rem";
+    }
+  }
+  
   // Handle numeric values (pixels)
   if (typeof val === 'number') {
     return roundTo2Decimals(val / 16) + "rem";
