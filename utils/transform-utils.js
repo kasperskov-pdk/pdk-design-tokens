@@ -3,6 +3,15 @@
  */
 
 /**
+ * Rounds a number to 2 decimal places
+ * @param {number} num - Number to round
+ * @returns {number} - Rounded number
+ */
+const roundTo2Decimals = (num) => {
+  return Math.round(num * 100) / 100;
+}
+
+/**
  * Converts font weight strings to numeric values
  * @param {string} val - Font weight string
  * @returns {number|string} - Numeric font weight value
@@ -28,7 +37,22 @@ exports.cleanRemSize = (val) => {
   // Handle percentage values (for text properties like font-size)
   if (typeof val === 'string' && val.includes('%')) {
     const numericValue = parseFloat(val.replace('%', ''));
-    return (numericValue / 100) + 'rem';
+    return roundTo2Decimals(numericValue / 100) + 'rem';
+  }
+  
+  // Check if value already has a unit (rem, px, em, etc.) - return as-is
+  if (typeof val === 'string' && /\d+(rem|px|em|vh|vw|%)/.test(val) && !val.includes('*')) {
+    return val;
+  }
+  
+  // Handle math expressions like "8px * 1.5" or "8px * -2"
+  if (typeof val === 'string' && val.includes('*')) {
+    const match = val.match(/([0-9.]+)\s*px\s*\*\s*(-?[0-9.]+)/);
+    if (match) {
+      const pixels = parseFloat(match[1]);
+      const multiplier = parseFloat(match[2]);
+      return roundTo2Decimals((pixels * multiplier) / 16) + "rem";
+    }
   }
   
   // Check if value already has a unit (rem, px, em, etc.) - return as-is
@@ -48,12 +72,12 @@ exports.cleanRemSize = (val) => {
   
   // Handle numeric values (pixels)
   if (typeof val === 'number') {
-    return val / 16 + "rem";
+    return roundTo2Decimals(val / 16) + "rem";
   }
   
   // Handle string numbers
   if (typeof val === 'string' && !isNaN(parseFloat(val))) {
-    return parseFloat(val) / 16 + "rem";
+    return roundTo2Decimals(parseFloat(val) / 16) + "rem";
   }
   
   // Return as-is if already in rem or other unit
@@ -82,18 +106,18 @@ exports.cleanRemSizeNoPercent = (val) => {
     if (match) {
       const pixels = parseFloat(match[1]);
       const multiplier = parseFloat(match[2]);
-      return (pixels * multiplier) / 16 + "rem";
+      return roundTo2Decimals((pixels * multiplier) / 16) + "rem";
     }
   }
   
   // Handle numeric values (pixels)
   if (typeof val === 'number') {
-    return val / 16 + "rem";
+    return roundTo2Decimals(val / 16) + "rem";
   }
   
   // Handle string numbers
   if (typeof val === 'string' && !isNaN(parseFloat(val))) {
-    return parseFloat(val) / 16 + "rem";
+    return roundTo2Decimals(parseFloat(val) / 16) + "rem";
   }
   
   // Return as-is if already in rem or other unit
@@ -117,17 +141,17 @@ exports.cleanLineHeight = (lh, fz) => {
     // fontSize should already be in rem from cleanRemSize
     const fontSizeInRem = parseFloat(fz);
     const lineHeightPercent = parseFloat(lh);
-    return `${fontSizeInRem * (lineHeightPercent / 100)}rem`;
+    return `${roundTo2Decimals(fontSizeInRem * (lineHeightPercent / 100))}rem`;
   }
   
   // Handle numeric line-height (unitless multiplier)
   if (typeof lh === 'number') {
-    return (lh * Number(fz)) / 16 + "rem";
+    return roundTo2Decimals((lh * Number(fz)) / 16) + "rem";
   }
   
   // Handle string numbers
   if (typeof lh === 'string' && !isNaN(parseFloat(lh))) {
-    return (parseFloat(lh) * Number(fz)) / 16 + "rem";
+    return roundTo2Decimals((parseFloat(lh) * Number(fz)) / 16) + "rem";
   }
   
   // Return as-is for other formats
@@ -158,17 +182,17 @@ exports.cleanLetterSpacing = (val) => {
   // Handle percentage values
   if (typeof val === 'string' && val.includes('%')) {
     const numericValue = parseFloat(val.replace('%', ''));
-    return (numericValue / 100) + 'rem';
+    return roundTo2Decimals(numericValue / 100) + 'rem';
   }
   
   // Handle numeric values (pixels)
   if (typeof val === 'number') {
-    return val / 16 + "rem";
+    return roundTo2Decimals(val / 16) + "rem";
   }
   
   // Handle string numbers
   if (typeof val === 'string' && !isNaN(parseFloat(val))) {
-    return parseFloat(val) / 16 + "rem";
+    return roundTo2Decimals(parseFloat(val) / 16) + "rem";
   }
   
   // Return as-is if already in rem or other unit
